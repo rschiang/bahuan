@@ -1,0 +1,35 @@
+{
+  "subgroup": "person-resting",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat bath and bed (wooden bed, green quilt) read well at 20px; SVG; lotus falls back to the 2020 flat figure"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "has all 5: lotus (=11, no border), refreshed bath with bubbles and bed with a blue quilt; more detail at small size"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same bath and bed as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 4,
+      "rationale": "classic orange blob in a tub is charming but PNG only and clashes with the Nougat people"
+    },
+    {
+      "era": "latest",
+      "score": 4,
+      "rationale": "lotus redrawn with darker contour strokes and shading; bath and bed same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Only bath (1f6c0) and bed (1f6cc) exist before E5. With 7.1 the three lotus emoji fall back to android-12, a flat 2020 figure with no outline that sits fine with the 7.1/android-12 people elsewhere. It's close to a tie with android-12: pick android-12 if you'd rather the subgroup come from one era. Avoid latest for lotus because it adds contour lines, but the fallback order (android-12 first) already avoids it."
+}

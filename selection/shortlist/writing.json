@@ -1,0 +1,30 @@
+{
+  "subgroup": "writing",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat pencils/pens/crayon, no outlines; SVG"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat, slightly glossy, conventional colours"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 6,
+      "rationale": "memo is blue line art, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Only 1fa8c eraser falls back (latest only, soft pink with mild shading; acceptable). 7.1 pencil is olive green rather than yellow; fine stylistically."
+}

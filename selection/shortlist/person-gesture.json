@@ -1,0 +1,14 @@
+{
+  "subgroup": "person-gesture",
+  "ranked": [
+    {"era": "android-7.1", "score": 8, "rationale": "flat Nougat busts with complete man/woman/base families for 9 of 10 gestures, vector masters, poses read well at 20px"},
+    {"era": "android-12", "score": 6, "rationale": "borderless (=11) and gender-neutral bases, but shaded hair and a busier look; would only be needed for deaf person"},
+    {"era": "android-7.0", "score": 5, "rationale": "same art as 7.1 for the bases only, PNG only, no gendered variants"},
+    {"era": "android-6.0.1", "score": 3, "rationale": "pure yellow-blob gestures are lovely but PNG only, lack the gendered variants, and several are illegible (tipping hand, frowning)"}
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Simulated: 7.1 takes 162 of 180 keys; only the deaf person family (1f9cf, E12.0) falls back to android-12, where it is a cropped close-up face on an orange square-ish bust that looks larger and differently framed than the 7.1 figures. This is an accepted harmony risk because no blob-era art exists. Semantic note: in 7.1 the gender-neutral bases are the woman design (base == woman for 1f64d, 1f64e, 1f645, 1f646, 1f481, 1f64b, 1f926, 1f937) or the man design (1f647 bowing), so the 'person X' form reads as gendered. An override on a base would drag its whole family (the resolver moves the family with the root), so fixing that means abandoning 7.1 for the family; I do not recommend it. Latest redrew the shrug family (1f937) in a newer style; it is not used here and the 7.1 shrugs are fine."
+}

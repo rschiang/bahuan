@@ -1,0 +1,30 @@
+{
+  "subgroup": "transport-water",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat boats and anchor, clean silhouettes"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "no outlines, but shaded and detailed; ships get busy at 20px"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "same as 7.0 but no canoe; PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "1f6d9 lighthouse and 1f6df ring buoy exist only in latest and fall back there. The ring buoy is a glossy red ring with a dark rope, a bit heavier than the 7.1 art but acceptable."
+}

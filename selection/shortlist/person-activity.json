@@ -1,0 +1,35 @@
+{
+  "subgroup": "person-activity",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "Nougat-style flat figures with SVG masters; covers every pre-E5 activity, and its people sit next to the android-12 fallbacks"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat, borderless and complete for E5–E13; the full-body figures are mostly =11 but have no outline"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same Nougat people as 7.1 but PNG only and missing the gendered (E4.0) variants"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "only source for the facing-right/ballet emoji; the rest match android-12 except a redrawn massage/haircut"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 3,
+      "rationale": "classic blobs (yellow silhouettes, blob dancer/bunny) clash with the people subgroups; PNG only and very sparse"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "7.1 covers massage, haircut, walking, running, dancers, levitating, bunny ears. Fallbacks to android-12 are standing, kneeling, cane, wheelchairs, steamy room and climbing; latest covers the E15.1 facing-right set and the E17 ballet dancer. The '=11' marks on walking/running/standing/wheelchair etc. are the 2020 full-body figures: flat with slight shading and NO dark outline (checked at 512px), so they're fine and none go to the backlog. Things to check: (1) in 7.1, base 1f486/1f487 are drawn as a woman (the old gendered default), while android-12 draws a neutral person. Decide this the same way for every person-* subgroup (batch 3 has the same issue). (2) 7.1 woman walking/running has beige trousers, but her latest facing-right twins have grey ones, so they differ slightly. (3) 1f9d6 steamy room uses translucent steam and is muddy at 20px. It has no border, but it could be redrawn later. (4) The 6.0.1 blob dancer/bunny are charming but PNG-only and don't match the Nougat people."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "dishware",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat solid teal silhouettes, very legible at 20px, no gradients"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "metallic gradient cutlery, thin and faint at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as 12 plus jar"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Picked on rubric 3 and 5 (12 silverware is grey gradients that wash out at text size). Chopsticks 1f962 and jar 1fad9 fall back to 12/latest; both are flat and sit fine. Risk: the teal cutlery is a different look from the android-12 food beside it. If the owner wants food+dishware uniform, use android-12."
+}

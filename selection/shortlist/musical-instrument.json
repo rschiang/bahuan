@@ -1,0 +1,41 @@
+{
+  "subgroup": "musical-instrument",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob-era sax, trumpet, guitar, keyboard, violin, drum"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat refresh; accordion and long drum are =11"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "redraws long drum and adds trombone, maracas, flute, harp"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1fa98",
+      "era": "latest",
+      "reason": "android-12 long drum is =11 (bordered); latest has a flat redraw"
+    }
+  ],
+  "no_acceptable_era": [
+    {
+      "key": "1fa97",
+      "reason": "accordion: android-12 and latest are =11 (bordered-era design)"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Only 6 of 13 in 7.1; banjo comes from android-12 and trombone, maracas, flute, harp from latest only. Newer instruments are detailed but flat and should sit fine."
+}

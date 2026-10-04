@@ -1,0 +1,35 @@
+{
+  "subgroup": "time",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "thick black hands on white faces with a bold rim: the most legible clocks at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same art as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 7,
+      "rationale": "same as 7.0, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "no outlines, but thin brown hands on a pale face nearly vanish at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Every emoji in this subgroup has 7.1 art, so nothing falls back. The 24 clock faces are the strongest case for 7.1 in this batch."
+}

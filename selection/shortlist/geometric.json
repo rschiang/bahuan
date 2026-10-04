@@ -1,0 +1,74 @@
+{
+  "subgroup": "geometric",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat circles/squares/diamonds"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "complete colored set incl. E12, but glossy bevel"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [
+    {
+      "key": "1f7e0",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e1",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e2",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e3",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e4",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e5",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e7",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e8",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e9",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7e6",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7ea",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    },
+    {
+      "key": "1f7eb",
+      "reason": "soft: only design is android-12 glossy bevel; clashes with flat 7.1 red/blue circle in color rows; trivial flat redraw"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "The E12 colored circles/squares (12 emoji) fall back to android-12 glossy shapes and are typically used side by side with 1f534/1f535, so the flat-vs-gloss clash is visible. Listed in no_acceptable_era as a soft redraw item (not =11); if redraw is not planned, consider overriding 1f534, 1f535, 26ab, 26aa, 2b1b, 2b1c to android-12 so the color rows match. 7.1 'white' shapes are light grey."
+}

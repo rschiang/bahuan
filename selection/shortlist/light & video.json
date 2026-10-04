@@ -1,0 +1,30 @@
+{
+  "subgroup": "light & video",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat Material blob-era objects, no outlines, bold shapes read well at 20px; SVG masters"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 7,
+      "rationale": "same designs, PNG only; light bulb has a busier rays version"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "mostly flat but film frames/lantern use gradients; movie camera and videocassette are =11"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Only 1fa94 diya lamp falls back (android-12, flame glow, a bit shaded but not bordered). 7.1 TV/camera/projector are a consistent teal/yellow/charcoal set that should match phone/computer if batch 8 picks 7.1."
+}

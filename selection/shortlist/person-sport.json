@@ -1,0 +1,35 @@
+{
+  "subgroup": "person-sport",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "complete for the whole subgroup (all E≤4.0), flat Nougat figures, clean silhouettes at 20px, SVG"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "borderless but mostly =11 (2017–20 redraws), busier detail, orange neutral default"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 for the base emoji but PNG only and has no gendered variants"
+    },
+    {
+      "era": "latest",
+      "score": 4,
+      "rationale": "2023+ sports redraw: grey helmets, desaturated muted figures, heavier detail; poor fit with the other person-* picks"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 3,
+      "rationale": "yellow blob silhouettes; sparse and PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Every emoji in this subgroup (both sheet pages) exists in 7.1, so only the skin-tone and gender variants that 7.1 already has get used, and nothing falls back. 7.1 matches the person-activity pick. The latest sports set was heavily restyled (grey, more rendering), so it's the weakest fit despite being newest. Small check: in 7.1 the person-golfing/surfing/biking bases are drawn as a man, the old gendered default; the same issue as in the other person-* subgroups."
+}

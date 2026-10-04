@@ -1,0 +1,25 @@
+{
+  "subgroup": "math",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat colored symbols, legible"
+    },
+    {
+      "era": "android-12",
+      "score": 4,
+      "rationale": "dark grey glossy bevelled 3D-ish bars"
+    },
+    {
+      "era": "latest",
+      "score": 4,
+      "rationale": "same as android-12, adds heavy equals"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Fallbacks: 1f7f0 heavy equals (E14, latest grey glossy bar) and 267e infinity (E11, purple bevel tile) clash with 7.1's flat olive/orange/blue. Both are simple shapes and good flat-redraw candidates (e.g. heavy equals in 7.1 blue like minus)."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "animal-marine",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "iconic flat blob-era sea life, strong silhouettes, consistent with 7.1 animals"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "coherent 2020 set, no outlines, mild gradients on whale/shell"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "android-12 plus orca/coral/jellyfish, redrawn spouting whale and tropical fish"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "7 of 19 fall back (seal, orca, coral, jellyfish, lobster, oyster). Many 7.1 marine glyphs are the same navy blue (whales, dolphin, fish, blowfish, shark), so they are told apart by shape only. Owner check: the 7.1 blowfish is a blue line drawing; android-12 (spiky puffer) is the override candidate if that reads poorly. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "office",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat blue/teal Material office set, July-17 calendar, no outlines; SVG"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same except calendars are older grey drawings; PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 6,
+      "rationale": "line-art calendars and outlined briefcase; PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat but busier (detailed spiral calendar, gradient folders)"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "No fallbacks. 7.1 tear-off calendar 1f4c6 is blank (no date) - fine, but owner may glance at it. Folders/clips/rulers share one blue that also matches 7.1 book-paper ledger."
+}

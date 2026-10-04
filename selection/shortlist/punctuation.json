@@ -1,0 +1,35 @@
+{
+  "subgroup": "punctuation",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blue marks, legible"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "red with gloss/gradient"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "same as android-12"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 4,
+      "rationale": "outlined white marks, PNG only"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 but PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "7.1 draws 2753 red question mark and 2757 red exclamation mark in blue (blob-era choice), a semantic mismatch with their names; android-12 versions are red but glossy. 2754/2755 white marks are very light grey and weak on light backgrounds. Owner may prefer recoloring the 7.1 masters red rather than overriding to the glossy android-12."
+}

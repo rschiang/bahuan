@@ -1,0 +1,30 @@
+{
+  "subgroup": "music",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat blob-era notes, mics, headphone, radio; complete"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat refresh, grey palette"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "No fallbacks. Pairs with sound and musical-instrument picks."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "science",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat alembic/microscope/telescope, no outlines; SVG"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat light-blue instruments, colourful test tube/dna"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "black silhouette microscope, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Fallbacks: 1f9ea test tube, 1f9eb petri dish, 1f9ec dna (android-12, flat, slightly glossy). 7.1 satellite antenna is dark/heavy; acceptable at 20px."
+}

@@ -1,0 +1,51 @@
+{
+  "subgroup": "heart",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat single-fill hearts, no gloss, matches blob era"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "latest",
+      "score": 4,
+      "rationale": "glossy shaded hearts; nearly all =11, only pink/light blue/grey new"
+    },
+    {
+      "era": "android-12",
+      "score": 3,
+      "rationale": "all =11 glossy bordered-era hearts"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [
+    {
+      "key": "1f9e1",
+      "reason": "orange heart: only =11 glossy design; sits badly in the flat 7.1 colour-heart row"
+    },
+    {
+      "key": "1f90e",
+      "reason": "brown heart: only =11 glossy design"
+    },
+    {
+      "key": "1f90d",
+      "reason": "white heart: only =11 glossy design"
+    },
+    {
+      "key": "2764_200d_1f525",
+      "reason": "heart on fire: only =11 gradient design"
+    },
+    {
+      "key": "2764_200d_1fa79",
+      "reason": "mending heart: only =11 gradient design"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "7.1 red heart (2764) is magenta-pink, not red. The pink heart 1fa77 comes from latest and is light pink, so the two can read alike at 20px. The owner should look at recolouring the 7.1 red-heart SVG (one fill) to a true red. In the colour row, 7.1 red/yellow/green/blue/purple/black are flat, while orange/brown/white (=11) and pink/light blue/grey (latest) are glossy. That mix is the main harmony risk, and redrawing the five backlog hearts flat would fix it. Alternatives are worse: android-12 and latest are almost entirely =11 here."
+}

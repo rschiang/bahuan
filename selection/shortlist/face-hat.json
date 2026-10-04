@@ -1,0 +1,51 @@
+{
+  "subgroup": "face-hat",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat blob cowboy, vector; only 1 of 3 exists"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "flat round; covers 2 of 3 here"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f973",
+      "era": "latest",
+      "reason": "partying face (E11.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f978",
+      "era": "latest",
+      "reason": "disguised face (E13.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    }
+  ],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1f973",
+      "name": "partying face"
+    },
+    {
+      "key": "1f978",
+      "name": "disguised face"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Only 1f920 cowboy exists as a blob (7.1, flat, no outline). 1f973 partying and 1f978 disguised -> latest overrides (android-12 =11). Subgroup is 2/3 round; 1f973 is very popular and a strong blob-redraw candidate. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

@@ -1,0 +1,13 @@
+{
+  "subgroup": "person-fantasy",
+  "ranked": [
+    {"era": "android-12", "score": 8, "rationale": "the only era covering the whole subgroup; borderless (=11) with mild shading, so the Claus trio and all E5/E11 fantasy families match"},
+    {"era": "android-7.1", "score": 6, "rationale": "nice flat baby angel, Santa and Mrs. Claus, but only 3 of 33 rows, and Mx Claus would fall back to android-12 beside them"},
+    {"era": "latest", "score": 4, "rationale": "redraws Mrs./Mx Claus, mage and merperson in a newer detailed style, which clashes; needed only for troll and hairy creature"}
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Simulated under 7.1: 18 keys in 7.1 (angel, Santa, Mrs. Claus plus tones) vs 138 in android-12. The main clash would be Mx Claus (1f9d1_200d_1f384, android-12, with eyebrows, glasses and a bust) next to 7.1 Santa and Mrs. Claus (no eyebrows, head-only), so android-12 keeps the trio coherent. Cost: Santa and the angel lose the Nougat look and sit slightly apart from 7.1 people in person-role. The baby angel is almost identical in both eras anyway. If the owner wants the blob-era Santa, set overrides 1f385 and 1f936 to android-7.1 and accept the Mx Claus mismatch. Troll (1f9cc) and hairy creature (1fac8) come only from latest and are more realistic and darker, so the owner should check them, but they are not bordered. Full-body figures (superhero, supervillain, fairy, merperson) are small at 20px in every era. No bordered-only emoji: the =11 fantasy art has no dark outline."
+}

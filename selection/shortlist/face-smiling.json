@@ -1,0 +1,45 @@
+{
+  "subgroup": "face-smiling",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "vector blob faces, soft blob shading, no outline, legible at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "flat round faces, no border; good fallback but drops the blobs"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1fae0",
+      "name": "melting face"
+    },
+    {
+      "key": "1faeb",
+      "name": "cracking face"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Core blob set, all 13 classic faces in 7.1. 1fae0 melting and 1faeb cracking have no blob and fall to latest automatically (android-12 lacks them), giving round flat faces; melting is shape-distinct so it sits OK, cracking face is busy at 20px. android-6.0.1 has charming originals (e.g. 1f604/1f606 with blush) but is PNG-only and inconsistent with 7.1; not worth overrides. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

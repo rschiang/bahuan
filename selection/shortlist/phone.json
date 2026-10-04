@@ -1,0 +1,30 @@
+{
+  "subgroup": "phone",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat blob-era phones, receiver, pager, fax; complete"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat but dark/detailed, small screens muddy at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "No fallbacks. 7.1 phone screens have a mild gradient, acceptable."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "place-geographic",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat, consistent blue/lime landscape vignettes, covers 9/10"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat-ish but gradient skies (desert, national park), detailed scenes muddy at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as 12 plus landslide; mountain recoloured brown"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Weaknesses in 7.1: mountain 26f0 and snow-capped mountain 1f3d4 are nearly identical, and Mount Fuji 1f5fb is thin line art. Landslide 1f6d8 resolves to latest (grey rocks), which looks different but is acceptable. Pairs with the 7.1 place-map and place-building picks."
+}

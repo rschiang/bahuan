@@ -1,0 +1,36 @@
+{
+  "subgroup": "other-symbol",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat glyphs, consistent with 7.1 symbol palette"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "glossy/bevelled, some tiles"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "as android-12; sparkles/asterisks turned into tiles"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 but PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "2705",
+      "era": "android-12",
+      "reason": "7.1 check mark button is a pale grey tick with no button, nearly invisible on light backgrounds at 20px; very high-usage emoji"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Only 1fadf splatter (E16) falls back (latest purple splat, fine). The 2705 override brings a green bevel tile among flat 7.1 art; alternative is a flat green tile redraw in 7.1 style (cf. 7.1 274e orange cross button). 7.1 2611 ballot box has a thick black frame (part of the design, not a clip-art outline)."
+}

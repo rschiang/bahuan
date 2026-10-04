@@ -1,0 +1,30 @@
+{
+  "subgroup": "sound",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat blob-era speakers, bells, horns; complete"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat-ish but darker grey speakers"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "redrawn speakers with gradients/glossy look"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "No fallbacks. 7.1 speakers show the volume waves clearly at 20px."
+}

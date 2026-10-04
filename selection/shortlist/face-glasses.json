@@ -1,0 +1,47 @@
+{
+  "subgroup": "face-glasses",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "vector blob faces, soft blob shading, no outline, legible at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "flat round faces, no border; good fallback but drops the blobs"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f9d0",
+      "era": "latest",
+      "reason": "face with monocle (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    }
+  ],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1f9d0",
+      "name": "face with monocle"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Blob 1f60e and 1f913 in 7.1. 1f9d0 monocle: android-12 is a minor retouch of the bordered gradient art (not byte-identical, same look), so overridden to latest flat. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

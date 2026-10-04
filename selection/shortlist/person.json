@@ -1,0 +1,14 @@
+{
+  "subgroup": "person",
+  "ranked": [
+    {"era": "android-7.1", "score": 7, "rationale": "flat round-head Nougat people, no outlines or hair gradients, vector masters; covers the 10 core E0.6/E4.0 rows"},
+    {"era": "android-12", "score": 6, "rationale": "no outline (the =11 people are borderless), consistent across all 30 rows, but hair gradients and busier faces"},
+    {"era": "android-7.0", "score": 5, "rationale": "same design as 7.1 with softer edges, PNG only, so no reason to pick it"},
+    {"era": "android-6.0.1", "score": 3, "rationale": "classic blob heads are charming but PNG only, have no ZWJ variants, and the baby is a swaddled odd-one-out"}
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Simulated resolution: 7.1 takes 60 of 168 keys (baby, boy, girl, man, woman, blond trio, old man, old woman) and android-12 takes 108 (child 1f9d2, person 1f9d1, older person 1f9d3, the beard family, and every red/curly/white/bald hair ZWJ). Harmony risk: the 7.1 faces have no eyebrows and a D-shaped open smile, while the android-12 (=11) faces have eyebrows, a closed smile and shaded hair. At 20px the gap is small, because both are yellow round heads with flat-colour shirts on the busts, but the generational trio man/woman (7.1) vs person (android-12) and child (12) next to boy/girl (7.1) will show it in the picker. 7.1 1f471 base is identical to the man variant (male blond), whereas the modern base is gender-neutral. I chose 7.1 so the core people match person-gesture, person-role and family (the 7.1 family composites use these same heads). If the owner prefers in-subgroup uniformity, android-12 is the alternative. None of the =11 fallbacks are bordered clip-art (android-11 people have no dark outline), so I listed none for redraw."
+}

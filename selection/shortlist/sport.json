@@ -1,0 +1,35 @@
+{
+  "subgroup": "sport",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat blob-era sports gear, legible, no outlines"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same art as 7.1, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat refresh, covers all; some shading"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "as android-12, minor redraws (lacrosse)"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "heavy black rings on soccer/baseball, missing E3.0 items"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "6 of 27 fall back to android-12 (softball, flying disc, lacrosse, diving mask, sled, curling stone); all are real 2021 redraws (no =11), flat enough to sit beside 7.1. 7.1 soccer ball has a thick dark ring that is part of the drawing, not a border. Owner may want to eyeball sled/curling next to 7.1 balls."
+}

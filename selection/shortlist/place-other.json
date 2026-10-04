@@ -1,0 +1,30 @@
+{
+  "subgroup": "place-other",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat Material scenes and rides, no outlines, bold silhouettes readable at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "no outlines but scenery tiles lean on sky gradients and fine detail that muddies at 20px"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "same as 7.0 except the outlined tent; PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Only 1f6dd playground slide falls back (to latest); it is simple and sits fine. 2668 hot springs is blue in 7.1 where every later era and most vendors use red; still recognizable, but the owner may want to check. The 7.1 scene tiles (1f303-1f309) are flat squares that pair well with the blob-era place-building/place-map tiles if batch 6 also picks 7.1."
+}

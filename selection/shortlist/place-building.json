@@ -1,0 +1,30 @@
+{
+  "subgroup": "place-building",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat blocky buildings with a clear symbol each; most legible at 20px; covers 23/28"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "detailed buildings with fine grey linework, many become grey mush at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as 12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Brick 1f9f1, rock 1faa8, wood 1fab5 and hut 1f6d6 fall back to android-12; they are materials/natural objects, so the style shift is tolerable. Rock and wood are =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it; rock has soft gradient shading the owner may want redrawn. Owner check: 7.1 Japanese post office 1f3e3 and post office 1f3e4 are similar coloured blocks."
+}

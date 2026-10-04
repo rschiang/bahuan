@@ -1,0 +1,41 @@
+{
+  "subgroup": "transport-air",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat aircraft and cable cars, bold shapes"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "no outlines, but metallic shading and detail; parachute is unchanged =11 art"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12 but with a redrawn flat parachute"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "same as 7.0, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1fa82",
+      "era": "latest",
+      "reason": "android-12 parachute is byte-identical to android-11 (=11). latest has a redrawn flat design and the default chain would otherwise pick the =11 one"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "1f6f8 flying saucer falls back to android-12: a shaded metallic saucer, slightly glossier than the 7.1 rocket and satellite, but fine. Please check that the resolver honors the parachute override, since the generic fallback chain lists android-12 before latest."
+}

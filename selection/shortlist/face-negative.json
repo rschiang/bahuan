@@ -1,0 +1,47 @@
+{
+  "subgroup": "face-negative",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "vector blob angry faces, flat devils and skulls, no outline"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+    },
+    {
+      "era": "latest",
+      "score": 4,
+      "rationale": "flat faces, but skull and crossbones are =11 bordered"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f92c",
+      "era": "latest",
+      "reason": "face with symbols on mouth (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    }
+  ],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1f92c",
+      "name": "face with symbols on mouth"
+    }
+  ],
+  "confidence": "high",
+  "notes": "7.1 blob angry faces, red-orange blob devils and flat grey skulls, all unbordered. Skulls: latest is =11 (bordered) so 7.1 is the only acceptable art and must not be overridden. 1f92c symbols-on-mouth -> latest override (android-12 =11); round red face next to blob 1f621 is acceptable but a redraw candidate. 7.1 devils are orange-red vs latest purple: keep blob for consistency with face-costume neighbors only if they also pick 7.1. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

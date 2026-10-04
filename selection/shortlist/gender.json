@@ -1,0 +1,25 @@
+{
+  "subgroup": "gender",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat yellow signs, match 7.1 zodiac glyph style"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "magenta/teal with gloss highlights; complete trio"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "26a7 transgender symbol (E13) falls back to android-12 orange/gold glossy glyph; hue is close to the 7.1 yellow so the trio still reads together. 7.1 colors both signs the same yellow (shape distinguishes them). android-12 is the alternative if the owner wants color-coded signs."
+}

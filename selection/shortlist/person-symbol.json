@@ -1,0 +1,52 @@
+{
+  "subgroup": "person-symbol",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat two-blue silhouettes and blue speaking head; one palette with the fallbacks (hugging, fingerprint)"
+    },
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat dark-teal silhouettes and black speaking head, legible and SVG; clashes in hue with the light-blue hugging and fingerprint fallbacks"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "same silhouettes as android-12, but its 1f46a family is a grey bevelled keycap"
+    },
+    {
+      "era": "android-7.0",
+      "score": 4,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 3,
+      "rationale": "same silhouettes, yellow-figure family; PNG only"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [
+    {
+      "key": "1f9d1_200d_1f9d1_200d_1f9d2",
+      "reason": "only latest has it: grey bevelled keycap pictogram (3D/glossy)"
+    },
+    {
+      "key": "1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2",
+      "reason": "only latest has it: grey bevelled keycap pictogram"
+    },
+    {
+      "key": "1f9d1_200d_1f9d2",
+      "reason": "only latest has it: grey bevelled keycap pictogram"
+    },
+    {
+      "key": "1f9d1_200d_1f9d2_200d_1f9d2",
+      "reason": "only latest has it: grey bevelled keycap pictogram"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Close call between android-12 and 7.1. android-12 wins on harmony: 1fac2 people hugging (E13, =11, soft blue gradient) and 1fac6 fingerprint (E16, latest) only exist in light blue, and they sit badly next to 7.1's dark-teal busts. With android-12, 1f46a family uses the 2020 neutral two-adults-and-child figures (=11, no border). That also matches the neutral overrides for 1f48f/1f491 in family. If you prefer 7.1 for its blob-era look, 1f46a becomes the Nougat man/woman/boy, which matches the family subgroup. The four E15.1 neutral families exist only as latest keycap tiles, so they're in the redraw backlog. Ideally redraw them as flat two-tone blue silhouettes in the 1f465 style. 1fac2 hugging isn't bordered, but it's gradient-heavy and blurry at 20px, so it could also be redrawn later."
+}

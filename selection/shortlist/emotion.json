@@ -1,0 +1,30 @@
+{
+  "subgroup": "emotion",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat symbols, no gloss, legible"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "speech bubbles redrawn flat; rest =11 gradient"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "bubbles flat, other symbols =11"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Only fight cloud (1faef) falls back, to latest's own art. 7.1 kiss mark is pink and ZZZ is pink, matching the blob palette. Speech bubbles in 7.1 are dark outline-only line art, as in android-12, so no clash."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "animal-reptile",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat olive reptiles, dragon/dragon face far more legible than the busy later dragons"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "redrawn lizard is good, but =11 dragon and dragon face are busy at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "new flat dragon face, otherwise as android-12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Sauropod and T-Rex fall back to bright green 2020 art, a bit brighter than the 7.1 olive palette but no outlines. android-11's lizard looks broken; android-12 redrew it, which only matters if 7.1 is not chosen."
+}

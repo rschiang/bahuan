@@ -1,0 +1,35 @@
+{
+  "subgroup": "arts & crafts",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob-era masks, frame, palette"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat refresh covering all 7; frame slightly gradient"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "as android-12, needle redrawn"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [
+    {
+      "key": "1faa2",
+      "reason": "knot: android-12 and latest are =11 (bordered-era design)"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Only 3 of 7 exist in 7.1; thread, sewing needle, yarn and knot fall back. Close call vs android-12 for whole-subgroup consistency; 7.1 chosen to match the neighboring event/game/clothing picks."
+}

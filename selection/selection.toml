@@ -1,0 +1,178 @@
+# Bahuan era selection. Resolution: override → subgroup → fallback → avoid.
+# Draft from the per-subgroup shortlists (selection/shortlist/*.json); open
+# calls are listed in selection/shortlist/REVIEW.md.
+#
+# A list value is tried in order before the fallback. ["android-7.1",
+# "android-12"] pins android-12 even where its art is unchanged since
+# android-11: for people and animals that 2020 art is borderless, and latest
+# is the worse match (contour lines, heavier shading, keycap tiles).
+
+[defaults]
+fallback = ["android-12", "latest"]   # post-blob emoji: newest flat Google design
+avoid = ["android-8.0", "android-11"] # bordered clip-art; only if nothing else exists
+
+[subgroup]
+# Smileys & Emotion
+face-smiling = "android-7.1"            # classic blob
+face-affection = "android-7.1"
+face-tongue = "android-7.1"
+face-hand = "android-7.1"               # 5 of 7 end up latest round faces
+face-neutral-skeptical = "android-7.1"
+face-sleepy = "android-7.1"
+face-unwell = "android-7.1"
+face-hat = "android-7.1"
+face-glasses = "android-7.1"
+face-concerned = "android-7.1"
+face-negative = "android-7.1"           # 7.1 skulls are the only unbordered ones
+face-costume = "android-7.1"
+cat-face = "android-7.1"
+monkey-face = "android-7.1"
+heart = "android-7.1"                   # orange/brown/white hearts are =11 → redraw
+emotion = "android-7.1"
+
+# People & Body
+hand-fingers-open = "android-7.1"       # hands match 7.1 person-gesture; =11 hands skip to latest 2D
+hand-fingers-partial = "android-7.1"
+hand-single-finger = "android-7.1"
+hand-fingers-closed = "android-7.1"
+hands = "android-7.1"
+hand-prop = "android-7.1"
+body-parts = "android-7.1"
+person = ["android-7.1", "android-12"]           # 1f9d1/child/hair ZWJ from 2020 art
+person-gesture = ["android-7.1", "android-12"]   # deaf person from 2020 art
+person-role = "android-12"                       # one design per profession trio (see REVIEW)
+person-fantasy = "android-12"                    # keeps Santa/Mrs/Mx Claus coherent
+person-activity = ["android-7.1", "android-12"]
+person-sport = ["android-7.1", "android-12"]     # latest sports are grey, heavier
+person-resting = ["android-7.1", "android-12"]   # latest lotus adds contour lines
+family = ["android-7.1", "android-12"]           # never latest: keycap tiles
+person-symbol = "android-12"                     # light-blue busts match hugging/fingerprint
+
+# Animals & Nature
+animal-mammal = ["android-7.1", "android-12"]    # fallbacks: 2020 borderless animals
+animal-bird = ["android-7.1", "android-12"]
+animal-amphibian = "android-7.1"
+animal-reptile = ["android-7.1", "android-12"]
+animal-marine = ["android-7.1", "android-12"]
+animal-bug = ["android-7.1", "android-12"]
+plant-flower = "android-12"             # plants were truly redrawn in 2021
+plant-other = "android-12"
+
+# Food & Drink
+food-fruit = "android-12"               # 19 of 21 redrawn flat in 2021
+food-vegetable = "android-12"
+food-prepared = "android-12"
+food-asian = "android-12"
+food-sweet = "android-12"
+drink = "android-12"
+dishware = "android-7.1"                # 12 cutlery is grey gradient
+
+# Travel & Places
+place-map = "android-7.1"
+place-geographic = "android-7.1"
+place-building = "android-7.1"
+place-religious = "android-7.1"
+place-other = "android-7.1"
+transport-ground = "android-7.1"
+transport-water = "android-7.1"
+transport-air = "android-7.1"
+hotel = "android-7.1"
+time = "android-7.1"
+"sky & weather" = "android-7.1"         # blob sun/moon faces
+
+# Activities
+event = "android-7.1"
+award-medal = "android-7.1"
+sport = "android-7.1"
+game = "android-7.1"
+"arts & crafts" = "android-7.1"
+
+# Objects
+clothing = "android-7.1"
+sound = "android-7.1"
+music = "android-7.1"
+musical-instrument = "android-7.1"
+phone = "android-7.1"
+computer = "android-7.1"
+"light & video" = "android-7.1"
+book-paper = "android-7.1"
+money = "android-7.1"
+mail = "android-7.1"
+writing = "android-7.1"
+office = "android-7.1"
+lock = "android-7.1"
+tool = "android-7.1"
+science = "android-7.1"
+medical = "android-12"                  # 7.1 has only syringe and pill
+household = "android-12"                # 72% of the subgroup is post-2017
+other-object = "android-7.1"
+
+# Symbols
+transport-sign = "android-7.1"
+warning = "android-7.1"
+arrow = "android-7.1"
+religion = "android-7.1"
+zodiac = "android-7.1"
+av-symbol = "android-7.1"
+gender = "android-7.1"
+math = "android-7.1"
+punctuation = "android-7.1"
+currency = "android-7.1"
+other-symbol = "android-7.1"
+keycap = "android-7.1"
+alphanum = "android-7.1"
+geometric = "android-7.1"               # E12 colored shapes are glossy 12 → redraw
+
+# Flags
+flag = "android-7.1"
+country-flag = "waveflag"
+subdivision-flag = "waveflag"
+
+[override]
+1f9d0 = "latest"         # 🧐 12 is a retouch of the bordered art, not =11
+1f98b = "latest"         # 🦋 blue butterfly; 7.1 orange one twins the latest monarch
+1fad6 = "latest"         # 🫖 12 teapot is =11
+1f52b = "android-12"     # 🔫 water pistol; 7.1 draws a revolver
+1fa9e = "latest"         # 🪞 12 mirror is =11 (ornate bordered frame)
+2705 = "android-12"      # ✅ 7.1 pale grey tick is invisible at 20px
+1f5fe = "android-12"     # 🗾 7.1 thin olive silhouette; 12 blue tile reads
+
+[redraw]
+2764_200d_1f525 = "only =11 gradient art"                    # ❤️‍🔥
+2764_200d_1fa79 = "only =11 gradient art"                    # ❤️‍🩹
+1f9e1 = "only =11 glossy art; flat 7.1 heart row"            # 🧡
+1f90d = "only =11 glossy art; flat 7.1 heart row"            # 🤍
+1f90e = "only =11 glossy art; flat 7.1 heart row"            # 🤎
+1f9be = "only =11 gradient metal art"                        # 🦾
+1f9bf = "only =11 gradient metal art"                        # 🦿
+1f9e0 = "only =11 gradient art"                              # 🧠
+1fac0 = "only =11 shaded art"                                # 🫀
+1fac1 = "only =11 art (fairly flat; low priority)"           # 🫁
+1f9b7 = "only =11 gradient art"                              # 🦷
+1f9d1_200d_1f9d1_200d_1f9d2 = "only latest grey keycap tile" # 🧑‍🧑‍🧒
+1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2 = "only latest grey keycap tile" # 🧑‍🧑‍🧒‍🧒
+1f9d1_200d_1f9d2 = "only latest grey keycap tile"            # 🧑‍🧒
+1f9d1_200d_1f9d2_200d_1f9d2 = "only latest grey keycap tile" # 🧑‍🧒‍🧒
+1fa84 = "only =11 bordered art"                              # 🪄
+1fa86 = "only =11 bordered art"                              # 🪆
+1faa2 = "only =11 bordered art"                              # 🪢
+1fa97 = "only =11 bordered art"                              # 🪗
+1fa99 = "only =11 bordered gradient art"                     # 🪙
+1fa78 = "only =11 art (fairly flat; owner may accept)"       # 🩸
+1fa7a = "only =11 bordered art"                              # 🩺
+1fa9f = "only =11 bordered art"                              # 🪟
+1faa6 = "only =11 bordered art"                              # 🪦
+1f7e0 = "soft: glossy 12 next to flat 7.1 🔴🔵"              # 🟠
+1f7e1 = "soft: glossy 12 next to flat 7.1 🔴🔵"              # 🟡
+1f7e2 = "soft: glossy 12 next to flat 7.1 🔴🔵"              # 🟢
+1f7e3 = "soft: glossy 12 next to flat 7.1 🔴🔵"              # 🟣
+1f7e4 = "soft: glossy 12 next to flat 7.1 🔴🔵"              # 🟤
+1f7e5 = "soft: glossy 12 next to flat 7.1 ⬛⬜"              # 🟥
+1f7e6 = "soft: glossy 12 next to flat 7.1 ⬛⬜"              # 🟦
+1f7e7 = "soft: glossy 12 next to flat 7.1 ⬛⬜"              # 🟧
+1f7e8 = "soft: glossy 12 next to flat 7.1 ⬛⬜"              # 🟨
+1f7e9 = "soft: glossy 12 next to flat 7.1 ⬛⬜"              # 🟩
+1f7ea = "soft: glossy 12 next to flat 7.1 ⬛⬜"              # 🟪
+1f7eb = "soft: glossy 12 next to flat 7.1 ⬛⬜"              # 🟫
+1f3f3_200d_26a7 = "only =11 shaded flag; regenerate with waveflag" # 🏳️‍⚧️
+1f3f4_200d_2620 = "only =11 shaded flag; regenerate with waveflag"      # 🏴‍☠️

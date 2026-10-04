@@ -1,0 +1,81 @@
+{
+  "subgroup": "face-neutral-skeptical",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "vector blob faces, soft blob shading, no outline, legible at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "flat round faces, no border; good fallback but drops the blobs"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f928",
+      "era": "latest",
+      "reason": "face with raised eyebrow (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f636_200d_1f32b",
+      "era": "latest",
+      "reason": "face in clouds (E13.1): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f62e_200d_1f4a8",
+      "era": "latest",
+      "reason": "face exhaling (E13.1): no blob; android-12 is bordered android-11 art, latest is flat"
+    }
+  ],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1f928",
+      "name": "face with raised eyebrow"
+    },
+    {
+      "key": "1fae5",
+      "name": "dotted line face"
+    },
+    {
+      "key": "1f636_200d_1f32b",
+      "name": "face in clouds"
+    },
+    {
+      "key": "1f62e_200d_1f4a8",
+      "name": "face exhaling"
+    },
+    {
+      "key": "1fae8",
+      "name": "shaking face"
+    },
+    {
+      "key": "1f642_200d_2194",
+      "name": "head shaking horizontally"
+    },
+    {
+      "key": "1f642_200d_2195",
+      "name": "head shaking vertically"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "10 classic blobs in 7.1 (incl. 1f925 lying face). 7 newer faces go round: 1f928, 1f636_200d_1f32b, 1f62e_200d_1f4a8 need latest overrides (ZWJ face sequences are their own families, not followers of 1f636/1f62e, so they would otherwise take bordered android-12); 1fae5, 1fae8, 1f642_200d_2194, 1f642_200d_2195 go to latest automatically. Mixed sequences like face-in-clouds (round) next to blob 1f636 face-without-mouth are an obvious mismatch; 1f636_200d_1f32b and 1f62e_200d_1f4a8 are easy blob composites (blob base + clouds/puff) and good redraw candidates, as is 1f928. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

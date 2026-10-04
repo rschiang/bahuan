@@ -1,0 +1,30 @@
+{
+  "subgroup": "plant-other",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "2021 flat redraw, bright distinct greens, matches the latest fallbacks"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "same as android-12 plus nests and leafless tree"
+    },
+    {
+      "era": "android-7.1",
+      "score": 6,
+      "rationale": "flat blob-era, but one olive green for every plant makes trees/herb/clovers samey at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Potted plant is =11 but has no outline, so it is acceptable. Nests and leafless tree (latest) sit well with android-12; under 7.1 they would clash with the olive palette. Maple leaf has a red-orange gradient in android-12/latest, which is minor. Same cross-group caveat as plant-flower."
+}

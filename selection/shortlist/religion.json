@@ -1,0 +1,30 @@
+{
+  "subgroup": "religion",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat orange glyphs, no tiles, crisp at 20px"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "uniform purple bevel tiles with gloss"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12, adds khanda"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 but PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Only 1faaf khanda (E15) falls back to latest: a purple bevel tile next to bare orange glyphs. Acceptable but a flat orange khanda glyph would be an easy redraw. 7.1 1f6d0 is already a purple tile, so the purple tile is not alien here."
+}

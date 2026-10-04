@@ -1,0 +1,25 @@
+{
+  "subgroup": "food-vegetable",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "flat refresh, covers 15/20, matches fruit"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "same plus the 5 newest vegetables; cucumber redrawn with slices"
+    },
+    {
+      "era": "android-7.1",
+      "score": 6,
+      "rationale": "flat but covers only 9/20; pink eggplant and drab cucumber, half the row would fall back"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Bell pepper 1fad1 is =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it. Beans, ginger, pea pod, mushroom, root vegetable, pickle resolve to latest and match. 12 cucumber (1f952) and latest pickle (1fadd) look nearly identical; latest's sliced cucumber separates them better, so the owner may want an override 1f952 -> latest (left out because it changes the 12 baseline)."
+}

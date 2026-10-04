@@ -1,0 +1,30 @@
+{
+  "subgroup": "lock",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat yellow locks and keys, steel-blue shackles, no outlines; SVG"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 8,
+      "rationale": "same, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "gradient gold bodies, glossy shackles"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "No fallbacks; full coverage."
+}

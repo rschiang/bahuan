@@ -1,0 +1,17 @@
+{
+  "subgroup": "person-role",
+  "ranked": [
+    {"era": "android-7.1", "score": 7, "rationale": "flat, simple Nougat professionals with clear props (teacher board, technologist screens, farmer hat), vector masters; covers man/woman for every E4.0 profession"},
+    {"era": "android-12", "score": 6.5, "rationale": "borderless (=11) and the only era with person/man/woman trios that match, but shaded hair and fussier detail"},
+    {"era": "latest", "score": 4, "rationale": "redraws a handful (technologist laptop, singer, artist, astronaut, cook, guard) in a newer, more detailed style; inconsistent with everything else"}
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {"key": "1f468_200d_1f680", "era": "android-12", "reason": "7.1 man astronaut has a dark-tinted visor face that reads as a brown skin tone in the default yellow slot"},
+    {"key": "1f469_200d_1f680", "era": "android-12", "reason": "same dark-face visor problem as the man astronaut; android-12 also matches the person astronaut"},
+    {"key": "1f930", "era": "android-12", "reason": "7.1 pregnant woman is a tiny front-view full figure that does not read as pregnant at 20px; the android-12 side view matches pregnant man/person (latest) and breast-feeding"}
+  ],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "MAIN HARMONY RISK: in the resolver, each profession is three separate families (1f9d1_200d_X person, 1f468_200d_X man, 1f469_200d_X woman; base_key does not merge them). So under 7.1, all 16 professions (health worker, student, teacher, judge, farmer, cook, mechanic, factory worker, office worker, scientist, technologist, singer, artist, pilot, astronaut, firefighter) get a man/woman pair in 7.1 and a person in android-12. The designs differ a lot, not just the face: farmer (7.1 big yellow hat, green shirt, wheat vs 12 straw hat, overalls, pitchfork), cook (grey vs white toque), mechanic (orange overalls vs blue cap), judge (7.1 sits in a dark chair vs 12 has a gavel), factory worker (dark vs grey mask), plus eyebrows and hair shading. At 20px the person form and the man/woman forms look like different emoji. Gboard offers the gender-neutral form first, so the android-12 style is what most text will show. Simulated: 7.1 takes 306 of 492 keys, android-12 168, latest 18 (person with crown 1fac5, pregnant man and person). Already in android-12 by family rule: tuxedo (1f935 family) and veil (1f470 family), because 7.1 lacks their E13 gender variants, plus ninja, headscarf, breast-feeding and the feeding-baby trio. The police, detective, guard, construction and turban families are fully 7.1 and consistent. Prince and princess in 7.1 are head-only (no bust), while 1fac5 person with crown (latest) is also a head, so they sit fine. 7.1 bases for police, detective, guard, construction and turban are the man design. If the owner prioritises trio harmony over the blob-era look, set the subgroup to android-12 (score close behind) and drop the overrides. I kept 7.1 for consistency with person-gesture and person-activity/sport, which are likely 7.1 too. No bordered art remains after fallback, because android-11 people are borderless."
+}

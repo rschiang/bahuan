@@ -1,0 +1,36 @@
+{
+  "subgroup": "animal-bug",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob-era bugs, bold and legible, consistent with 7.1 animals"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "coherent 2020 set, no outlines"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "as android-12 but butterfly recolored blue to tell it from the new monarch"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f98b",
+      "era": "latest",
+      "reason": "the 7.1 orange butterfly would be nearly identical to the E18 monarch (latest) at 20px; upstream recolored butterfly blue for this reason"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "9 of 18 fall back (monarch, beetle, cricket, cockroach, mosquito, fly, worm, microbe). Note the 7.1 'bug' is a centipede and the 7.1 ant is blue. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era."
+}

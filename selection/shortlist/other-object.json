@@ -1,0 +1,36 @@
+{
+  "subgroup": "other-object",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat cigarette/coffin/urn, no outlines; SVG; moai is a heavy dark silhouette"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat-ish but moai and coffin are shaded/detailed; headstone and placard =11"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1faa7",
+      "era": "latest",
+      "reason": "android-12 placard is =11; latest is a later redraw (blank sign)"
+    }
+  ],
+  "no_acceptable_era": [
+    {
+      "key": "1faa6",
+      "reason": "headstone: android-11 design unchanged in android-12 and latest (=11)"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Fallbacks: nazar amulet (android-12), hamsa and identification card (latest). Owner should check 7.1 moai legibility at 20px (dark hooded silhouette) vs android-12's detailed grey statue."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "food-fruit",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "full flat refresh of every fruit (owner's preferred tangerine); complete coverage, one consistent style"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "same art as android-12 plus lime (15.1)"
+    },
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob-era fruit, no outlines, but pink peach and 6 missing emoji fall back to 12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "The 2021 refresh redrew 19 of 21 fruits (all except blueberries 1fad0 and olive 1fad2, which are =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it). That is broad enough to take the whole subgroup from android-12 rather than overriding just the tangerine. Lime 1f34b_200d_1f7e9 resolves to latest. Picking 12 also lets food-vegetable/prepared/asian/sweet/drink share one style."
+}

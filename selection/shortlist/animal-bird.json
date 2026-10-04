@@ -1,0 +1,30 @@
+{
+  "subgroup": "animal-bird",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "simple flat blob-era birds, consistent with 7.1 mammals"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "coherent 2020 set, no outlines, more realistic"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "android-12 plus wing, black bird, goose, phoenix"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "10 of 23 fall back (swan, dodo, feather, flamingo, peacock, parrot, and the E15 additions from latest). Chicks are nearly identical across eras so the seam is mild. Blue 7.1 penguin and white thin-line chicken/rooster are the most era-specific looks. Pick the same era as animal-mammal. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era."
+}

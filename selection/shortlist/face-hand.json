@@ -1,0 +1,68 @@
+{
+  "subgroup": "face-hand",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "two blobs (hugging, thinking), vector, unbordered; rest of subgroup falls back"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "flat round; covers 5 of 7 here"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f92d",
+      "era": "latest",
+      "reason": "face with hand over mouth (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f92b",
+      "era": "latest",
+      "reason": "shushing face (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    }
+  ],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1f92d",
+      "name": "face with hand over mouth"
+    },
+    {
+      "key": "1fae2",
+      "name": "face with open eyes and hand over mouth"
+    },
+    {
+      "key": "1fae3",
+      "name": "face with peeking eye"
+    },
+    {
+      "key": "1f92b",
+      "name": "shushing face"
+    },
+    {
+      "key": "1fae1",
+      "name": "saluting face"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Only 1f917 hugging and 1f914 thinking exist as blobs; 5 of 7 end up as latest round faces (1f92d/1f92b via override because android-12 is =11; 1fae2/1fae3/1fae1 automatically). This subgroup will look mostly round; acceptable as stopgap since latest is flat and unbordered, but the round majority makes the two blobs the odd ones out. Consider blob redraws of 1f92d, 1f92b, 1fae1. 1f914 android-12 is a minor retouch of the bordered art (not =11 but same look), so still avoid it. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

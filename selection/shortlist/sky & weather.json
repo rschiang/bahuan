@@ -1,0 +1,35 @@
+{
+  "subgroup": "sky & weather",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat yellow moons and suns, gray flat clouds, solid umbrellas; simple faces fit the blob set"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same art as 7.1, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "no outlines, but moon, sun and star faces are =11 bordered-era art, and the moon phases are textured"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "same as android-12 plus meteor"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 4,
+      "rationale": "cyan outline-only clouds, snowmen and fog: a line-art style that clashes; PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Face harmony: the 7.1 moon and sun faces (1f31a-1f31e) are flat yellow and black discs with small blob-style eyes and mouths, so they sit well next to blob smileys. android-12 faces are =11 glossy bordered-era art and would clash. Fallbacks: 1fa90 ringed planet goes to android-12 (flat, fine) and 1fa8b meteor to latest (shaded, a bit heavy). Things to check: 2603 and 26c4, the 7.1 snowmen, are light gray on white and low in contrast at 20px; 1f30c milky way is a blue square tile in 7.0/7.1 (6.0.1 had loose stars)."
+}

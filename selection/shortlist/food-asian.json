@@ -1,0 +1,30 @@
+{
+  "subgroup": "food-asian",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "flat refresh, complete, matches the other food subgroups"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "identical in practice to 12"
+    },
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob-era dishes, no outlines, covers 14/17; oden and black bento weaker at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "7.1 is a credible alternative here (only dumpling, fortune cookie, takeout box, moon cake would fall back), so this is a consistency call: 12 keeps all food subgroups in one style. If the owner wants a blob flavour somewhere in food, this is the subgroup where 7.1 holds up best."
+}

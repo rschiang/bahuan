@@ -1,0 +1,35 @@
+{
+  "subgroup": "transport-ground",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat side-view vehicles in solid color blocks, very legible at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same art as 7.1, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "no outlines, but busy with highlights and small detail; vehicles get muddy at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12 plus wheel"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "mostly same as 7.0; outlined traffic lights, missing scooter/stop sign; PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Fallbacks to android-12: 1f6fb pickup truck, 1f9bd/1f9bc wheelchairs, 1f6fa auto rickshaw, 1f6f9 skateboard, 1f6fc roller skate; 1f6de wheel goes to latest. They are more detailed and shaded than the 7.1 vehicles, so the style shift is noticeable but they have no dark outline. 1f6fc roller skate is '=11' in android-12/latest, but the android-11 art has no dark outline and only light shading, so I left it off the backlog; the owner may want to recheck it. 7.1 colors differ from convention (blue car, orange oncoming car, yellow bus) but stay consistent within the set."
+}

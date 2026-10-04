@@ -1,0 +1,25 @@
+{
+  "subgroup": "food-prepared",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "flat, complete coverage, consistent with fruit/vegetable picks"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "same as 12 with minor redraws (bacon)"
+    },
+    {
+      "era": "android-7.1",
+      "score": 6,
+      "rationale": "charming flat blob food but only ~20/35; mixing with 12 fallbacks would be uneven"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Fondue 1fad5 is =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it (dark stand, looks fine). 7.1 cooking/pan and pot-of-food are arguably nicer at 20px, but overriding them would break the subgroup's uniformity."
+}

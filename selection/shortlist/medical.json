@@ -1,0 +1,34 @@
+{
+  "subgroup": "medical",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat syringe/pill/bandage, consistent with the 5 emoji that only exist post-2017"
+    },
+    {
+      "era": "android-7.1",
+      "score": 6,
+      "rationale": "flat blue syringe and pill, but only 2 of 7 emoji, rest fall back to android-12/latest"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [
+    {
+      "key": "1fa78",
+      "reason": "drop of blood: android-11 design unchanged in android-12 and latest (=11); looks fairly flat, owner may accept it"
+    },
+    {
+      "key": "1fa7a",
+      "reason": "stethoscope: android-11 design unchanged in android-12 and latest (=11)"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Chose android-12 for within-subgroup consistency since 7.1 covers only syringe and pill; 7.1 is a fine alternative (its blue capsule is very legible). Crutch and x-ray come from latest; x-ray is a busy dark tile. Pill/syringe in android-12 have small highlights, not borders."
+}

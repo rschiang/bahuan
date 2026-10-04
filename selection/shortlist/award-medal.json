@@ -1,0 +1,30 @@
+{
+  "subgroup": "award-medal",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat medals and trophy, complete set, no outlines"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "identical design, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "clean flat refresh but slightly gradient-shaded"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "7.1 has all six; 6.0.1 lacks the place medals. No fallbacks."
+}

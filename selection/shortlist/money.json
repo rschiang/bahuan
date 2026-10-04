@@ -1,0 +1,35 @@
+{
+  "subgroup": "money",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat mint banknotes, yellow money bag/card, no outlines; SVG"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat-ish but banknotes have shaded seals; coin is =11"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 6,
+      "rationale": "flat solid-colour notes but money bag has heavy black outline; PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [
+    {
+      "key": "1fa99",
+      "reason": "coin: only the bordered/gradient android-11 design exists (=11 in android-12 and latest)"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Fallbacks: 1f9fe receipt (android-12, flat line art, fits), 1fa8e treasure chest (latest only, detailed and shaded; may look heavy next to 7.1 notes; redraw candidate if it bothers)."
+}

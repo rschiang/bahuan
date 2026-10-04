@@ -1,0 +1,30 @@
+{
+  "subgroup": "arrow",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "bare flat light-blue arrows, very legible"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "grey-blue bevel keycap tiles with gloss"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "same as android-12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 but PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "All 21 exist in 7.1. BACK/END/ON!/SOON/TOP keep their multicolor blob-era arrows (orange/green/yellow) which is a bit busy but flat."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "keycap",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat orange keycaps, bold digits, very legible"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "grey-blue bevel tiles with gloss"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 but PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "All 13 present in 7.1, no fallbacks."
+}

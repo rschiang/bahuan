@@ -1,0 +1,30 @@
+{
+  "subgroup": "cat-face",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "orange blob cats, same face language as blob smileys"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 3,
+      "rationale": "all =11 bordered tabby cats"
+    },
+    {
+      "era": "latest",
+      "score": 3,
+      "rationale": "all but two are =11"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Full coverage in 7.1. The cats are orange where the blob faces are yellow, which was intended in the blob set."
+}

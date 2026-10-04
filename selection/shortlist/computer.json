@@ -1,0 +1,30 @@
+{
+  "subgroup": "computer",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat blob-era computers and disks, bold silhouettes"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat-ish but light greys and iridescent disks wash out small"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "as android-12 plus low battery"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Fallbacks: low battery (1faab, latest only) and abacus (1f9ee, android-12). Low battery is green/grey while the 7.1 battery is orange, so the pair will not match; consider a redraw for harmony."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "mail",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat yellow envelopes and orange mailboxes, consistent set; trays/package use a brown keyline that is part of the 7.x style"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 7,
+      "rationale": "same, PNG only; ballot box shows an X"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "envelopes are pale blue line-art only (weak at 20px); mailboxes flat and good"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "No fallbacks. 7.1 envelope family is much more legible at 20px than android-12's outline envelopes."
+}

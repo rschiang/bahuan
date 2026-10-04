@@ -1,0 +1,36 @@
+{
+  "subgroup": "place-map",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat two-tone globes and map, bold and legible, no shading"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "globes use 3D sphere gradients; folded world map busy at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as 12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f5fe",
+      "era": "android-12",
+      "reason": "7.1 map of Japan is a thin olive silhouette with no ground; the 12 blue tile reads far better at 20px"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Compass 1f9ed falls back to android-12 (gold ring, flat enough). The 7.1 blue/lime palette matches the 7.1 place-geographic pick."
+}

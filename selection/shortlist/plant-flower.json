@@ -1,0 +1,30 @@
+{
+  "subgroup": "plant-flower",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "real 2021 flat redraw, varied colors, distinct silhouettes at 20px"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "same as android-12 with a yellow rosette"
+    },
+    {
+      "era": "android-7.1",
+      "score": 6,
+      "rationale": "flat blob-era, but rosette/rose/hibiscus/tulip are all orange and run together at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Plants were really redrawn in 2021, unlike animals. Lotus and hyacinth come from latest and match android-12. This means a different era from the 7.1 animals in the same group; it is flat and has no outlines, so the seam is mild. Neighbors food-fruit/food-vegetable were shortlisted as android-12, so plants and produce match. If blob identity matters most, 7.1 flowers are the second choice."
+}

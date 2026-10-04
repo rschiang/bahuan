@@ -1,0 +1,30 @@
+{
+  "subgroup": "place-religious",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat, matches 7.1 buildings, covers 5/6"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "more detailed; kaaba uses grey gradients"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as 12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Hindu temple 1f6d5 falls back to android-12 (detailed red tower); it reads fine next to the 7.1 mosque. Follow whatever place-building ends up with so these stay consistent."
+}

@@ -1,0 +1,30 @@
+{
+  "subgroup": "currency",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat colored $/yen with blue arrows; bold dollar"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "glossy gradient dollar"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "same as android-12"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 but PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Both emoji present in 7.1. Navy dollar sign matches 7.1 transport-sign navy."
+}

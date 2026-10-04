@@ -1,0 +1,50 @@
+{
+  "subgroup": "game",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat blob-era games, cards, suits; no outlines"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat refresh, full coverage, but two =11 holdovers"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "as android-12 plus mirror ball"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "orange heart/diamond suits, outlined die"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f52b",
+      "era": "android-12",
+      "reason": "7.1 draws a real revolver; Unicode/all vendors now show a water pistol, android-12 is a flat orange water gun"
+    }
+  ],
+  "no_acceptable_era": [
+    {
+      "key": "1fa84",
+      "reason": "magic wand: android-12 and latest are =11 (bordered-era design)"
+    },
+    {
+      "key": "1fa86",
+      "reason": "nesting dolls: android-12 and latest are =11 (bordered-era design)"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "9 of 24 fall back (yo-yo, kite, magic wand, puzzle piece, teddy bear, pinata, mirror ball, nesting dolls, chess pawn). 7.1 joker card has a heavy black card frame and mahjong tile is stylized; both are drawing choices, legible. Suits are flat black/red in 7.1, close to android-12 dark grey."
+}

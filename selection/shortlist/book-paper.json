@@ -1,0 +1,30 @@
+{
+  "subgroup": "book-paper",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob-era books and pages, full coverage; book page edges drawn in heavy black"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "clean flat books and line-art pages, no borders, more literal designs"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "line-art pages/scroll differ from 7.x, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "No fallbacks. Close call with android-12; 7.1 chosen for owner's 7.x preference and harmony with 7.1 office/mail. Owner should check: 1f4d6 open book in 7.1 is black line art (closest to an outline look in this set); 1f4d1 bookmark tabs in 7.1 is an upright orange book with a tab, somewhat confusable with 1f4d9 orange book at 20px (android-12 shows tabbed pages if an override is wanted)."
+}

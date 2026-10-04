@@ -1,0 +1,35 @@
+{
+  "subgroup": "transport-sign",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat solid tiles, no gloss, bold pictograms; legible at 20px"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "uniform blue bevel tiles with gloss corner; consistent but not flat"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "as android-12 but potable water is a 3D tap"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 4,
+      "rationale": "bare figures, PNG only"
+    },
+    {
+      "era": "android-7.0",
+      "score": 5,
+      "rationale": "same art as 7.1 but PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "7.1 tile colors vary (navy, sky, orange) rather than one blue; all flat. No emoji fall back. 7.1 baggage claim/left luggage are bare orange glyphs, not tiles."
+}

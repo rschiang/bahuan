@@ -1,0 +1,41 @@
+{
+  "subgroup": "household",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat household set covering all 25 emoji; consistent with the 18 that only exist post-2017"
+    },
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat door/bed/couch/bath/cart, but only 7 of 25 emoji"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "outlined toilet, no cart; PNG only"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [
+    {
+      "key": "1fa9e",
+      "era": "latest",
+      "reason": "android-12 mirror is =11 (ornate bordered frame); latest is a flat redraw"
+    }
+  ],
+  "no_acceptable_era": [
+    {
+      "key": "1fa9f",
+      "reason": "window: android-11 design unchanged in android-12 and latest (=11)"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "72% of the subgroup only exists post-2017, so android-12 keeps the row uniform. If the owner prefers the 7.x look, choosing android-7.1 is viable: its 7 items are simple and flat but use a different palette (green bed, yellow couch, orange cart). Bubbles comes from latest."
+}

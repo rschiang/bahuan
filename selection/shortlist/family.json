@@ -1,0 +1,46 @@
+{
+  "subgroup": "family",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "has every E2.0/E4.0 kiss, couple and family sequence; blob-face kiss and flat Nougat families; SVG"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "has the whole set incl. skin tones and neutral E12/E13.1 couples; borderless (=11 people) and close to 7.1 in layout"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same kiss and couple art as 7.1 but PNG only and missing the single-parent families"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 3,
+      "rationale": "classic blob kiss and couple but yellow-silhouette families and holding hands; PNG only"
+    },
+    {
+      "era": "latest",
+      "score": 2,
+      "rationale": "families are grey bevelled keycap pictograms (3D look), wrong for this font; it would only be picked by fallback after android-12, which never happens here"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f48f",
+      "era": "android-12",
+      "reason": "7.1 draws the generic kiss as woman+man, while its skin-tone variants (E13.1, android-12 only) are neutral people; android-12 makes base and tones match and looks almost the same"
+    },
+    {
+      "key": "1f491",
+      "era": "android-12",
+      "reason": "same as 1f48f: 7.1 generic couple-with-heart is woman+man, skin-toned variants are neutral android-12"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Coverage: 7.1 has only about 26 of the 337 fully-qualified family entries: the yellow kiss/couple/holding-hands/family ZWJ sequences, with no skin tones at all. All the skin-tone couples (E12.0 holding hands, E13.1 kiss/couple-with-heart incl. mixed tones) and 1f9d1_200d_1f91d_200d_1f9d1 people holding hands (E12) fall back to android-12, so most of this subgroup will actually render as android-12. I checked at 512px: android-12 kiss and couple keep 7.1's layout (heart above two faces), and its holding-hands figures are the same Nougat lineage, so the mix holds up. 7.0 and 6.0.1 lack even the gendered kiss/couple variants. If base/tone mismatch on the gendered sequences (e.g. 7.1 woman+man holding hands next to an android-12 toned one) bothers you, set the whole subgroup to android-12 instead. That costs little, because 7.1 and android-12 families look nearly identical. Never let latest win here: its families are keycap tiles."
+}

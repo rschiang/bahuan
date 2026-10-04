@@ -1,0 +1,25 @@
+{
+  "subgroup": "animal-amphibian",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat frog face, near-identical to later art"
+    },
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "=11, essentially the same design"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Only the frog; follow the animal-mammal era. Every era except 8.0 is fine."
+}

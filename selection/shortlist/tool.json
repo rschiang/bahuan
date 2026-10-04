@@ -1,0 +1,30 @@
+{
+  "subgroup": "tool",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat steel-teal tools, no outlines; SVG"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "flat light steel-blue tools, very close palette to 7.1, covers all Emoji 11-13 tools"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "12 of 28 fall back (axe, boomerang, saw, screwdriver, white cane, hook, toolbox, magnet, ladder -> android-12; net, broken chain, shovel -> latest). android-12 tool metal is a lighter blue-grey than 7.1's teal, so they sit fairly well together; none are =11. Owner may check 7.1 chain/link (dark teal) next to latest broken chain (light blue)."
+}

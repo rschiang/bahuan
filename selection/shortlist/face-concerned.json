@@ -1,0 +1,68 @@
+{
+  "subgroup": "face-concerned",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "vector blob faces, soft blob shading, no outline, legible at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "flat round faces, no border; good fallback but drops the blobs"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f97a",
+      "era": "latest",
+      "reason": "pleading face (E11.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f971",
+      "era": "latest",
+      "reason": "yawning face (E12.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    }
+  ],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1fae4",
+      "name": "face with diagonal mouth"
+    },
+    {
+      "key": "1faea",
+      "name": "distorted face"
+    },
+    {
+      "key": "1f97a",
+      "name": "pleading face"
+    },
+    {
+      "key": "1f979",
+      "name": "face holding back tears"
+    },
+    {
+      "key": "1f971",
+      "name": "yawning face"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Largest blob block: 22 of 27 in 7.1, consistent. Blue-gradient blobs (1f628, 1f630, 1f631) are blob shading, fine. 1f97a pleading and 1f971 yawning need latest overrides (android-12 =11); 1fae4, 1faea, 1f979 go to latest automatically. 1f97a pleading is among the most-used emoji; round next to 22 blobs is the most visible mismatch in this batch, top redraw candidate along with 1f979. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

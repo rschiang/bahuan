@@ -1,0 +1,76 @@
+{
+  "subgroup": "body-parts",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat biceps/ear/nose/eyes/mouth, matches 7.1 hands"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "leg/foot/hearing aid/bone/biting lip redrawn; organs =11"
+    },
+    {
+      "era": "android-12",
+      "score": 3,
+      "rationale": "all =11"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f9b5",
+      "era": "latest",
+      "reason": "skips =11 bordered android-12 leg; latest 2D redraw"
+    },
+    {
+      "key": "1f9b6",
+      "era": "latest",
+      "reason": "skips =11 bordered android-12 foot; latest 2D redraw"
+    },
+    {
+      "key": "1f9bb",
+      "era": "latest",
+      "reason": "skips =11 android-12 hearing aid ear; latest 2D redraw"
+    },
+    {
+      "key": "1f9b4",
+      "era": "latest",
+      "reason": "skips =11 android-12 bone; latest redraw"
+    }
+  ],
+  "no_acceptable_era": [
+    {
+      "key": "1f9be",
+      "reason": "mechanical arm: only =11 gradient metal design"
+    },
+    {
+      "key": "1f9bf",
+      "reason": "mechanical leg: only =11 gradient metal design"
+    },
+    {
+      "key": "1f9e0",
+      "reason": "brain: only =11 gradient design"
+    },
+    {
+      "key": "1fac0",
+      "reason": "anatomical heart: only =11 shaded design"
+    },
+    {
+      "key": "1fac1",
+      "reason": "lungs: only =11 (fairly flat; lowest priority to redraw)"
+    },
+    {
+      "key": "1f9b7",
+      "reason": "tooth: only =11 gradient design"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "7.1 covers only the E0.6/0.7 parts (biceps, ear, nose, eyes, eye, tongue, mouth). The rest come from latest or =11. The 7.1 eyes/eye/tongue/mouth are bold dark blob shapes, unlike the light-outlined later ones. That is fine next to blob faces but differs from the bordered fallbacks."
+}

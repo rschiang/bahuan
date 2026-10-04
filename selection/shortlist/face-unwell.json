@@ -1,0 +1,92 @@
+{
+  "subgroup": "face-unwell",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "vector blob faces, soft blob shading, no outline, legible at 20px"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same blob designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "flat round; half the subgroup is newer than the blobs"
+    },
+    {
+      "era": "android-12",
+      "score": 1,
+      "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f92e",
+      "era": "latest",
+      "reason": "face vomiting (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f975",
+      "era": "latest",
+      "reason": "hot face (E11.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f976",
+      "era": "latest",
+      "reason": "cold face (E11.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f974",
+      "era": "latest",
+      "reason": "woozy face (E11.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f635_200d_1f4ab",
+      "era": "latest",
+      "reason": "face with spiral eyes (E13.1): no blob; android-12 is bordered android-11 art, latest is flat"
+    },
+    {
+      "key": "1f92f",
+      "era": "latest",
+      "reason": "exploding head (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+    }
+  ],
+  "no_acceptable_era": [],
+  "round_fallbacks": [
+    {
+      "key": "1f92e",
+      "name": "face vomiting"
+    },
+    {
+      "key": "1f975",
+      "name": "hot face"
+    },
+    {
+      "key": "1f976",
+      "name": "cold face"
+    },
+    {
+      "key": "1f974",
+      "name": "woozy face"
+    },
+    {
+      "key": "1f635_200d_1f4ab",
+      "name": "face with spiral eyes"
+    },
+    {
+      "key": "1f92f",
+      "name": "exploding head"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Blob 7.1 for mask, thermometer, bandage, nauseated, sneezing, dizzy. Six newer faces need latest overrides (1f92e, 1f975, 1f976, 1f974, 1f635_200d_1f4ab, 1f92f; android-12 =11 for all). Semantic risk: blob 1f635 shows spiral eyes (old 'dizzy face' reading) while Unicode now names it 'face with crossed-out eyes' and 1f635_200d_1f4ab 'face with spiral eyes' will render as a round spiral-eyed face, so the two look alike. Owner to decide: keep blob 1f635 (nostalgia) or redraw an X-eyed blob. 1f974 woozy and 1f975/1f976 are popular; blob redraw candidates. 1f637 android-12 is a 2020 retouch, still bordered look. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+}

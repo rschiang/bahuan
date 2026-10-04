@@ -1,0 +1,34 @@
+{
+  "subgroup": "flag",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat flags on teal poles; rainbow flag is the 7.1 waveflag style matching country flags"
+    },
+    {
+      "era": "android-12",
+      "score": 5,
+      "rationale": "waved flags with dark edge and shading, =11 for ZWJ flags"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "same as android-12"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [
+    {
+      "key": "1f3f3_200d_26a7",
+      "reason": "only android-11-era waved flag with dark edge/shading (=11); regenerate flat with waveflag to match 7.1 country flags"
+    },
+    {
+      "key": "1f3f4_200d_2620",
+      "reason": "only android-11-era waved flag with dark edge/shading (=11); regenerate flat with waveflag to match 7.1 country flags"
+    }
+  ],
+  "confidence": "high",
+  "notes": "7.1 rainbow flag (E4) already has the soft-edged 7.1 waveflag look and will sit right with the generated country flags. Transgender and pirate flags fall back to =11 designs with a darker border; both are simple flat patterns that can go through the same waveflag pipeline as country flags."
+}

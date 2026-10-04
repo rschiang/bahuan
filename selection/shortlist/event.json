@@ -1,0 +1,35 @@
+{
+  "subgroup": "event",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 9,
+      "rationale": "flat blob-era festive art, no outlines, full E0.6-0.7 coverage"
+    },
+    {
+      "era": "android-7.0",
+      "score": 8,
+      "rationale": "same designs as 7.1 but PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 7,
+      "rationale": "same designs, PNG only, no advantage"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat-ish but fireworks/sparkler are dark squares; several =11 bordered holdovers (sparkles, balloon, party popper, confetti, moon viewing)"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "same as android-12 apart from small redraws"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Only firecracker (1f9e8) and red envelope (1f9e7) fall back to android-12; both are genuine 2021 redraws, flat red, sit fine next to 7.1. 7.1 avoids the =11 holdovers that android-12 would have brought in."
+}

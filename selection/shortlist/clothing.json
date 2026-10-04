@@ -1,0 +1,41 @@
+{
+  "subgroup": "clothing",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob-era clothing, no outlines, legible"
+    },
+    {
+      "era": "android-12",
+      "score": 6,
+      "rationale": "flat refresh with full coverage, but jeans/lipstick/gem have gradients and thong sandal is =11"
+    },
+    {
+      "era": "latest",
+      "score": 6,
+      "rationale": "as android-12; redraws thong sandal and coat, adds fan and hair pick"
+    },
+    {
+      "era": "android-7.0",
+      "score": 6,
+      "rationale": "same art as 7.1, PNG only"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 4,
+      "rationale": "outline-only t-shirt, ring, gem; PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1fa74",
+      "era": "latest",
+      "reason": "android-12 thong sandal is =11 (bordered); latest has a real flat redraw"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "About 18 of 49 fall back (goggles, lab coat, safety vest, scarf, gloves, coat, socks, sari, swimsuit, briefs, shorts, thong sandal, hiking boot, flat shoe, ballet shoes, folding fan, hair pick, billed cap, military helmet). That is a lot of android-12 mixed in; android-12 clothing is mostly flat so the mix should hold, but the owner should check a rendered line of mixed clothing. Coat falls back to android-12 navy peacoat (latest is a trench coat)."
+}

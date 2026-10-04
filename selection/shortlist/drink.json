@@ -1,0 +1,31 @@
+{
+  "subgroup": "drink",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "flat refresh, complete, consistent with food"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "same plus pouring liquid; teapot redrawn"
+    },
+    {
+      "era": "android-7.1",
+      "score": 5,
+      "rationale": "teal-stroked glassware (sake, cocktail, beer) reads as outlined; covers 14/20"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [
+    {
+      "key": "1fad6",
+      "era": "latest",
+      "reason": "android-12 teapot is the =11 file; latest has a redrawn version"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Pouring liquid 1fad7 resolves to latest. The android-12 teapot is =11 but flat anyway, so the override is low stakes."
+}

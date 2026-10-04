@@ -1,0 +1,25 @@
+{
+  "subgroup": "hotel",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat bellhop bell, matches the rest of the 7.1 objects"
+    },
+    {
+      "era": "android-12",
+      "score": 7,
+      "rationale": "clean, no outlines, slight shading"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same as 7.1, PNG only"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Two-emoji subgroup. 1f9f3 luggage falls back to android-12 (blue suitcase with stickers, fine). Choose 7.1 to match the transport subgroups; android-12 would also be acceptable here."
+}

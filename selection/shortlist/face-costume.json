@@ -1,0 +1,30 @@
+{
+  "subgroup": "face-costume",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "blob-era poo/clown/ghost/alien, flat, matches blob smileys"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same art as 7.1 but PNG only"
+    },
+    {
+      "era": "latest",
+      "score": 5,
+      "rationale": "mostly =11 bordered-era art; only poo/clown redrawn"
+    },
+    {
+      "era": "android-12",
+      "score": 4,
+      "rationale": "nearly all =11"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "high",
+  "notes": "Every emoji here has 7.1 art, so nothing falls back. Matches batch 1 blob faces. 7.1 alien monster is a pink octopus, not a pixel invader; fine but it differs from other vendors."
+}

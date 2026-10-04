@@ -1,0 +1,46 @@
+{
+  "subgroup": "hand-fingers-partial",
+  "ranked": [
+    {
+      "era": "android-7.1",
+      "score": 8,
+      "rationale": "flat yellow hands, matches family"
+    },
+    {
+      "era": "latest",
+      "score": 7,
+      "rationale": "full coverage, 2D style with edge stroke"
+    },
+    {
+      "era": "android-7.0",
+      "score": 7,
+      "rationale": "same art, PNG only"
+    },
+    {
+      "era": "android-12",
+      "score": 3,
+      "rationale": "all =11"
+    }
+  ],
+  "recommended": "android-7.1",
+  "overrides": [
+    {
+      "key": "1f90c",
+      "era": "latest",
+      "reason": "android-12 fallback is the =11 bordered gradient hand"
+    },
+    {
+      "key": "1f90f",
+      "era": "latest",
+      "reason": "android-12 fallback is the =11 bordered gradient hand"
+    },
+    {
+      "key": "1f91f",
+      "era": "latest",
+      "reason": "android-12 fallback is the =11 bordered gradient hand"
+    }
+  ],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Hands family (hand-fingers-open/-partial/-single-finger/-closed, hands, hand-prop) all use android-7.1: flat yellow, no outline, skin tones present, and it matches 7.1 person-gesture/person figures. Emoji 7.1 lacks fall to latest's 2D redraw (flat fills with a thin darker-orange edge stroke), which sits close in palette; where android-12 is only the =11 bordered gradient hand, an override to latest skips it. 1faf0 falls back to latest by itself."
+}

@@ -1,0 +1,25 @@
+{
+  "subgroup": "food-sweet",
+  "ranked": [
+    {
+      "era": "android-12",
+      "score": 8,
+      "rationale": "flat refresh, complete, consistent with other food"
+    },
+    {
+      "era": "latest",
+      "score": 8,
+      "rationale": "same with small redraws (ice cream, shaved ice)"
+    },
+    {
+      "era": "android-7.1",
+      "score": 7,
+      "rationale": "flat blob sweets, covers 12/14; greyish ice cream/cookie, teal dish rims"
+    }
+  ],
+  "recommended": "android-12",
+  "overrides": [],
+  "no_acceptable_era": [],
+  "confidence": "medium",
+  "notes": "Same consistency reasoning as food-asian. 12 candy (1f36c) is a pale wrapped sweet that is a little faint at 20px; acceptable."
+}
