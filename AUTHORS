@@ -1,0 +1,11 @@
+# Bahuan copyright holders.
+#
+# Bahuan is a selection and rebuild of Google's Noto Emoji artwork. The emoji
+# designs belong to Google and the Noto Emoji designers; Bahuan only picks
+# between their published eras and re-packages them.
+
+Google LLC                      # Noto Emoji artwork and build tooling
+                                # https://github.com/googlefonts/noto-emoji
+Behdad Esfahbod                 # region-flags, waveflag
+Arjen Nienhuis                  # SVG cleanup (upstream)
+Poren Chiang <poren@poren.tw>   # waveflag (Android 7.1 flag warp), Bahuan

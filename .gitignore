@@ -1,0 +1,15 @@
+# Fetched upstream assets and their renders
+/sources/cache/
+/sources/*/png/
+/sources/*/svg/
+# Build outputs
+/build/out/
+/build/work/
+/flags/out/
+/flags/waveflag
+/gallery/
+/sheets/
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
