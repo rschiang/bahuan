@@ -6,7 +6,6 @@ picosvg rejects get the automatic fixups in fixups.py; if that's not enough,
 the next vector era in the chain is used and the provenance says so.
 """
 
-import shutil
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
@@ -14,7 +13,7 @@ from .emoji import ROOT
 from .eras import catalog
 from .fixups import apply, picosvg_ok
 from .manifest import Manifest
-from .resolve import Pick, Resolver, has
+from .resolve import Pick, Resolver
 
 ART = ROOT / "art"
 FIXES = ART / "fixes"
@@ -30,6 +29,11 @@ def _prepare(job: tuple[str, str, str]) -> tuple[str, str, list[str], str | None
     return key, era, fixes, picosvg_ok(text)
 
 
+def _write(path: Path, data: bytes) -> None:
+    if not path.exists() or path.read_bytes() != data:
+        path.write_bytes(data)
+
+
 def svg_source(key: str, era: str) -> Path:
     if catalog()[era].generator == "flags":
         return FLAGS_OUT / f"emoji_u{key}.svg"
@@ -40,15 +44,19 @@ def vector_candidates(r: Resolver, pick: Pick) -> list[str]:
     """Vector eras to try for a pick, best first."""
     first = pick.vector or pick.era
     rest = [e for e, _ in r.chain(r.keys[pick.key]) if e != first]
-    return [e for e in [first, *rest] if e and catalog()[e].vector and has(e, pick.key)]
+    return [e for e in [first, *rest] if e and has_svg(e, pick.key)]
+
+
+def has_svg(era: str, key: str) -> bool:
+    e = catalog()[era].index().get(key)
+    return bool(e) and catalog()[era].vector and e["format"] == "svg"
 
 
 def materialize(manifest: Manifest | None = None, jobs: int = 4, log=print) -> dict[str, list[str]]:
     r = Resolver(manifest or Manifest.load())
     picks = r.resolve_all()
     for sub in ("svg", "png"):
-        shutil.rmtree(ART / sub, ignore_errors=True)
-        (ART / sub).mkdir(parents=True)
+        (ART / sub).mkdir(parents=True, exist_ok=True)
 
     # First pass: try each pick's preferred vector era.
     todo = {k: vector_candidates(r, p) for k, p in picks.items()}
@@ -85,24 +93,32 @@ def materialize(manifest: Manifest | None = None, jobs: int = 4, log=print) -> d
         if key in chosen:
             era, fixes = chosen[key]
             if era == "fixes":
-                shutil.copyfile(FIXES / dst.name, dst)
+                _write(dst, (FIXES / dst.name).read_bytes())
                 rows.append([key, pick.era or "", "", f"art/fixes/{dst.name}", "", "hand-fixed"])
             else:
                 src = svg_source(key, era)
                 text = src.read_text(encoding="utf-8")
                 if fixes and fixes != ["waveflag"]:
                     text, _ = apply(text)
-                dst.write_text(text, encoding="utf-8")
+                _write(dst, text.encode("utf-8"))
                 e = catalog()[era].index()[key]
                 if era != pick.era:
                     fixes = [*fixes, f"vector-from:{era}"]
                 rows.append([key, pick.era or "", catalog()[era].commit, e["path"], e["sha"], ",".join(fixes)])
         if pick.era and not catalog()[pick.era].vector:
             # Raster-only pick: keep the upstream PNG for the bitmap builds.
-            shutil.copyfile(catalog()[pick.era].master(key), ART / "png" / f"emoji_u{key}.png")
+            _write(ART / "png" / f"emoji_u{key}.png", catalog()[pick.era].master(key).read_bytes())
             e = catalog()[pick.era].index()[key]
             rows.append([key, pick.era, catalog()[pick.era].commit, e["path"], e["sha"], "png"])
 
+    # Drop art no longer picked; unchanged files keep their mtime for ninja.
+    keep = {f"emoji_u{k}.svg" for k in chosen} | {
+        f"emoji_u{k}.png" for k, p in picks.items() if p.era and not catalog()[p.era].vector
+    }
+    for sub in ("svg", "png"):
+        for f in (ART / sub).iterdir():
+            if f.name not in keep:
+                f.unlink()
     PROVENANCE.write_text(
         "\t".join(COLUMNS) + "\n" + "".join("\t".join(r) + "\n" for r in rows), encoding="utf-8"
     )

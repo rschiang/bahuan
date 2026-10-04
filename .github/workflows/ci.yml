@@ -1,0 +1,124 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install system packages
+        run: sudo apt-get update && sudo apt-get install -y libcairo2-dev pkg-config
+
+      - name: Install Python packages
+        run: uv sync --locked
+
+      - name: Lint selection
+        run: uv run steamer lint
+
+      - name: resolved.tsv is up to date
+        run: uv run steamer resolve --check
+
+      - name: Unit tests
+        run: uv run pytest -q tests/test_resolve.py
+
+      - name: Cache upstream art
+        uses: actions/cache@v4
+        with:
+          path: sources/cache
+          key: noto-emoji-${{ hashFiles('sources/eras.toml') }}
+
+      - name: Fetch eras
+        run: |
+          uv run steamer fetch
+          touch sources/cache/.fetched
+
+      - name: Wave flags
+        run: make flags
+
+      - name: Waveflag golden test
+        run: |
+          make flags/waveflag
+          uv run pytest -q tests/test_waveflag.py
+
+      - name: Build fonts
+        run: make fonts web VERSION=${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || '0.1' }}
+
+      - name: Coverage against emoji-test.txt
+        run: make coverage
+
+      - name: Fontbakery
+        run: make qa
+
+      - name: Render check
+        run: |
+          uv run playwright install --with-deps chromium firefox
+          uv run python tests/render/render.py build/out build/out/render
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fonts
+          path: |
+            build/out/*.ttf
+            build/out/*.otf
+            build/out/*.woff2
+            build/out/bahuan.css
+            build/out/fontbakery.html
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: render
+          path: build/out/render/
+
+      - name: Build gallery
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: make gallery
+
+      - uses: actions/upload-pages-artifact@v3
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          path: gallery
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: fonts
+          path: fonts
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" fonts/* \
+            --repo "${{ github.repository }}" --title "Bahuan ${{ github.ref_name }}" --generate-notes
+
+  pages:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

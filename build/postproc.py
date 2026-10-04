@@ -1,136 +1,69 @@
 """
-Post-nanoemoji processing of the Bahuan COLRv1 files.
+Post-nanoemoji processing of the Bahuan fonts.
 
-Adds additional sequences to properly support Safari, corrects 'name', etc.
-
-For now substantially based on copying from a correct bitmap build.
+Adapted from noto-emoji's colrv1_postproc.py. Upstream copies names and
+vertical metrics from its CBDT build; Bahuan builds every format with
+nanoemoji, so each font gets the same treatment directly: names, the emoji
+variation-selector cmap, blank tag glyphs for subdivision flags, vertical
+metrics, no embedding restrictions and a consistent version.
 """
-from absl import app
+
+import argparse
+import datetime
 import functools
-from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
+import subprocess
+import sys
+from pathlib import Path
+
 from fontTools import ttLib
 from fontTools.ttLib.tables import _g_l_y_f as glyf
-from fontTools.ttLib.tables import otTables as ot
-import map_pua_emoji
-from nototools import add_vs_cmap
-from nototools import font_data
-from nototools import unicode_data
-from pathlib import Path
-import re
+from fontTools.ttLib.tables._c_m_a_p import CmapSubtable
 
-from add_soft_light_to_flags import add_soft_light_to_flags
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 
+from steamer.emoji import entries  # noqa: E402
 
-_CBDT_FILE = Path("out/Bahuan-CBDT.ttf")
-_COLR_FILES = {
-    Path("out/Bahuan-COLRv1-noflags.ttf"),
-    Path("out/Bahuan-COLRv1.ttf"),
+_FAMILY = "Bahuan"
+_URL = "https://github.com/rschiang/bahuan"
+_COPYRIGHT = "Copyright 2013-2026 Google LLC. Selection copyright 2026 the Bahuan authors."
+_DESIGNER = "Google Noto Emoji designers (art); Bahuan authors (selection)"
+_LICENSE = (
+    "This Font Software is licensed under the SIL Open Font License, Version 1.1. "
+    "This license is available with a FAQ at: https://openfontlicense.org"
+)
+_FORMATS = {
+    "COLRv1": "Color emoji font using COLRv1.",
+    "CBDT": "Color emoji font using CBDT bitmaps.",
+    "sbix": "Color emoji font using sbix bitmaps, for macOS and iOS.",
+    "SVG": "Color emoji font using OpenType-SVG.",
 }
-
-
-def _is_colrv1(font):
-    return "COLR" in font and font["COLR"].version == 1
-
-
-def _is_cbdt(font):
-    return "CBDT" in font
-
-
-def _set_name(name_table, nameID):
-    name_table.getName(value, nameID, 3, 1, 0x409)
 
 
 def _set_name(name_table, nameID, value):
     name_table.setName(value, nameID, 3, 1, 0x409)
 
 
-def _copy_names(colr_font, cbdt_font):
-    colr_font["name"] = cbdt_font["name"]
-    name_table = colr_font["name"]
-    assert all(
-        (n.platformID, n.platEncID, n.langID) == (3, 1, 0x409) for n in name_table.names
-    ), "Should only have names Android uses"
-
-    # Amendments
-    _set_name(name_table, 10, "Color emoji font using COLRv1.")
-    _set_name(name_table, 11, "https://github.com/rschiang/bahuan")
-    _set_name(name_table, 12, "https://github.com/rschiang/bahuan")
-
-
-# CBDT build step: @$(VS_ADDER) -vs 2640 2642 2695 --dstdir '.' -o "$@-with-pua-varsel" "$@-with-pua"
-def _add_vs_cmap(colr_font):
-    emoji_variants = unicode_data.get_unicode_emoji_variants() | {
-        0x2640,
-        0x2642,
-        0x2695,
-    }
-    add_vs_cmap.modify_font("COLRv1 Emoji", colr_font, "emoji", emoji_variants)
-
-
-def _is_variation_selector_cmap_table(table):
-    assert table.format in {4, 12, 14}
-    return table.format == 14
-
-
-def _lookup_in_cmap(colr_font, codepoint):
-    result = set()
-    for table in colr_font["cmap"].tables:
-        if _is_variation_selector_cmap_table(table):
-            continue
-        assert codepoint in table.cmap
-        result.add(table.cmap[codepoint])
-    assert len(result) == 1, f"Ambiguous mapping for {codepoint}: {result}"
-    return next(iter(result))
-
-
-def _add_cmap_entries(colr_font, codepoint, glyph_name):
-    for table in colr_font["cmap"].tables:
-        if _is_variation_selector_cmap_table(table):
-            continue
-        if not _is_bmp(codepoint) and table.format == 4:
-            continue
-        table.cmap[codepoint] = glyph_name
-        #print(f"Map 0x{codepoint:04x} to {glyph_name}, format {table.format}")
-
-
-FLAG_TAGS = set(range(0xE0030, 0xE0039 + 1)) | set(range(0xE0061, 0xE007A + 1))
-CANCEL_TAG = 0xE007F
-
-
-def _map_missing_flag_tag_chars_to_empty_glyphs(colr_font):
-    # Add all tag characters used in flags + cancel tag
-    tag_cps = FLAG_TAGS | {CANCEL_TAG}
-
-    # Anything already cmap'd is fine
-    tag_cps -= set(_Cmap(colr_font).keys())
-
-    # CBDT maps these to blank glyphs
-    glyf_table = colr_font["glyf"]
-    hmtx_table = colr_font["hmtx"]
-    glyph_order_size = len(glyf_table.glyphOrder)
-    for cp in tag_cps:
-        #print(f"Map 0x{cp:04x} to a blank glyf")
-        glyph_name = f"u{cp:04X}"
-        assert glyph_name not in glyf_table, f"{glyph_name} already in glyf"
-        assert glyph_name not in hmtx_table.metrics, f"{glyph_name} already in hmtx"
-        glyf_table[glyph_name] = glyf.Glyph()
-        hmtx_table[glyph_name] = (0, 0)
-
-        _add_cmap_entries(colr_font, cp, glyph_name)
-
-
-def _is_bmp(cp):
-    return cp in range(0x0000, 0xFFFF + 1)
-
-
-def _ligaset_for_glyph(lookup_list, glyph_name):
-    for lookup in lookup_list.Lookup:
-        if lookup.LookupType != 4:
-            continue
-        for liga_set in lookup.SubTable:
-            if glyph_name in liga_set.ligatures:
-                return liga_set.ligatures[glyph_name]
-    return None
+def _set_names(font, fmt, version, stamp):
+    name_table = font["name"]
+    name_table.names = [n for n in name_table.names if n.nameID > 255]
+    ps = f"{_FAMILY}-{fmt}"
+    for nameID, value in {
+        0: _COPYRIGHT,
+        1: _FAMILY,
+        2: "Regular",
+        3: f"{version:.3f};BAHN;{ps}",
+        4: _FAMILY,
+        5: f"Version {version:.3f};bahuan:{stamp}",
+        6: ps,
+        9: _DESIGNER,
+        10: _FORMATS[fmt],
+        11: _URL,
+        12: "https://github.com/googlefonts/noto-emoji",
+        13: _LICENSE,
+        14: "https://openfontlicense.org",
+    }.items():
+        _set_name(name_table, nameID, value)
 
 
 def _Cmap(ttfont):
@@ -142,204 +75,108 @@ def _Cmap(ttfont):
     return functools.reduce(_Reducer, unicode_cmaps, {})
 
 
-def _add_vertical_layout_tables(cbdt_font, colr_font):
-    upem_scale = colr_font["head"].unitsPerEm / cbdt_font["head"].unitsPerEm
+# Upstream: add_vs_cmap from nototools. Here the emoji-presentation pairs come
+# straight from the pinned emoji-test.txt.
+def _add_vs_cmap(font):
+    cmap = _Cmap(font)
+    pairs = sorted(
+        {e.cps[0] for e in entries() if len(e.cps) >= 2 and e.cps[1] == 0xFE0F and e.cps[0] in cmap}
+    )
+    font["cmap"].tables = [t for t in font["cmap"].tables if t.format != 14]
+    vs = CmapSubtable.newSubtable(14)
+    vs.platformID, vs.platEncID, vs.language = 0, 5, 0xFF
+    vs.cmap = {}
+    vs.uvsDict = {0xFE0F: [(cp, None) for cp in pairs]}
+    font["cmap"].tables.append(vs)
 
-    vhea = colr_font["vhea"] = ttLib.newTable("vhea")
+
+FLAG_TAGS = set(range(0xE0030, 0xE0039 + 1)) | set(range(0xE0061, 0xE007A + 1))
+CANCEL_TAG = 0xE007F
+
+
+def _add_cmap_entries(font, codepoint, glyph_name):
+    for table in font["cmap"].tables:
+        if table.format == 14:
+            continue
+        if codepoint > 0xFFFF and table.format == 4:
+            continue
+        table.cmap[codepoint] = glyph_name
+
+
+def _map_missing_flag_tag_chars_to_empty_glyphs(font):
+    # Add all tag characters used in flags + cancel tag
+    tag_cps = (FLAG_TAGS | {CANCEL_TAG}) - set(_Cmap(font).keys())
+    glyph_order = font.getGlyphOrder()
+    for cp in sorted(tag_cps):
+        glyph_name = f"u{cp:04X}"
+        assert glyph_name not in glyph_order, f"{glyph_name} already in font"
+        glyph_order.append(glyph_name)
+        if "glyf" in font:
+            font["glyf"][glyph_name] = glyf.Glyph()
+        font["hmtx"][glyph_name] = (0, 0)
+        _add_cmap_entries(font, cp, glyph_name)
+    font.setGlyphOrder(glyph_order)
+
+
+def _add_vertical_layout_tables(font):
+    # Upstream scales these from the CBDT font; here each font is monospaced
+    # on its own, so the vertical advance is its line height.
+    hhea = font["hhea"]
+    height = hhea.ascent - hhea.descent
+    vhea = font["vhea"] = ttLib.newTable("vhea")
     vhea.tableVersion = 0x00010000
-    vhea.ascent = round(cbdt_font["vhea"].ascent * upem_scale)
-    vhea.descent = round(cbdt_font["vhea"].descent * upem_scale)
+    vhea.ascent = height // 2
+    vhea.descent = -(height - height // 2)
     vhea.lineGap = 0
-    # most of the stuff below is recalculated by the compiler, but still needs to be
-    # initialized... ¯\_(ツ)_/¯
-    vhea.advanceHeightMax = 0
-    vhea.minTopSideBearing = 0
-    vhea.minBottomSideBearing = 0
-    vhea.yMaxExtent = 0
-    vhea.caretSlopeRise = 0
-    vhea.caretSlopeRun = 0
-    vhea.caretOffset = 0
-    vhea.reserved0 = 0
-    vhea.reserved1 = 0
-    vhea.reserved2 = 0
-    vhea.reserved3 = 0
-    vhea.reserved4 = 0
-    vhea.metricDataFormat = 0
-    vhea.numberOfVMetrics = 0
-
-    # emoji font is monospaced -- except for an odd uni0000 (NULL) glyph which happens
-    # to have height=0; but colrv1 font doesn't have that anyway, so I just skip it
-    cbdt_heights = set(h for h, _ in cbdt_font["vmtx"].metrics.values() if h != 0)
-    assert len(cbdt_heights) == 1, "Bahuan CBDT font should be monospaced!"
-    height = round(cbdt_heights.pop() * upem_scale)
-    vmtx = colr_font["vmtx"] = ttLib.newTable("vmtx")
-    vmtx.metrics = {}
-    for gn in colr_font.getGlyphOrder():
-        vmtx.metrics[gn] = height, 0
+    for attr in (
+        "advanceHeightMax", "minTopSideBearing", "minBottomSideBearing", "yMaxExtent",
+        "caretSlopeRise", "caretSlopeRun", "caretOffset", "reserved0", "reserved1",
+        "reserved2", "reserved3", "reserved4", "metricDataFormat", "numberOfVMetrics",
+    ):
+        setattr(vhea, attr, 0)
+    vmtx = font["vmtx"] = ttLib.newTable("vmtx")
+    vmtx.metrics = {gn: (height, 0) for gn in font.getGlyphOrder()}
 
 
-UNKNOWN_FLAG_PUA = 0xFE82B
-BLACK_FLAG = 0x1F3F4
-REGIONAL_INDICATORS = set(range(0x1F1E6, 0x1F1FF + 1))
+def _set_no_font_embedding_restrictions(font):
+    font["OS/2"].fsType = 0
 
 
-def _add_fallback_subs_for_unknown_flags(colr_font):
-    """Add GSUB lookups to replace unsupported flag sequences with the 'unknown flag'.
-
-    In order to locate the unknown flag, the glyph must be mapped to 0xFE82B PUA code;
-    the latter is removed from the cmap table after the GSUB has been updated.
-    """
-    cmap = _Cmap(colr_font)
-    unknown_flag = cmap[UNKNOWN_FLAG_PUA]
-    black_flag = cmap[BLACK_FLAG]
-    cancel_tag = cmap[CANCEL_TAG]
-    flag_tags = sorted(cmap[cp] for cp in FLAG_TAGS)
-    # in the *-noflags.ttf font there are no region flags thus this list is empty
-    regional_indicators = sorted(cmap[cp] for cp in REGIONAL_INDICATORS if cp in cmap)
-
-    classes = f'@FLAG_TAGS = [{" ".join(flag_tags)}];\n'
-    if regional_indicators:
-        classes += f"""
-            @REGIONAL_INDICATORS = [{" ".join(regional_indicators)}];
-            @UNKNOWN_FLAG = [{" ".join([unknown_flag] * len(regional_indicators))}];
-        """
-    lookups = (
-        # the first lookup is a dummy that stands for the emoji sequences ligatures
-        # from the destination font; we only use it to ensure the lookup indices match.
-        # We can't leave it empty otherwise feaLib optimizes it away.
-        f"""
-        lookup placeholder {{
-            sub {unknown_flag} {unknown_flag} by {unknown_flag};
-        }} placeholder;
-        """
-        + "\n".join(
-            ["lookup delete_glyph {"]
-            + [f"    sub {g} by NULL;" for g in sorted(regional_indicators + flag_tags)]
-            + ["} delete_glyph;"]
-        )
-        + (
-            """
-            lookup replace_with_unknown_flag {
-                sub @REGIONAL_INDICATORS by @UNKNOWN_FLAG;
-            } replace_with_unknown_flag;
-            """
-            if regional_indicators
-            else "\n"
-        )
-    )
-    features = (
-        "languagesystem DFLT dflt;\n"
-        + classes
-        + lookups
-        + "feature ccmp {"
-        + f"""
-            lookup placeholder;
-            sub {black_flag} @FLAG_TAGS' lookup delete_glyph;
-            sub {black_flag} {cancel_tag} by {unknown_flag};
-        """
-        + (
-            """
-            sub @REGIONAL_INDICATORS' lookup replace_with_unknown_flag
-                @REGIONAL_INDICATORS' lookup delete_glyph;
-            """
-            if regional_indicators
-            else ""
-        )
-        + "} ccmp;"
-    )
-    # feaLib always builds a new GSUB table (can't update one in place) so we have to
-    # use an empty TTFont and then update our GSUB with the newly built lookups
-    temp_font = ttLib.TTFont()
-    temp_font.setGlyphOrder(colr_font.getGlyphOrder())
-
-    addOpenTypeFeaturesFromString(temp_font, features)
-
-    temp_gsub = temp_font["GSUB"].table
-    # sanity check
-    assert len(temp_gsub.FeatureList.FeatureRecord) == 1
-    assert temp_gsub.FeatureList.FeatureRecord[0].FeatureTag == "ccmp"
-    temp_ccmp = temp_gsub.FeatureList.FeatureRecord[0].Feature
-
-    colr_gsub = colr_font["GSUB"].table
-    ccmps = [
-        r.Feature for r in colr_gsub.FeatureList.FeatureRecord if r.FeatureTag == "ccmp"
-    ]
-    assert len(ccmps) == 1, f"expected only 1 'ccmp' feature record, found {len(ccmps)}"
-    colr_ccmp = ccmps[0]
-
-    colr_lookups = colr_gsub.LookupList.Lookup
-    assert (
-        len(colr_lookups) == 1
-    ), f"expected only 1 lookup in COLRv1's GSUB.LookupList, found {len(colr_lookups)}"
-    assert (
-        colr_lookups[0].LookupType == 4
-    ), f"expected Lookup[0] of type 4 in COLRv1, found {colr_lookups[0].LookupType}"
-
-    colr_lookups.extend(temp_gsub.LookupList.Lookup[1:])
-    colr_gsub.LookupList.LookupCount = len(colr_lookups)
-    colr_ccmp.LookupListIndex = temp_ccmp.LookupListIndex
-    colr_ccmp.LookupCount = len(colr_ccmp.LookupListIndex)
-
-    # get rid of the Unknown Flag private codepoint as no longer needed
-    font_data.delete_from_cmap(colr_font, [UNKNOWN_FLAG_PUA])
+def stamp() -> str:
+    date = datetime.date.today().strftime("%Y%m%d")
+    try:
+        sha = subprocess.run(
+            ["git", "rev-parse", "--short=12", "HEAD"], capture_output=True, text=True, check=True, cwd=ROOT
+        ).stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        sha = "unknown"
+    return f"{date}:{sha}"
 
 
-def _set_no_font_embedding_restrictions(colr_font):
-    # The CBDT/CBLC NotoColorEmoji has OS/2.fsType = 0 (i.e. no embedding restrictions)
-    # so the COLRv1 variant must also have no such restrictions.
-    # https://github.com/notofonts/noto-fonts/issues/2408
-    # https://github.com/google/fonts/issues/5729
-    colr_font["OS/2"].fsType = 0
-
-
-def _set_head_version_to_name_version(colr_font):
-    # head.fontRevision and the version on name 5 should match
-    name_version = colr_font['name'].getName(5, 3, 1, 0x409)
-    assert name_version is not None, "No version found in 'name'"
-    name_version = name_version.toUnicode()
-    match = re.match(r'^Version (\d+[.]\d+);GOOG;', name_version)
-    assert match is not None, f"Unable to parse version from '{name_version}'"
-    colr_font["head"].fontRevision = float(match.group(1))
-
-
-def _font(path, check_fn, check_fail_str):
-    assert path.is_file(), path
+def process(path: Path, out: Path, version: float, stamp_: str):
+    fmt = path.stem.split("-", 1)[1]
     font = ttLib.TTFont(path)
-    if not check_fn(font):
-        raise ValueError(path + check_fail_str)
-    return font
+    _set_names(font, fmt, version, stamp_)
+    _add_vs_cmap(font)
+    _map_missing_flag_tag_chars_to_empty_glyphs(font)
+    _add_vertical_layout_tables(font)
+    _set_no_font_embedding_restrictions(font)
+    font["head"].fontRevision = version
+    out.parent.mkdir(parents=True, exist_ok=True)
+    font.save(out)
+    print(f"wrote {out}")
 
 
-def main(_):
-    cbdt_font = _font(_CBDT_FILE, _is_cbdt, " must be a CBDT font")
-
-    for colr_file in _COLR_FILES:
-        colr_font = _font(colr_file, _is_colrv1, " must be a COLRv1 font")
-
-        print(f"Updating {colr_file} from {_CBDT_FILE}")
-
-        _copy_names(colr_font, cbdt_font)
-
-        # CBDT build step: @$(PYTHON) $(PUA_ADDER) "$@" "$@-with-pua"
-        map_pua_emoji.add_pua_cmap_to_font(colr_font)
-
-        _add_vs_cmap(colr_font)
-
-        _map_missing_flag_tag_chars_to_empty_glyphs(colr_font)
-
-        add_soft_light_to_flags(colr_font)
-
-        _add_vertical_layout_tables(cbdt_font, colr_font)
-
-        _add_fallback_subs_for_unknown_flags(colr_font)
-
-        _set_no_font_embedding_restrictions(colr_font)
-
-        _set_head_version_to_name_version(colr_font)
-
-        print("Writing", colr_file)
-        colr_font.save(colr_file)
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__.strip().split("\n")[0])
+    ap.add_argument("fonts", nargs="+", type=Path, help="nanoemoji outputs")
+    ap.add_argument("-o", "--out-dir", type=Path, default=ROOT / "build" / "out")
+    ap.add_argument("--version", type=float, default=0.1)
+    a = ap.parse_args(argv)
+    s = stamp()
+    for f in a.fonts:
+        process(f, a.out_dir / f.name, a.version, s)
 
 
 if __name__ == "__main__":
-    app.run(main)
+    main()

@@ -55,3 +55,135 @@ to keys (`1f469_200d_1f52c`, FE0F dropped), applies that era's
 "Emoji" counts fully-qualified Emoji 18.0 entries the era covers. Picks from
 the PNG-only eras can feed CBDT and sbix only; vector formats need a vector
 era behind them (see `steamer report`).
+
+## Selection
+
+`selection/selection.toml` picks an era per Unicode subgroup, with a few
+single-emoji overrides. `steamer resolve` applies it to every fully-qualified
+entry of `sources/emoji-test.txt` and writes `selection/resolved.tsv`
+(committed, so selection changes show up as diffs).
+
+- Order: override → subgroup → `fallback` (`android-12`, then `latest`) →
+  `avoid` (`android-8.0`, `android-11`). A subgroup value may be a list,
+  tried in order before the fallback.
+- **Family rule.** Skin-tone and gender variants follow their base's era when
+  that era has the whole family. Otherwise the family moves down the chain
+  together. Overriding a base covers its variants.
+- **Unchanged bordered art is skipped.** The 2021 refresh left many files
+  byte-identical to the bordered `android-11` ones. During the fallback, such
+  a file is skipped when a later fallback era has newer art. Where the 2020
+  art is fine but `latest` is worse (people, animals, family keycap tiles),
+  the subgroup pins `["android-7.1", "android-12"]`.
+- Picks from PNG-only eras still need a vector master for COLRv1 and SVG;
+  `resolved.tsv` names the vector era behind them. The current draft has
+  none.
+
+### How the draft was made
+
+`steamer sheets` drew one contact sheet per subgroup (eras as columns). Ten
+subagents scored the eras for about ten related subgroups each, against this
+rubric: blob or flat; no outline or border; flat fills, except blob shading;
+consistent within and across neighboring subgroups; legible at 20px; a
+vector master exists. Their shortlists are in `selection/shortlist/`. A
+consolidation pass wrote the manifest and listed open calls in
+`selection/shortlist/REVIEW.md`.
+
+Draft result (3963 emoji): `android-7.1` 1630, `android-12` 1567, `latest`
+504, `waveflag` 262. Seven overrides, 38 redraw items, no avoided eras used.
+
+- Smileys, hands, body parts, people, animals, places, transport, objects and
+  symbols: `android-7.1`.
+- Food, drink, plants, `person-role`, `person-fantasy`, `person-symbol`,
+  `medical`, `household`: `android-12`.
+- Notable overrides: 🔫 `android-12` (7.1 is a revolver), ✅ `android-12`
+  (7.1's tick vanishes at 20px), 🗾 `android-12`, 🦋 `latest` (keeps it
+  apart from the new monarch), 🧐 🫖 🪞 `latest`.
+
+Owner review is pending. The gallery (`steamer gallery`, published as a
+private Claude Artifact) takes clicks per subgroup or emoji; `steamer
+import-gallery choices.json` writes them back with comments kept.
+
+### Emoji newer than the blobs
+
+Emoji 5.0 and later fall back to Google's own newer designs, newest flat
+first. Faces fall back to `latest`'s round flat faces (🥺 🥰 🥳 …): not
+bordered, but the most visible seam, and the first candidates for blob
+redraws.
+
+### Redraw backlog
+
+`[redraw]` in the manifest lists emoji with no acceptable era (38 now):
+hearts and body parts that exist only as bordered gradient art, 🪄 🪆 🪢 🪗
+🪙 🩸 🩺 🪟 🪦, 🏳️‍⚧️ 🏴‍☠️ (should be waved), the four `latest`-only family
+keycap tiles, and the twelve glossy E12 colored shapes. `steamer report`
+also lists art still unchanged since `android-11`. Hand-fixed SVGs go in
+`art/fixes/emoji_u<key>.svg` and win over upstream.
+
+## Art
+
+`steamer materialize` copies each pick's master into `art/svg/` (generated,
+git-ignored) and writes `art/PROVENANCE.tsv`: era, upstream commit, path,
+blob sha and fixups. Old blob SVGs are Illustrator exports. 51 of the 54 that
+picosvg rejects only need their `<style>` classes inlined (`steamer/
+fixups.py`); if a master still fails, the next vector era in its chain is
+used and the provenance says so.
+
+## Flags
+
+`flags/waveflag.py` ports [rschiang/waveflag](https://github.com/rschiang/waveflag)
+(the Android 7.1 look) to vectors. The C tool texture-maps a flag through a
+cairo mesh patch whose corner colors encode (u, v). That makes the warp a
+Coons patch: two cubic edges (the mesh points) and two straight ones. The
+port pushes each region-flags path through the same patch, subdividing and
+refitting segments as cubics from the patch's Jacobian, and clips to the
+same rounded wave outline. The border (luminosity stroke) and the shade
+(soft-light mesh, drawn as 32 bands of constant u+v) follow the C code.
+
+- `flags/out/full/` keeps the blend modes and matches the C output within a
+  median 0.4% mean pixel difference.
+- `flags/out/svg/` is what the fonts use. picosvg and the font formats have
+  no blend modes, so the shade becomes faint plain-alpha bands (median 1.2%).
+  COLRv1 could get the exact soft-light via `PaintComposite`, as upstream's
+  `colrv1_add_soft_light_to_flags.py` does for its flags; not done yet.
+- Golden test: `tests/test_waveflag.py` builds against the C tool
+  (`flags/waveflag.c`, from rschiang/waveflag@71efca4) for every emoji flag.
+- Sources are the current region-flags SVGs vendored in noto-emoji main, so
+  new flags are covered. Wikipedia-style SVGs get their units, `<switch>`
+  and `<foreignObject>` normalized first.
+
+## Build
+
+`make` runs: `steamer resolve` → `waveflag.py` → `steamer materialize` →
+`build/generate_configs.py` (one nanoemoji config per format) → nanoemoji →
+`build/postproc.py` → `build/web.py`.
+
+| Output | nanoemoji format | For |
+|---|---|---|
+| `Bahuan-COLRv1.ttf` | `glyf_colr_1` | Chrome, Edge, Firefox, Windows 11 |
+| `Bahuan-CBDT.ttf` | `cbdt` | Android, Linux/fontconfig |
+| `Bahuan-sbix.ttf` | `sbix` | macOS and iOS |
+| `Bahuan-SVG.ttf` | `picosvg` | Firefox, Safari, Adobe apps (`.ttf`: nanoemoji's OT-SVG needs glyf, not CFF) |
+| `Bahuan-COLRv1*.woff2`, `bahuan.css` | subsets of COLRv1 | web |
+
+Upstream builds CBDT with its legacy PNG pipeline and copies names and
+vertical metrics from it into COLRv1. Here every format comes from
+nanoemoji, so `postproc.py` sets names, the VS16 cmap (from emoji-test.txt
+rather than nototools), blank tag glyphs, vhea/vmtx, `fsType = 0` and the
+version on each font directly. The legacy-Android PUA mapping and upstream's
+unknown-flag fallback are left out.
+
+## QA
+
+CI (`.github/workflows/ci.yml`) runs on every push and pull request: lint
+and `resolve --check`, unit tests, the waveflag golden test, the build,
+`make coverage` (HarfBuzz must shape every fully-qualified emoji-test
+sequence to one glyph, FE0F included), `make qa` (the fontbakery checks that
+apply to emoji fonts), and Playwright screenshots in Chromium and Firefox,
+uploaded as artifacts. A `v*` tag also publishes a GitHub Release with the
+fonts and deploys the gallery to GitHub Pages.
+
+First local build (4 cores, ~30 minutes): all four fonts shape 3963/3963
+sequences, fontbakery has no failures, and Chromium renders blob 😀, flat 🍊
+and a waved 🇹🇼 from the COLRv1, CBDT and sbix builds. Chromium has no
+OpenType-SVG support, so the SVG build is only seen in Firefox (CI). The
+sbix build still needs a manual check in TextEdit and Safari on macOS.

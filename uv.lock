@@ -31,7 +31,6 @@ source = { editable = "." }
 dependencies = [
     { name = "fonttools", extra = ["woff"] },
     { name = "nanoemoji" },
-    { name = "notofonttools" },
     { name = "picosvg" },
     { name = "pillow" },
     { name = "resvg-cli" },
@@ -43,13 +42,13 @@ dev = [
     { name = "fontbakery" },
     { name = "playwright" },
     { name = "pytest" },
+    { name = "uharfbuzz" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "fonttools", extras = ["woff"], specifier = ">=4.59" },
     { name = "nanoemoji", specifier = ">=0.16" },
-    { name = "notofonttools", specifier = ">=0.4" },
     { name = "picosvg", specifier = ">=0.23" },
     { name = "pillow", specifier = ">=11" },
     { name = "resvg-cli", specifier = ">=0.44" },
@@ -61,6 +60,7 @@ dev = [
     { name = "fontbakery", specifier = ">=1.0" },
     { name = "playwright", specifier = ">=1.50" },
     { name = "pytest", specifier = ">=8.4" },
+    { name = "uharfbuzz", specifier = ">=0.40" },
 ]
 
 [[package]]
@@ -991,18 +991,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/79/e7/fb0e828e89ac77ef77183a0834f17c4108e66088732fed86a3cc3c776a7a/ninja-1.13.2-py3-none-win32.whl", hash = "sha256:792cadbb9decfd1f776d4d0a6930feb46d08302eb57c176bcf26b09de5748e9f", size = 270319, upload-time = "2026-08-30T15:49:47.942Z" },
     { url = "https://files.pythonhosted.org/packages/3f/dd/3766b5f4d32e8a9b97d195496b0b01fbbe2e1a41669dab0cd6492a6ce199/ninja-1.13.2-py3-none-win_amd64.whl", hash = "sha256:1293f4078278b70d0ee4b6cc8f3a9e030656c9b2f59909970343c4fe76070118", size = 311798, upload-time = "2026-08-30T15:49:49.351Z" },
     { url = "https://files.pythonhosted.org/packages/b7/8d/59a31fa508070d042571d9d226b541a21000756817313f397da22287ad34/ninja-1.13.2-py3-none-win_arm64.whl", hash = "sha256:1db9852e528efa7702f5123969f86678663e46d57ff28ab13f5fd84d64a85fb1", size = 290620, upload-time = "2026-08-30T15:49:50.639Z" },
-]
-
-[[package]]
-name = "notofonttools"
-version = "0.4.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "fonttools" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/be/53/fd7c2154d64cd834fd40290e756a0601a16a424a6b0718fd8827d2e98392/notofonttools-0.4.1.tar.gz", hash = "sha256:8026153841fde759301ad2ef09ce54e85e629a540cc5da41abeaa7674f1693cb", size = 9908355, upload-time = "2026-08-03T16:26:45.557Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/89/8b/9e26c80370e85eeae7336d65a0945baac8595331bd655343cf74aa64e163/notofonttools-0.4.1-py3-none-any.whl", hash = "sha256:b7ee675d10459a2fb73024b9d47ffb7d5219c98ff7643d047c73822876c304b7", size = 11430988, upload-time = "2026-08-03T16:26:42.74Z" },
 ]
 
 [[package]]

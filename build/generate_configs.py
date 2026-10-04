@@ -12,42 +12,44 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Generate nanoemoji config files for Bahuan
+# Generate nanoemoji config files for Bahuan, one per output format.
+# Adapted from noto-emoji's colrv1_generate_configs.py: sources are the
+# resolved masters in art/svg (flags included), not svg/ + waved-svg/.
 
-from nanoemoji.util import rel
 from pathlib import Path
 
-
 _FAMILY_NAME = "Bahuan"
-_NOTO_SVG_DIR = Path("svg")
-_REGIONAL_INDICATORS = {
-    Path(_NOTO_SVG_DIR / f"emoji_u{i:x}.svg") for i in range(0x1F1E6, 0x1F1FF + 1)
+_ROOT = Path(__file__).resolve().parent.parent
+_ART_SVG_DIR = _ROOT / "art" / "svg"
+_CONFIG_DIR = _ROOT / "build" / "config"
+
+# config name → (output file, nanoemoji color_format, extra settings)
+_OUTPUTS = {
+    "colrv1": ("Bahuan-COLRv1.ttf", "glyf_colr_1", {"clipbox_quantization": 32}),
+    "cbdt": ("Bahuan-CBDT.ttf", "cbdt", {"use_zopflipng": False}),
+    "sbix": ("Bahuan-sbix.ttf", "sbix", {"use_zopflipng": False}),
+    "svg": ("Bahuan-SVG.ttf", "picosvg", {"keep_glyph_names": True}),
 }
-_NOTO_WAVED_FLAG_SVG_DIR = Path("third_party/region-flags/waved-svg")
-_NOTO_SUBDIVISION_FLAGS = (
-    _NOTO_WAVED_FLAG_SVG_DIR / "emoji_u1f3f4_e0067_e0062_e0065_e006e_e0067_e007f.svg",
-    _NOTO_WAVED_FLAG_SVG_DIR / "emoji_u1f3f4_e0067_e0062_e0073_e0063_e0074_e007f.svg",
-    _NOTO_WAVED_FLAG_SVG_DIR / "emoji_u1f3f4_e0067_e0062_e0077_e006c_e0073_e007f.svg",
-)
-_CONFIG_DIR = Path("colrv1")
 
 
-def _write_config(config_name, output_file, svg_files):
-    svg_files = [rel(_CONFIG_DIR, Path(f)) for f in svg_files]
-    config_file = f"{config_name}.toml"
-    for svg_file in svg_files:
-        assert _CONFIG_DIR.joinpath(
-            svg_file
-        ).is_file(), f"{svg_file} not found relative to {_CONFIG_DIR}"
+def _toml_value(v):
+    if isinstance(v, bool):
+        return "true" if v else "false"
+    return repr(v) if isinstance(v, int) else f'"{v}"'
+
+
+def _write_config(config_name, output_file, color_format, extra, svg_files):
+    svg_files = [Path("../../art/svg") / f.name for f in svg_files]
     svg_list = ",\n    ".join(f'"{f}"' for f in sorted(svg_files)).rstrip()
-    with open(_CONFIG_DIR / config_file, "w") as f:
+    extra_lines = "".join(f"{k} = {_toml_value(v)}\n" for k, v in extra.items())
+    _CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+    with open(_CONFIG_DIR / f"{config_name}.toml", "w") as f:
         f.write(
             f"""
 family = "{_FAMILY_NAME}"
 output_file = "{output_file}"
-color_format = "glyf_colr_1"
-clipbox_quantization = 32
-
+color_format = "{color_format}"
+{extra_lines}
 [axis.wght]
 name = "Weight"
 default = 400
@@ -64,35 +66,13 @@ wght = 400
         )
 
 
-def _write_all_noto_configs():
-    # includes all of noto-emoji svgs plus all the waved region flags
-    regular = tuple(_NOTO_SVG_DIR.glob("*.svg"))
-    flags = tuple(_NOTO_WAVED_FLAG_SVG_DIR.glob("*.svg"))
-
-    dups = {p.name for p in regular} & {p.name for p in flags}
-    if dups:
-        raise ValueError(f"Flags *and* regular have {dups}")
-
-    svgs = regular + flags
-    _write_config("all", "Bahuan-COLRv1.ttf", svgs)
-
-
-def _write_noto_noflag_configs():
-    # Does not contain regional indicators and the region flags that are
-    # composed with them. It still includes the England, Scotland and Wales
-    # 'subdivision' flags, as those are not composed with Unicode regional
-    # indicators, but use sequences of Unicode Tag letters prefixed with
-    # the Black Flag and ending with a Cancel Tag.
-    svgs = (
-        tuple(p for p in _NOTO_SVG_DIR.glob("*.svg") if p not in _REGIONAL_INDICATORS)
-        + _NOTO_SUBDIVISION_FLAGS
-    )
-    _write_config("noflags", "Bahuan-COLRv1-noflags.ttf", svgs)
-
-
 def main():
-    _write_all_noto_configs()
-    _write_noto_noflag_configs()
+    svgs = tuple(_ART_SVG_DIR.glob("emoji_u*.svg"))
+    if not svgs:
+        raise SystemExit("art/svg is empty; run `steamer materialize` first")
+    for name, (output, fmt, extra) in _OUTPUTS.items():
+        _write_config(name, output, fmt, extra, svgs)
+    print(f"wrote {len(_OUTPUTS)} configs for {len(svgs)} SVGs to {_CONFIG_DIR}")
 
 
 if __name__ == "__main__":

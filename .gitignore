@@ -13,3 +13,7 @@ __pycache__/
 *.egg-info/
 .venv/
 .pytest_cache/
+/build/config/
+/art/svg/
+/art/png/
+/art/.stamp
