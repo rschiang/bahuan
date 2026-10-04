@@ -1,0 +1,90 @@
+# Era catalog: where each style lives in googlefonts/noto-emoji history.
+#
+# Android versions only name an era; they aren't checked against what Android
+# shipped. `vector = false` means only PNGs exist, so a pick from that era can
+# feed CBDT and sbix only.
+
+upstream = "https://github.com/googlefonts/noto-emoji.git"
+
+[era."android-6.0.1"]
+title = "Android 6.0.1 blobs"
+commit = "343e9ff"            # 2016-03-13, Unicode 8 PNGs (914c9ec) + unknown flag
+emoji = "2.0"
+png = "png/128"
+vector = false                # svg/ still held the 2014 Lollipop drawings
+note = "Classic blobs, before the Nougat people redraw."
+
+[era."android-7.0"]
+title = "Android 7.0 Nougat"
+commit = "a5ff5e0"            # 2016-06-30, Unicode 9 PNGs, last before the 7.1 batch
+emoji = "3.0"
+png = "png/128"
+vector = false
+note = "Human figures with skin tones; faces are still blobs."
+
+[era."android-7.1"]
+title = "Android 7.1 last blobs"
+commit = "e456654"            # 2017-07-17, last commit before the 2017-08 redesign
+tag = "v2017-05-18-cook-color-fix"
+emoji = "4.0"
+png = "png/128"
+svg = "svg"                   # 9da2857/f2a4f72 (2017-05) added SVGs in this design
+vector = true
+aliases = "emoji_aliases.txt"
+note = "Gendered professions; first era with blob SVG masters."
+
+[era."android-8.0"]
+title = "Android 8.0 design refresh"
+commit = "d5ac67b"
+tag = "v2017-09-13-design-refresh"
+emoji = "5.0"
+png = "png/128"
+svg = "svg"
+vector = true
+aliases = "emoji_aliases.txt"
+avoid = true
+note = "Round faces, bordered clip-art. Reference only."
+
+[era."android-11"]
+title = "Android 11 (Unicode 13.1)"
+commit = "aac7cca"
+tag = "v2020-09-16-unicode13_1"
+emoji = "13.1"
+png = "png/128"
+svg = "svg"
+vector = true
+aliases = "emoji_aliases.txt"
+avoid = true
+note = "Last bordered-style snapshot; used to spot designs the 2021 refresh left untouched."
+
+[era."android-12"]
+title = "Android 12 flat refresh"
+commit = "c05b4b4"            # 2021-07-15, design_update merge
+tag = "v2.028"
+emoji = "13.1"
+png = "png/128"
+svg = "svg"
+vector = true
+aliases = "emoji_aliases.txt"
+note = "Flat redraw of part of the set (e.g. 🍊)."
+
+[era."latest"]
+title = "Upstream main"
+commit = "e20cbc2"            # 2026-09-24
+tag = "v2026-09-24-unicode18_0"
+emoji = "18.0"
+png = "2D/png/128"
+svg = "2D/svg"
+waved_flags = "third_party/region-flags/waved-svg"
+vector = true
+aliases = "emoji_aliases.txt"
+note = "Newest designs, Emoji 18.0."
+
+[era."waveflag"]
+title = "Android 7.1 waved flags"
+generator = "flags"           # built by flags/waveflag.py, not fetched
+commit = "e20cbc2"            # region-flags source art, as vendored upstream
+svg = "third_party/region-flags/svg"
+png = "third_party/region-flags/png"
+vector = true
+note = "Current region-flags art warped with the waveflag mesh."
