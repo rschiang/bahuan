@@ -1,0 +1,333 @@
+<title>Bahuan Era Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky subgroup rail on the left, one subgroup at a time on the right:
+   text-size preview first, then the era-by-emoji grid. */
+:root {
+  --bg: #f5f6f3;
+  --surface: #ffffff;
+  --ink: #1d2230;
+  --muted: #646a78;
+  --line: #dfe1db;
+  --accent: #fcc21b;      /* the blob face fill, straight from the 7.1 SVGs */
+  --accent-ink: #3a2c00;
+  --pick: #1d63d8;
+  --warn: #b3361f;
+  --pending: #8a3fd1;
+  --hatch: #eceee8;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --tile: 56px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14161b; --surface: #1c1f26; --ink: #e8e9ec; --muted: #9aa0ad; --line: #2c3039;
+    --accent: #fcc21b; --accent-ink: #2b2100; --pick: #6ea2ff; --warn: #ff7a5c; --pending: #c08bff;
+    --hatch: #23262e; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14161b; --surface: #1c1f26; --ink: #e8e9ec; --muted: #9aa0ad; --line: #2c3039;
+  --accent: #fcc21b; --accent-ink: #2b2100; --pick: #6ea2ff; --warn: #ff7a5c; --pending: #c08bff;
+  --hatch: #23262e; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+.app { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 28px; padding-inline: 20px; padding-block: 20px 48px; max-width: 1500px; margin: 0 auto; }
+header.top { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; }
+h1 { font: 700 30px/1.1 var(--display); margin: 0; letter-spacing: -0.01em; }
+h1 .dot { display: inline-block; width: 0.62em; height: 0.56em; border-radius: 50% 50% 46% 46% / 62% 62% 38% 38%; background: var(--accent); margin-right: 8px; vertical-align: -0.02em; }
+.top p { margin: 0; color: var(--muted); max-width: 70ch; }
+nav.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); align-self: start; max-height: calc(100vh - 24px); overflow-y: auto; padding-right: 6px; }
+nav.rail h3 { font: 600 11px/1 var(--body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 18px 0 6px; }
+nav.rail button { display: flex; width: 100%; justify-content: space-between; align-items: center; gap: 8px; border: 0; background: none; color: var(--ink); font: 14px/1.3 var(--body); padding: 5px 8px; border-radius: 6px; cursor: pointer; text-align: left; }
+nav.rail button:hover { background: var(--hatch); }
+nav.rail button[aria-current="true"] { background: var(--surface); box-shadow: inset 3px 0 0 var(--accent); font-weight: 600; }
+nav.rail .era { font: 11px/1 var(--mono); color: var(--muted); white-space: nowrap; }
+nav.rail .era.has-pending { color: var(--pending); }
+.picker { display: none; }
+main { min-width: 0; display: flex; flex-direction: column; gap: 20px; }
+.head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px; }
+.head h2 { font: 700 26px/1.1 var(--display); margin: 0; text-wrap: balance; }
+.head .meta { color: var(--muted); font-size: 13px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font: 500 12px/1 var(--mono); padding: 5px 8px; border-radius: 999px; background: var(--hatch); color: var(--ink); white-space: nowrap; }
+.chip.accent { background: var(--accent); color: var(--accent-ink); }
+.chip.pending { background: none; box-shadow: inset 0 0 0 1.5px var(--pending); color: var(--pending); }
+.choices { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.choices .label { font-size: 13px; color: var(--muted); margin-right: auto; }
+button.act { font: 500 13px/1 var(--body); padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+button.act.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+button:focus-visible { outline: 2px solid var(--pick); outline-offset: 2px; }
+textarea#export { width: 100%; min-height: 90px; font: 12px/1.4 var(--mono); background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
+section.textsize { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 6px; }
+.textsize h4, .legend h4 { margin: 0 0 4px; font: 600 11px/1 var(--body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.line { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px; align-items: center; }
+.line .who { font: 12px/1.2 var(--mono); color: var(--muted); }
+.line .who.now { color: var(--ink); font-weight: 500; }
+.line p { margin: 0; font-size: 15px; line-height: 24px; overflow-wrap: anywhere; }
+.e20 { display: inline-block; width: 20px; height: 20px; vertical-align: -4px; background-repeat: no-repeat; margin: 0 1px; }
+.e20.fb { opacity: 0.45; }
+.e20.nb { filter: saturate(0.85); }
+.gridwrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+thead th { position: sticky; top: 0; background: var(--surface); z-index: 1; font: 500 12px/1.25 var(--mono); text-align: center; min-width: calc(var(--tile) + 20px); }
+thead th:first-child { text-align: left; min-width: 210px; }
+thead th .tag { display: block; font-size: 10px; color: var(--muted); margin-top: 2px; }
+thead th.avoid { color: var(--warn); }
+thead th button { margin-top: 6px; font: 500 11px/1 var(--body); padding: 5px 7px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; }
+thead th.current button { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+thead th.chosen button { background: none; color: var(--pending); border-color: var(--pending); }
+td.lab { font-size: 13px; }
+td.lab .k { font: 12px/1 var(--mono); color: var(--muted); }
+td.lab .n { display: block; margin: 2px 0; }
+td.lab .why { font: 11px/1 var(--mono); color: var(--muted); }
+td.lab .redraw { color: var(--warn); }
+td.cell { text-align: center; }
+.tile { position: relative; display: inline-block; width: var(--tile); height: var(--tile); border-radius: 10px; background-repeat: no-repeat; border: 0; padding: 0; cursor: pointer; background-color: transparent; }
+.tile.miss { cursor: default; background: repeating-linear-gradient(135deg, var(--hatch) 0 6px, transparent 6px 12px); }
+.tile.pick { box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--pick); }
+.tile.pend { box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--pending); }
+.tile .b11 { position: absolute; right: -4px; bottom: -4px; font: 600 9px/1 var(--mono); color: var(--warn); background: var(--surface); padding: 2px 3px; border-radius: 4px; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 12px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
+.status { font-size: 12px; color: var(--muted); }
+@media (max-width: 860px) {
+  .app { grid-template-columns: minmax(0, 1fr); padding-inline: 16px; }
+  nav.rail { display: none; }
+  .picker { display: block; }
+  .picker select { width: 100%; font: 15px var(--body); padding: 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+  .line { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  :root { --tile: 44px; }
+}
+@media (prefers-reduced-motion: no-preference) { .tile { transition: box-shadow .12s ease; } }
+</style>
+
+<div class="app">
+  <header class="top">
+    <h1><span class="dot" aria-hidden="true"></span>Bahuan era gallery</h1>
+    <p>Each row is an emoji, each column an era of Google's Noto art. Pick an era for the whole subgroup from its column header, or click a tile to override one emoji. Skin-tone variants follow their base.</p>
+  </header>
+
+  <nav class="rail" id="rail" aria-label="Subgroups"></nav>
+
+  <main>
+    <div class="picker"><label for="sgselect" class="status">Subgroup</label> <select id="sgselect"></select></div>
+    <div class="head">
+      <div>
+        <h2 id="sgname">Loading…</h2>
+        <div class="meta" id="sgmeta"></div>
+      </div>
+      <div id="sgchips"></div>
+    </div>
+
+    <div class="choices">
+      <span class="label" id="pendinglabel">No choices yet.</span>
+      <span class="status" id="savestatus"></span>
+      <button class="act" id="clear" type="button">Clear choices</button>
+      <button class="act primary" id="copy" type="button">Copy choices as JSON</button>
+    </div>
+    <textarea id="export" hidden readonly aria-label="Choices JSON"></textarea>
+
+    <section class="textsize" aria-label="Text-size preview">
+      <h4>At text size (20px), with neighboring subgroups</h4>
+      <div id="lines"></div>
+    </section>
+
+    <div class="legend">
+      <span><i class="sw" style="box-shadow:inset 0 0 0 2px var(--pick)"></i>resolved pick</span>
+      <span><i class="sw" style="box-shadow:inset 0 0 0 2px var(--pending)"></i>your choice</span>
+      <span><i class="sw" style="background:repeating-linear-gradient(135deg,var(--hatch) 0 3px,transparent 3px 6px);box-shadow:inset 0 0 0 1px var(--line)"></i>no art in that era</span>
+      <span><b style="color:var(--warn);font:600 10px var(--mono)">=11</b> unchanged since the bordered android-11 art</span>
+    </div>
+
+    <div class="gridwrap"><table id="grid"></table></div>
+  </main>
+</div>
+
+<script>
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const state = { data: null, cur: 0, pending: { subgroup: {}, override: {} }, db: null };
+  const LS = "bahuan-gallery-choices";
+
+  const load = () => { try { return JSON.parse(localStorage.getItem(LS)) || null; } catch { return null; } };
+  const save = () => { try { localStorage.setItem(LS, JSON.stringify(state.pending)); } catch {} };
+
+  function tileStyle(sg, row, col, size) {
+    const chunk = Math.floor(row / sg.chunk), local = row % sg.chunk;
+    const m = Math.min(sg.chunk, sg.rows.length - chunk * sg.chunk);
+    return `background-image:url(${sg.sprites[chunk]});background-size:${sg.eras.length * size}px ${m * size}px;background-position:-${col * size}px -${local * size}px`;
+  }
+
+  // What the resolver would roughly do with the pending choices applied.
+  function preview(sg, r) {
+    const ov = state.pending.override[r.k];
+    const pick = (era) => { const c = sg.eras.indexOf(era); return c >= 0 && r.have[c] ? era : null; };
+    if (ov) { const p = pick(ov); if (p) return p; }
+    const sub = state.pending.subgroup[sg.name];
+    if (sub && !(r.k in state.pending.override && ov)) { const p = pick(sub); if (p) return p; }
+    return r.pick;
+  }
+
+  function e20(sg, rowIdx, era, cls = "") {
+    const c = sg.eras.indexOf(era);
+    if (c < 0) return "";
+    return `<span class="e20 ${cls}" role="img" aria-label="${sg.rows[rowIdx].n}" style="${tileStyle(sg, rowIdx, c, 20)}"></span>`;
+  }
+
+  function renderRail() {
+    const groups = {};
+    state.data.subgroups.forEach((sg, i) => (groups[sg.group] ||= []).push(i));
+    const fmt = (v) => Array.isArray(v) ? v[0] + "+" : (v || "fallback");
+    $("#rail").innerHTML = Object.entries(groups).map(([g, idx]) =>
+      `<h3>${g}</h3>` + idx.map((i) => {
+        const sg = state.data.subgroups[i];
+        const p = state.pending.subgroup[sg.name];
+        return `<button type="button" data-i="${i}" aria-current="${i === state.cur}"><span>${sg.name}</span><span class="era ${p ? "has-pending" : ""}">${p || fmt(sg.manifest)}</span></button>`;
+      }).join("")).join("");
+    $("#sgselect").innerHTML = state.data.subgroups.map((sg, i) => `<option value="${i}" ${i === state.cur ? "selected" : ""}>${sg.group} · ${sg.name}</option>`).join("");
+  }
+
+  function renderLines() {
+    const subs = state.data.subgroups, sg = subs[state.cur];
+    const prev = subs[state.cur - 1], next = subs[state.cur + 1];
+    const nb = (s, from, to) => s ? s.rows.slice(from, to).map((r, j) => e20(s, s.rows.indexOf(r), r.pick, "nb")).join("") : "";
+    const left = prev ? nb(prev, Math.max(0, prev.rows.length - 6)) : "";
+    const right = next ? nb(next, 0, 6) : "";
+    const cap = 40;
+    const rowsShown = sg.rows.slice(0, cap);
+    const lineFor = (eraFn, fbFn) => rowsShown.map((r, i) => {
+      const era = eraFn(r);
+      return e20(sg, i, era, fbFn(r, era) ? "fb" : "");
+    }).join("");
+    let html = `<div class="line"><span class="who now">resolved</span><p>sounds good ${left} · ${lineFor((r) => preview(sg, r), () => false)} · ${right} see you soon</p></div>`;
+    sg.eras.forEach((era, c) => {
+      if (!sg.rows.some((r) => r.have[c])) return;
+      html += `<div class="line"><span class="who">${era}</span><p>sounds good ${left} · ${lineFor((r) => r.have[c] ? era : preview(sg, r), (r) => !r.have[c])} · ${right} see you soon</p></div>`;
+    });
+    if (sg.rows.length > cap) html += `<div class="status">Showing the first ${cap} of ${sg.rows.length} emoji. Faded tiles are emoji that era doesn't have; they keep their current pick.</div>`;
+    else html += `<div class="status">Faded tiles are emoji that era doesn't have; they keep their current pick.</div>`;
+    $("#lines").innerHTML = html;
+  }
+
+  function renderGrid() {
+    const sg = state.data.subgroups[state.cur], eras = state.data.eras;
+    const chosen = state.pending.subgroup[sg.name];
+    const manifestFirst = Array.isArray(sg.manifest) ? sg.manifest[0] : sg.manifest;
+    let h = "<thead><tr><th scope=col>Emoji</th>" + sg.eras.map((era) => {
+      const e = eras[era];
+      const cls = [e.avoid ? "avoid" : "", era === manifestFirst ? "current" : "", era === chosen ? "chosen" : ""].join(" ");
+      const tag = e.avoid ? "avoid" : !e.vector ? "PNG only" : era === "waveflag" ? "generated" : "";
+      const label = era === chosen ? "Chosen" : era === manifestFirst ? "Current" : "Use for all";
+      return `<th scope=col class="${cls}" title="${e.title}">${era}<span class="tag">${tag || "&nbsp;"}</span><button type="button" data-era="${era}" aria-label="Use ${era} for ${sg.name}">${label}</button></th>`;
+    }).join("") + "</tr></thead><tbody>";
+    sg.rows.forEach((r, i) => {
+      const now = preview(sg, r);
+      const pend = state.pending.override[r.k];
+      h += `<tr><td class="lab"><span class="k">${r.k} · E${r.v}</span><span class="n">${r.n}</span><span class="why">${r.pick || "none"} (${r.why})${r.ov ? " · override" : ""}</span>${r.redraw ? `<span class="why redraw"> · redraw</span>` : ""}</td>`;
+      sg.eras.forEach((era, c) => {
+        if (!r.have[c]) { h += `<td class="cell"><span class="tile miss" aria-label="${era}: no art"></span></td>`; return; }
+        const cls = ["tile", pend === era ? "pend" : (now === era ? "pick" : "")].join(" ");
+        h += `<td class="cell"><button type="button" class="${cls}" data-k="${r.k}" data-era="${era}" style="${tileStyle(sg, i, c, parseInt(getComputedStyle(document.documentElement).getPropertyValue("--tile")))}" aria-label="${r.n}, ${era}" aria-pressed="${pend === era}">${r.b[c] ? '<span class="b11">=11</span>' : ""}</button></td>`;
+      });
+      h += "</tr>";
+    });
+    $("#grid").innerHTML = h + "</tbody>";
+  }
+
+  function renderHead() {
+    const sg = state.data.subgroups[state.cur];
+    $("#sgname").textContent = sg.name;
+    const m = Array.isArray(sg.manifest) ? sg.manifest.join(" → ") : (sg.manifest || "fallback only");
+    const counts = {};
+    sg.rows.forEach((r) => counts[r.pick] = (counts[r.pick] || 0) + 1);
+    $("#sgmeta").textContent = `${sg.group} · ${sg.rows.length} base emoji (${sg.total} with variants) · manifest: ${m}`;
+    $("#sgchips").innerHTML = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([e, n]) => `<span class="chip ${e === sg.manifest || (Array.isArray(sg.manifest) && e === sg.manifest[0]) ? "accent" : ""}">${e} ×${n}</span>`).join(" ");
+  }
+
+  function renderPending() {
+    const s = Object.keys(state.pending.subgroup).length, o = Object.keys(state.pending.override).length;
+    $("#pendinglabel").textContent = s || o ? `${s} subgroup choice${s === 1 ? "" : "s"}, ${o} emoji override${o === 1 ? "" : "s"}.` : "No choices yet.";
+  }
+
+  function render() { renderRail(); renderHead(); renderPending(); renderLines(); renderGrid(); }
+
+  async function persist(kind, target, era) {
+    const bucket = state.pending[kind];
+    if (era === undefined) delete bucket[target]; else bucket[target] = era;
+    save();
+    render();
+    if (!state.db) return;
+    const id = (kind === "subgroup" ? "sg-" : "ov-") + target.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    const ref = state.db.collection("choices").doc(id);
+    try {
+      if (era === undefined) await ref.delete();
+      else await ref.set({ kind, target, era });
+      $("#savestatus").textContent = "Saved for the project.";
+    } catch (e) {
+      $("#savestatus").textContent = "Saved in this browser only; the shared save was refused.";
+    }
+  }
+
+  document.addEventListener("click", (ev) => {
+    const b = ev.target.closest("button");
+    if (!b) return;
+    if (b.dataset.i) { state.cur = +b.dataset.i; render(); $("main").scrollIntoView({ block: "start" }); return; }
+    const sg = state.data && state.data.subgroups[state.cur];
+    if (b.closest("thead") && b.dataset.era) {
+      const era = b.dataset.era;
+      persist("subgroup", sg.name, state.pending.subgroup[sg.name] === era ? undefined : era);
+      return;
+    }
+    if (b.dataset.k) {
+      const k = b.dataset.k, era = b.dataset.era;
+      const row = sg.rows.find((r) => r.k === k);
+      if (state.pending.override[k] === era) persist("override", k, undefined);
+      else if (row.ov && row.ov === era) persist("override", k, null);  // drop the manifest override
+      else persist("override", k, era);
+    }
+  });
+  $("#sgselect").addEventListener("change", (e) => { state.cur = +e.target.value; render(); });
+  $("#clear").addEventListener("click", async () => {
+    const all = [...Object.keys(state.pending.subgroup).map((t) => ["subgroup", t]), ...Object.keys(state.pending.override).map((t) => ["override", t])];
+    for (const [kind, t] of all) await persist(kind, t, undefined);
+  });
+  $("#copy").addEventListener("click", () => {
+    const text = JSON.stringify(state.pending, null, 2);
+    const ta = $("#export");
+    ta.value = text; ta.hidden = false;
+    const done = () => $("#savestatus").textContent = "Copied. Apply with: steamer import-gallery choices.json";
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, () => { ta.select(); });
+    else ta.select();
+  });
+
+  fetch("data.json").then((r) => r.json()).then((data) => {
+    state.data = data;
+    const saved = load();
+    if (saved) state.pending = { subgroup: saved.subgroup || {}, override: saved.override || {} };
+    const hash = location.hash.slice(1);
+    const i = data.subgroups.findIndex((s) => s.name.replace(/[^a-z0-9]+/gi, "-") === hash);
+    if (i >= 0) state.cur = i;
+    render();
+  }).catch(() => { $("#sgname").textContent = "Couldn't load data.json"; });
+
+  // In a Claude Artifact, choices go to a shared store Claude can read back.
+  if (window.claude && window.claude.use) {
+    window.claude.use("db").then((db) => {
+      if (!db) return;
+      state.db = db;
+      $("#savestatus").textContent = "Choices are shared with the project.";
+      db.collection("choices").onSnapshot((snap) => {
+        const p = { subgroup: {}, override: {} };
+        snap.docs.forEach((d) => { const v = d.data(); if (v && p[v.kind]) p[v.kind][v.target] = v.era; });
+        state.pending = p; save();
+        if (state.data) render();
+      }, () => { $("#savestatus").textContent = "Shared choices unavailable; saving in this browser."; });
+    });
+  }
+})();
+</script>

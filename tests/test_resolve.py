@@ -108,3 +108,20 @@ def test_subgroup_list_pins_the_chain():
     fam = "1f468_200d_1f469_200d_1f467_200d_1f466"
     assert p[fam].why == "subgroup"
     assert p[fam].era in ("android-7.1", "android-12")
+
+
+def test_import_gallery(tmp_path):
+    import json
+
+    from steamer.gallery import import_choices
+
+    f = tmp_path / "selection.toml"
+    f.write_text(BASE)
+    choices = tmp_path / "choices.json"
+    choices.write_text(json.dumps({"subgroup": {"food-fruit": "android-12"}, "override": {"1f34a": None, "1f600": "latest"}}))
+    import_choices(choices, manifest=f)
+    m = Manifest.load(f)
+    assert m.subgroup["food-fruit"] == "android-12"
+    assert "1f34a" not in m.override
+    assert m.override["1f600"] == "latest"
+    assert "# blob-era fruit" in f.read_text()
