@@ -12,6 +12,11 @@
       "rationale": "complete colored set incl. E12, but glossy bevel"
     },
     {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "complete colored set incl. E12 with glossy bevel, same as android-12; blue square darker (as latest); small squares smaller than latest's"
+    },
+    {
       "era": "latest",
       "score": 6,
       "rationale": "same as android-12"
@@ -70,5 +75,5 @@
     }
   ],
   "confidence": "medium",
-  "notes": "The E12 colored circles/squares (12 emoji) fall back to android-12 glossy shapes and are typically used side by side with 1f534/1f535, so the flat-vs-gloss clash is visible. Listed in no_acceptable_era as a soft redraw item (not =11); if redraw is not planned, consider overriding 1f534, 1f535, 26ab, 26aa, 2b1b, 2b1c to android-12 so the color rows match. 7.1 'white' shapes are light grey."
+  "notes": "The E12 colored circles/squares (12 emoji) fall back to android-12 glossy shapes and are typically used side by side with 1f534/1f535, so the flat-vs-gloss clash is visible. Listed in no_acceptable_era as a soft redraw item (not =11); if redraw is not planned, consider overriding 1f534, 1f535, 26ab, 26aa, 2b1b, 2b1c to android-12 so the color rows match. 7.1 'white' shapes are light grey. android-16 review: stays android-7.1. android-16 is identical to android-12 except the blue square (1f7e6), which uses latest's darker blue, further from 7.1's azure circle than android-12's bright blue square; android-12 remains the preferred fallback for E12 shapes, unchanged soft no_acceptable_era list. Where android-16 and latest differ, android-16 is slightly less glossy/smaller (medium-small and small black/white squares are smaller flat-bevel tiles, latest has larger, deeper-bevel squares), so android-16 is the flatter. android-16 before latest: yes."
 }

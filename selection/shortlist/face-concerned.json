@@ -22,6 +22,11 @@
       "rationale": "flat round faces, no border; good fallback but drops the blobs"
     },
     {
+      "era": "android-16",
+      "score": 2,
+      "rationale": "22 of 27 masters are =11 (bordered); unbordered only for 1fae4, 1f979, 1f62d, 1f971 (+1faea identical to latest); flat but near-identical to latest"
+    },
+    {
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
@@ -64,5 +69,5 @@
     }
   ],
   "confidence": "high",
-  "notes": "Largest blob block: 22 of 27 in 7.1, consistent. Blue-gradient blobs (1f628, 1f630, 1f631) are blob shading, fine. 1f97a pleading and 1f971 yawning need latest overrides (android-12 =11); 1fae4, 1faea, 1f979 go to latest automatically. 1f97a pleading is among the most-used emoji; round next to 22 blobs is the most visible mismatch in this batch, top redraw candidate along with 1f979. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "Largest blob block: 22 of 27 in 7.1, consistent. Blue-gradient blobs (1f628, 1f630, 1f631) are blob shading, fine. 1f97a pleading and 1f971 yawning need latest overrides (android-12 =11); 1fae4, 1faea, 1f979 go to latest automatically. 1f97a pleading is among the most-used emoji; round next to 22 blobs is the most visible mismatch in this batch, top redraw candidate along with 1f979. android-16: 1f97a is =11 (bordered), so pleading must stay on latest; android-16 does have unbordered 1fae4, 1f979, 1f971 (and 1f62d, but the 7.1 blob stays), which differ from latest only by a slightly thinner orange face rim, i.e. android-16 is marginally flatter, never glossier; the difference is imperceptible at 20px. Overrides kept (1f971 stays latest) so the five round fallbacks come from a single era together with pleading. android-16 not recommended. android-16 before latest: no (the round fallback set including 1f97a must come from latest, and mixing android-16 for 1fae4/1f979/1f971 gains nothing visible). android-16 is Emoji 17, so Emoji 18 faces would still fall through to latest. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

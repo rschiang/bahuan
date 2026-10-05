@@ -22,6 +22,11 @@
       "rationale": "flat round; half the subgroup is newer than the blobs"
     },
     {
+      "era": "android-16",
+      "score": 2,
+      "rationale": "9 of 12 masters are =11 (bordered); only 1f922 and 1f976 are new flat redraws, 1f637 is the same 2020 retouch as android-12"
+    },
+    {
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
@@ -88,5 +93,5 @@
     }
   ],
   "confidence": "medium",
-  "notes": "Blob 7.1 for mask, thermometer, bandage, nauseated, sneezing, dizzy. Six newer faces need latest overrides (1f92e, 1f975, 1f976, 1f974, 1f635_200d_1f4ab, 1f92f; android-12 =11 for all). Semantic risk: blob 1f635 shows spiral eyes (old 'dizzy face' reading) while Unicode now names it 'face with crossed-out eyes' and 1f635_200d_1f4ab 'face with spiral eyes' will render as a round spiral-eyed face, so the two look alike. Owner to decide: keep blob 1f635 (nostalgia) or redraw an X-eyed blob. 1f974 woozy and 1f975/1f976 are popular; blob redraw candidates. 1f637 android-12 is a 2020 retouch, still bordered look. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "Blob 7.1 for mask, thermometer, bandage, nauseated, sneezing, dizzy. Six newer faces need latest overrides (1f92e, 1f975, 1f976, 1f974, 1f635_200d_1f4ab, 1f92f; android-12 =11 for all; android-16 is also =11 for every one of them except 1f976). Semantic risk: blob 1f635 shows spiral eyes (old 'dizzy face' reading) while Unicode now names it 'face with crossed-out eyes' and 1f635_200d_1f4ab 'face with spiral eyes' will render as a round spiral-eyed face, so the two look alike. Owner to decide: keep blob 1f635 (nostalgia) or redraw an X-eyed blob. 1f974 woozy and 1f975/1f976 are popular; blob redraw candidates. 1f637 android-12 is a 2020 retouch, still bordered look. android-16 not recommended: 7.1 blobs win and 9 of 12 android-16 tiles are =11. Where android-16 differs from latest it is the flatter one: 1f922 nauseated has a faint blush vs a strong blurred blush in latest, 1f976 cold face is marginally simpler (latest has a more saturated gradient glow). 1f976 override kept on latest anyway: hot face 1f975 only has unbordered art in latest, and the hot/cold pair should come from the same era. android-16 before latest: no (in this subgroup it would only change 1f976, which stays pinned to latest to match 1f975; every other android-16 tile is =11 and skipped). android-16 is Emoji 17, so any Emoji 18 face here still falls through to latest. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

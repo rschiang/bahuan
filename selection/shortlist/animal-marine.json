@@ -12,6 +12,11 @@
       "rationale": "coherent 2020 set, no outlines, mild gradients on whale/shell"
     },
     {
+      "era": "android-16",
+      "score": 7,
+      "rationale": "Emoji 17 art, complete incl. orca/coral/jellyfish; identical to android-12 plus the new glossy tropical fish; coral is a flatter, simpler design than latest"
+    },
+    {
       "era": "latest",
       "score": 7,
       "rationale": "android-12 plus orca/coral/jellyfish, redrawn spouting whale and tropical fish"
@@ -23,8 +28,14 @@
     }
   ],
   "recommended": "android-7.1",
-  "overrides": [],
+  "overrides": [
+    {
+      "key": "1fab8",
+      "era": "android-16",
+      "reason": "android-16 coral is a flat plain coral; latest adds a gradient reef base (teal/purple) that is busier and less legible at 20px. Redundant if the default fallback chain is android-12, android-16, latest."
+    }
+  ],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "7 of 19 fall back (seal, orca, coral, jellyfish, lobster, oyster). Many 7.1 marine glyphs are the same navy blue (whales, dolphin, fish, blowfish, shark), so they are told apart by shape only. Owner check: the 7.1 blowfish is a blue line drawing; android-12 (spiky puffer) is the override candidate if that reads poorly. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era."
+  "notes": "7 of 19 fall back (seal, orca, coral, jellyfish, lobster, oyster). Many 7.1 marine glyphs are the same navy blue (whales, dolphin, fish, blowfish, shark), so they are told apart by shape only. Owner check: the 7.1 blowfish is a blue line drawing; android-12 (spiky puffer) is the override candidate if that reads poorly. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era. android-16 pass: android-16 has orca and jellyfish identical to latest, and its coral (1fab8) differs from latest: 16 is a flat, plain pink-orange branching coral, latest adds a teal and purple reef base and more gradient, so 16 is the flatter and more legible tile at 20px. The tropical fish is the new blue/yellow gradient fish in both 16 and latest (12 keeps the black-striped =11 fish); irrelevant while 7.1 supplies it. Whales: 16 = 12 = the =11 art, latest redraws them larger with more shading, so 16 is flatter. Pinned chain stays [android-7.1, android-12]; coral/orca/jellyfish reach the default chain. android-16 before latest: yes. Override 1fab8 -> android-16 added so coral is the flatter 16 art regardless of the chain outcome; it becomes redundant (remove it) once the default fallback puts android-16 before latest."
 }

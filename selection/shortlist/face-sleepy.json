@@ -22,6 +22,11 @@
       "rationale": "flat round faces, no border; good fallback but drops the blobs"
     },
     {
+      "era": "android-16",
+      "score": 2,
+      "rationale": "5 of 6 masters are =11 (bordered android-11 art, same as android-12); only 1fae9 is unbordered, and it is flat"
+    },
+    {
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
@@ -37,5 +42,5 @@
     }
   ],
   "confidence": "high",
-  "notes": "All classic sleepy faces in 7.1. 1fae9 (E16) falls to latest automatically; acceptable, low frequency. 6.0.1 sleepy/sleeping blobs differ (snot bubble etc.) but PNG-only. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "All classic sleepy faces in 7.1. 1fae9 (E16) falls through the chain automatically; acceptable, low frequency. 6.0.1 sleepy/sleeping blobs differ (snot bubble etc.) but PNG-only. android-16 is not recommended (7.1 blobs win; 5 of its 6 tiles are =11, never recommend). For 1fae9 the android-16 and latest tiles differ only slightly: android-16 is flatter / less glossy (paler eye bags, thinner shaded rim); latest has darker bags and a heavier orange rim. android-16 before latest: yes (marginal; affects only 1fae9 here, and no =11 tile is ever reached since the resolver skips bordered fallback art). android-16 is Emoji 17, so Emoji 18 faces in this subgroup, if any, still fall through to latest. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

@@ -7,6 +7,11 @@
       "rationale": "flat syringe/pill/bandage, consistent with the 5 emoji that only exist post-2017"
     },
     {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "same as android-12 for syringe, pill, stethoscope(=11), blood(=11); bandage is the washed-out white/grey redraw (as latest), harder to read at 20px than android-12's tan bandage; adds crutch and x-ray"
+    },
+    {
       "era": "android-7.1",
       "score": 6,
       "rationale": "flat blue syringe and pill, but only 2 of 7 emoji, rest fall back to android-12/latest"
@@ -30,5 +35,5 @@
     }
   ],
   "confidence": "medium",
-  "notes": "Chose android-12 for within-subgroup consistency since 7.1 covers only syringe and pill; 7.1 is a fine alternative (its blue capsule is very legible). Crutch and x-ray come from latest; x-ray is a busy dark tile. Pill/syringe in android-12 have small highlights, not borders."
+  "notes": "Chose android-12 for within-subgroup consistency since 7.1 covers only syringe and pill; 7.1 is a fine alternative (its blue capsule is very legible). Crutch and x-ray come from latest; x-ray is a busy dark tile. Pill/syringe in android-12 have small highlights, not borders. android-16 review: recommendation stays android-12. android-16 differs only on the adhesive bandage (1fa79): grey-white pad that is paler/less recognisable at 20px than android-12's tan bandage, and the stethoscope/drop of blood remain =11 in android-16 too (still no_acceptable_era). Syringe is the pale android-12 drawing; latest has a bluer syringe, otherwise tiles match. android-16 supplies crutch and x-ray identically to latest. Choosing android-16 would send E18 additions through the chain to latest. android-16 before latest: yes (equal to latest on crutch/x-ray, syringe is flatter/paler than latest's)."
 }

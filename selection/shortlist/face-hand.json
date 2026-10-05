@@ -12,14 +12,19 @@
       "rationale": "same blob designs as 7.1 but PNG only"
     },
     {
-      "era": "android-6.0.1",
-      "score": 5,
-      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
+      "era": "android-16",
+      "score": 7,
+      "rationale": "all 7 tiles present and none is =11 (hands redrawn in 2021 lineage), flat-ish round, thin orange rim; marginally flatter than latest; no blobs"
     },
     {
       "era": "latest",
       "score": 6,
       "rationale": "flat round; covers 5 of 7 here"
+    },
+    {
+      "era": "android-6.0.1",
+      "score": 5,
+      "rationale": "classic tilted blobs, PNG only, missing Emoji 3.0 faces, clashes with 7.x blobs"
     },
     {
       "era": "android-12",
@@ -31,13 +36,13 @@
   "overrides": [
     {
       "key": "1f92d",
-      "era": "latest",
-      "reason": "face with hand over mouth (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+      "era": "android-16",
+      "reason": "face with hand over mouth (E5.0): no blob; android-12 is bordered android-11 art; android-16 is a non-=11 redraw and slightly flatter than latest (lighter blush, thinner hand outline)"
     },
     {
       "key": "1f92b",
-      "era": "latest",
-      "reason": "shushing face (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+      "era": "android-16",
+      "reason": "shushing face (E5.0): no blob; android-12 is bordered android-11 art; android-16 is a non-=11 redraw and slightly flatter than latest (thinner finger/hand outline)"
     }
   ],
   "no_acceptable_era": [],
@@ -64,5 +69,5 @@
     }
   ],
   "confidence": "medium",
-  "notes": "Only 1f917 hugging and 1f914 thinking exist as blobs; 5 of 7 end up as latest round faces (1f92d/1f92b via override because android-12 is =11; 1fae2/1fae3/1fae1 automatically). This subgroup will look mostly round; acceptable as stopgap since latest is flat and unbordered, but the round majority makes the two blobs the odd ones out. Consider blob redraws of 1f92d, 1f92b, 1fae1. 1f914 android-12 is a minor retouch of the bordered art (not =11 but same look), so still avoid it. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "Only 1f917 hugging and 1f914 thinking exist as blobs, so 7.1 stays the subgroup pick; the other 5 are round fallbacks. Android-16 is the one era where every tile here is a non-bordered redraw (none =11, unlike android-12 where 1f917/1f92d/1f92b are =11 and 1f914 is a bordered retouch), so it is the better source for the 5 round faces: against latest the tiles are the same drawings, but android-16 is flatter/less glossy (softer blush, thinner and lighter hand outlines, less saturated rim shading); latest is a touch darker and more outlined. Hence 1f92d and 1f92b override to android-16 instead of latest. If the default chain puts android-16 before latest, those two overrides become redundant (android-12 =11 is skipped, android-16 is next) and 1fae2/1fae3/1fae1 also resolve to android-16 automatically, giving a uniform round set; if the chain stays [android-12, latest], 1fae2/1fae3/1fae1 stay latest and the overrides keep the pair on android-16, a slightly mixed look. A recommended of android-16 for the whole subgroup would unify all 7 round but give up the two blobs that match neighbouring subgroups, so not taken. All 7 keys are Emoji 17 or earlier: no Emoji 18 gap. android-16 before latest: yes. 1f914 android-12 is a minor retouch of the bordered art (not =11 but same look), so still avoid it. round_fallbacks lists every emoji here that ends up as a flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

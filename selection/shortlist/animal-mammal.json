@@ -12,6 +12,11 @@
       "rationale": "complete coherent set (all =11 2020 art, no outlines) but light gradients and fiddlier detail"
     },
     {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "Emoji 17 art, complete (has moose/donkey); identical to android-12 except orangutan (more shading) and the redrawn full-body raccoon and zebra, which are identical to latest; keeps the pre-2026 dog/mouse/koala/panda/whale faces that latest enlarged and shaded more"
+    },
+    {
       "era": "latest",
       "score": 6,
       "rationale": "same as android-12 plus moose/donkey and a flatter full-body raccoon"
@@ -31,5 +36,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "About 32 of 70 mammals (orangutan, guide/service dog, raccoon, black cat, moose, donkey, zebra, bison, llama, giraffe, mammoth, hippo, beaver, hedgehog, polar bear, sloth, otter, skunk, kangaroo, badger...) fall back to the 2020 art. In a 20px strip test the mix sits fine: both are flat, no outlines; 7.1 is more saturated and stylized. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era. Owner check: 7.1 elephant is navy blue next to the grey fallback mammoth; 7.1 gorilla is a face beside the full-body fallback orangutan. android-12 is the safe alternative if internal consistency matters more than blob identity."
+  "notes": "About 32 of 70 mammals (orangutan, guide/service dog, raccoon, black cat, moose, donkey, zebra, bison, llama, giraffe, mammoth, hippo, beaver, hedgehog, polar bear, sloth, otter, skunk, kangaroo, badger...) fall back to the 2020 art. In a 20px strip test the mix sits fine: both are flat, no outlines; 7.1 is more saturated and stylized. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era. Owner check: 7.1 elephant is navy blue next to the grey fallback mammoth; 7.1 gorilla is a face beside the full-body fallback orangutan. android-12 is the safe alternative if internal consistency matters more than blob identity. android-16 pass: vs android-12 only three mammals differ: orangutan (same pose, a little more shading), raccoon (12/11 face -> full-body walking raccoon) and zebra (12/11 head -> full-body zebra); android-16 is identical to latest for all three and for moose and donkey. Left on android-12 because the 12 raccoon face and zebra head are bolder at 20px and sit better with the 7.1 heads (gorilla, rhino, deer); the 16 full-body versions have thin detail. Switch these two to android-16 (or latest, same art) if a fuller figure is preferred. Where 16 and latest differ (dog face, mouse face, koala, panda, polar bear, whales, paw prints) the 16 tile is the =11 2020 art and latest is the larger, more shaded redraw, so android-16 is the flatter/less glossy of the two; none of these reach the fallback because 7.1 or android-12 supplies them first. Pinned chain stays [android-7.1, android-12]; Emoji 15+ animals (moose, donkey) resolve through the default chain, where 16 and latest are the same art. android-16 before latest: yes (art-neutral here: identical wherever the default chain reaches it)."
 }

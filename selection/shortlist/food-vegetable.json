@@ -7,6 +7,11 @@
       "rationale": "flat refresh, covers 15/20, matches fruit"
     },
     {
+      "era": "android-16",
+      "score": 8,
+      "rationale": "Emoji 17 art with all the E14-16 vegetables; identical to android-12 except a slimmer, cleaner hot pepper; cucumber is the plain 12 art (latest adds slices); no pickle (Emoji 18)"
+    },
+    {
       "era": "latest",
       "score": 8,
       "rationale": "same plus the 5 newest vegetables; cucumber redrawn with slices"
@@ -21,5 +26,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "Bell pepper 1fad1 is =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it. Beans, ginger, pea pod, mushroom, root vegetable, pickle resolve to latest and match. 12 cucumber (1f952) and latest pickle (1fadd) look nearly identical; latest's sliced cucumber separates them better, so the owner may want an override 1f952 -> latest (left out because it changes the 12 baseline)."
+  "notes": "Bell pepper 1fad1 is =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it. Beans, ginger, pea pod, mushroom, root vegetable, pickle resolve to latest and match. 12 cucumber (1f952) and latest pickle (1fadd) look nearly identical; latest's sliced cucumber separates them better, so the owner may want an override 1f952 -> latest (left out because it changes the 12 baseline). android-16 pass: android-16 = android-12 except hot pepper (1f336, slimmer redraw shared with latest, no clear improvement) and adds beans/ginger/pea pod/brown mushroom/root vegetable identical to latest, so it ties with android-12 and is not worth a change; recommended stays android-12. Emoji 18 pickle (1fadd) has no android-16 art and falls through to latest. android-16 vs latest differs only in the cucumber (latest draws slices, 16 is the plain whole cucumber and so is the flatter one); the owner cucumber override question above is unchanged. android-16 before latest: yes."
 }

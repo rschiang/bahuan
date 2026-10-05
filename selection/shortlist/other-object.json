@@ -12,6 +12,11 @@
       "rationale": "flat-ish but moai and coffin are shaded/detailed; headstone and placard =11"
     },
     {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "same as android-12 apart from placard (still =11); hamsa and ID card (E14) present, matching latest; moai/coffin shaded as in android-12"
+    },
+    {
       "era": "android-7.0",
       "score": 6,
       "rationale": "same as 7.1, PNG only"
@@ -32,5 +37,5 @@
     }
   ],
   "confidence": "medium",
-  "notes": "Fallbacks: nazar amulet (android-12), hamsa and identification card (latest). Owner should check 7.1 moai legibility at 20px (dark hooded silhouette) vs android-12's detailed grey statue."
+  "notes": "Fallbacks: nazar amulet (android-12), hamsa and identification card (latest). Owner should check 7.1 moai legibility at 20px (dark hooded silhouette) vs android-12's detailed grey statue. android-16 review: android-16 gives hamsa and identification card and the nazar amulet with same look as latest/android-12, so fallbacks no longer need latest; placard (1faa7) is =11 in android-16, headstone is =11 too, so the latest placard override stays and headstone stays in no_acceptable_era. android-16 and latest tiles differ only for the placard (=11 vs blank sign), latest being the cleaner one. Recommendation stays android-7.1. android-16 before latest: yes (identical to latest except the =11 placard, which the override covers)."
 }

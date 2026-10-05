@@ -22,6 +22,11 @@
       "rationale": "flat round faces, no border; good fallback but drops the blobs"
     },
     {
+      "era": "android-16",
+      "score": 2,
+      "rationale": "1f60e and 1f913 are =11 (bordered); only 1f9d0 is unbordered, and it is the same file as android-12"
+    },
+    {
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
@@ -43,5 +48,5 @@
     }
   ],
   "confidence": "high",
-  "notes": "Blob 1f60e and 1f913 in 7.1. 1f9d0 monocle: android-12 is a minor retouch of the bordered gradient art (not byte-identical, same look), so overridden to latest flat. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "Blob 1f60e and 1f913 in 7.1. 1f9d0 monocle: android-12 is a minor retouch of the bordered gradient art (not byte-identical, same look), so overridden to latest flat. android-16 1f9d0 is byte-identical to android-12 (same old monocle design, lens highlights), and the other two android-16 tiles are =11, so android-16 adds no new art; compared with latest the monocle face is equally flat, so latest stays (current design, override unchanged). android-16 not recommended. android-16 before latest: no (no tile where android-16 is both unbordered and better than latest). android-16 is Emoji 17, so Emoji 18 faces would still fall through to latest. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

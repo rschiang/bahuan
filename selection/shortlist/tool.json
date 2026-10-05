@@ -12,6 +12,11 @@
       "rationale": "flat light steel-blue tools, very close palette to 7.1, covers all Emoji 11-13 tools"
     },
     {
+      "era": "android-16",
+      "score": 7,
+      "rationale": "flat steel-blue tools, same palette as android-12; carpentry saw redrawn as pale-blue hand saw with orange handle (same look as latest); adds broken chain and shovel (not net, E18)"
+    },
+    {
       "era": "android-7.0",
       "score": 7,
       "rationale": "same as 7.1, PNG only"
@@ -26,5 +31,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "12 of 28 fall back (axe, boomerang, saw, screwdriver, white cane, hook, toolbox, magnet, ladder -> android-12; net, broken chain, shovel -> latest). android-12 tool metal is a lighter blue-grey than 7.1's teal, so they sit fairly well together; none are =11. Owner may check 7.1 chain/link (dark teal) next to latest broken chain (light blue)."
+  "notes": "12 of 28 fall back (axe, boomerang, saw, screwdriver, white cane, hook, toolbox, magnet, ladder -> android-12; net, broken chain, shovel -> latest). android-12 tool metal is a lighter blue-grey than 7.1's teal, so they sit fairly well together; none are =11. Owner may check 7.1 chain/link (dark teal) next to latest broken chain (light blue). android-16 review: android-16 equals android-12 for every tool except the carpentry saw (1fa9a), which is the pale-blue/orange hand saw also seen in latest; both saws are flat with similar palette, so the saw keeps falling to android-12 via the default chain. android-16 supplies broken chain and shovel (still same look as latest); only the net with handle (1fa8d, E18) needs latest. If recommending android-16 anywhere it would leave E18 net falling through to latest. android-16 before latest: yes (identical to latest, no gloss difference; net still falls through)."
 }

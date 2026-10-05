@@ -7,6 +7,11 @@
       "rationale": "flat refresh, complete, matches the other food subgroups"
     },
     {
+      "era": "android-16",
+      "score": 8,
+      "rationale": "Emoji 17 art, complete; identical to android-12 except the roasted sweet potato, redrawn as one cut half (same as latest); dango is the flatter 12 art that latest glosses"
+    },
+    {
       "era": "latest",
       "score": 8,
       "rationale": "identical in practice to 12"
@@ -26,5 +31,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "7.1 is a credible alternative here (only dumpling, fortune cookie, takeout box, moon cake would fall back), so this is a consistency call: 12 keeps all food subgroups in one style. If the owner wants a blob flavour somewhere in food, this is the subgroup where 7.1 holds up best."
+  "notes": "7.1 is a credible alternative here (only dumpling, fortune cookie, takeout box, moon cake would fall back), so this is a consistency call: 12 keeps all food subgroups in one style. If the owner wants a blob flavour somewhere in food, this is the subgroup where 7.1 holds up best. android-16 pass: android-16 = android-12 except roasted sweet potato (1f360): 12 draws a whole potato plus a cut slice, 16/latest a single cut half with yellow flesh, slightly cleaner at 20px but not enough to change the pick (an override 1f360 -> android-16 is optional, left out to keep the subgroup on one baseline). Dango (1f361): 16 = 12, latest adds glossier highlights, so 16 is the flatter one. Recommended stays android-12 and nothing is Emoji 18. android-16 before latest: yes."
 }

@@ -17,6 +17,11 @@
       "rationale": "same silhouettes as android-12, but its 1f46a family is a grey bevelled keycap"
     },
     {
+      "era": "android-16",
+      "score": 5,
+      "rationale": "same silhouettes and speaking head as android-12; its 1f46a family is the grey bevelled keycap, the same as latest, and it also has the four E15.1 families only as keycaps"
+    },
+    {
       "era": "android-7.0",
       "score": 4,
       "rationale": "same as 7.1, PNG only"
@@ -32,21 +37,21 @@
   "no_acceptable_era": [
     {
       "key": "1f9d1_200d_1f9d1_200d_1f9d2",
-      "reason": "only latest has it: grey bevelled keycap pictogram (3D/glossy)"
+      "reason": "only android-16 and latest have it (identical tiles): grey bevelled keycap pictogram (3D/glossy)"
     },
     {
       "key": "1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2",
-      "reason": "only latest has it: grey bevelled keycap pictogram"
+      "reason": "only android-16 and latest have it (identical tiles): grey bevelled keycap pictogram"
     },
     {
       "key": "1f9d1_200d_1f9d2",
-      "reason": "only latest has it: grey bevelled keycap pictogram"
+      "reason": "only android-16 and latest have it (identical tiles): grey bevelled keycap pictogram"
     },
     {
       "key": "1f9d1_200d_1f9d2_200d_1f9d2",
-      "reason": "only latest has it: grey bevelled keycap pictogram"
+      "reason": "only android-16 and latest have it (identical tiles): grey bevelled keycap pictogram"
     }
   ],
   "confidence": "medium",
-  "notes": "Close call between android-12 and 7.1. android-12 wins on harmony: 1fac2 people hugging (E13, =11, soft blue gradient) and 1fac6 fingerprint (E16, latest) only exist in light blue, and they sit badly next to 7.1's dark-teal busts. With android-12, 1f46a family uses the 2020 neutral two-adults-and-child figures (=11, no border). That also matches the neutral overrides for 1f48f/1f491 in family. If you prefer 7.1 for its blob-era look, 1f46a becomes the Nougat man/woman/boy, which matches the family subgroup. The four E15.1 neutral families exist only as latest keycap tiles, so they're in the redraw backlog. Ideally redraw them as flat two-tone blue silhouettes in the 1f465 style. 1fac2 hugging isn't bordered, but it's gradient-heavy and blurry at 20px, so it could also be redrawn later."
+  "notes": "Close call between android-12 and 7.1. android-12 wins on harmony: 1fac2 people hugging (E13, =11, soft blue gradient) and 1fac6 fingerprint (E16, latest) only exist in light blue, and they sit badly next to 7.1's dark-teal busts. With android-12, 1f46a family uses the 2020 neutral two-adults-and-child figures (=11, no border). That also matches the neutral overrides for 1f48f/1f491 in family. If you prefer 7.1 for its blob-era look, 1f46a becomes the Nougat man/woman/boy, which matches the family subgroup. The four E15.1 neutral families exist only as latest keycap tiles, so they're in the redraw backlog. Ideally redraw them as flat two-tone blue silhouettes in the 1f465 style. 1fac2 hugging isn't bordered, but it's gradient-heavy and blurry at 20px, so it could also be redrawn later. ANDROID-16 PASS: android-16 equals android-12 everywhere except 1f46a family, where it equals latest (grey bevelled keycap), so it cannot replace android-12; the four E15.1 neutral families are the same keycap tiles in android-16 and latest, so they stay in no_acceptable_era and the redraw backlog. Recommended unchanged (android-12, matches selection.toml); no overrides. Where android-16 and latest differ: no tile in this subgroup differs. Emoji 18 additions fall through to latest. android-16 before latest: yes (identical art here, so order has no visible effect)."
 }

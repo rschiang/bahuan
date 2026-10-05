@@ -12,6 +12,11 @@
       "rationale": "orange bevel tiles with gloss"
     },
     {
+      "era": "android-16",
+      "score": 5,
+      "rationale": "orange bevel tiles with gloss, same as android-12; adds wireless (E15) in the matching orange tile; latest recolored tiles to grey-blue except wireless"
+    },
+    {
       "era": "latest",
       "score": 5,
       "rationale": "grey-blue bevel tiles, changed from 12"
@@ -26,5 +31,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "Only 1f6dc wireless (E15) falls back (latest: orange bevel tile); stands out next to bare blue glyphs, low usage. 7.1 1f4f3 vibration mode is drawn as phone + no-music sign (blob-era quirk). Note latest recolored these tiles grey-blue vs android-12 orange; irrelevant if 7.1 is used."
+  "notes": "Only 1f6dc wireless (E15) falls back (latest: orange bevel tile); stands out next to bare blue glyphs, low usage. 7.1 1f4f3 vibration mode is drawn as phone + no-music sign (blob-era quirk). Note latest recolored these tiles grey-blue vs android-12 orange; irrelevant if 7.1 is used. android-16 review: android-16 keeps android-12's orange bevel tiles and supplies wireless (1f6dc) in the same orange tile, so with the current android-7.1 pick wireless can resolve from android-16 as well as latest (they look the same: orange bevel; only latest's other tiles are grey-blue, so android-16 wireless is consistent with android-12 tiles and equally glossy as latest). Still bevel/gloss, so no rival to 7.1. android-16 before latest: yes (wireless identical orange tile, no tile where latest is flatter)."
 }

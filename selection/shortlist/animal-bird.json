@@ -12,6 +12,11 @@
       "rationale": "coherent 2020 set, no outlines, more realistic"
     },
     {
+      "era": "android-16",
+      "score": 7,
+      "rationale": "Emoji 17 art, complete incl. wing/black bird/goose/phoenix identical to latest; same as android-12 except the feather, which is redrawn (identical to latest)"
+    },
+    {
       "era": "latest",
       "score": 7,
       "rationale": "android-12 plus wing, black bird, goose, phoenix"
@@ -26,5 +31,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "10 of 23 fall back (swan, dodo, feather, flamingo, peacock, parrot, and the E15 additions from latest). Chicks are nearly identical across eras so the seam is mild. Blue 7.1 penguin and white thin-line chicken/rooster are the most era-specific looks. Pick the same era as animal-mammal. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era."
+  "notes": "10 of 23 fall back (swan, dodo, feather, flamingo, peacock, parrot, and the E15 additions from latest). Chicks are nearly identical across eras so the seam is mild. Blue 7.1 penguin and white thin-line chicken/rooster are the most era-specific looks. Pick the same era as animal-mammal. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era. android-16 pass: only the feather differs from android-12 (android-16 and latest share the redraw, a mirrored, slightly crisper feather; no outline in either), so android-16 adds nothing for the pinned fallback and recommended stays [android-7.1, android-12]. The E15 additions (wing, black bird, goose, phoenix) are identical in android-16 and latest. All birds are covered by android-16 (no Emoji 18 birds). android-16 before latest: yes (identical art wherever both exist)."
 }

@@ -25,6 +25,11 @@
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    },
+    {
+      "era": "android-16",
+      "score": 1,
+      "rationale": "every tile is =11 (bordered gradient android-11 art); no gain over android-12"
     }
   ],
   "recommended": "android-7.1",
@@ -32,17 +37,17 @@
     {
       "key": "1f970",
       "era": "latest",
-      "reason": "smiling face with hearts (E11.0): no blob; android-12 is bordered android-11 art, latest is flat"
+      "reason": "smiling face with hearts (E11.0): no blob; android-12 and android-16 are bordered android-11 art (=11), latest is flat"
     },
     {
       "key": "1f929",
       "era": "latest",
-      "reason": "star-struck (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+      "reason": "star-struck (E5.0): no blob; android-12 and android-16 are bordered android-11 art (=11), latest is flat"
     },
     {
       "key": "1f972",
       "era": "latest",
-      "reason": "smiling face with tear (E13.0): no blob; android-12 is bordered android-11 art, latest is flat"
+      "reason": "smiling face with tear (E13.0): no blob; android-12 and android-16 are bordered android-11 art (=11), latest is flat"
     }
   ],
   "no_acceptable_era": [],
@@ -61,5 +66,5 @@
     }
   ],
   "confidence": "high",
-  "notes": "7.1 covers the six classic kiss/heart faces. 1f970, 1f929, 1f972 have no blob and android-12 is =11, so they need the latest overrides (otherwise the fallback chain picks bordered android-12). 1f970 and 1f929 are very high-frequency; round faces next to blob 1f60d/263a are conspicuous: top candidates for a blob redraw (1f970 = blob 263a + hearts, 1f929 = blob 1f600 + star eyes). round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "7.1 covers the six classic kiss/heart faces. 1f970, 1f929, 1f972 have no blob; android-12 AND android-16 are =11 for all three (bordered, gradient, darker rim), whereas latest is the redrawn flat face (flatter, less glossy: smaller teeth/eye shading, no rim). So for the round fallback faces here latest is flatter than android-16 and the latest overrides stay. Android-16 adds nothing in this subgroup (every tile =11), and is never recommended. 1f970 and 1f929 are very high-frequency; round faces next to blob 1f60d/263a are conspicuous: top candidates for a blob redraw (1f970 = blob 263a + hearts, 1f929 = blob 1f600 + star eyes). android-16 before latest: no (every tile is bordered =11; latest is the flatter one; the resolver would skip the =11 tiles anyway, so chain placement is harmless here). round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

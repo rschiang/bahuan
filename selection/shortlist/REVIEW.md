@@ -1,8 +1,8 @@
 # Era selection review
 
 Draft manifest: `selection/selection.toml`. Resolved: 3963 emoji. android-7.1 1630,
-android-12 1567, latest 504, waveflag 262. No avoided eras used, no mixed styles
-inside a family, 7 overrides, 38 redraw items.
+android-12 1414, android-16 619, latest 38, waveflag 262. No avoided eras used, no mixed styles
+inside a family, 10 overrides, 38 redraw items.
 
 `7.1 → 12` is a list value. It pins android-12's 2020 art (unchanged since
 android-11 but borderless) ahead of latest for people and animals. Where it changes
@@ -151,3 +151,22 @@ except where marked.
 - **Hands, faces, body-parts kept as plain 7.1:** for these the agents wanted latest over the =11 bordered gradient art, so the skip rule is right there.
 - **Geometric optional overrides 🔴 🔵 ⚫ ⚪ ⬛ ⬜ → 12:** not applied. Owner decision, see above.
 - **🥒 → latest (food-vegetable agent, left out by them too):** not applied.
+
+## android-16 re-shortlist
+
+Scope: 35 of 98 subgroups (101 emoji; `sheets/android-16-delta.tsv`) were re-scored with
+`android-16` as a candidate. The other 63 subgroups were skipped because every
+`android-16` master there is byte-identical to an already-ranked era.
+
+**Subgroup changes**
+- `plant-other`: android-12 → android-16. android-12's 🍃 is a faint ring that vanishes at 20px; android-16 redraws it and covers all 17 emoji.
+- `person-role`: `android-12` → `["android-12", "android-16"]`; `person-activity`: `["android-7.1", "android-12"]` → `["android-7.1", "android-16"]`. Pregnant trio and standing/kneeling figures come from android-16 (flatter than latest).
+- All other subgroups keep their era; `android-16` is ranked in each shortlist JSON.
+
+**New overrides**: 🤰 1f930 → android-16 (replaces the former android-12 override; astronaut android-12 overrides dropped as redundant under the list), 🧮 1f9ee → android-16 (flat soroban), 🪸 1fab8 → android-16 (latest adds a gradient reef base).
+
+**Fallback chain** — tally over the six face subgroups with `new` rows (face-smiling yes, face-sleepy yes, face-hand yes, face-neutral-skeptical yes, face-unwell no, face-concerned no): 4 of 6 → `fallback = ["android-12", "android-16", "latest"]`. Where android-16 and latest both have non-`=11` art, android-16 was judged flatter in every case; the 🥺 🥰 🤩 🥳 🤪 round faces stay on latest because their android-16 art is `=11` (bordered) and the resolver skips it. Emoji 18 keys have no android-16 art and keep falling through to latest. This is a broad effect (619 emoji now resolve to android-16, mostly E14+ and fallback hands/sports); the owner can veto in the gallery round.
+
+**New era distribution** (3963): android-7.1 1630, android-12 1414, android-16 619, latest 38, waveflag 262. Previously: android-12 1567, latest 504.
+
+Not removed: redundant latest overrides in the face subgroup JSONs (resolver already skips `=11` fallbacks); `[override]` in `selection.toml` now has 10 entries.

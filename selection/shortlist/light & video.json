@@ -20,11 +20,16 @@
       "era": "android-12",
       "score": 6,
       "rationale": "mostly flat but film frames/lantern use gradients; movie camera and videocassette are =11"
+    },
+    {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "mostly flat like android-12 but film frames/lantern still gradient-shaded; videocassette =11; movie camera is redrawn (not =11, unlike android-12); flashlight redrawn teal"
     }
   ],
   "recommended": "android-7.1",
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "Only 1fa94 diya lamp falls back (android-12, flame glow, a bit shaded but not bordered). 7.1 TV/camera/projector are a consistent teal/yellow/charcoal set that should match phone/computer if batch 8 picks 7.1."
+  "notes": "Only 1fa94 diya lamp falls back (android-12, flame glow, a bit shaded but not bordered). 7.1 TV/camera/projector are a consistent teal/yellow/charcoal set that should match phone/computer if batch 8 picks 7.1. android-16 review: recommendation stays android-7.1 (flashlight and movie camera come from 7.1, no fallback needed). android-16 fixes android-12's =11 movie camera and its diya lamp (1fa94) is the same flame-glow lamp as android-12/latest, so fallbacks are equivalent. android-16 flashlight is a flat teal torch pointing up-left; latest points up-right, same gloss. Videocassette is =11 in android-12, android-16 and latest (already not needed with 7.1). android-16 before latest: yes (same flat look as latest, no tile where latest is flatter)."
 }

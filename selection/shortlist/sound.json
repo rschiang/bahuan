@@ -17,6 +17,11 @@
       "rationale": "flat-ish but darker grey speakers"
     },
     {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "flat-ish speakers and no-sound tile as android-12; loudspeaker/megaphone redrawn flat red/white with teal mouth, flatter than latest's glossy chrome"
+    },
+    {
       "era": "latest",
       "score": 5,
       "rationale": "redrawn speakers with gradients/glossy look"
@@ -26,5 +31,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "No fallbacks. 7.1 speakers show the volume waves clearly at 20px."
+  "notes": "No fallbacks. 7.1 speakers show the volume waves clearly at 20px. android-16 review: recommendation stays android-7.1, no fallbacks. Where android-16 and latest differ the speakers (1f507-1f50a) and bell tiles show android-16 flatter: latest speakers are 3D chrome/glossy cones with a glow ring, android-16 keeps android-12's flat dark cone with grey waves; loudspeaker/megaphone in android-16 are flat with teal mouth, latest adds gloss. android-16 before latest: yes (flatter/less glossy than latest)."
 }

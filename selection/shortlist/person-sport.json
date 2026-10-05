@@ -17,6 +17,11 @@
       "rationale": "same art as 7.1 for the base emoji but PNG only and has no gendered variants"
     },
     {
+      "era": "android-16",
+      "score": 4.5,
+      "rationale": "between android-12 and latest: skier, snowboarder, golfing, bouncing ball, weights, cartwheeling, wrestling and juggling keep the flat 2020 art, but fencing, surfing, swimming, biking, mountain biking, water polo, handball and rowing are the newer grey/muted redraws; rowing boat is a new, thinner and flatter variant of latest's but still busier than 7.1"
+    },
+    {
       "era": "latest",
       "score": 4,
       "rationale": "2023+ sports redraw: grey helmets, desaturated muted figures, heavier detail; poor fit with the other person-* picks"
@@ -27,9 +32,12 @@
       "rationale": "yellow blob silhouettes; sparse and PNG only"
     }
   ],
-  "recommended": "android-7.1",
+  "recommended": [
+    "android-7.1",
+    "android-12"
+  ],
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "Every emoji in this subgroup (both sheet pages) exists in 7.1, so only the skin-tone and gender variants that 7.1 already has get used, and nothing falls back. 7.1 matches the person-activity pick. The latest sports set was heavily restyled (grey, more rendering), so it's the weakest fit despite being newest. Small check: in 7.1 the person-golfing/surfing/biking bases are drawn as a man, the old gendered default; the same issue as in the other person-* subgroups."
+  "notes": "Every emoji in this subgroup (both sheet pages) exists in 7.1, so only the skin-tone and gender variants that 7.1 already has get used, and nothing falls back. 7.1 matches the person-activity pick. The latest sports set was heavily restyled (grey, more rendering), so it's the weakest fit despite being newest. Small check: in 7.1 the person-golfing/surfing/biking bases are drawn as a man, the old gendered default; the same issue as in the other person-* subgroups. ANDROID-16 PASS: recommended unchanged ([android-7.1, android-12] in selection.toml; nothing falls back because 7.1 covers every key). android-16 is a hybrid of the 2020 flat art and the newer muted redraws, so it is no better than latest as a whole-subgroup source. The only `new` rows are the three rowing boat keys (1f6a3 family), where android-16 and latest differ: android-16 is the flatter, less glossy tile (lighter shading, simpler splash), but it is still busier than the 7.1 flat rowing boat, so no override is added. No `=11` bordered art is recommended. Emoji 18 additions fall through to latest. android-16 before latest: yes (where it differs from latest it is the flatter one)."
 }

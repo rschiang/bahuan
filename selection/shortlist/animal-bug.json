@@ -12,6 +12,11 @@
       "rationale": "coherent 2020 set, no outlines"
     },
     {
+      "era": "android-16",
+      "score": 7,
+      "rationale": "Emoji 17 art, same as android-12 (all =11 2020 bugs, borderless); butterfly is the bordered-era =11 orange monarch lookalike; no monarch (Emoji 18)"
+    },
+    {
       "era": "latest",
       "score": 7,
       "rationale": "as android-12 but butterfly recolored blue to tell it from the new monarch"
@@ -32,5 +37,5 @@
   ],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "9 of 18 fall back (monarch, beetle, cricket, cockroach, mosquito, fly, worm, microbe). Note the 7.1 'bug' is a centipede and the 7.1 ant is blue. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era."
+  "notes": "9 of 18 fall back (monarch, beetle, cricket, cockroach, mosquito, fly, worm, microbe). Note the 7.1 'bug' is a centipede and the 7.1 ant is blue. Fallback art (android-12, which is =11 for nearly all animals) is the 2020 animal redesign: no dark outline, light shading only, so it is acceptable and nothing goes to no_acceptable_era. android-16 pass: android-16 equals android-12 for every bug; only the butterfly (1f98b) is flagged =11 and is the orange look-alike of the E18 monarch, so the existing override 1f98b -> latest (blue) stays and android-16 must not replace it. Emoji 18 monarch butterfly (1facc) has no android-16 art and falls through to latest. Compared with latest, android-16 is identical except butterfly (blue in latest) and spider web (latest draws a thinner, finer web; 16 is the thicker, flatter grey line art =11). No change to recommended. android-16 before latest: yes (identical art wherever both exist apart from the butterfly, which is overridden)."
 }

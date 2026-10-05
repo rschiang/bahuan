@@ -8,7 +8,7 @@
 # is the worse match (contour lines, heavier shading, keycap tiles).
 
 [defaults]
-fallback = ["android-12", "latest"]   # post-blob emoji: newest flat Google design
+fallback = ["android-12", "android-16", "latest"]   # post-blob emoji: newest flat Google design
 avoid = ["android-8.0", "android-11"] # bordered clip-art; only if nothing else exists
 
 [subgroup]
@@ -40,9 +40,9 @@ hand-prop = "android-7.1"
 body-parts = "android-7.1"
 person = ["android-7.1", "android-12"]           # 1f9d1/child/hair ZWJ from 2020 art
 person-gesture = ["android-7.1", "android-12"]   # deaf person from 2020 art
-person-role = "android-12"                       # one design per profession trio (see REVIEW)
+person-role = ["android-12", "android-16"]       # one design per profession trio (see REVIEW); pregnant trio from 16
 person-fantasy = "android-12"                    # keeps Santa/Mrs/Mx Claus coherent
-person-activity = ["android-7.1", "android-12"]
+person-activity = ["android-7.1", "android-16"]
 person-sport = ["android-7.1", "android-12"]     # latest sports are grey, heavier
 person-resting = ["android-7.1", "android-12"]   # latest lotus adds contour lines
 family = ["android-7.1", "android-12"]           # never latest: keycap tiles
@@ -56,7 +56,7 @@ animal-reptile = ["android-7.1", "android-12"]
 animal-marine = ["android-7.1", "android-12"]
 animal-bug = ["android-7.1", "android-12"]
 plant-flower = "android-12"             # plants were truly redrawn in 2021
-plant-other = "android-12"
+plant-other = "android-16" # leaf fluttering redraw reads at 20px; a16 flatter than latest
 
 # Food & Drink
 food-fruit = "android-12"               # 19 of 21 redrawn flat in 2021
@@ -136,6 +136,9 @@ subdivision-flag = "waveflag"
 1fa9e = "latest"         # 🪞 12 mirror is =11 (ornate bordered frame)
 2705 = "android-12"      # ✅ 7.1 pale grey tick is invisible at 20px
 1f5fe = "android-12"     # 🗾 7.1 thin olive silhouette; 12 blue tile reads
+1f9ee = "android-16" # 🧮 flat soroban vs android-12 pale rainbow abacus
+1fab8 = "android-16" # 🪸 flat coral; latest adds gradient reef base
+1f930 = "android-16" # 🤰 pregnant trio: a16 flatter than android-12
 
 [redraw]
 2764_200d_1f525 = "only =11 gradient art"                    # ❤️‍🔥

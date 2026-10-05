@@ -68,6 +68,17 @@ vector = true
 aliases = "emoji_aliases.txt"
 note = "Flat redraw of part of the set (e.g. 🍊)."
 
+[era."android-16"]
+title = "Android 16 (Emoji 17 update)"
+commit = "6202fe7c"           # 2025-09-15, last release before the 2026 redraw
+tag = "v2.051"
+emoji = "17.0"
+png = "png/128"
+svg = "svg"
+vector = true
+aliases = "emoji_aliases.txt"
+note = "Flat 2021-lineage art carried to Emoji 17; 371 masters differ from latest."
+
 [era."latest"]
 title = "Upstream main"
 commit = "e20cbc2"            # 2026-09-24

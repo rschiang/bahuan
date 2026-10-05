@@ -12,6 +12,11 @@
       "rationale": "flat refresh with full coverage, but jeans/lipstick/gem have gradients and thong sandal is =11"
     },
     {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "same 2021-lineage flat art as android-12/latest: coat is the beige trench (as latest), thong sandal is a real flat redraw (not =11), has fan and hair pick; jeans/lipstick/gem still carry gradients"
+    },
+    {
       "era": "latest",
       "score": 6,
       "rationale": "as android-12; redraws thong sandal and coat, adds fan and hair pick"
@@ -37,5 +42,5 @@
   ],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "About 18 of 49 fall back (goggles, lab coat, safety vest, scarf, gloves, coat, socks, sari, swimsuit, briefs, shorts, thong sandal, hiking boot, flat shoe, ballet shoes, folding fan, hair pick, billed cap, military helmet). That is a lot of android-12 mixed in; android-12 clothing is mostly flat so the mix should hold, but the owner should check a rendered line of mixed clothing. Coat falls back to android-12 navy peacoat (latest is a trench coat)."
+  "notes": "About 18 of 49 fall back (goggles, lab coat, safety vest, scarf, gloves, coat, socks, sari, swimsuit, briefs, shorts, thong sandal, hiking boot, flat shoe, ballet shoes, folding fan, hair pick, billed cap, military helmet). That is a lot of android-12 mixed in; android-12 clothing is mostly flat so the mix should hold, but the owner should check a rendered line of mixed clothing. Coat falls back to android-12 navy peacoat (latest is a trench coat). android-16 review: not better than the 7.1 pick, scored level with android-12/latest. Its coat (1f9e5) is the beige trench coat, same look as latest, so the coat fallback stays android-12's navy peacoat (flatter, closer to the other 7.1-era dark-blue garments) rather than moving to the trench; the android-16 thong sandal, folding fan and hair pick are visually the same as latest, so the thong-sandal override stays latest (android-16 does not beat it) and fan/hair pick would resolve identically either way. android-16 and latest tiles differ only for the coat, with no gloss difference. android-16 before latest: yes (identical to latest wherever it has art; only Emoji 18 additions fall through)."
 }

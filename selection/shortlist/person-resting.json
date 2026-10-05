@@ -25,11 +25,19 @@
       "era": "latest",
       "score": 4,
       "rationale": "lotus redrawn with darker contour strokes and shading; bath and bed same as android-12"
+    },
+    {
+      "era": "android-16",
+      "score": 4,
+      "rationale": "lotus identical to latest (darker contour strokes and shading); bath and bed same as android-12"
     }
   ],
-  "recommended": "android-7.1",
+  "recommended": [
+    "android-7.1",
+    "android-12"
+  ],
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "medium",
-  "notes": "Only bath (1f6c0) and bed (1f6cc) exist before E5. With 7.1 the three lotus emoji fall back to android-12, a flat 2020 figure with no outline that sits fine with the 7.1/android-12 people elsewhere. It's close to a tie with android-12: pick android-12 if you'd rather the subgroup come from one era. Avoid latest for lotus because it adds contour lines, but the fallback order (android-12 first) already avoids it."
+  "notes": "Only bath (1f6c0) and bed (1f6cc) exist before E5. With 7.1 the three lotus emoji fall back to android-12, a flat 2020 figure with no outline that sits fine with the 7.1/android-12 people elsewhere. It's close to a tie with android-12: pick android-12 if you'd rather the subgroup come from one era. Avoid latest for lotus because it adds contour lines, but the fallback order (android-12 first) already avoids it. ANDROID-16 PASS: the three lotus emoji in android-16 are the same contour-line redraw as latest, so android-16 does not replace android-12 for them; bath and bed are identical to android-12. Where android-16 and latest differ: no tile in this subgroup differs. Recommended unchanged (selection.toml [android-7.1, android-12]); no overrides. Emoji 18 additions fall through to latest. android-16 before latest: yes (identical art here, so order has no visible effect)."
 }

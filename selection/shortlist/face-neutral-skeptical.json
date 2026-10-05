@@ -22,6 +22,11 @@
       "rationale": "flat round faces, no border; good fallback but drops the blobs"
     },
     {
+      "era": "android-16",
+      "score": 3,
+      "rationale": "9 of 16 tiles are =11 (bordered gradient); the newer tiles (dotted line, clouds, exhaling, head shakes) and grimacing are unbordered and a touch flatter than latest, but no blobs"
+    },
+    {
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
@@ -32,17 +37,17 @@
     {
       "key": "1f928",
       "era": "latest",
-      "reason": "face with raised eyebrow (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+      "reason": "face with raised eyebrow (E5.0): no blob; android-12 and android-16 are bordered android-11 art (=11), latest is flat"
     },
     {
       "key": "1f636_200d_1f32b",
-      "era": "latest",
-      "reason": "face in clouds (E13.1): no blob; android-12 is bordered android-11 art, latest is flat"
+      "era": "android-16",
+      "reason": "face in clouds (E13.1): no blob; android-12 is =11, android-16 is a non-=11 redraw with simple flat clouds, flatter and clearer at 20px than latest's busy translucent layered clouds"
     },
     {
       "key": "1f62e_200d_1f4a8",
-      "era": "latest",
-      "reason": "face exhaling (E13.1): no blob; android-12 is bordered android-11 art, latest is flat"
+      "era": "android-16",
+      "reason": "face exhaling (E13.1): no blob; android-12 is =11, android-16 is a non-=11 redraw with a simpler flat puff, less glossy than latest's translucent puff"
     }
   ],
   "no_acceptable_era": [],
@@ -77,5 +82,5 @@
     }
   ],
   "confidence": "medium",
-  "notes": "10 classic blobs in 7.1 (incl. 1f925 lying face). 7 newer faces go round: 1f928, 1f636_200d_1f32b, 1f62e_200d_1f4a8 need latest overrides (ZWJ face sequences are their own families, not followers of 1f636/1f62e, so they would otherwise take bordered android-12); 1fae5, 1fae8, 1f642_200d_2194, 1f642_200d_2195 go to latest automatically. Mixed sequences like face-in-clouds (round) next to blob 1f636 face-without-mouth are an obvious mismatch; 1f636_200d_1f32b and 1f62e_200d_1f4a8 are easy blob composites (blob base + clouds/puff) and good redraw candidates, as is 1f928. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "10 classic blobs in 7.1 (incl. 1f925 lying face), so 7.1 stays the subgroup pick. 7 newer faces go round. android-16 is =11 (bordered) for 1f928 and all classic faces, so 1f928 keeps the latest override. For the ZWJ/new sequences android-16 is a non-=11 redraw and is flatter/less glossy than latest: 1f636_200d_1f32b (latest has busy, translucent, layered clouds that smear at 20px; android-16 clouds are simpler and flat) and 1f62e_200d_1f4a8 (simpler puff) now override to android-16; 1fae5 dotted line face (lighter, thinner dashes and mouth), 1f642_200d_2194 and 1f642_200d_2195 (head-shake marks flatter/simpler) are the same drawings in both with android-16 marginally lighter, and resolve there automatically if android-16 sits before latest in the chain, otherwise latest. If the chain adds android-16 before latest, the two android-16 overrides become redundant. 1fae8 shaking face: android-16 and latest are byte-identical (no difference). All keys here are Emoji 17 or earlier, no Emoji 18 gap. Mixed sequences such as face-in-clouds (round) next to blob 1f636 face-without-mouth remain an obvious mismatch; 1f636_200d_1f32b and 1f62e_200d_1f4a8 are easy blob composites (blob base + clouds/puff) and good redraw candidates, as is 1f928. android-16 before latest: yes. round_fallbacks lists every emoji here that ends up as a flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

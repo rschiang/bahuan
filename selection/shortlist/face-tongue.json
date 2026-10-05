@@ -25,6 +25,11 @@
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    },
+    {
+      "era": "android-16",
+      "score": 1,
+      "rationale": "every tile is =11 (bordered gradient android-11 art); no gain over android-12"
     }
   ],
   "recommended": "android-7.1",
@@ -32,7 +37,7 @@
     {
       "key": "1f92a",
       "era": "latest",
-      "reason": "zany face (E5.0): no blob; android-12 is bordered android-11 art, latest is flat"
+      "reason": "zany face (E5.0): no blob; android-12 and android-16 are bordered android-11 art (=11), latest is flat"
     }
   ],
   "no_acceptable_era": [],
@@ -43,5 +48,5 @@
     }
   ],
   "confidence": "high",
-  "notes": "Five of six in 7.1. 1f92a zany face -> latest override (android-12 =11). Zany is popular; blob redraw candidate. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "Five of six in 7.1. 1f92a zany face -> latest override: android-12 and android-16 are both =11 (bordered, gradient), latest is a flat redraw (open grin with teeth). Latest is clearly the flatter/less glossy tile, so android-16 does not displace the override and is never recommended in this subgroup. Zany is popular; blob redraw candidate. android-16 before latest: no (every tile is =11 bordered art; latest is flatter; resolver skips =11 tiles anyway so chain placement is harmless here). round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

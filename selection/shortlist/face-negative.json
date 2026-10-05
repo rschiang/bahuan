@@ -25,6 +25,11 @@
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
+    },
+    {
+      "era": "android-16",
+      "score": 1,
+      "rationale": "all eight masters are =11 (bordered android-11 art, identical to android-12), never recommend"
     }
   ],
   "recommended": "android-7.1",
@@ -43,5 +48,5 @@
     }
   ],
   "confidence": "high",
-  "notes": "7.1 blob angry faces, red-orange blob devils and flat grey skulls, all unbordered. Skulls: latest is =11 (bordered) so 7.1 is the only acceptable art and must not be overridden. 1f92c symbols-on-mouth -> latest override (android-12 =11); round red face next to blob 1f621 is acceptable but a redraw candidate. 7.1 devils are orange-red vs latest purple: keep blob for consistency with face-costume neighbors only if they also pick 7.1. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "7.1 blob angry faces, red-orange blob devils and flat grey skulls, all unbordered. Skulls: latest is =11 (bordered) so 7.1 is the only acceptable art and must not be overridden. 1f92c symbols-on-mouth -> latest override (android-12 =11); round red face next to blob 1f621 is acceptable but a redraw candidate. 7.1 devils are orange-red vs latest purple: keep blob for consistency with face-costume neighbors only if they also pick 7.1. android-16 has nothing usable here: every master is =11 (the two skulls are also identical to latest, so bordered), so it is not recommended, the 1f92c override to latest stands, and no flatness comparison applies. android-16 before latest: no (nothing to gain; its tiles are bordered and skipped to latest anyway). android-16 is Emoji 17, so Emoji 18 faces would still fall through to latest. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

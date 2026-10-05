@@ -7,6 +7,11 @@
       "rationale": "flat, complete coverage, consistent with fruit/vegetable picks"
     },
     {
+      "era": "android-16",
+      "score": 8,
+      "rationale": "Emoji 17 art, complete; identical to android-12 except bacon (two strips instead of one, shared with latest); butter stays the flat 12 two-piece plate that latest redraws as a stick"
+    },
+    {
       "era": "latest",
       "score": 8,
       "rationale": "same as 12 with minor redraws (bacon)"
@@ -21,5 +26,5 @@
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "Fondue 1fad5 is =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it (dark stand, looks fine). 7.1 cooking/pan and pot-of-food are arguably nicer at 20px, but overriding them would break the subgroup's uniformity."
+  "notes": "Fondue 1fad5 is =11 but drawn for Emoji 13.0 in 2020 already in the flat style (no outline); =11 only because the refresh did not need to redraw it (dark stand, looks fine). 7.1 cooking/pan and pot-of-food are arguably nicer at 20px, but overriding them would break the subgroup's uniformity. android-16 pass: android-16 = android-12 except bacon (1f953: two wavy strips, same as latest, slightly busier than 12's single strip; no gain). Butter (1f9c8) is the same as android-12 in 16 (latest changes it to a stick on a tray), so 16 is the flatter/consistent tile where it differs from latest. No Emoji 18 food-prepared in the sheet. Recommended stays android-12. android-16 before latest: yes."
 }

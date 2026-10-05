@@ -17,14 +17,25 @@
       "rationale": "flat-ish but light greys and iridescent disks wash out small"
     },
     {
+      "era": "android-16",
+      "score": 6,
+      "rationale": "as android-12/latest: flat-ish, light greys and iridescent disks wash out small; adds low battery (E14) and the bold soroban abacus, trackball matches android-12"
+    },
+    {
       "era": "latest",
       "score": 6,
       "rationale": "as android-12 plus low battery"
     }
   ],
   "recommended": "android-7.1",
-  "overrides": [],
+  "overrides": [
+    {
+      "key": "1f9ee",
+      "era": "android-16",
+      "reason": "android-12 abacus is a light rainbow-bead child's abacus with a thin frame that washes out at 20px; android-16 is the bolder flat soroban (same look as latest) that sits better beside the dark computer tiles"
+    }
+  ],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "Fallbacks: low battery (1faab, latest only) and abacus (1f9ee, android-12). Low battery is green/grey while the 7.1 battery is orange, so the pair will not match; consider a redraw for harmony."
+  "notes": "Fallbacks: low battery (1faab, latest only) and abacus (1f9ee, android-12). Low battery is green/grey while the 7.1 battery is orange, so the pair will not match; consider a redraw for harmony. android-16 review: android-16 has low battery (1faab, same grey/red tile as latest) so that fallback no longer needs latest, and its abacus is the flat brown soroban (same look as latest) instead of android-12's pale rainbow abacus; added override 1f9ee -> android-16 for legibility (override is optional if the owner prefers the rainbow abacus). android-16 trackball is the round red android-12 one, latest redrew it as a square pad; neither is glossier enough to matter. android-16 before latest: yes (identical to latest for battery/plug/laptop/disks, low-battery pair mismatch with orange 7.1 battery unchanged)."
 }

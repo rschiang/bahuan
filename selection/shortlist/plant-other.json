@@ -2,6 +2,11 @@
   "subgroup": "plant-other",
   "ranked": [
     {
+      "era": "android-16",
+      "score": 9,
+      "rationale": "Emoji 17 art covering the whole subgroup (nests, leafless tree); same flat 2021 lineage as android-12 but the fluttering leaf is redrawn as two leaves with wind strokes (12 is a faint pale-blue ring that vanishes at 20px); maple leaf stays flatter than latest"
+    },
+    {
       "era": "android-12",
       "score": 8,
       "rationale": "2021 flat redraw, bright distinct greens, matches the latest fallbacks"
@@ -22,9 +27,9 @@
       "rationale": "same as 7.1, PNG only"
     }
   ],
-  "recommended": "android-12",
+  "recommended": "android-16",
   "overrides": [],
   "no_acceptable_era": [],
-  "confidence": "medium",
-  "notes": "Potted plant is =11 but has no outline, so it is acceptable. Nests and leafless tree (latest) sit well with android-12; under 7.1 they would clash with the olive palette. Maple leaf has a red-orange gradient in android-12/latest, which is minor. Same cross-group caveat as plant-flower."
+  "confidence": "high",
+  "notes": "Potted plant is =11 but has no outline, so it is acceptable. Nests and leafless tree (latest) sit well with android-12; under 7.1 they would clash with the olive palette. Maple leaf has a red-orange gradient in android-12/latest, which is minor. Same cross-group caveat as plant-flower. android-16 pass: android-16 is identical to android-12 except 🍃 leaf fluttering in wind (1f343), where the 12 pale ring + single leaf is faint at 20px and the 16 redraw (two leaves, motion strokes; identical to latest) is clearly more legible. 16 differs from latest only in the maple leaf (1f341): 16 keeps the flat red-orange of android-12, latest shifts to a more orange, glossier gradient, so android-16 is the flatter one. android-16 covers all 17 plant-other emoji (nests and leafless tree identical to latest), so there is no Emoji 18 fall-through here. Recommended changed android-12 -> android-16; neighbour plant-flower stays android-12 (same 2021 lineage, no visible seam). Potted plant is =11 but borderless, as before. android-16 before latest: yes."
 }

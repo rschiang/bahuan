@@ -7,6 +7,11 @@
       "rationale": "Nougat-style flat figures with SVG masters; covers every pre-E5 activity, and its people sit next to the android-12 fallbacks"
     },
     {
+      "era": "android-16",
+      "score": 7.5,
+      "rationale": "flat, borderless, and a superset of android-12: has the E15.1 facing-right set and the E17 ballet dancer too; standing trio gets blue shoes like the walking/kneeling figures (android-12 standing has grey shoes); massage redrawn as latest (bangs), haircut equals android-12"
+    },
+    {
       "era": "android-12",
       "score": 7,
       "rationale": "flat, borderless and complete for E5–E13; the full-body figures are mostly =11 but have no outline"
@@ -27,9 +32,12 @@
       "rationale": "classic blobs (yellow silhouettes, blob dancer/bunny) clash with the people subgroups; PNG only and very sparse"
     }
   ],
-  "recommended": "android-7.1",
+  "recommended": [
+    "android-7.1",
+    "android-16"
+  ],
   "overrides": [],
   "no_acceptable_era": [],
   "confidence": "high",
-  "notes": "7.1 covers massage, haircut, walking, running, dancers, levitating, bunny ears. Fallbacks to android-12 are standing, kneeling, cane, wheelchairs, steamy room and climbing; latest covers the E15.1 facing-right set and the E17 ballet dancer. The '=11' marks on walking/running/standing/wheelchair etc. are the 2020 full-body figures: flat with slight shading and NO dark outline (checked at 512px), so they're fine and none go to the backlog. Things to check: (1) in 7.1, base 1f486/1f487 are drawn as a woman (the old gendered default), while android-12 draws a neutral person. Decide this the same way for every person-* subgroup (batch 3 has the same issue). (2) 7.1 woman walking/running has beige trousers, but her latest facing-right twins have grey ones, so they differ slightly. (3) 1f9d6 steamy room uses translucent steam and is muddy at 20px. It has no border, but it could be redrawn later. (4) The 6.0.1 blob dancer/bunny are charming but PNG-only and don't match the Nougat people."
+  "notes": "7.1 covers massage, haircut, walking, running, dancers, levitating, bunny ears. Fallbacks to android-12 are standing, kneeling, cane, wheelchairs, steamy room and climbing; latest covers the E15.1 facing-right set and the E17 ballet dancer. The '=11' marks on walking/running/standing/wheelchair etc. are the 2020 full-body figures: flat with slight shading and NO dark outline (checked at 512px), so they're fine and none go to the backlog. Things to check: (1) in 7.1, base 1f486/1f487 are drawn as a woman (the old gendered default), while android-12 draws a neutral person. Decide this the same way for every person-* subgroup (batch 3 has the same issue). (2) 7.1 woman walking/running has beige trousers, but her latest facing-right twins have grey ones, so they differ slightly. (3) 1f9d6 steamy room uses translucent steam and is muddy at 20px. It has no border, but it could be redrawn later. (4) The 6.0.1 blob dancer/bunny are charming but PNG-only and don't match the Nougat people. ANDROID-16 PASS: recommended is now [android-7.1, android-16] instead of [android-7.1, android-12]. The only emoji whose art differs between android-12 and android-16 and which 7.1 lacks is standing (1f9cd and man/woman): android-16 standing has blue shoes matching the walking, kneeling and wheelchair figures, while the android-12 =11 version has grey shoes. Every other fallback key (kneeling, cane, wheelchairs, steamy room, climbing) is byte-identical in android-12 and android-16, and the E15.1 facing-right set and ballet dancer are identical in android-16 and latest, so the pinned list changes only the three standing keys. Where android-16 and latest differ: no row in this subgroup (the delta file has no `new` row); android-16 is a superset of android-12 and equals latest where they differ. No `=11` bordered art is recommended (the =11 figures are borderless 2020 art, as before). Emoji 18 additions (if any) have no android-16 art and fall through to latest. android-16 before latest: yes."
 }

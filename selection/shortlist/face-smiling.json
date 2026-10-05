@@ -22,6 +22,11 @@
       "rationale": "flat round faces, no border; good fallback but drops the blobs"
     },
     {
+      "era": "android-16",
+      "score": 3,
+      "rationale": "12 of 13 tiles are =11 (bordered gradient android-11 art); only 1fae0 melting face is a usable unbordered tile, marginally flatter than latest"
+    },
+    {
       "era": "android-12",
       "score": 1,
       "rationale": "faces are =11 (bordered gradient android-11 art), never redrawn in 2021"
@@ -41,5 +46,5 @@
     }
   ],
   "confidence": "high",
-  "notes": "Core blob set, all 13 classic faces in 7.1. 1fae0 melting and 1faeb cracking have no blob and fall to latest automatically (android-12 lacks them), giving round flat faces; melting is shape-distinct so it sits OK, cracking face is busy at 20px. android-6.0.1 has charming originals (e.g. 1f604/1f606 with blush) but is PNG-only and inconsistent with 7.1; not worth overrides. round_fallbacks lists every emoji here that ends up as a latest flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
+  "notes": "Core blob set, all 13 classic faces in 7.1; android-16 is =11 for every one of them, so it is never an option there. 1fae0 melting is the only android-16 delta tile (new in 14.0, not =11): android-16 and latest are near-identical, android-16 is marginally flatter (thinner/lighter swirl and rim strokes). 1faeb cracking face is Emoji 18: no android-16 art, falls to latest. Not worth a subgroup-level android-16 pick (would bring bordered art). Fallback chain: with android-16 before latest, melting resolves to android-16 (flatter by a hair), cracking to latest; round faces are consistent either way. android-16 before latest: yes. 6.0.1 has charming originals (e.g. 1f604/1f606 with blush) but is PNG-only and inconsistent with 7.1; not worth overrides. round_fallbacks lists every emoji here that ends up as a flat round face (unbordered, so not redraw-mandatory; optional blob-redraw backlog)."
 }

@@ -9,7 +9,7 @@ key	emoji	era	why	source	vector	family
 1f602	😂	android-7.1	subgroup	android-7.1:svg/emoji_u1f602.svg		
 1f642	🙂	android-7.1	subgroup	android-7.1:svg/emoji_u1f642.svg		
 1f643	🙃	android-7.1	subgroup	android-7.1:svg/emoji_u1f643.svg		
-1fae0	🫠	latest	fallback	latest:2D/svg/emoji_u1fae0.svg		
+1fae0	🫠	android-16	fallback	android-16:svg/emoji_u1fae0.svg		
 1faeb	🫫	latest	fallback	latest:2D/svg/emoji_u1faeb.svg		
 1f609	😉	android-7.1	subgroup	android-7.1:svg/emoji_u1f609.svg		
 1f60a	😊	android-7.1	subgroup	android-7.1:svg/emoji_u1f60a.svg		
@@ -30,34 +30,34 @@ key	emoji	era	why	source	vector	family
 1f61d	😝	android-7.1	subgroup	android-7.1:svg/emoji_u1f61d.svg		
 1f911	🤑	android-7.1	subgroup	android-7.1:svg/emoji_u1f911.svg		
 1f917	🤗	android-7.1	subgroup	android-7.1:svg/emoji_u1f917.svg		
-1f92d	🤭	latest	fallback	latest:2D/svg/emoji_u1f92d.svg		
-1fae2	🫢	latest	fallback	latest:2D/svg/emoji_u1fae2.svg		
-1fae3	🫣	latest	fallback	latest:2D/svg/emoji_u1fae3.svg		
-1f92b	🤫	latest	fallback	latest:2D/svg/emoji_u1f92b.svg		
+1f92d	🤭	android-16	fallback	android-16:svg/emoji_u1f92d.svg		
+1fae2	🫢	android-16	fallback	android-16:svg/emoji_u1fae2.svg		
+1fae3	🫣	android-16	fallback	android-16:svg/emoji_u1fae3.svg		
+1f92b	🤫	android-16	fallback	android-16:svg/emoji_u1f92b.svg		
 1f914	🤔	android-7.1	subgroup	android-7.1:svg/emoji_u1f914.svg		
-1fae1	🫡	latest	fallback	latest:2D/svg/emoji_u1fae1.svg		
+1fae1	🫡	android-16	fallback	android-16:svg/emoji_u1fae1.svg		
 1f910	🤐	android-7.1	subgroup	android-7.1:svg/emoji_u1f910.svg		
 1f928	🤨	latest	fallback	latest:2D/svg/emoji_u1f928.svg		
 1f610	😐	android-7.1	subgroup	android-7.1:svg/emoji_u1f610.svg		
 1f611	😑	android-7.1	subgroup	android-7.1:svg/emoji_u1f611.svg		
 1f636	😶	android-7.1	subgroup	android-7.1:svg/emoji_u1f636.svg		
-1fae5	🫥	latest	fallback	latest:2D/svg/emoji_u1fae5.svg		
-1f636_200d_1f32b	😶‍🌫️	latest	fallback	latest:2D/svg/emoji_u1f636_200d_1f32b.svg		
+1fae5	🫥	android-16	fallback	android-16:svg/emoji_u1fae5.svg		
+1f636_200d_1f32b	😶‍🌫️	android-16	fallback	android-16:svg/emoji_u1f636_200d_1f32b.svg		
 1f60f	😏	android-7.1	subgroup	android-7.1:svg/emoji_u1f60f.svg		
 1f612	😒	android-7.1	subgroup	android-7.1:svg/emoji_u1f612.svg		
 1f644	🙄	android-7.1	subgroup	android-7.1:svg/emoji_u1f644.svg		
 1f62c	😬	android-7.1	subgroup	android-7.1:svg/emoji_u1f62c.svg		
-1f62e_200d_1f4a8	😮‍💨	latest	fallback	latest:2D/svg/emoji_u1f62e_200d_1f4a8.svg		
+1f62e_200d_1f4a8	😮‍💨	android-16	fallback	android-16:svg/emoji_u1f62e_200d_1f4a8.svg		
 1f925	🤥	android-7.1	subgroup	android-7.1:svg/emoji_u1f925.svg		
-1fae8	🫨	latest	fallback	latest:2D/svg/emoji_u1fae8.svg		
-1f642_200d_2194	🙂‍↔️	latest	fallback	latest:2D/svg/emoji_u1f642_200d_2194.svg		
-1f642_200d_2195	🙂‍↕️	latest	fallback	latest:2D/svg/emoji_u1f642_200d_2195.svg		
+1fae8	🫨	android-16	fallback	android-16:svg/emoji_u1fae8.svg		
+1f642_200d_2194	🙂‍↔️	android-16	fallback	android-16:svg/emoji_u1f642_200d_2194.svg		
+1f642_200d_2195	🙂‍↕️	android-16	fallback	android-16:svg/emoji_u1f642_200d_2195.svg		
 1f60c	😌	android-7.1	subgroup	android-7.1:svg/emoji_u1f60c.svg		
 1f614	😔	android-7.1	subgroup	android-7.1:svg/emoji_u1f614.svg		
 1f62a	😪	android-7.1	subgroup	android-7.1:svg/emoji_u1f62a.svg		
 1f924	🤤	android-7.1	subgroup	android-7.1:svg/emoji_u1f924.svg		
 1f634	😴	android-7.1	subgroup	android-7.1:svg/emoji_u1f634.svg		
-1fae9	🫩	latest	fallback	latest:2D/svg/emoji_u1fae9.svg		
+1fae9	🫩	android-16	fallback	android-16:svg/emoji_u1fae9.svg		
 1f637	😷	android-7.1	subgroup	android-7.1:svg/emoji_u1f637.svg		
 1f912	🤒	android-7.1	subgroup	android-7.1:svg/emoji_u1f912.svg		
 1f915	🤕	android-7.1	subgroup	android-7.1:svg/emoji_u1f915.svg		
@@ -65,7 +65,7 @@ key	emoji	era	why	source	vector	family
 1f92e	🤮	latest	fallback	latest:2D/svg/emoji_u1f92e.svg		
 1f927	🤧	android-7.1	subgroup	android-7.1:svg/emoji_u1f927.svg		
 1f975	🥵	latest	fallback	latest:2D/svg/emoji_u1f975.svg		
-1f976	🥶	latest	fallback	latest:2D/svg/emoji_u1f976.svg		
+1f976	🥶	android-16	fallback	android-16:svg/emoji_u1f976.svg		
 1f974	🥴	latest	fallback	latest:2D/svg/emoji_u1f974.svg		
 1f635	😵	android-7.1	subgroup	android-7.1:svg/emoji_u1f635.svg		
 1f635_200d_1f4ab	😵‍💫	latest	fallback	latest:2D/svg/emoji_u1f635_200d_1f4ab.svg		
@@ -77,7 +77,7 @@ key	emoji	era	why	source	vector	family
 1f913	🤓	android-7.1	subgroup	android-7.1:svg/emoji_u1f913.svg		
 1f9d0	🧐	latest	override	latest:2D/svg/emoji_u1f9d0.svg		
 1f615	😕	android-7.1	subgroup	android-7.1:svg/emoji_u1f615.svg		
-1fae4	🫤	latest	fallback	latest:2D/svg/emoji_u1fae4.svg		
+1fae4	🫤	android-16	fallback	android-16:svg/emoji_u1fae4.svg		
 1f61f	😟	android-7.1	subgroup	android-7.1:svg/emoji_u1f61f.svg		
 1f641	🙁	android-7.1	subgroup	android-7.1:svg/emoji_u1f641.svg		
 2639	☹️	android-7.1	subgroup	android-7.1:svg/emoji_u2639.svg		
@@ -85,9 +85,9 @@ key	emoji	era	why	source	vector	family
 1f62f	😯	android-7.1	subgroup	android-7.1:svg/emoji_u1f62f.svg		
 1f632	😲	android-7.1	subgroup	android-7.1:svg/emoji_u1f632.svg		
 1f633	😳	android-7.1	subgroup	android-7.1:svg/emoji_u1f633.svg		
-1faea	🫪	latest	fallback	latest:2D/svg/emoji_u1faea.svg		
+1faea	🫪	android-16	fallback	android-16:svg/emoji_u1faea.svg		
 1f97a	🥺	latest	fallback	latest:2D/svg/emoji_u1f97a.svg		
-1f979	🥹	latest	fallback	latest:2D/svg/emoji_u1f979.svg		
+1f979	🥹	android-16	fallback	android-16:svg/emoji_u1f979.svg		
 1f626	😦	android-7.1	subgroup	android-7.1:svg/emoji_u1f626.svg		
 1f627	😧	android-7.1	subgroup	android-7.1:svg/emoji_u1f627.svg		
 1f628	😨	android-7.1	subgroup	android-7.1:svg/emoji_u1f628.svg		
@@ -102,7 +102,7 @@ key	emoji	era	why	source	vector	family
 1f613	😓	android-7.1	subgroup	android-7.1:svg/emoji_u1f613.svg		
 1f629	😩	android-7.1	subgroup	android-7.1:svg/emoji_u1f629.svg		
 1f62b	😫	android-7.1	subgroup	android-7.1:svg/emoji_u1f62b.svg		
-1f971	🥱	latest	fallback	latest:2D/svg/emoji_u1f971.svg		
+1f971	🥱	android-16	fallback	android-16:svg/emoji_u1f971.svg		
 1f624	😤	android-7.1	subgroup	android-7.1:svg/emoji_u1f624.svg		
 1f621	😡	android-7.1	subgroup	android-7.1:svg/emoji_u1f621.svg		
 1f620	😠	android-7.1	subgroup	android-7.1:svg/emoji_u1f620.svg		
@@ -145,21 +145,21 @@ key	emoji	era	why	source	vector	family
 2764_200d_1f525	❤️‍🔥	android-12	fallback	android-12:svg/emoji_u2764_200d_1f525.svg		
 2764_200d_1fa79	❤️‍🩹	android-12	fallback	android-12:svg/emoji_u2764_200d_1fa79.svg		
 2764	❤️	android-7.1	subgroup	android-7.1:svg/emoji_u2764.svg		
-1fa77	🩷	latest	fallback	latest:2D/svg/emoji_u1fa77.svg		
+1fa77	🩷	android-16	fallback	android-16:svg/emoji_u1fa77.svg		
 1f9e1	🧡	android-12	fallback	android-12:svg/emoji_u1f9e1.svg		
 1f49b	💛	android-7.1	subgroup	android-7.1:svg/emoji_u1f49b.svg		
 1f49a	💚	android-7.1	subgroup	android-7.1:svg/emoji_u1f49a.svg		
 1f499	💙	android-7.1	subgroup	android-7.1:svg/emoji_u1f499.svg		
-1fa75	🩵	latest	fallback	latest:2D/svg/emoji_u1fa75.svg		
+1fa75	🩵	android-16	fallback	android-16:svg/emoji_u1fa75.svg		
 1f49c	💜	android-7.1	subgroup	android-7.1:svg/emoji_u1f49c.svg		
 1f90e	🤎	android-12	fallback	android-12:svg/emoji_u1f90e.svg		
 1f5a4	🖤	android-7.1	subgroup	android-7.1:svg/emoji_u1f5a4.svg		
-1fa76	🩶	latest	fallback	latest:2D/svg/emoji_u1fa76.svg		
+1fa76	🩶	android-16	fallback	android-16:svg/emoji_u1fa76.svg		
 1f90d	🤍	android-12	fallback	android-12:svg/emoji_u1f90d.svg		
 1f48b	💋	android-7.1	subgroup	android-7.1:svg/emoji_u1f48b.svg		
 1f4af	💯	android-7.1	subgroup	android-7.1:svg/emoji_u1f4af.svg		
 1f4a2	💢	android-7.1	subgroup	android-7.1:svg/emoji_u1f4a2.svg		
-1faef	🫯	latest	fallback	latest:2D/svg/emoji_u1faef.svg		
+1faef	🫯	android-16	fallback	android-16:svg/emoji_u1faef.svg		
 1f4a5	💥	android-7.1	subgroup	android-7.1:svg/emoji_u1f4a5.svg		
 1f4ab	💫	android-7.1	subgroup	android-7.1:svg/emoji_u1f4ab.svg		
 1f4a6	💦	android-7.1	subgroup	android-7.1:svg/emoji_u1f4a6.svg		
@@ -201,60 +201,60 @@ key	emoji	era	why	source	vector	family
 1f596_1f3fd	🖖🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f596_1f3fd.svg		1f596
 1f596_1f3fe	🖖🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f596_1f3fe.svg		1f596
 1f596_1f3ff	🖖🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f596_1f3ff.svg		1f596
-1faf1	🫱	latest	fallback	latest:2D/svg/emoji_u1faf1.svg		
-1faf1_1f3fb	🫱🏻	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fb.svg		1faf1
-1faf1_1f3fc	🫱🏼	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fc.svg		1faf1
-1faf1_1f3fd	🫱🏽	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fd.svg		1faf1
-1faf1_1f3fe	🫱🏾	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fe.svg		1faf1
-1faf1_1f3ff	🫱🏿	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3ff.svg		1faf1
-1faf2	🫲	latest	fallback	latest:2D/svg/emoji_u1faf2.svg		
-1faf2_1f3fb	🫲🏻	latest	fallback	latest:2D/svg/emoji_u1faf2_1f3fb.svg		1faf2
-1faf2_1f3fc	🫲🏼	latest	fallback	latest:2D/svg/emoji_u1faf2_1f3fc.svg		1faf2
-1faf2_1f3fd	🫲🏽	latest	fallback	latest:2D/svg/emoji_u1faf2_1f3fd.svg		1faf2
-1faf2_1f3fe	🫲🏾	latest	fallback	latest:2D/svg/emoji_u1faf2_1f3fe.svg		1faf2
-1faf2_1f3ff	🫲🏿	latest	fallback	latest:2D/svg/emoji_u1faf2_1f3ff.svg		1faf2
-1faf3	🫳	latest	fallback	latest:2D/svg/emoji_u1faf3.svg		
-1faf3_1f3fb	🫳🏻	latest	fallback	latest:2D/svg/emoji_u1faf3_1f3fb.svg		1faf3
-1faf3_1f3fc	🫳🏼	latest	fallback	latest:2D/svg/emoji_u1faf3_1f3fc.svg		1faf3
-1faf3_1f3fd	🫳🏽	latest	fallback	latest:2D/svg/emoji_u1faf3_1f3fd.svg		1faf3
-1faf3_1f3fe	🫳🏾	latest	fallback	latest:2D/svg/emoji_u1faf3_1f3fe.svg		1faf3
-1faf3_1f3ff	🫳🏿	latest	fallback	latest:2D/svg/emoji_u1faf3_1f3ff.svg		1faf3
-1faf4	🫴	latest	fallback	latest:2D/svg/emoji_u1faf4.svg		
-1faf4_1f3fb	🫴🏻	latest	fallback	latest:2D/svg/emoji_u1faf4_1f3fb.svg		1faf4
-1faf4_1f3fc	🫴🏼	latest	fallback	latest:2D/svg/emoji_u1faf4_1f3fc.svg		1faf4
-1faf4_1f3fd	🫴🏽	latest	fallback	latest:2D/svg/emoji_u1faf4_1f3fd.svg		1faf4
-1faf4_1f3fe	🫴🏾	latest	fallback	latest:2D/svg/emoji_u1faf4_1f3fe.svg		1faf4
-1faf4_1f3ff	🫴🏿	latest	fallback	latest:2D/svg/emoji_u1faf4_1f3ff.svg		1faf4
-1faf7	🫷	latest	fallback	latest:2D/svg/emoji_u1faf7.svg		
-1faf7_1f3fb	🫷🏻	latest	fallback	latest:2D/svg/emoji_u1faf7_1f3fb.svg		1faf7
-1faf7_1f3fc	🫷🏼	latest	fallback	latest:2D/svg/emoji_u1faf7_1f3fc.svg		1faf7
-1faf7_1f3fd	🫷🏽	latest	fallback	latest:2D/svg/emoji_u1faf7_1f3fd.svg		1faf7
-1faf7_1f3fe	🫷🏾	latest	fallback	latest:2D/svg/emoji_u1faf7_1f3fe.svg		1faf7
-1faf7_1f3ff	🫷🏿	latest	fallback	latest:2D/svg/emoji_u1faf7_1f3ff.svg		1faf7
-1faf8	🫸	latest	fallback	latest:2D/svg/emoji_u1faf8.svg		
-1faf8_1f3fb	🫸🏻	latest	fallback	latest:2D/svg/emoji_u1faf8_1f3fb.svg		1faf8
-1faf8_1f3fc	🫸🏼	latest	fallback	latest:2D/svg/emoji_u1faf8_1f3fc.svg		1faf8
-1faf8_1f3fd	🫸🏽	latest	fallback	latest:2D/svg/emoji_u1faf8_1f3fd.svg		1faf8
-1faf8_1f3fe	🫸🏾	latest	fallback	latest:2D/svg/emoji_u1faf8_1f3fe.svg		1faf8
-1faf8_1f3ff	🫸🏿	latest	fallback	latest:2D/svg/emoji_u1faf8_1f3ff.svg		1faf8
+1faf1	🫱	android-16	fallback	android-16:svg/emoji_u1faf1.svg		
+1faf1_1f3fb	🫱🏻	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fb.svg		1faf1
+1faf1_1f3fc	🫱🏼	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fc.svg		1faf1
+1faf1_1f3fd	🫱🏽	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fd.svg		1faf1
+1faf1_1f3fe	🫱🏾	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fe.svg		1faf1
+1faf1_1f3ff	🫱🏿	android-16	fallback	android-16:svg/emoji_u1faf1_1f3ff.svg		1faf1
+1faf2	🫲	android-16	fallback	android-16:svg/emoji_u1faf2.svg		
+1faf2_1f3fb	🫲🏻	android-16	fallback	android-16:svg/emoji_u1faf2_1f3fb.svg		1faf2
+1faf2_1f3fc	🫲🏼	android-16	fallback	android-16:svg/emoji_u1faf2_1f3fc.svg		1faf2
+1faf2_1f3fd	🫲🏽	android-16	fallback	android-16:svg/emoji_u1faf2_1f3fd.svg		1faf2
+1faf2_1f3fe	🫲🏾	android-16	fallback	android-16:svg/emoji_u1faf2_1f3fe.svg		1faf2
+1faf2_1f3ff	🫲🏿	android-16	fallback	android-16:svg/emoji_u1faf2_1f3ff.svg		1faf2
+1faf3	🫳	android-16	fallback	android-16:svg/emoji_u1faf3.svg		
+1faf3_1f3fb	🫳🏻	android-16	fallback	android-16:svg/emoji_u1faf3_1f3fb.svg		1faf3
+1faf3_1f3fc	🫳🏼	android-16	fallback	android-16:svg/emoji_u1faf3_1f3fc.svg		1faf3
+1faf3_1f3fd	🫳🏽	android-16	fallback	android-16:svg/emoji_u1faf3_1f3fd.svg		1faf3
+1faf3_1f3fe	🫳🏾	android-16	fallback	android-16:svg/emoji_u1faf3_1f3fe.svg		1faf3
+1faf3_1f3ff	🫳🏿	android-16	fallback	android-16:svg/emoji_u1faf3_1f3ff.svg		1faf3
+1faf4	🫴	android-16	fallback	android-16:svg/emoji_u1faf4.svg		
+1faf4_1f3fb	🫴🏻	android-16	fallback	android-16:svg/emoji_u1faf4_1f3fb.svg		1faf4
+1faf4_1f3fc	🫴🏼	android-16	fallback	android-16:svg/emoji_u1faf4_1f3fc.svg		1faf4
+1faf4_1f3fd	🫴🏽	android-16	fallback	android-16:svg/emoji_u1faf4_1f3fd.svg		1faf4
+1faf4_1f3fe	🫴🏾	android-16	fallback	android-16:svg/emoji_u1faf4_1f3fe.svg		1faf4
+1faf4_1f3ff	🫴🏿	android-16	fallback	android-16:svg/emoji_u1faf4_1f3ff.svg		1faf4
+1faf7	🫷	android-16	fallback	android-16:svg/emoji_u1faf7.svg		
+1faf7_1f3fb	🫷🏻	android-16	fallback	android-16:svg/emoji_u1faf7_1f3fb.svg		1faf7
+1faf7_1f3fc	🫷🏼	android-16	fallback	android-16:svg/emoji_u1faf7_1f3fc.svg		1faf7
+1faf7_1f3fd	🫷🏽	android-16	fallback	android-16:svg/emoji_u1faf7_1f3fd.svg		1faf7
+1faf7_1f3fe	🫷🏾	android-16	fallback	android-16:svg/emoji_u1faf7_1f3fe.svg		1faf7
+1faf7_1f3ff	🫷🏿	android-16	fallback	android-16:svg/emoji_u1faf7_1f3ff.svg		1faf7
+1faf8	🫸	android-16	fallback	android-16:svg/emoji_u1faf8.svg		
+1faf8_1f3fb	🫸🏻	android-16	fallback	android-16:svg/emoji_u1faf8_1f3fb.svg		1faf8
+1faf8_1f3fc	🫸🏼	android-16	fallback	android-16:svg/emoji_u1faf8_1f3fc.svg		1faf8
+1faf8_1f3fd	🫸🏽	android-16	fallback	android-16:svg/emoji_u1faf8_1f3fd.svg		1faf8
+1faf8_1f3fe	🫸🏾	android-16	fallback	android-16:svg/emoji_u1faf8_1f3fe.svg		1faf8
+1faf8_1f3ff	🫸🏿	android-16	fallback	android-16:svg/emoji_u1faf8_1f3ff.svg		1faf8
 1f44c	👌	android-7.1	subgroup	android-7.1:svg/emoji_u1f44c.svg		
 1f44c_1f3fb	👌🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f44c_1f3fb.svg		1f44c
 1f44c_1f3fc	👌🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f44c_1f3fc.svg		1f44c
 1f44c_1f3fd	👌🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f44c_1f3fd.svg		1f44c
 1f44c_1f3fe	👌🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f44c_1f3fe.svg		1f44c
 1f44c_1f3ff	👌🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f44c_1f3ff.svg		1f44c
-1f90c	🤌	latest	fallback	latest:2D/svg/emoji_u1f90c.svg		
-1f90c_1f3fb	🤌🏻	latest	fallback	latest:2D/svg/emoji_u1f90c_1f3fb.svg		1f90c
-1f90c_1f3fc	🤌🏼	latest	fallback	latest:2D/svg/emoji_u1f90c_1f3fc.svg		1f90c
-1f90c_1f3fd	🤌🏽	latest	fallback	latest:2D/svg/emoji_u1f90c_1f3fd.svg		1f90c
-1f90c_1f3fe	🤌🏾	latest	fallback	latest:2D/svg/emoji_u1f90c_1f3fe.svg		1f90c
-1f90c_1f3ff	🤌🏿	latest	fallback	latest:2D/svg/emoji_u1f90c_1f3ff.svg		1f90c
-1f90f	🤏	latest	fallback	latest:2D/svg/emoji_u1f90f.svg		
-1f90f_1f3fb	🤏🏻	latest	fallback	latest:2D/svg/emoji_u1f90f_1f3fb.svg		1f90f
-1f90f_1f3fc	🤏🏼	latest	fallback	latest:2D/svg/emoji_u1f90f_1f3fc.svg		1f90f
-1f90f_1f3fd	🤏🏽	latest	fallback	latest:2D/svg/emoji_u1f90f_1f3fd.svg		1f90f
-1f90f_1f3fe	🤏🏾	latest	fallback	latest:2D/svg/emoji_u1f90f_1f3fe.svg		1f90f
-1f90f_1f3ff	🤏🏿	latest	fallback	latest:2D/svg/emoji_u1f90f_1f3ff.svg		1f90f
+1f90c	🤌	android-16	fallback	android-16:svg/emoji_u1f90c.svg		
+1f90c_1f3fb	🤌🏻	android-16	fallback	android-16:svg/emoji_u1f90c_1f3fb.svg		1f90c
+1f90c_1f3fc	🤌🏼	android-16	fallback	android-16:svg/emoji_u1f90c_1f3fc.svg		1f90c
+1f90c_1f3fd	🤌🏽	android-16	fallback	android-16:svg/emoji_u1f90c_1f3fd.svg		1f90c
+1f90c_1f3fe	🤌🏾	android-16	fallback	android-16:svg/emoji_u1f90c_1f3fe.svg		1f90c
+1f90c_1f3ff	🤌🏿	android-16	fallback	android-16:svg/emoji_u1f90c_1f3ff.svg		1f90c
+1f90f	🤏	android-16	fallback	android-16:svg/emoji_u1f90f.svg		
+1f90f_1f3fb	🤏🏻	android-16	fallback	android-16:svg/emoji_u1f90f_1f3fb.svg		1f90f
+1f90f_1f3fc	🤏🏼	android-16	fallback	android-16:svg/emoji_u1f90f_1f3fc.svg		1f90f
+1f90f_1f3fd	🤏🏽	android-16	fallback	android-16:svg/emoji_u1f90f_1f3fd.svg		1f90f
+1f90f_1f3fe	🤏🏾	android-16	fallback	android-16:svg/emoji_u1f90f_1f3fe.svg		1f90f
+1f90f_1f3ff	🤏🏿	android-16	fallback	android-16:svg/emoji_u1f90f_1f3ff.svg		1f90f
 270c	✌️	android-7.1	subgroup	android-7.1:svg/emoji_u270c.svg		
 270c_1f3fb	✌🏻	android-7.1	subgroup	android-7.1:svg/emoji_u270c_1f3fb.svg		270c
 270c_1f3fc	✌🏼	android-7.1	subgroup	android-7.1:svg/emoji_u270c_1f3fc.svg		270c
@@ -267,18 +267,18 @@ key	emoji	era	why	source	vector	family
 1f91e_1f3fd	🤞🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f91e_1f3fd.svg		1f91e
 1f91e_1f3fe	🤞🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f91e_1f3fe.svg		1f91e
 1f91e_1f3ff	🤞🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f91e_1f3ff.svg		1f91e
-1faf0	🫰	latest	fallback	latest:2D/svg/emoji_u1faf0.svg		
-1faf0_1f3fb	🫰🏻	latest	fallback	latest:2D/svg/emoji_u1faf0_1f3fb.svg		1faf0
-1faf0_1f3fc	🫰🏼	latest	fallback	latest:2D/svg/emoji_u1faf0_1f3fc.svg		1faf0
-1faf0_1f3fd	🫰🏽	latest	fallback	latest:2D/svg/emoji_u1faf0_1f3fd.svg		1faf0
-1faf0_1f3fe	🫰🏾	latest	fallback	latest:2D/svg/emoji_u1faf0_1f3fe.svg		1faf0
-1faf0_1f3ff	🫰🏿	latest	fallback	latest:2D/svg/emoji_u1faf0_1f3ff.svg		1faf0
-1f91f	🤟	latest	fallback	latest:2D/svg/emoji_u1f91f.svg		
-1f91f_1f3fb	🤟🏻	latest	fallback	latest:2D/svg/emoji_u1f91f_1f3fb.svg		1f91f
-1f91f_1f3fc	🤟🏼	latest	fallback	latest:2D/svg/emoji_u1f91f_1f3fc.svg		1f91f
-1f91f_1f3fd	🤟🏽	latest	fallback	latest:2D/svg/emoji_u1f91f_1f3fd.svg		1f91f
-1f91f_1f3fe	🤟🏾	latest	fallback	latest:2D/svg/emoji_u1f91f_1f3fe.svg		1f91f
-1f91f_1f3ff	🤟🏿	latest	fallback	latest:2D/svg/emoji_u1f91f_1f3ff.svg		1f91f
+1faf0	🫰	android-16	fallback	android-16:svg/emoji_u1faf0.svg		
+1faf0_1f3fb	🫰🏻	android-16	fallback	android-16:svg/emoji_u1faf0_1f3fb.svg		1faf0
+1faf0_1f3fc	🫰🏼	android-16	fallback	android-16:svg/emoji_u1faf0_1f3fc.svg		1faf0
+1faf0_1f3fd	🫰🏽	android-16	fallback	android-16:svg/emoji_u1faf0_1f3fd.svg		1faf0
+1faf0_1f3fe	🫰🏾	android-16	fallback	android-16:svg/emoji_u1faf0_1f3fe.svg		1faf0
+1faf0_1f3ff	🫰🏿	android-16	fallback	android-16:svg/emoji_u1faf0_1f3ff.svg		1faf0
+1f91f	🤟	android-16	fallback	android-16:svg/emoji_u1f91f.svg		
+1f91f_1f3fb	🤟🏻	android-16	fallback	android-16:svg/emoji_u1f91f_1f3fb.svg		1f91f
+1f91f_1f3fc	🤟🏼	android-16	fallback	android-16:svg/emoji_u1f91f_1f3fc.svg		1f91f
+1f91f_1f3fd	🤟🏽	android-16	fallback	android-16:svg/emoji_u1f91f_1f3fd.svg		1f91f
+1f91f_1f3fe	🤟🏾	android-16	fallback	android-16:svg/emoji_u1f91f_1f3fe.svg		1f91f
+1f91f_1f3ff	🤟🏿	android-16	fallback	android-16:svg/emoji_u1f91f_1f3ff.svg		1f91f
 1f918	🤘	android-7.1	subgroup	android-7.1:svg/emoji_u1f918.svg		
 1f918_1f3fb	🤘🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f918_1f3fb.svg		1f918
 1f918_1f3fc	🤘🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f918_1f3fc.svg		1f918
@@ -327,12 +327,12 @@ key	emoji	era	why	source	vector	family
 261d_1f3fd	☝🏽	android-7.1	subgroup	android-7.1:svg/emoji_u261d_1f3fd.svg		261d
 261d_1f3fe	☝🏾	android-7.1	subgroup	android-7.1:svg/emoji_u261d_1f3fe.svg		261d
 261d_1f3ff	☝🏿	android-7.1	subgroup	android-7.1:svg/emoji_u261d_1f3ff.svg		261d
-1faf5	🫵	latest	fallback	latest:2D/svg/emoji_u1faf5.svg		
-1faf5_1f3fb	🫵🏻	latest	fallback	latest:2D/svg/emoji_u1faf5_1f3fb.svg		1faf5
-1faf5_1f3fc	🫵🏼	latest	fallback	latest:2D/svg/emoji_u1faf5_1f3fc.svg		1faf5
-1faf5_1f3fd	🫵🏽	latest	fallback	latest:2D/svg/emoji_u1faf5_1f3fd.svg		1faf5
-1faf5_1f3fe	🫵🏾	latest	fallback	latest:2D/svg/emoji_u1faf5_1f3fe.svg		1faf5
-1faf5_1f3ff	🫵🏿	latest	fallback	latest:2D/svg/emoji_u1faf5_1f3ff.svg		1faf5
+1faf5	🫵	android-16	fallback	android-16:svg/emoji_u1faf5.svg		
+1faf5_1f3fb	🫵🏻	android-16	fallback	android-16:svg/emoji_u1faf5_1f3fb.svg		1faf5
+1faf5_1f3fc	🫵🏼	android-16	fallback	android-16:svg/emoji_u1faf5_1f3fc.svg		1faf5
+1faf5_1f3fd	🫵🏽	android-16	fallback	android-16:svg/emoji_u1faf5_1f3fd.svg		1faf5
+1faf5_1f3fe	🫵🏾	android-16	fallback	android-16:svg/emoji_u1faf5_1f3fe.svg		1faf5
+1faf5_1f3ff	🫵🏿	android-16	fallback	android-16:svg/emoji_u1faf5_1f3ff.svg		1faf5
 1f44d	👍	android-7.1	subgroup	android-7.1:svg/emoji_u1f44d.svg		
 1f44d_1f3fb	👍🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f44d_1f3fb.svg		1f44d
 1f44d_1f3fc	👍🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f44d_1f3fc.svg		1f44d
@@ -393,50 +393,50 @@ key	emoji	era	why	source	vector	family
 1f64c_1f3fd	🙌🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f64c_1f3fd.svg		1f64c
 1f64c_1f3fe	🙌🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f64c_1f3fe.svg		1f64c
 1f64c_1f3ff	🙌🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f64c_1f3ff.svg		1f64c
-1faf6	🫶	latest	fallback	latest:2D/svg/emoji_u1faf6.svg		
-1faf6_1f3fb	🫶🏻	latest	fallback	latest:2D/svg/emoji_u1faf6_1f3fb.svg		1faf6
-1faf6_1f3fc	🫶🏼	latest	fallback	latest:2D/svg/emoji_u1faf6_1f3fc.svg		1faf6
-1faf6_1f3fd	🫶🏽	latest	fallback	latest:2D/svg/emoji_u1faf6_1f3fd.svg		1faf6
-1faf6_1f3fe	🫶🏾	latest	fallback	latest:2D/svg/emoji_u1faf6_1f3fe.svg		1faf6
-1faf6_1f3ff	🫶🏿	latest	fallback	latest:2D/svg/emoji_u1faf6_1f3ff.svg		1faf6
+1faf6	🫶	android-16	fallback	android-16:svg/emoji_u1faf6.svg		
+1faf6_1f3fb	🫶🏻	android-16	fallback	android-16:svg/emoji_u1faf6_1f3fb.svg		1faf6
+1faf6_1f3fc	🫶🏼	android-16	fallback	android-16:svg/emoji_u1faf6_1f3fc.svg		1faf6
+1faf6_1f3fd	🫶🏽	android-16	fallback	android-16:svg/emoji_u1faf6_1f3fd.svg		1faf6
+1faf6_1f3fe	🫶🏾	android-16	fallback	android-16:svg/emoji_u1faf6_1f3fe.svg		1faf6
+1faf6_1f3ff	🫶🏿	android-16	fallback	android-16:svg/emoji_u1faf6_1f3ff.svg		1faf6
 1f450	👐	android-7.1	subgroup	android-7.1:svg/emoji_u1f450.svg		
 1f450_1f3fb	👐🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f450_1f3fb.svg		1f450
 1f450_1f3fc	👐🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f450_1f3fc.svg		1f450
 1f450_1f3fd	👐🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f450_1f3fd.svg		1f450
 1f450_1f3fe	👐🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f450_1f3fe.svg		1f450
 1f450_1f3ff	👐🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f450_1f3ff.svg		1f450
-1f932	🤲	latest	fallback	latest:2D/svg/emoji_u1f932.svg		
-1f932_1f3fb	🤲🏻	latest	fallback	latest:2D/svg/emoji_u1f932_1f3fb.svg		1f932
-1f932_1f3fc	🤲🏼	latest	fallback	latest:2D/svg/emoji_u1f932_1f3fc.svg		1f932
-1f932_1f3fd	🤲🏽	latest	fallback	latest:2D/svg/emoji_u1f932_1f3fd.svg		1f932
-1f932_1f3fe	🤲🏾	latest	fallback	latest:2D/svg/emoji_u1f932_1f3fe.svg		1f932
-1f932_1f3ff	🤲🏿	latest	fallback	latest:2D/svg/emoji_u1f932_1f3ff.svg		1f932
+1f932	🤲	android-16	fallback	android-16:svg/emoji_u1f932.svg		
+1f932_1f3fb	🤲🏻	android-16	fallback	android-16:svg/emoji_u1f932_1f3fb.svg		1f932
+1f932_1f3fc	🤲🏼	android-16	fallback	android-16:svg/emoji_u1f932_1f3fc.svg		1f932
+1f932_1f3fd	🤲🏽	android-16	fallback	android-16:svg/emoji_u1f932_1f3fd.svg		1f932
+1f932_1f3fe	🤲🏾	android-16	fallback	android-16:svg/emoji_u1f932_1f3fe.svg		1f932
+1f932_1f3ff	🤲🏿	android-16	fallback	android-16:svg/emoji_u1f932_1f3ff.svg		1f932
 1f91d	🤝	android-7.1	subgroup	android-7.1:svg/emoji_u1f91d.svg		
 1f91d_1f3fb	🤝🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f91d_1f3fb.svg		1f91d
 1f91d_1f3fc	🤝🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f91d_1f3fc.svg		1f91d
 1f91d_1f3fd	🤝🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f91d_1f3fd.svg		1f91d
 1f91d_1f3fe	🤝🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f91d_1f3fe.svg		1f91d
 1f91d_1f3ff	🤝🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f91d_1f3ff.svg		1f91d
-1faf1_1f3fb_200d_1faf2_1f3fc	🫱🏻‍🫲🏼	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3fc.svg		
-1faf1_1f3fb_200d_1faf2_1f3fd	🫱🏻‍🫲🏽	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3fd.svg		
-1faf1_1f3fb_200d_1faf2_1f3fe	🫱🏻‍🫲🏾	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3fe.svg		
-1faf1_1f3fb_200d_1faf2_1f3ff	🫱🏻‍🫲🏿	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3ff.svg		
-1faf1_1f3fc_200d_1faf2_1f3fb	🫱🏼‍🫲🏻	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3fb.svg		
-1faf1_1f3fc_200d_1faf2_1f3fd	🫱🏼‍🫲🏽	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3fd.svg		
-1faf1_1f3fc_200d_1faf2_1f3fe	🫱🏼‍🫲🏾	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3fe.svg		
-1faf1_1f3fc_200d_1faf2_1f3ff	🫱🏼‍🫲🏿	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3ff.svg		
-1faf1_1f3fd_200d_1faf2_1f3fb	🫱🏽‍🫲🏻	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3fb.svg		
-1faf1_1f3fd_200d_1faf2_1f3fc	🫱🏽‍🫲🏼	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3fc.svg		
-1faf1_1f3fd_200d_1faf2_1f3fe	🫱🏽‍🫲🏾	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3fe.svg		
-1faf1_1f3fd_200d_1faf2_1f3ff	🫱🏽‍🫲🏿	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3ff.svg		
-1faf1_1f3fe_200d_1faf2_1f3fb	🫱🏾‍🫲🏻	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3fb.svg		
-1faf1_1f3fe_200d_1faf2_1f3fc	🫱🏾‍🫲🏼	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3fc.svg		
-1faf1_1f3fe_200d_1faf2_1f3fd	🫱🏾‍🫲🏽	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3fd.svg		
-1faf1_1f3fe_200d_1faf2_1f3ff	🫱🏾‍🫲🏿	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3ff.svg		
-1faf1_1f3ff_200d_1faf2_1f3fb	🫱🏿‍🫲🏻	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fb.svg		
-1faf1_1f3ff_200d_1faf2_1f3fc	🫱🏿‍🫲🏼	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fc.svg		
-1faf1_1f3ff_200d_1faf2_1f3fd	🫱🏿‍🫲🏽	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fd.svg		
-1faf1_1f3ff_200d_1faf2_1f3fe	🫱🏿‍🫲🏾	latest	fallback	latest:2D/svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fe.svg		
+1faf1_1f3fb_200d_1faf2_1f3fc	🫱🏻‍🫲🏼	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3fc.svg		
+1faf1_1f3fb_200d_1faf2_1f3fd	🫱🏻‍🫲🏽	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3fd.svg		
+1faf1_1f3fb_200d_1faf2_1f3fe	🫱🏻‍🫲🏾	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3fe.svg		
+1faf1_1f3fb_200d_1faf2_1f3ff	🫱🏻‍🫲🏿	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fb_200d_1faf2_1f3ff.svg		
+1faf1_1f3fc_200d_1faf2_1f3fb	🫱🏼‍🫲🏻	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3fb.svg		
+1faf1_1f3fc_200d_1faf2_1f3fd	🫱🏼‍🫲🏽	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3fd.svg		
+1faf1_1f3fc_200d_1faf2_1f3fe	🫱🏼‍🫲🏾	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3fe.svg		
+1faf1_1f3fc_200d_1faf2_1f3ff	🫱🏼‍🫲🏿	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fc_200d_1faf2_1f3ff.svg		
+1faf1_1f3fd_200d_1faf2_1f3fb	🫱🏽‍🫲🏻	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3fb.svg		
+1faf1_1f3fd_200d_1faf2_1f3fc	🫱🏽‍🫲🏼	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3fc.svg		
+1faf1_1f3fd_200d_1faf2_1f3fe	🫱🏽‍🫲🏾	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3fe.svg		
+1faf1_1f3fd_200d_1faf2_1f3ff	🫱🏽‍🫲🏿	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fd_200d_1faf2_1f3ff.svg		
+1faf1_1f3fe_200d_1faf2_1f3fb	🫱🏾‍🫲🏻	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3fb.svg		
+1faf1_1f3fe_200d_1faf2_1f3fc	🫱🏾‍🫲🏼	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3fc.svg		
+1faf1_1f3fe_200d_1faf2_1f3fd	🫱🏾‍🫲🏽	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3fd.svg		
+1faf1_1f3fe_200d_1faf2_1f3ff	🫱🏾‍🫲🏿	android-16	fallback	android-16:svg/emoji_u1faf1_1f3fe_200d_1faf2_1f3ff.svg		
+1faf1_1f3ff_200d_1faf2_1f3fb	🫱🏿‍🫲🏻	android-16	fallback	android-16:svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fb.svg		
+1faf1_1f3ff_200d_1faf2_1f3fc	🫱🏿‍🫲🏼	android-16	fallback	android-16:svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fc.svg		
+1faf1_1f3ff_200d_1faf2_1f3fd	🫱🏿‍🫲🏽	android-16	fallback	android-16:svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fd.svg		
+1faf1_1f3ff_200d_1faf2_1f3fe	🫱🏿‍🫲🏾	android-16	fallback	android-16:svg/emoji_u1faf1_1f3ff_200d_1faf2_1f3fe.svg		
 1f64f	🙏	android-7.1	subgroup	android-7.1:svg/emoji_u1f64f.svg		
 1f64f_1f3fb	🙏🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f64f_1f3fb.svg		1f64f
 1f64f_1f3fc	🙏🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f64f_1f3fc.svg		1f64f
@@ -469,30 +469,30 @@ key	emoji	era	why	source	vector	family
 1f4aa_1f3ff	💪🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f4aa_1f3ff.svg		1f4aa
 1f9be	🦾	android-12	fallback	android-12:svg/emoji_u1f9be.svg		
 1f9bf	🦿	android-12	fallback	android-12:svg/emoji_u1f9bf.svg		
-1f9b5	🦵	latest	fallback	latest:2D/svg/emoji_u1f9b5.svg		
-1f9b5_1f3fb	🦵🏻	latest	fallback	latest:2D/svg/emoji_u1f9b5_1f3fb.svg		1f9b5
-1f9b5_1f3fc	🦵🏼	latest	fallback	latest:2D/svg/emoji_u1f9b5_1f3fc.svg		1f9b5
-1f9b5_1f3fd	🦵🏽	latest	fallback	latest:2D/svg/emoji_u1f9b5_1f3fd.svg		1f9b5
-1f9b5_1f3fe	🦵🏾	latest	fallback	latest:2D/svg/emoji_u1f9b5_1f3fe.svg		1f9b5
-1f9b5_1f3ff	🦵🏿	latest	fallback	latest:2D/svg/emoji_u1f9b5_1f3ff.svg		1f9b5
-1f9b6	🦶	latest	fallback	latest:2D/svg/emoji_u1f9b6.svg		
-1f9b6_1f3fb	🦶🏻	latest	fallback	latest:2D/svg/emoji_u1f9b6_1f3fb.svg		1f9b6
-1f9b6_1f3fc	🦶🏼	latest	fallback	latest:2D/svg/emoji_u1f9b6_1f3fc.svg		1f9b6
-1f9b6_1f3fd	🦶🏽	latest	fallback	latest:2D/svg/emoji_u1f9b6_1f3fd.svg		1f9b6
-1f9b6_1f3fe	🦶🏾	latest	fallback	latest:2D/svg/emoji_u1f9b6_1f3fe.svg		1f9b6
-1f9b6_1f3ff	🦶🏿	latest	fallback	latest:2D/svg/emoji_u1f9b6_1f3ff.svg		1f9b6
+1f9b5	🦵	android-16	fallback	android-16:svg/emoji_u1f9b5.svg		
+1f9b5_1f3fb	🦵🏻	android-16	fallback	android-16:svg/emoji_u1f9b5_1f3fb.svg		1f9b5
+1f9b5_1f3fc	🦵🏼	android-16	fallback	android-16:svg/emoji_u1f9b5_1f3fc.svg		1f9b5
+1f9b5_1f3fd	🦵🏽	android-16	fallback	android-16:svg/emoji_u1f9b5_1f3fd.svg		1f9b5
+1f9b5_1f3fe	🦵🏾	android-16	fallback	android-16:svg/emoji_u1f9b5_1f3fe.svg		1f9b5
+1f9b5_1f3ff	🦵🏿	android-16	fallback	android-16:svg/emoji_u1f9b5_1f3ff.svg		1f9b5
+1f9b6	🦶	android-16	fallback	android-16:svg/emoji_u1f9b6.svg		
+1f9b6_1f3fb	🦶🏻	android-16	fallback	android-16:svg/emoji_u1f9b6_1f3fb.svg		1f9b6
+1f9b6_1f3fc	🦶🏼	android-16	fallback	android-16:svg/emoji_u1f9b6_1f3fc.svg		1f9b6
+1f9b6_1f3fd	🦶🏽	android-16	fallback	android-16:svg/emoji_u1f9b6_1f3fd.svg		1f9b6
+1f9b6_1f3fe	🦶🏾	android-16	fallback	android-16:svg/emoji_u1f9b6_1f3fe.svg		1f9b6
+1f9b6_1f3ff	🦶🏿	android-16	fallback	android-16:svg/emoji_u1f9b6_1f3ff.svg		1f9b6
 1f442	👂	android-7.1	subgroup	android-7.1:svg/emoji_u1f442.svg		
 1f442_1f3fb	👂🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f442_1f3fb.svg		1f442
 1f442_1f3fc	👂🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f442_1f3fc.svg		1f442
 1f442_1f3fd	👂🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f442_1f3fd.svg		1f442
 1f442_1f3fe	👂🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f442_1f3fe.svg		1f442
 1f442_1f3ff	👂🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f442_1f3ff.svg		1f442
-1f9bb	🦻	latest	fallback	latest:2D/svg/emoji_u1f9bb.svg		
-1f9bb_1f3fb	🦻🏻	latest	fallback	latest:2D/svg/emoji_u1f9bb_1f3fb.svg		1f9bb
-1f9bb_1f3fc	🦻🏼	latest	fallback	latest:2D/svg/emoji_u1f9bb_1f3fc.svg		1f9bb
-1f9bb_1f3fd	🦻🏽	latest	fallback	latest:2D/svg/emoji_u1f9bb_1f3fd.svg		1f9bb
-1f9bb_1f3fe	🦻🏾	latest	fallback	latest:2D/svg/emoji_u1f9bb_1f3fe.svg		1f9bb
-1f9bb_1f3ff	🦻🏿	latest	fallback	latest:2D/svg/emoji_u1f9bb_1f3ff.svg		1f9bb
+1f9bb	🦻	android-16	fallback	android-16:svg/emoji_u1f9bb.svg		
+1f9bb_1f3fb	🦻🏻	android-16	fallback	android-16:svg/emoji_u1f9bb_1f3fb.svg		1f9bb
+1f9bb_1f3fc	🦻🏼	android-16	fallback	android-16:svg/emoji_u1f9bb_1f3fc.svg		1f9bb
+1f9bb_1f3fd	🦻🏽	android-16	fallback	android-16:svg/emoji_u1f9bb_1f3fd.svg		1f9bb
+1f9bb_1f3fe	🦻🏾	android-16	fallback	android-16:svg/emoji_u1f9bb_1f3fe.svg		1f9bb
+1f9bb_1f3ff	🦻🏿	android-16	fallback	android-16:svg/emoji_u1f9bb_1f3ff.svg		1f9bb
 1f443	👃	android-7.1	subgroup	android-7.1:svg/emoji_u1f443.svg		
 1f443_1f3fb	👃🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f443_1f3fb.svg		1f443
 1f443_1f3fc	👃🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f443_1f3fc.svg		1f443
@@ -503,12 +503,12 @@ key	emoji	era	why	source	vector	family
 1fac0	🫀	android-12	fallback	android-12:svg/emoji_u1fac0.svg		
 1fac1	🫁	android-12	fallback	android-12:svg/emoji_u1fac1.svg		
 1f9b7	🦷	android-12	fallback	android-12:svg/emoji_u1f9b7.svg		
-1f9b4	🦴	latest	fallback	latest:2D/svg/emoji_u1f9b4.svg		
+1f9b4	🦴	android-16	fallback	android-16:svg/emoji_u1f9b4.svg		
 1f440	👀	android-7.1	subgroup	android-7.1:svg/emoji_u1f440.svg		
 1f441	👁️	android-7.1	subgroup	android-7.1:svg/emoji_u1f441.svg		
 1f445	👅	android-7.1	subgroup	android-7.1:svg/emoji_u1f445.svg		
 1f444	👄	android-7.1	subgroup	android-7.1:svg/emoji_u1f444.svg		
-1fae6	🫦	latest	fallback	latest:2D/svg/emoji_u1fae6.svg		
+1fae6	🫦	android-16	fallback	android-16:svg/emoji_u1fae6.svg		
 1f476	👶	android-7.1	subgroup	android-7.1:svg/emoji_u1f476.svg		
 1f476_1f3fb	👶🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f476_1f3fb.svg		1f476
 1f476_1f3fc	👶🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f476_1f3fc.svg		1f476
@@ -1223,12 +1223,12 @@ key	emoji	era	why	source	vector	family
 1f477_1f3fd_200d_2640	👷🏽‍♀️	android-12	subgroup	android-12:svg/emoji_u1f477_1f3fd_200d_2640.svg		1f477
 1f477_1f3fe_200d_2640	👷🏾‍♀️	android-12	subgroup	android-12:svg/emoji_u1f477_1f3fe_200d_2640.svg		1f477
 1f477_1f3ff_200d_2640	👷🏿‍♀️	android-12	subgroup	android-12:svg/emoji_u1f477_1f3ff_200d_2640.svg		1f477
-1fac5	🫅	latest	fallback	latest:2D/svg/emoji_u1fac5.svg		
-1fac5_1f3fb	🫅🏻	latest	fallback	latest:2D/svg/emoji_u1fac5_1f3fb.svg		1fac5
-1fac5_1f3fc	🫅🏼	latest	fallback	latest:2D/svg/emoji_u1fac5_1f3fc.svg		1fac5
-1fac5_1f3fd	🫅🏽	latest	fallback	latest:2D/svg/emoji_u1fac5_1f3fd.svg		1fac5
-1fac5_1f3fe	🫅🏾	latest	fallback	latest:2D/svg/emoji_u1fac5_1f3fe.svg		1fac5
-1fac5_1f3ff	🫅🏿	latest	fallback	latest:2D/svg/emoji_u1fac5_1f3ff.svg		1fac5
+1fac5	🫅	android-16	subgroup	android-16:svg/emoji_u1fac5.svg		
+1fac5_1f3fb	🫅🏻	android-16	subgroup	android-16:svg/emoji_u1fac5_1f3fb.svg		1fac5
+1fac5_1f3fc	🫅🏼	android-16	subgroup	android-16:svg/emoji_u1fac5_1f3fc.svg		1fac5
+1fac5_1f3fd	🫅🏽	android-16	subgroup	android-16:svg/emoji_u1fac5_1f3fd.svg		1fac5
+1fac5_1f3fe	🫅🏾	android-16	subgroup	android-16:svg/emoji_u1fac5_1f3fe.svg		1fac5
+1fac5_1f3ff	🫅🏿	android-16	subgroup	android-16:svg/emoji_u1fac5_1f3ff.svg		1fac5
 1f934	🤴	android-12	subgroup	android-12:svg/emoji_u1f934.svg		
 1f934_1f3fb	🤴🏻	android-12	subgroup	android-12:svg/emoji_u1f934_1f3fb.svg		1f934
 1f934_1f3fc	🤴🏼	android-12	subgroup	android-12:svg/emoji_u1f934_1f3fc.svg		1f934
@@ -1307,24 +1307,24 @@ key	emoji	era	why	source	vector	family
 1f470_1f3fd_200d_2640	👰🏽‍♀️	android-12	subgroup	android-12:svg/emoji_u1f470_1f3fd_200d_2640.svg		1f470
 1f470_1f3fe_200d_2640	👰🏾‍♀️	android-12	subgroup	android-12:svg/emoji_u1f470_1f3fe_200d_2640.svg		1f470
 1f470_1f3ff_200d_2640	👰🏿‍♀️	android-12	subgroup	android-12:svg/emoji_u1f470_1f3ff_200d_2640.svg		1f470
-1f930	🤰	android-12	subgroup	android-12:svg/emoji_u1f930.svg		
-1f930_1f3fb	🤰🏻	android-12	subgroup	android-12:svg/emoji_u1f930_1f3fb.svg		1f930
-1f930_1f3fc	🤰🏼	android-12	subgroup	android-12:svg/emoji_u1f930_1f3fc.svg		1f930
-1f930_1f3fd	🤰🏽	android-12	subgroup	android-12:svg/emoji_u1f930_1f3fd.svg		1f930
-1f930_1f3fe	🤰🏾	android-12	subgroup	android-12:svg/emoji_u1f930_1f3fe.svg		1f930
-1f930_1f3ff	🤰🏿	android-12	subgroup	android-12:svg/emoji_u1f930_1f3ff.svg		1f930
-1fac3	🫃	latest	fallback	latest:2D/svg/emoji_u1fac3.svg		
-1fac3_1f3fb	🫃🏻	latest	fallback	latest:2D/svg/emoji_u1fac3_1f3fb.svg		1fac3
-1fac3_1f3fc	🫃🏼	latest	fallback	latest:2D/svg/emoji_u1fac3_1f3fc.svg		1fac3
-1fac3_1f3fd	🫃🏽	latest	fallback	latest:2D/svg/emoji_u1fac3_1f3fd.svg		1fac3
-1fac3_1f3fe	🫃🏾	latest	fallback	latest:2D/svg/emoji_u1fac3_1f3fe.svg		1fac3
-1fac3_1f3ff	🫃🏿	latest	fallback	latest:2D/svg/emoji_u1fac3_1f3ff.svg		1fac3
-1fac4	🫄	latest	fallback	latest:2D/svg/emoji_u1fac4.svg		
-1fac4_1f3fb	🫄🏻	latest	fallback	latest:2D/svg/emoji_u1fac4_1f3fb.svg		1fac4
-1fac4_1f3fc	🫄🏼	latest	fallback	latest:2D/svg/emoji_u1fac4_1f3fc.svg		1fac4
-1fac4_1f3fd	🫄🏽	latest	fallback	latest:2D/svg/emoji_u1fac4_1f3fd.svg		1fac4
-1fac4_1f3fe	🫄🏾	latest	fallback	latest:2D/svg/emoji_u1fac4_1f3fe.svg		1fac4
-1fac4_1f3ff	🫄🏿	latest	fallback	latest:2D/svg/emoji_u1fac4_1f3ff.svg		1fac4
+1f930	🤰	android-16	override	android-16:svg/emoji_u1f930.svg		
+1f930_1f3fb	🤰🏻	android-16	override	android-16:svg/emoji_u1f930_1f3fb.svg		1f930
+1f930_1f3fc	🤰🏼	android-16	override	android-16:svg/emoji_u1f930_1f3fc.svg		1f930
+1f930_1f3fd	🤰🏽	android-16	override	android-16:svg/emoji_u1f930_1f3fd.svg		1f930
+1f930_1f3fe	🤰🏾	android-16	override	android-16:svg/emoji_u1f930_1f3fe.svg		1f930
+1f930_1f3ff	🤰🏿	android-16	override	android-16:svg/emoji_u1f930_1f3ff.svg		1f930
+1fac3	🫃	android-16	subgroup	android-16:svg/emoji_u1fac3.svg		
+1fac3_1f3fb	🫃🏻	android-16	subgroup	android-16:svg/emoji_u1fac3_1f3fb.svg		1fac3
+1fac3_1f3fc	🫃🏼	android-16	subgroup	android-16:svg/emoji_u1fac3_1f3fc.svg		1fac3
+1fac3_1f3fd	🫃🏽	android-16	subgroup	android-16:svg/emoji_u1fac3_1f3fd.svg		1fac3
+1fac3_1f3fe	🫃🏾	android-16	subgroup	android-16:svg/emoji_u1fac3_1f3fe.svg		1fac3
+1fac3_1f3ff	🫃🏿	android-16	subgroup	android-16:svg/emoji_u1fac3_1f3ff.svg		1fac3
+1fac4	🫄	android-16	subgroup	android-16:svg/emoji_u1fac4.svg		
+1fac4_1f3fb	🫄🏻	android-16	subgroup	android-16:svg/emoji_u1fac4_1f3fb.svg		1fac4
+1fac4_1f3fc	🫄🏼	android-16	subgroup	android-16:svg/emoji_u1fac4_1f3fc.svg		1fac4
+1fac4_1f3fd	🫄🏽	android-16	subgroup	android-16:svg/emoji_u1fac4_1f3fd.svg		1fac4
+1fac4_1f3fe	🫄🏾	android-16	subgroup	android-16:svg/emoji_u1fac4_1f3fe.svg		1fac4
+1fac4_1f3ff	🫄🏿	android-16	subgroup	android-16:svg/emoji_u1fac4_1f3ff.svg		1fac4
 1f931	🤱	android-12	subgroup	android-12:svg/emoji_u1f931.svg		
 1f931_1f3fb	🤱🏻	android-12	subgroup	android-12:svg/emoji_u1f931_1f3fb.svg		1f931
 1f931_1f3fc	🤱🏼	android-12	subgroup	android-12:svg/emoji_u1f931_1f3fc.svg		1f931
@@ -1505,8 +1505,8 @@ key	emoji	era	why	source	vector	family
 1f9df	🧟	android-12	subgroup	android-12:svg/emoji_u1f9df.svg		
 1f9df_200d_2642	🧟‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9df_200d_2642.svg		1f9df
 1f9df_200d_2640	🧟‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9df_200d_2640.svg		1f9df
-1f9cc	🧌	latest	fallback	latest:2D/svg/emoji_u1f9cc.svg		
-1fac8	🫈	latest	fallback	latest:2D/svg/emoji_u1fac8.svg		
+1f9cc	🧌	android-16	fallback	android-16:svg/emoji_u1f9cc.svg		
+1fac8	🫈	android-16	fallback	android-16:svg/emoji_u1fac8.svg		
 1f486	💆	android-7.1	subgroup	android-7.1:svg/emoji_u1f486.svg		
 1f486_1f3fb	💆🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f486_1f3fb.svg		1f486
 1f486_1f3fc	💆🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f486_1f3fc.svg		1f486
@@ -1561,186 +1561,186 @@ key	emoji	era	why	source	vector	family
 1f6b6_1f3fd_200d_2640	🚶🏽‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f6b6_1f3fd_200d_2640.svg		1f6b6
 1f6b6_1f3fe_200d_2640	🚶🏾‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f6b6_1f3fe_200d_2640.svg		1f6b6
 1f6b6_1f3ff_200d_2640	🚶🏿‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f6b6_1f3ff_200d_2640.svg		1f6b6
-1f6b6_200d_27a1	🚶‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_200d_27a1.svg		
-1f6b6_1f3fb_200d_27a1	🚶🏻‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fb_200d_27a1.svg		1f6b6_200d_27a1
-1f6b6_1f3fc_200d_27a1	🚶🏼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fc_200d_27a1.svg		1f6b6_200d_27a1
-1f6b6_1f3fd_200d_27a1	🚶🏽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fd_200d_27a1.svg		1f6b6_200d_27a1
-1f6b6_1f3fe_200d_27a1	🚶🏾‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fe_200d_27a1.svg		1f6b6_200d_27a1
-1f6b6_1f3ff_200d_27a1	🚶🏿‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3ff_200d_27a1.svg		1f6b6_200d_27a1
-1f6b6_200d_2640_200d_27a1	🚶‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_200d_2640_200d_27a1.svg		
-1f6b6_1f3fb_200d_2640_200d_27a1	🚶🏻‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fb_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
-1f6b6_1f3fc_200d_2640_200d_27a1	🚶🏼‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fc_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
-1f6b6_1f3fd_200d_2640_200d_27a1	🚶🏽‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fd_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
-1f6b6_1f3fe_200d_2640_200d_27a1	🚶🏾‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fe_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
-1f6b6_1f3ff_200d_2640_200d_27a1	🚶🏿‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3ff_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
-1f6b6_200d_2642_200d_27a1	🚶‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_200d_2642_200d_27a1.svg		
-1f6b6_1f3fb_200d_2642_200d_27a1	🚶🏻‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fb_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
-1f6b6_1f3fc_200d_2642_200d_27a1	🚶🏼‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fc_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
-1f6b6_1f3fd_200d_2642_200d_27a1	🚶🏽‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fd_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
-1f6b6_1f3fe_200d_2642_200d_27a1	🚶🏾‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3fe_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
-1f6b6_1f3ff_200d_2642_200d_27a1	🚶🏿‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f6b6_1f3ff_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
-1f9cd	🧍	android-12	subgroup	android-12:svg/emoji_u1f9cd.svg		
-1f9cd_1f3fb	🧍🏻	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fb.svg		1f9cd
-1f9cd_1f3fc	🧍🏼	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fc.svg		1f9cd
-1f9cd_1f3fd	🧍🏽	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fd.svg		1f9cd
-1f9cd_1f3fe	🧍🏾	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fe.svg		1f9cd
-1f9cd_1f3ff	🧍🏿	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3ff.svg		1f9cd
-1f9cd_200d_2642	🧍‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9cd_200d_2642.svg		1f9cd
-1f9cd_1f3fb_200d_2642	🧍🏻‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fb_200d_2642.svg		1f9cd
-1f9cd_1f3fc_200d_2642	🧍🏼‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fc_200d_2642.svg		1f9cd
-1f9cd_1f3fd_200d_2642	🧍🏽‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fd_200d_2642.svg		1f9cd
-1f9cd_1f3fe_200d_2642	🧍🏾‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fe_200d_2642.svg		1f9cd
-1f9cd_1f3ff_200d_2642	🧍🏿‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3ff_200d_2642.svg		1f9cd
-1f9cd_200d_2640	🧍‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9cd_200d_2640.svg		1f9cd
-1f9cd_1f3fb_200d_2640	🧍🏻‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fb_200d_2640.svg		1f9cd
-1f9cd_1f3fc_200d_2640	🧍🏼‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fc_200d_2640.svg		1f9cd
-1f9cd_1f3fd_200d_2640	🧍🏽‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fd_200d_2640.svg		1f9cd
-1f9cd_1f3fe_200d_2640	🧍🏾‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3fe_200d_2640.svg		1f9cd
-1f9cd_1f3ff_200d_2640	🧍🏿‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9cd_1f3ff_200d_2640.svg		1f9cd
-1f9ce	🧎	android-12	subgroup	android-12:svg/emoji_u1f9ce.svg		
-1f9ce_1f3fb	🧎🏻	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fb.svg		1f9ce
-1f9ce_1f3fc	🧎🏼	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fc.svg		1f9ce
-1f9ce_1f3fd	🧎🏽	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fd.svg		1f9ce
-1f9ce_1f3fe	🧎🏾	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fe.svg		1f9ce
-1f9ce_1f3ff	🧎🏿	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3ff.svg		1f9ce
-1f9ce_200d_2642	🧎‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9ce_200d_2642.svg		1f9ce
-1f9ce_1f3fb_200d_2642	🧎🏻‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fb_200d_2642.svg		1f9ce
-1f9ce_1f3fc_200d_2642	🧎🏼‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fc_200d_2642.svg		1f9ce
-1f9ce_1f3fd_200d_2642	🧎🏽‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fd_200d_2642.svg		1f9ce
-1f9ce_1f3fe_200d_2642	🧎🏾‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fe_200d_2642.svg		1f9ce
-1f9ce_1f3ff_200d_2642	🧎🏿‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3ff_200d_2642.svg		1f9ce
-1f9ce_200d_2640	🧎‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9ce_200d_2640.svg		1f9ce
-1f9ce_1f3fb_200d_2640	🧎🏻‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fb_200d_2640.svg		1f9ce
-1f9ce_1f3fc_200d_2640	🧎🏼‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fc_200d_2640.svg		1f9ce
-1f9ce_1f3fd_200d_2640	🧎🏽‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fd_200d_2640.svg		1f9ce
-1f9ce_1f3fe_200d_2640	🧎🏾‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3fe_200d_2640.svg		1f9ce
-1f9ce_1f3ff_200d_2640	🧎🏿‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9ce_1f3ff_200d_2640.svg		1f9ce
-1f9ce_200d_27a1	🧎‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_200d_27a1.svg		
-1f9ce_1f3fb_200d_27a1	🧎🏻‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fb_200d_27a1.svg		1f9ce_200d_27a1
-1f9ce_1f3fc_200d_27a1	🧎🏼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fc_200d_27a1.svg		1f9ce_200d_27a1
-1f9ce_1f3fd_200d_27a1	🧎🏽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fd_200d_27a1.svg		1f9ce_200d_27a1
-1f9ce_1f3fe_200d_27a1	🧎🏾‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fe_200d_27a1.svg		1f9ce_200d_27a1
-1f9ce_1f3ff_200d_27a1	🧎🏿‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3ff_200d_27a1.svg		1f9ce_200d_27a1
-1f9ce_200d_2640_200d_27a1	🧎‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_200d_2640_200d_27a1.svg		
-1f9ce_1f3fb_200d_2640_200d_27a1	🧎🏻‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fb_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
-1f9ce_1f3fc_200d_2640_200d_27a1	🧎🏼‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fc_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
-1f9ce_1f3fd_200d_2640_200d_27a1	🧎🏽‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fd_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
-1f9ce_1f3fe_200d_2640_200d_27a1	🧎🏾‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fe_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
-1f9ce_1f3ff_200d_2640_200d_27a1	🧎🏿‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3ff_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
-1f9ce_200d_2642_200d_27a1	🧎‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_200d_2642_200d_27a1.svg		
-1f9ce_1f3fb_200d_2642_200d_27a1	🧎🏻‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fb_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
-1f9ce_1f3fc_200d_2642_200d_27a1	🧎🏼‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fc_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
-1f9ce_1f3fd_200d_2642_200d_27a1	🧎🏽‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fd_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
-1f9ce_1f3fe_200d_2642_200d_27a1	🧎🏾‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3fe_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
-1f9ce_1f3ff_200d_2642_200d_27a1	🧎🏿‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9ce_1f3ff_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
-1f9d1_200d_1f9af	🧑‍🦯	android-12	subgroup	android-12:svg/emoji_u1f9d1_200d_1f9af.svg		
-1f9d1_1f3fb_200d_1f9af	🧑🏻‍🦯	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fb_200d_1f9af.svg		1f9d1_200d_1f9af
-1f9d1_1f3fc_200d_1f9af	🧑🏼‍🦯	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fc_200d_1f9af.svg		1f9d1_200d_1f9af
-1f9d1_1f3fd_200d_1f9af	🧑🏽‍🦯	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fd_200d_1f9af.svg		1f9d1_200d_1f9af
-1f9d1_1f3fe_200d_1f9af	🧑🏾‍🦯	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fe_200d_1f9af.svg		1f9d1_200d_1f9af
-1f9d1_1f3ff_200d_1f9af	🧑🏿‍🦯	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3ff_200d_1f9af.svg		1f9d1_200d_1f9af
-1f9d1_200d_1f9af_200d_27a1	🧑‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1f9af_200d_27a1.svg		
-1f9d1_1f3fb_200d_1f9af_200d_27a1	🧑🏻‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
-1f9d1_1f3fc_200d_1f9af_200d_27a1	🧑🏼‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
-1f9d1_1f3fd_200d_1f9af_200d_27a1	🧑🏽‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
-1f9d1_1f3fe_200d_1f9af_200d_27a1	🧑🏾‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
-1f9d1_1f3ff_200d_1f9af_200d_27a1	🧑🏿‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
-1f468_200d_1f9af	👨‍🦯	android-12	subgroup	android-12:svg/emoji_u1f468_200d_1f9af.svg		
-1f468_1f3fb_200d_1f9af	👨🏻‍🦯	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fb_200d_1f9af.svg		1f468_200d_1f9af
-1f468_1f3fc_200d_1f9af	👨🏼‍🦯	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fc_200d_1f9af.svg		1f468_200d_1f9af
-1f468_1f3fd_200d_1f9af	👨🏽‍🦯	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fd_200d_1f9af.svg		1f468_200d_1f9af
-1f468_1f3fe_200d_1f9af	👨🏾‍🦯	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fe_200d_1f9af.svg		1f468_200d_1f9af
-1f468_1f3ff_200d_1f9af	👨🏿‍🦯	android-12	subgroup	android-12:svg/emoji_u1f468_1f3ff_200d_1f9af.svg		1f468_200d_1f9af
-1f468_200d_1f9af_200d_27a1	👨‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_200d_1f9af_200d_27a1.svg		
-1f468_1f3fb_200d_1f9af_200d_27a1	👨🏻‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
-1f468_1f3fc_200d_1f9af_200d_27a1	👨🏼‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
-1f468_1f3fd_200d_1f9af_200d_27a1	👨🏽‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
-1f468_1f3fe_200d_1f9af_200d_27a1	👨🏾‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
-1f468_1f3ff_200d_1f9af_200d_27a1	👨🏿‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
-1f469_200d_1f9af	👩‍🦯	android-12	subgroup	android-12:svg/emoji_u1f469_200d_1f9af.svg		
-1f469_1f3fb_200d_1f9af	👩🏻‍🦯	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fb_200d_1f9af.svg		1f469_200d_1f9af
-1f469_1f3fc_200d_1f9af	👩🏼‍🦯	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fc_200d_1f9af.svg		1f469_200d_1f9af
-1f469_1f3fd_200d_1f9af	👩🏽‍🦯	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fd_200d_1f9af.svg		1f469_200d_1f9af
-1f469_1f3fe_200d_1f9af	👩🏾‍🦯	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fe_200d_1f9af.svg		1f469_200d_1f9af
-1f469_1f3ff_200d_1f9af	👩🏿‍🦯	android-12	subgroup	android-12:svg/emoji_u1f469_1f3ff_200d_1f9af.svg		1f469_200d_1f9af
-1f469_200d_1f9af_200d_27a1	👩‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_200d_1f9af_200d_27a1.svg		
-1f469_1f3fb_200d_1f9af_200d_27a1	👩🏻‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
-1f469_1f3fc_200d_1f9af_200d_27a1	👩🏼‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
-1f469_1f3fd_200d_1f9af_200d_27a1	👩🏽‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
-1f469_1f3fe_200d_1f9af_200d_27a1	👩🏾‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
-1f469_1f3ff_200d_1f9af_200d_27a1	👩🏿‍🦯‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
-1f9d1_200d_1f9bc	🧑‍🦼	android-12	subgroup	android-12:svg/emoji_u1f9d1_200d_1f9bc.svg		
-1f9d1_1f3fb_200d_1f9bc	🧑🏻‍🦼	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fb_200d_1f9bc.svg		1f9d1_200d_1f9bc
-1f9d1_1f3fc_200d_1f9bc	🧑🏼‍🦼	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fc_200d_1f9bc.svg		1f9d1_200d_1f9bc
-1f9d1_1f3fd_200d_1f9bc	🧑🏽‍🦼	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fd_200d_1f9bc.svg		1f9d1_200d_1f9bc
-1f9d1_1f3fe_200d_1f9bc	🧑🏾‍🦼	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fe_200d_1f9bc.svg		1f9d1_200d_1f9bc
-1f9d1_1f3ff_200d_1f9bc	🧑🏿‍🦼	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3ff_200d_1f9bc.svg		1f9d1_200d_1f9bc
-1f9d1_200d_1f9bc_200d_27a1	🧑‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1f9bc_200d_27a1.svg		
-1f9d1_1f3fb_200d_1f9bc_200d_27a1	🧑🏻‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
-1f9d1_1f3fc_200d_1f9bc_200d_27a1	🧑🏼‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
-1f9d1_1f3fd_200d_1f9bc_200d_27a1	🧑🏽‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
-1f9d1_1f3fe_200d_1f9bc_200d_27a1	🧑🏾‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
-1f9d1_1f3ff_200d_1f9bc_200d_27a1	🧑🏿‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
-1f468_200d_1f9bc	👨‍🦼	android-12	subgroup	android-12:svg/emoji_u1f468_200d_1f9bc.svg		
-1f468_1f3fb_200d_1f9bc	👨🏻‍🦼	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fb_200d_1f9bc.svg		1f468_200d_1f9bc
-1f468_1f3fc_200d_1f9bc	👨🏼‍🦼	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fc_200d_1f9bc.svg		1f468_200d_1f9bc
-1f468_1f3fd_200d_1f9bc	👨🏽‍🦼	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fd_200d_1f9bc.svg		1f468_200d_1f9bc
-1f468_1f3fe_200d_1f9bc	👨🏾‍🦼	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fe_200d_1f9bc.svg		1f468_200d_1f9bc
-1f468_1f3ff_200d_1f9bc	👨🏿‍🦼	android-12	subgroup	android-12:svg/emoji_u1f468_1f3ff_200d_1f9bc.svg		1f468_200d_1f9bc
-1f468_200d_1f9bc_200d_27a1	👨‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_200d_1f9bc_200d_27a1.svg		
-1f468_1f3fb_200d_1f9bc_200d_27a1	👨🏻‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
-1f468_1f3fc_200d_1f9bc_200d_27a1	👨🏼‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
-1f468_1f3fd_200d_1f9bc_200d_27a1	👨🏽‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
-1f468_1f3fe_200d_1f9bc_200d_27a1	👨🏾‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
-1f468_1f3ff_200d_1f9bc_200d_27a1	👨🏿‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
-1f469_200d_1f9bc	👩‍🦼	android-12	subgroup	android-12:svg/emoji_u1f469_200d_1f9bc.svg		
-1f469_1f3fb_200d_1f9bc	👩🏻‍🦼	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fb_200d_1f9bc.svg		1f469_200d_1f9bc
-1f469_1f3fc_200d_1f9bc	👩🏼‍🦼	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fc_200d_1f9bc.svg		1f469_200d_1f9bc
-1f469_1f3fd_200d_1f9bc	👩🏽‍🦼	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fd_200d_1f9bc.svg		1f469_200d_1f9bc
-1f469_1f3fe_200d_1f9bc	👩🏾‍🦼	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fe_200d_1f9bc.svg		1f469_200d_1f9bc
-1f469_1f3ff_200d_1f9bc	👩🏿‍🦼	android-12	subgroup	android-12:svg/emoji_u1f469_1f3ff_200d_1f9bc.svg		1f469_200d_1f9bc
-1f469_200d_1f9bc_200d_27a1	👩‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_200d_1f9bc_200d_27a1.svg		
-1f469_1f3fb_200d_1f9bc_200d_27a1	👩🏻‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
-1f469_1f3fc_200d_1f9bc_200d_27a1	👩🏼‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
-1f469_1f3fd_200d_1f9bc_200d_27a1	👩🏽‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
-1f469_1f3fe_200d_1f9bc_200d_27a1	👩🏾‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
-1f469_1f3ff_200d_1f9bc_200d_27a1	👩🏿‍🦼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
-1f9d1_200d_1f9bd	🧑‍🦽	android-12	subgroup	android-12:svg/emoji_u1f9d1_200d_1f9bd.svg		
-1f9d1_1f3fb_200d_1f9bd	🧑🏻‍🦽	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fb_200d_1f9bd.svg		1f9d1_200d_1f9bd
-1f9d1_1f3fc_200d_1f9bd	🧑🏼‍🦽	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fc_200d_1f9bd.svg		1f9d1_200d_1f9bd
-1f9d1_1f3fd_200d_1f9bd	🧑🏽‍🦽	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fd_200d_1f9bd.svg		1f9d1_200d_1f9bd
-1f9d1_1f3fe_200d_1f9bd	🧑🏾‍🦽	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3fe_200d_1f9bd.svg		1f9d1_200d_1f9bd
-1f9d1_1f3ff_200d_1f9bd	🧑🏿‍🦽	android-12	subgroup	android-12:svg/emoji_u1f9d1_1f3ff_200d_1f9bd.svg		1f9d1_200d_1f9bd
-1f9d1_200d_1f9bd_200d_27a1	🧑‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1f9bd_200d_27a1.svg		
-1f9d1_1f3fb_200d_1f9bd_200d_27a1	🧑🏻‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
-1f9d1_1f3fc_200d_1f9bd_200d_27a1	🧑🏼‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
-1f9d1_1f3fd_200d_1f9bd_200d_27a1	🧑🏽‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
-1f9d1_1f3fe_200d_1f9bd_200d_27a1	🧑🏾‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
-1f9d1_1f3ff_200d_1f9bd_200d_27a1	🧑🏿‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
-1f468_200d_1f9bd	👨‍🦽	android-12	subgroup	android-12:svg/emoji_u1f468_200d_1f9bd.svg		
-1f468_1f3fb_200d_1f9bd	👨🏻‍🦽	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fb_200d_1f9bd.svg		1f468_200d_1f9bd
-1f468_1f3fc_200d_1f9bd	👨🏼‍🦽	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fc_200d_1f9bd.svg		1f468_200d_1f9bd
-1f468_1f3fd_200d_1f9bd	👨🏽‍🦽	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fd_200d_1f9bd.svg		1f468_200d_1f9bd
-1f468_1f3fe_200d_1f9bd	👨🏾‍🦽	android-12	subgroup	android-12:svg/emoji_u1f468_1f3fe_200d_1f9bd.svg		1f468_200d_1f9bd
-1f468_1f3ff_200d_1f9bd	👨🏿‍🦽	android-12	subgroup	android-12:svg/emoji_u1f468_1f3ff_200d_1f9bd.svg		1f468_200d_1f9bd
-1f468_200d_1f9bd_200d_27a1	👨‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_200d_1f9bd_200d_27a1.svg		
-1f468_1f3fb_200d_1f9bd_200d_27a1	👨🏻‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
-1f468_1f3fc_200d_1f9bd_200d_27a1	👨🏼‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
-1f468_1f3fd_200d_1f9bd_200d_27a1	👨🏽‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
-1f468_1f3fe_200d_1f9bd_200d_27a1	👨🏾‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
-1f468_1f3ff_200d_1f9bd_200d_27a1	👨🏿‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
-1f469_200d_1f9bd	👩‍🦽	android-12	subgroup	android-12:svg/emoji_u1f469_200d_1f9bd.svg		
-1f469_1f3fb_200d_1f9bd	👩🏻‍🦽	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fb_200d_1f9bd.svg		1f469_200d_1f9bd
-1f469_1f3fc_200d_1f9bd	👩🏼‍🦽	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fc_200d_1f9bd.svg		1f469_200d_1f9bd
-1f469_1f3fd_200d_1f9bd	👩🏽‍🦽	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fd_200d_1f9bd.svg		1f469_200d_1f9bd
-1f469_1f3fe_200d_1f9bd	👩🏾‍🦽	android-12	subgroup	android-12:svg/emoji_u1f469_1f3fe_200d_1f9bd.svg		1f469_200d_1f9bd
-1f469_1f3ff_200d_1f9bd	👩🏿‍🦽	android-12	subgroup	android-12:svg/emoji_u1f469_1f3ff_200d_1f9bd.svg		1f469_200d_1f9bd
-1f469_200d_1f9bd_200d_27a1	👩‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_200d_1f9bd_200d_27a1.svg		
-1f469_1f3fb_200d_1f9bd_200d_27a1	👩🏻‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
-1f469_1f3fc_200d_1f9bd_200d_27a1	👩🏼‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
-1f469_1f3fd_200d_1f9bd_200d_27a1	👩🏽‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
-1f469_1f3fe_200d_1f9bd_200d_27a1	👩🏾‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
-1f469_1f3ff_200d_1f9bd_200d_27a1	👩🏿‍🦽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
+1f6b6_200d_27a1	🚶‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_200d_27a1.svg		
+1f6b6_1f3fb_200d_27a1	🚶🏻‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fb_200d_27a1.svg		1f6b6_200d_27a1
+1f6b6_1f3fc_200d_27a1	🚶🏼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fc_200d_27a1.svg		1f6b6_200d_27a1
+1f6b6_1f3fd_200d_27a1	🚶🏽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fd_200d_27a1.svg		1f6b6_200d_27a1
+1f6b6_1f3fe_200d_27a1	🚶🏾‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fe_200d_27a1.svg		1f6b6_200d_27a1
+1f6b6_1f3ff_200d_27a1	🚶🏿‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3ff_200d_27a1.svg		1f6b6_200d_27a1
+1f6b6_200d_2640_200d_27a1	🚶‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_200d_2640_200d_27a1.svg		
+1f6b6_1f3fb_200d_2640_200d_27a1	🚶🏻‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fb_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
+1f6b6_1f3fc_200d_2640_200d_27a1	🚶🏼‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fc_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
+1f6b6_1f3fd_200d_2640_200d_27a1	🚶🏽‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fd_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
+1f6b6_1f3fe_200d_2640_200d_27a1	🚶🏾‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fe_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
+1f6b6_1f3ff_200d_2640_200d_27a1	🚶🏿‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3ff_200d_2640_200d_27a1.svg		1f6b6_200d_2640_200d_27a1
+1f6b6_200d_2642_200d_27a1	🚶‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_200d_2642_200d_27a1.svg		
+1f6b6_1f3fb_200d_2642_200d_27a1	🚶🏻‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fb_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
+1f6b6_1f3fc_200d_2642_200d_27a1	🚶🏼‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fc_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
+1f6b6_1f3fd_200d_2642_200d_27a1	🚶🏽‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fd_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
+1f6b6_1f3fe_200d_2642_200d_27a1	🚶🏾‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3fe_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
+1f6b6_1f3ff_200d_2642_200d_27a1	🚶🏿‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f6b6_1f3ff_200d_2642_200d_27a1.svg		1f6b6_200d_2642_200d_27a1
+1f9cd	🧍	android-16	subgroup	android-16:svg/emoji_u1f9cd.svg		
+1f9cd_1f3fb	🧍🏻	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fb.svg		1f9cd
+1f9cd_1f3fc	🧍🏼	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fc.svg		1f9cd
+1f9cd_1f3fd	🧍🏽	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fd.svg		1f9cd
+1f9cd_1f3fe	🧍🏾	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fe.svg		1f9cd
+1f9cd_1f3ff	🧍🏿	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3ff.svg		1f9cd
+1f9cd_200d_2642	🧍‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9cd_200d_2642.svg		1f9cd
+1f9cd_1f3fb_200d_2642	🧍🏻‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fb_200d_2642.svg		1f9cd
+1f9cd_1f3fc_200d_2642	🧍🏼‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fc_200d_2642.svg		1f9cd
+1f9cd_1f3fd_200d_2642	🧍🏽‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fd_200d_2642.svg		1f9cd
+1f9cd_1f3fe_200d_2642	🧍🏾‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fe_200d_2642.svg		1f9cd
+1f9cd_1f3ff_200d_2642	🧍🏿‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3ff_200d_2642.svg		1f9cd
+1f9cd_200d_2640	🧍‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9cd_200d_2640.svg		1f9cd
+1f9cd_1f3fb_200d_2640	🧍🏻‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fb_200d_2640.svg		1f9cd
+1f9cd_1f3fc_200d_2640	🧍🏼‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fc_200d_2640.svg		1f9cd
+1f9cd_1f3fd_200d_2640	🧍🏽‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fd_200d_2640.svg		1f9cd
+1f9cd_1f3fe_200d_2640	🧍🏾‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3fe_200d_2640.svg		1f9cd
+1f9cd_1f3ff_200d_2640	🧍🏿‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9cd_1f3ff_200d_2640.svg		1f9cd
+1f9ce	🧎	android-16	subgroup	android-16:svg/emoji_u1f9ce.svg		
+1f9ce_1f3fb	🧎🏻	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fb.svg		1f9ce
+1f9ce_1f3fc	🧎🏼	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fc.svg		1f9ce
+1f9ce_1f3fd	🧎🏽	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fd.svg		1f9ce
+1f9ce_1f3fe	🧎🏾	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fe.svg		1f9ce
+1f9ce_1f3ff	🧎🏿	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3ff.svg		1f9ce
+1f9ce_200d_2642	🧎‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9ce_200d_2642.svg		1f9ce
+1f9ce_1f3fb_200d_2642	🧎🏻‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fb_200d_2642.svg		1f9ce
+1f9ce_1f3fc_200d_2642	🧎🏼‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fc_200d_2642.svg		1f9ce
+1f9ce_1f3fd_200d_2642	🧎🏽‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fd_200d_2642.svg		1f9ce
+1f9ce_1f3fe_200d_2642	🧎🏾‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fe_200d_2642.svg		1f9ce
+1f9ce_1f3ff_200d_2642	🧎🏿‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3ff_200d_2642.svg		1f9ce
+1f9ce_200d_2640	🧎‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9ce_200d_2640.svg		1f9ce
+1f9ce_1f3fb_200d_2640	🧎🏻‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fb_200d_2640.svg		1f9ce
+1f9ce_1f3fc_200d_2640	🧎🏼‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fc_200d_2640.svg		1f9ce
+1f9ce_1f3fd_200d_2640	🧎🏽‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fd_200d_2640.svg		1f9ce
+1f9ce_1f3fe_200d_2640	🧎🏾‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fe_200d_2640.svg		1f9ce
+1f9ce_1f3ff_200d_2640	🧎🏿‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3ff_200d_2640.svg		1f9ce
+1f9ce_200d_27a1	🧎‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_200d_27a1.svg		
+1f9ce_1f3fb_200d_27a1	🧎🏻‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fb_200d_27a1.svg		1f9ce_200d_27a1
+1f9ce_1f3fc_200d_27a1	🧎🏼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fc_200d_27a1.svg		1f9ce_200d_27a1
+1f9ce_1f3fd_200d_27a1	🧎🏽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fd_200d_27a1.svg		1f9ce_200d_27a1
+1f9ce_1f3fe_200d_27a1	🧎🏾‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fe_200d_27a1.svg		1f9ce_200d_27a1
+1f9ce_1f3ff_200d_27a1	🧎🏿‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3ff_200d_27a1.svg		1f9ce_200d_27a1
+1f9ce_200d_2640_200d_27a1	🧎‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_200d_2640_200d_27a1.svg		
+1f9ce_1f3fb_200d_2640_200d_27a1	🧎🏻‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fb_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
+1f9ce_1f3fc_200d_2640_200d_27a1	🧎🏼‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fc_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
+1f9ce_1f3fd_200d_2640_200d_27a1	🧎🏽‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fd_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
+1f9ce_1f3fe_200d_2640_200d_27a1	🧎🏾‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fe_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
+1f9ce_1f3ff_200d_2640_200d_27a1	🧎🏿‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3ff_200d_2640_200d_27a1.svg		1f9ce_200d_2640_200d_27a1
+1f9ce_200d_2642_200d_27a1	🧎‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_200d_2642_200d_27a1.svg		
+1f9ce_1f3fb_200d_2642_200d_27a1	🧎🏻‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fb_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
+1f9ce_1f3fc_200d_2642_200d_27a1	🧎🏼‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fc_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
+1f9ce_1f3fd_200d_2642_200d_27a1	🧎🏽‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fd_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
+1f9ce_1f3fe_200d_2642_200d_27a1	🧎🏾‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3fe_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
+1f9ce_1f3ff_200d_2642_200d_27a1	🧎🏿‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9ce_1f3ff_200d_2642_200d_27a1.svg		1f9ce_200d_2642_200d_27a1
+1f9d1_200d_1f9af	🧑‍🦯	android-16	subgroup	android-16:svg/emoji_u1f9d1_200d_1f9af.svg		
+1f9d1_1f3fb_200d_1f9af	🧑🏻‍🦯	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f9af.svg		1f9d1_200d_1f9af
+1f9d1_1f3fc_200d_1f9af	🧑🏼‍🦯	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f9af.svg		1f9d1_200d_1f9af
+1f9d1_1f3fd_200d_1f9af	🧑🏽‍🦯	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f9af.svg		1f9d1_200d_1f9af
+1f9d1_1f3fe_200d_1f9af	🧑🏾‍🦯	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f9af.svg		1f9d1_200d_1f9af
+1f9d1_1f3ff_200d_1f9af	🧑🏿‍🦯	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f9af.svg		1f9d1_200d_1f9af
+1f9d1_200d_1f9af_200d_27a1	🧑‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_200d_1f9af_200d_27a1.svg		
+1f9d1_1f3fb_200d_1f9af_200d_27a1	🧑🏻‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
+1f9d1_1f3fc_200d_1f9af_200d_27a1	🧑🏼‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
+1f9d1_1f3fd_200d_1f9af_200d_27a1	🧑🏽‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
+1f9d1_1f3fe_200d_1f9af_200d_27a1	🧑🏾‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
+1f9d1_1f3ff_200d_1f9af_200d_27a1	🧑🏿‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f9af_200d_27a1.svg		1f9d1_200d_1f9af_200d_27a1
+1f468_200d_1f9af	👨‍🦯	android-16	subgroup	android-16:svg/emoji_u1f468_200d_1f9af.svg		
+1f468_1f3fb_200d_1f9af	👨🏻‍🦯	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f9af.svg		1f468_200d_1f9af
+1f468_1f3fc_200d_1f9af	👨🏼‍🦯	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f9af.svg		1f468_200d_1f9af
+1f468_1f3fd_200d_1f9af	👨🏽‍🦯	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f9af.svg		1f468_200d_1f9af
+1f468_1f3fe_200d_1f9af	👨🏾‍🦯	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f9af.svg		1f468_200d_1f9af
+1f468_1f3ff_200d_1f9af	👨🏿‍🦯	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f9af.svg		1f468_200d_1f9af
+1f468_200d_1f9af_200d_27a1	👨‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_200d_1f9af_200d_27a1.svg		
+1f468_1f3fb_200d_1f9af_200d_27a1	👨🏻‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
+1f468_1f3fc_200d_1f9af_200d_27a1	👨🏼‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
+1f468_1f3fd_200d_1f9af_200d_27a1	👨🏽‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
+1f468_1f3fe_200d_1f9af_200d_27a1	👨🏾‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
+1f468_1f3ff_200d_1f9af_200d_27a1	👨🏿‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f9af_200d_27a1.svg		1f468_200d_1f9af_200d_27a1
+1f469_200d_1f9af	👩‍🦯	android-16	subgroup	android-16:svg/emoji_u1f469_200d_1f9af.svg		
+1f469_1f3fb_200d_1f9af	👩🏻‍🦯	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f9af.svg		1f469_200d_1f9af
+1f469_1f3fc_200d_1f9af	👩🏼‍🦯	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f9af.svg		1f469_200d_1f9af
+1f469_1f3fd_200d_1f9af	👩🏽‍🦯	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f9af.svg		1f469_200d_1f9af
+1f469_1f3fe_200d_1f9af	👩🏾‍🦯	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f9af.svg		1f469_200d_1f9af
+1f469_1f3ff_200d_1f9af	👩🏿‍🦯	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f9af.svg		1f469_200d_1f9af
+1f469_200d_1f9af_200d_27a1	👩‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_200d_1f9af_200d_27a1.svg		
+1f469_1f3fb_200d_1f9af_200d_27a1	👩🏻‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
+1f469_1f3fc_200d_1f9af_200d_27a1	👩🏼‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
+1f469_1f3fd_200d_1f9af_200d_27a1	👩🏽‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
+1f469_1f3fe_200d_1f9af_200d_27a1	👩🏾‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
+1f469_1f3ff_200d_1f9af_200d_27a1	👩🏿‍🦯‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f9af_200d_27a1.svg		1f469_200d_1f9af_200d_27a1
+1f9d1_200d_1f9bc	🧑‍🦼	android-16	subgroup	android-16:svg/emoji_u1f9d1_200d_1f9bc.svg		
+1f9d1_1f3fb_200d_1f9bc	🧑🏻‍🦼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f9bc.svg		1f9d1_200d_1f9bc
+1f9d1_1f3fc_200d_1f9bc	🧑🏼‍🦼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f9bc.svg		1f9d1_200d_1f9bc
+1f9d1_1f3fd_200d_1f9bc	🧑🏽‍🦼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f9bc.svg		1f9d1_200d_1f9bc
+1f9d1_1f3fe_200d_1f9bc	🧑🏾‍🦼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f9bc.svg		1f9d1_200d_1f9bc
+1f9d1_1f3ff_200d_1f9bc	🧑🏿‍🦼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f9bc.svg		1f9d1_200d_1f9bc
+1f9d1_200d_1f9bc_200d_27a1	🧑‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_200d_1f9bc_200d_27a1.svg		
+1f9d1_1f3fb_200d_1f9bc_200d_27a1	🧑🏻‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
+1f9d1_1f3fc_200d_1f9bc_200d_27a1	🧑🏼‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
+1f9d1_1f3fd_200d_1f9bc_200d_27a1	🧑🏽‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
+1f9d1_1f3fe_200d_1f9bc_200d_27a1	🧑🏾‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
+1f9d1_1f3ff_200d_1f9bc_200d_27a1	🧑🏿‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f9bc_200d_27a1.svg		1f9d1_200d_1f9bc_200d_27a1
+1f468_200d_1f9bc	👨‍🦼	android-16	subgroup	android-16:svg/emoji_u1f468_200d_1f9bc.svg		
+1f468_1f3fb_200d_1f9bc	👨🏻‍🦼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f9bc.svg		1f468_200d_1f9bc
+1f468_1f3fc_200d_1f9bc	👨🏼‍🦼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f9bc.svg		1f468_200d_1f9bc
+1f468_1f3fd_200d_1f9bc	👨🏽‍🦼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f9bc.svg		1f468_200d_1f9bc
+1f468_1f3fe_200d_1f9bc	👨🏾‍🦼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f9bc.svg		1f468_200d_1f9bc
+1f468_1f3ff_200d_1f9bc	👨🏿‍🦼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f9bc.svg		1f468_200d_1f9bc
+1f468_200d_1f9bc_200d_27a1	👨‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_200d_1f9bc_200d_27a1.svg		
+1f468_1f3fb_200d_1f9bc_200d_27a1	👨🏻‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
+1f468_1f3fc_200d_1f9bc_200d_27a1	👨🏼‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
+1f468_1f3fd_200d_1f9bc_200d_27a1	👨🏽‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
+1f468_1f3fe_200d_1f9bc_200d_27a1	👨🏾‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
+1f468_1f3ff_200d_1f9bc_200d_27a1	👨🏿‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f9bc_200d_27a1.svg		1f468_200d_1f9bc_200d_27a1
+1f469_200d_1f9bc	👩‍🦼	android-16	subgroup	android-16:svg/emoji_u1f469_200d_1f9bc.svg		
+1f469_1f3fb_200d_1f9bc	👩🏻‍🦼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f9bc.svg		1f469_200d_1f9bc
+1f469_1f3fc_200d_1f9bc	👩🏼‍🦼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f9bc.svg		1f469_200d_1f9bc
+1f469_1f3fd_200d_1f9bc	👩🏽‍🦼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f9bc.svg		1f469_200d_1f9bc
+1f469_1f3fe_200d_1f9bc	👩🏾‍🦼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f9bc.svg		1f469_200d_1f9bc
+1f469_1f3ff_200d_1f9bc	👩🏿‍🦼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f9bc.svg		1f469_200d_1f9bc
+1f469_200d_1f9bc_200d_27a1	👩‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_200d_1f9bc_200d_27a1.svg		
+1f469_1f3fb_200d_1f9bc_200d_27a1	👩🏻‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
+1f469_1f3fc_200d_1f9bc_200d_27a1	👩🏼‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
+1f469_1f3fd_200d_1f9bc_200d_27a1	👩🏽‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
+1f469_1f3fe_200d_1f9bc_200d_27a1	👩🏾‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
+1f469_1f3ff_200d_1f9bc_200d_27a1	👩🏿‍🦼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f9bc_200d_27a1.svg		1f469_200d_1f9bc_200d_27a1
+1f9d1_200d_1f9bd	🧑‍🦽	android-16	subgroup	android-16:svg/emoji_u1f9d1_200d_1f9bd.svg		
+1f9d1_1f3fb_200d_1f9bd	🧑🏻‍🦽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f9bd.svg		1f9d1_200d_1f9bd
+1f9d1_1f3fc_200d_1f9bd	🧑🏼‍🦽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f9bd.svg		1f9d1_200d_1f9bd
+1f9d1_1f3fd_200d_1f9bd	🧑🏽‍🦽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f9bd.svg		1f9d1_200d_1f9bd
+1f9d1_1f3fe_200d_1f9bd	🧑🏾‍🦽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f9bd.svg		1f9d1_200d_1f9bd
+1f9d1_1f3ff_200d_1f9bd	🧑🏿‍🦽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f9bd.svg		1f9d1_200d_1f9bd
+1f9d1_200d_1f9bd_200d_27a1	🧑‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_200d_1f9bd_200d_27a1.svg		
+1f9d1_1f3fb_200d_1f9bd_200d_27a1	🧑🏻‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
+1f9d1_1f3fc_200d_1f9bd_200d_27a1	🧑🏼‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
+1f9d1_1f3fd_200d_1f9bd_200d_27a1	🧑🏽‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
+1f9d1_1f3fe_200d_1f9bd_200d_27a1	🧑🏾‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
+1f9d1_1f3ff_200d_1f9bd_200d_27a1	🧑🏿‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f9bd_200d_27a1.svg		1f9d1_200d_1f9bd_200d_27a1
+1f468_200d_1f9bd	👨‍🦽	android-16	subgroup	android-16:svg/emoji_u1f468_200d_1f9bd.svg		
+1f468_1f3fb_200d_1f9bd	👨🏻‍🦽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f9bd.svg		1f468_200d_1f9bd
+1f468_1f3fc_200d_1f9bd	👨🏼‍🦽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f9bd.svg		1f468_200d_1f9bd
+1f468_1f3fd_200d_1f9bd	👨🏽‍🦽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f9bd.svg		1f468_200d_1f9bd
+1f468_1f3fe_200d_1f9bd	👨🏾‍🦽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f9bd.svg		1f468_200d_1f9bd
+1f468_1f3ff_200d_1f9bd	👨🏿‍🦽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f9bd.svg		1f468_200d_1f9bd
+1f468_200d_1f9bd_200d_27a1	👨‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_200d_1f9bd_200d_27a1.svg		
+1f468_1f3fb_200d_1f9bd_200d_27a1	👨🏻‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
+1f468_1f3fc_200d_1f9bd_200d_27a1	👨🏼‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
+1f468_1f3fd_200d_1f9bd_200d_27a1	👨🏽‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
+1f468_1f3fe_200d_1f9bd_200d_27a1	👨🏾‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
+1f468_1f3ff_200d_1f9bd_200d_27a1	👨🏿‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f9bd_200d_27a1.svg		1f468_200d_1f9bd_200d_27a1
+1f469_200d_1f9bd	👩‍🦽	android-16	subgroup	android-16:svg/emoji_u1f469_200d_1f9bd.svg		
+1f469_1f3fb_200d_1f9bd	👩🏻‍🦽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f9bd.svg		1f469_200d_1f9bd
+1f469_1f3fc_200d_1f9bd	👩🏼‍🦽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f9bd.svg		1f469_200d_1f9bd
+1f469_1f3fd_200d_1f9bd	👩🏽‍🦽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f9bd.svg		1f469_200d_1f9bd
+1f469_1f3fe_200d_1f9bd	👩🏾‍🦽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f9bd.svg		1f469_200d_1f9bd
+1f469_1f3ff_200d_1f9bd	👩🏿‍🦽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f9bd.svg		1f469_200d_1f9bd
+1f469_200d_1f9bd_200d_27a1	👩‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_200d_1f9bd_200d_27a1.svg		
+1f469_1f3fb_200d_1f9bd_200d_27a1	👩🏻‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
+1f469_1f3fc_200d_1f9bd_200d_27a1	👩🏼‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
+1f469_1f3fd_200d_1f9bd_200d_27a1	👩🏽‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
+1f469_1f3fe_200d_1f9bd_200d_27a1	👩🏾‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
+1f469_1f3ff_200d_1f9bd_200d_27a1	👩🏿‍🦽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f9bd_200d_27a1.svg		1f469_200d_1f9bd_200d_27a1
 1f3c3	🏃	android-7.1	subgroup	android-7.1:svg/emoji_u1f3c3.svg		
 1f3c3_1f3fb	🏃🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f3c3_1f3fb.svg		1f3c3
 1f3c3_1f3fc	🏃🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f3c3_1f3fc.svg		1f3c3
@@ -1759,30 +1759,30 @@ key	emoji	era	why	source	vector	family
 1f3c3_1f3fd_200d_2640	🏃🏽‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f3c3_1f3fd_200d_2640.svg		1f3c3
 1f3c3_1f3fe_200d_2640	🏃🏾‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f3c3_1f3fe_200d_2640.svg		1f3c3
 1f3c3_1f3ff_200d_2640	🏃🏿‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f3c3_1f3ff_200d_2640.svg		1f3c3
-1f3c3_200d_27a1	🏃‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_200d_27a1.svg		
-1f3c3_1f3fb_200d_27a1	🏃🏻‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fb_200d_27a1.svg		1f3c3_200d_27a1
-1f3c3_1f3fc_200d_27a1	🏃🏼‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fc_200d_27a1.svg		1f3c3_200d_27a1
-1f3c3_1f3fd_200d_27a1	🏃🏽‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fd_200d_27a1.svg		1f3c3_200d_27a1
-1f3c3_1f3fe_200d_27a1	🏃🏾‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fe_200d_27a1.svg		1f3c3_200d_27a1
-1f3c3_1f3ff_200d_27a1	🏃🏿‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3ff_200d_27a1.svg		1f3c3_200d_27a1
-1f3c3_200d_2640_200d_27a1	🏃‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_200d_2640_200d_27a1.svg		
-1f3c3_1f3fb_200d_2640_200d_27a1	🏃🏻‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fb_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
-1f3c3_1f3fc_200d_2640_200d_27a1	🏃🏼‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fc_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
-1f3c3_1f3fd_200d_2640_200d_27a1	🏃🏽‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fd_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
-1f3c3_1f3fe_200d_2640_200d_27a1	🏃🏾‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fe_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
-1f3c3_1f3ff_200d_2640_200d_27a1	🏃🏿‍♀️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3ff_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
-1f3c3_200d_2642_200d_27a1	🏃‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_200d_2642_200d_27a1.svg		
-1f3c3_1f3fb_200d_2642_200d_27a1	🏃🏻‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fb_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
-1f3c3_1f3fc_200d_2642_200d_27a1	🏃🏼‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fc_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
-1f3c3_1f3fd_200d_2642_200d_27a1	🏃🏽‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fd_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
-1f3c3_1f3fe_200d_2642_200d_27a1	🏃🏾‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3fe_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
-1f3c3_1f3ff_200d_2642_200d_27a1	🏃🏿‍♂️‍➡️	latest	fallback	latest:2D/svg/emoji_u1f3c3_1f3ff_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
-1f9d1_200d_1fa70	🧑‍🩰	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1fa70.svg		
-1f9d1_1f3fb_200d_1fa70	🧑🏻‍🩰	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1fa70.svg		1f9d1_200d_1fa70
-1f9d1_1f3fc_200d_1fa70	🧑🏼‍🩰	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1fa70.svg		1f9d1_200d_1fa70
-1f9d1_1f3fd_200d_1fa70	🧑🏽‍🩰	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1fa70.svg		1f9d1_200d_1fa70
-1f9d1_1f3fe_200d_1fa70	🧑🏾‍🩰	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1fa70.svg		1f9d1_200d_1fa70
-1f9d1_1f3ff_200d_1fa70	🧑🏿‍🩰	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1fa70.svg		1f9d1_200d_1fa70
+1f3c3_200d_27a1	🏃‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_200d_27a1.svg		
+1f3c3_1f3fb_200d_27a1	🏃🏻‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fb_200d_27a1.svg		1f3c3_200d_27a1
+1f3c3_1f3fc_200d_27a1	🏃🏼‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fc_200d_27a1.svg		1f3c3_200d_27a1
+1f3c3_1f3fd_200d_27a1	🏃🏽‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fd_200d_27a1.svg		1f3c3_200d_27a1
+1f3c3_1f3fe_200d_27a1	🏃🏾‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fe_200d_27a1.svg		1f3c3_200d_27a1
+1f3c3_1f3ff_200d_27a1	🏃🏿‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3ff_200d_27a1.svg		1f3c3_200d_27a1
+1f3c3_200d_2640_200d_27a1	🏃‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_200d_2640_200d_27a1.svg		
+1f3c3_1f3fb_200d_2640_200d_27a1	🏃🏻‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fb_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
+1f3c3_1f3fc_200d_2640_200d_27a1	🏃🏼‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fc_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
+1f3c3_1f3fd_200d_2640_200d_27a1	🏃🏽‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fd_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
+1f3c3_1f3fe_200d_2640_200d_27a1	🏃🏾‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fe_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
+1f3c3_1f3ff_200d_2640_200d_27a1	🏃🏿‍♀️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3ff_200d_2640_200d_27a1.svg		1f3c3_200d_2640_200d_27a1
+1f3c3_200d_2642_200d_27a1	🏃‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_200d_2642_200d_27a1.svg		
+1f3c3_1f3fb_200d_2642_200d_27a1	🏃🏻‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fb_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
+1f3c3_1f3fc_200d_2642_200d_27a1	🏃🏼‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fc_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
+1f3c3_1f3fd_200d_2642_200d_27a1	🏃🏽‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fd_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
+1f3c3_1f3fe_200d_2642_200d_27a1	🏃🏾‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3fe_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
+1f3c3_1f3ff_200d_2642_200d_27a1	🏃🏿‍♂️‍➡️	android-16	subgroup	android-16:svg/emoji_u1f3c3_1f3ff_200d_2642_200d_27a1.svg		1f3c3_200d_2642_200d_27a1
+1f9d1_200d_1fa70	🧑‍🩰	android-16	subgroup	android-16:svg/emoji_u1f9d1_200d_1fa70.svg		
+1f9d1_1f3fb_200d_1fa70	🧑🏻‍🩰	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1fa70.svg		1f9d1_200d_1fa70
+1f9d1_1f3fc_200d_1fa70	🧑🏼‍🩰	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1fa70.svg		1f9d1_200d_1fa70
+1f9d1_1f3fd_200d_1fa70	🧑🏽‍🩰	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1fa70.svg		1f9d1_200d_1fa70
+1f9d1_1f3fe_200d_1fa70	🧑🏾‍🩰	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1fa70.svg		1f9d1_200d_1fa70
+1f9d1_1f3ff_200d_1fa70	🧑🏿‍🩰	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1fa70.svg		1f9d1_200d_1fa70
 1f483	💃	android-7.1	subgroup	android-7.1:svg/emoji_u1f483.svg		
 1f483_1f3fb	💃🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f483_1f3fb.svg		1f483
 1f483_1f3fc	💃🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f483_1f3fc.svg		1f483
@@ -1795,126 +1795,126 @@ key	emoji	era	why	source	vector	family
 1f57a_1f3fd	🕺🏽	android-7.1	subgroup	android-7.1:svg/emoji_u1f57a_1f3fd.svg		1f57a
 1f57a_1f3fe	🕺🏾	android-7.1	subgroup	android-7.1:svg/emoji_u1f57a_1f3fe.svg		1f57a
 1f57a_1f3ff	🕺🏿	android-7.1	subgroup	android-7.1:svg/emoji_u1f57a_1f3ff.svg		1f57a
-1f574	🕴️	android-12	subgroup	android-12:svg/emoji_u1f574.svg		
-1f574_1f3fb	🕴🏻	android-12	subgroup	android-12:svg/emoji_u1f574_1f3fb.svg		1f574
-1f574_1f3fc	🕴🏼	android-12	subgroup	android-12:svg/emoji_u1f574_1f3fc.svg		1f574
-1f574_1f3fd	🕴🏽	android-12	subgroup	android-12:svg/emoji_u1f574_1f3fd.svg		1f574
-1f574_1f3fe	🕴🏾	android-12	subgroup	android-12:svg/emoji_u1f574_1f3fe.svg		1f574
-1f574_1f3ff	🕴🏿	android-12	subgroup	android-12:svg/emoji_u1f574_1f3ff.svg		1f574
-1f46f	👯	latest	fallback	latest:2D/svg/emoji_u1f46f.svg		
-1f46f_1f3fb	👯🏻	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fb.svg		1f46f
-1f46f_1f3fc	👯🏼	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fc.svg		1f46f
-1f46f_1f3fd	👯🏽	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fd.svg		1f46f
-1f46f_1f3fe	👯🏾	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fe.svg		1f46f
-1f46f_1f3ff	👯🏿	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3ff.svg		1f46f
-1f46f_200d_2642	👯‍♂️	latest	fallback	latest:2D/svg/emoji_u1f46f_200d_2642.svg		1f46f
-1f46f_1f3fb_200d_2642	👯🏻‍♂️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fb_200d_2642.svg		1f46f
-1f46f_1f3fc_200d_2642	👯🏼‍♂️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fc_200d_2642.svg		1f46f
-1f46f_1f3fd_200d_2642	👯🏽‍♂️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fd_200d_2642.svg		1f46f
-1f46f_1f3fe_200d_2642	👯🏾‍♂️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fe_200d_2642.svg		1f46f
-1f46f_1f3ff_200d_2642	👯🏿‍♂️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3ff_200d_2642.svg		1f46f
-1f46f_200d_2640	👯‍♀️	latest	fallback	latest:2D/svg/emoji_u1f46f_200d_2640.svg		1f46f
-1f46f_1f3fb_200d_2640	👯🏻‍♀️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fb_200d_2640.svg		1f46f
-1f46f_1f3fc_200d_2640	👯🏼‍♀️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fc_200d_2640.svg		1f46f
-1f46f_1f3fd_200d_2640	👯🏽‍♀️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fd_200d_2640.svg		1f46f
-1f46f_1f3fe_200d_2640	👯🏾‍♀️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3fe_200d_2640.svg		1f46f
-1f46f_1f3ff_200d_2640	👯🏿‍♀️	latest	fallback	latest:2D/svg/emoji_u1f46f_1f3ff_200d_2640.svg		1f46f
-1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fc	🧑🏻‍🐰‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fd	🧑🏻‍🐰‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fe	🧑🏻‍🐰‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fe.svg		
-1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3ff	🧑🏻‍🐰‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fb	🧑🏼‍🐰‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fd	🧑🏼‍🐰‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fe	🧑🏼‍🐰‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fe.svg		
-1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3ff	🧑🏼‍🐰‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fb	🧑🏽‍🐰‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fc	🧑🏽‍🐰‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fe	🧑🏽‍🐰‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fe.svg		
-1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3ff	🧑🏽‍🐰‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fb	🧑🏾‍🐰‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fc	🧑🏾‍🐰‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fd	🧑🏾‍🐰‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3ff	🧑🏾‍🐰‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fb	🧑🏿‍🐰‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fc	🧑🏿‍🐰‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fd	🧑🏿‍🐰‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fe	🧑🏿‍🐰‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fe.svg		
-1f468_1f3fb_200d_1f430_200d_1f468_1f3fc	👨🏻‍🐰‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3fc.svg		
-1f468_1f3fb_200d_1f430_200d_1f468_1f3fd	👨🏻‍🐰‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3fd.svg		
-1f468_1f3fb_200d_1f430_200d_1f468_1f3fe	👨🏻‍🐰‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3fe.svg		
-1f468_1f3fb_200d_1f430_200d_1f468_1f3ff	👨🏻‍🐰‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3ff.svg		
-1f468_1f3fc_200d_1f430_200d_1f468_1f3fb	👨🏼‍🐰‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3fb.svg		
-1f468_1f3fc_200d_1f430_200d_1f468_1f3fd	👨🏼‍🐰‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3fd.svg		
-1f468_1f3fc_200d_1f430_200d_1f468_1f3fe	👨🏼‍🐰‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3fe.svg		
-1f468_1f3fc_200d_1f430_200d_1f468_1f3ff	👨🏼‍🐰‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3ff.svg		
-1f468_1f3fd_200d_1f430_200d_1f468_1f3fb	👨🏽‍🐰‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3fb.svg		
-1f468_1f3fd_200d_1f430_200d_1f468_1f3fc	👨🏽‍🐰‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3fc.svg		
-1f468_1f3fd_200d_1f430_200d_1f468_1f3fe	👨🏽‍🐰‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3fe.svg		
-1f468_1f3fd_200d_1f430_200d_1f468_1f3ff	👨🏽‍🐰‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3ff.svg		
-1f468_1f3fe_200d_1f430_200d_1f468_1f3fb	👨🏾‍🐰‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3fb.svg		
-1f468_1f3fe_200d_1f430_200d_1f468_1f3fc	👨🏾‍🐰‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3fc.svg		
-1f468_1f3fe_200d_1f430_200d_1f468_1f3fd	👨🏾‍🐰‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3fd.svg		
-1f468_1f3fe_200d_1f430_200d_1f468_1f3ff	👨🏾‍🐰‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3ff.svg		
-1f468_1f3ff_200d_1f430_200d_1f468_1f3fb	👨🏿‍🐰‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fb.svg		
-1f468_1f3ff_200d_1f430_200d_1f468_1f3fc	👨🏿‍🐰‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fc.svg		
-1f468_1f3ff_200d_1f430_200d_1f468_1f3fd	👨🏿‍🐰‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fd.svg		
-1f468_1f3ff_200d_1f430_200d_1f468_1f3fe	👨🏿‍🐰‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fe.svg		
-1f469_1f3fb_200d_1f430_200d_1f469_1f3fc	👩🏻‍🐰‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3fc.svg		
-1f469_1f3fb_200d_1f430_200d_1f469_1f3fd	👩🏻‍🐰‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3fd.svg		
-1f469_1f3fb_200d_1f430_200d_1f469_1f3fe	👩🏻‍🐰‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3fe.svg		
-1f469_1f3fb_200d_1f430_200d_1f469_1f3ff	👩🏻‍🐰‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3ff.svg		
-1f469_1f3fc_200d_1f430_200d_1f469_1f3fb	👩🏼‍🐰‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3fb.svg		
-1f469_1f3fc_200d_1f430_200d_1f469_1f3fd	👩🏼‍🐰‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3fd.svg		
-1f469_1f3fc_200d_1f430_200d_1f469_1f3fe	👩🏼‍🐰‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3fe.svg		
-1f469_1f3fc_200d_1f430_200d_1f469_1f3ff	👩🏼‍🐰‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3ff.svg		
-1f469_1f3fd_200d_1f430_200d_1f469_1f3fb	👩🏽‍🐰‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3fb.svg		
-1f469_1f3fd_200d_1f430_200d_1f469_1f3fc	👩🏽‍🐰‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3fc.svg		
-1f469_1f3fd_200d_1f430_200d_1f469_1f3fe	👩🏽‍🐰‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3fe.svg		
-1f469_1f3fd_200d_1f430_200d_1f469_1f3ff	👩🏽‍🐰‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3ff.svg		
-1f469_1f3fe_200d_1f430_200d_1f469_1f3fb	👩🏾‍🐰‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3fb.svg		
-1f469_1f3fe_200d_1f430_200d_1f469_1f3fc	👩🏾‍🐰‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3fc.svg		
-1f469_1f3fe_200d_1f430_200d_1f469_1f3fd	👩🏾‍🐰‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3fd.svg		
-1f469_1f3fe_200d_1f430_200d_1f469_1f3ff	👩🏾‍🐰‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3ff.svg		
-1f469_1f3ff_200d_1f430_200d_1f469_1f3fb	👩🏿‍🐰‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fb.svg		
-1f469_1f3ff_200d_1f430_200d_1f469_1f3fc	👩🏿‍🐰‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fc.svg		
-1f469_1f3ff_200d_1f430_200d_1f469_1f3fd	👩🏿‍🐰‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fd.svg		
-1f469_1f3ff_200d_1f430_200d_1f469_1f3fe	👩🏿‍🐰‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fe.svg		
-1f9d6	🧖	android-12	subgroup	android-12:svg/emoji_u1f9d6.svg		
-1f9d6_1f3fb	🧖🏻	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fb.svg		1f9d6
-1f9d6_1f3fc	🧖🏼	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fc.svg		1f9d6
-1f9d6_1f3fd	🧖🏽	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fd.svg		1f9d6
-1f9d6_1f3fe	🧖🏾	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fe.svg		1f9d6
-1f9d6_1f3ff	🧖🏿	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3ff.svg		1f9d6
-1f9d6_200d_2642	🧖‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d6_200d_2642.svg		1f9d6
-1f9d6_1f3fb_200d_2642	🧖🏻‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fb_200d_2642.svg		1f9d6
-1f9d6_1f3fc_200d_2642	🧖🏼‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fc_200d_2642.svg		1f9d6
-1f9d6_1f3fd_200d_2642	🧖🏽‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fd_200d_2642.svg		1f9d6
-1f9d6_1f3fe_200d_2642	🧖🏾‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fe_200d_2642.svg		1f9d6
-1f9d6_1f3ff_200d_2642	🧖🏿‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3ff_200d_2642.svg		1f9d6
-1f9d6_200d_2640	🧖‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d6_200d_2640.svg		1f9d6
-1f9d6_1f3fb_200d_2640	🧖🏻‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fb_200d_2640.svg		1f9d6
-1f9d6_1f3fc_200d_2640	🧖🏼‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fc_200d_2640.svg		1f9d6
-1f9d6_1f3fd_200d_2640	🧖🏽‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fd_200d_2640.svg		1f9d6
-1f9d6_1f3fe_200d_2640	🧖🏾‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3fe_200d_2640.svg		1f9d6
-1f9d6_1f3ff_200d_2640	🧖🏿‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d6_1f3ff_200d_2640.svg		1f9d6
-1f9d7	🧗	android-12	subgroup	android-12:svg/emoji_u1f9d7.svg		
-1f9d7_1f3fb	🧗🏻	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fb.svg		1f9d7
-1f9d7_1f3fc	🧗🏼	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fc.svg		1f9d7
-1f9d7_1f3fd	🧗🏽	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fd.svg		1f9d7
-1f9d7_1f3fe	🧗🏾	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fe.svg		1f9d7
-1f9d7_1f3ff	🧗🏿	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3ff.svg		1f9d7
-1f9d7_200d_2642	🧗‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d7_200d_2642.svg		1f9d7
-1f9d7_1f3fb_200d_2642	🧗🏻‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fb_200d_2642.svg		1f9d7
-1f9d7_1f3fc_200d_2642	🧗🏼‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fc_200d_2642.svg		1f9d7
-1f9d7_1f3fd_200d_2642	🧗🏽‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fd_200d_2642.svg		1f9d7
-1f9d7_1f3fe_200d_2642	🧗🏾‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fe_200d_2642.svg		1f9d7
-1f9d7_1f3ff_200d_2642	🧗🏿‍♂️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3ff_200d_2642.svg		1f9d7
-1f9d7_200d_2640	🧗‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d7_200d_2640.svg		1f9d7
-1f9d7_1f3fb_200d_2640	🧗🏻‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fb_200d_2640.svg		1f9d7
-1f9d7_1f3fc_200d_2640	🧗🏼‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fc_200d_2640.svg		1f9d7
-1f9d7_1f3fd_200d_2640	🧗🏽‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fd_200d_2640.svg		1f9d7
-1f9d7_1f3fe_200d_2640	🧗🏾‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3fe_200d_2640.svg		1f9d7
-1f9d7_1f3ff_200d_2640	🧗🏿‍♀️	android-12	subgroup	android-12:svg/emoji_u1f9d7_1f3ff_200d_2640.svg		1f9d7
+1f574	🕴️	android-16	subgroup	android-16:svg/emoji_u1f574.svg		
+1f574_1f3fb	🕴🏻	android-16	subgroup	android-16:svg/emoji_u1f574_1f3fb.svg		1f574
+1f574_1f3fc	🕴🏼	android-16	subgroup	android-16:svg/emoji_u1f574_1f3fc.svg		1f574
+1f574_1f3fd	🕴🏽	android-16	subgroup	android-16:svg/emoji_u1f574_1f3fd.svg		1f574
+1f574_1f3fe	🕴🏾	android-16	subgroup	android-16:svg/emoji_u1f574_1f3fe.svg		1f574
+1f574_1f3ff	🕴🏿	android-16	subgroup	android-16:svg/emoji_u1f574_1f3ff.svg		1f574
+1f46f	👯	android-16	subgroup	android-16:svg/emoji_u1f46f.svg		
+1f46f_1f3fb	👯🏻	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fb.svg		1f46f
+1f46f_1f3fc	👯🏼	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fc.svg		1f46f
+1f46f_1f3fd	👯🏽	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fd.svg		1f46f
+1f46f_1f3fe	👯🏾	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fe.svg		1f46f
+1f46f_1f3ff	👯🏿	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3ff.svg		1f46f
+1f46f_200d_2642	👯‍♂️	android-16	subgroup	android-16:svg/emoji_u1f46f_200d_2642.svg		1f46f
+1f46f_1f3fb_200d_2642	👯🏻‍♂️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fb_200d_2642.svg		1f46f
+1f46f_1f3fc_200d_2642	👯🏼‍♂️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fc_200d_2642.svg		1f46f
+1f46f_1f3fd_200d_2642	👯🏽‍♂️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fd_200d_2642.svg		1f46f
+1f46f_1f3fe_200d_2642	👯🏾‍♂️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fe_200d_2642.svg		1f46f
+1f46f_1f3ff_200d_2642	👯🏿‍♂️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3ff_200d_2642.svg		1f46f
+1f46f_200d_2640	👯‍♀️	android-16	subgroup	android-16:svg/emoji_u1f46f_200d_2640.svg		1f46f
+1f46f_1f3fb_200d_2640	👯🏻‍♀️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fb_200d_2640.svg		1f46f
+1f46f_1f3fc_200d_2640	👯🏼‍♀️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fc_200d_2640.svg		1f46f
+1f46f_1f3fd_200d_2640	👯🏽‍♀️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fd_200d_2640.svg		1f46f
+1f46f_1f3fe_200d_2640	👯🏾‍♀️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3fe_200d_2640.svg		1f46f
+1f46f_1f3ff_200d_2640	👯🏿‍♀️	android-16	subgroup	android-16:svg/emoji_u1f46f_1f3ff_200d_2640.svg		1f46f
+1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fc	🧑🏻‍🐰‍🧑🏼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fd	🧑🏻‍🐰‍🧑🏽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fe	🧑🏻‍🐰‍🧑🏾	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3fe.svg		
+1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3ff	🧑🏻‍🐰‍🧑🏿	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fb_200d_1f430_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fb	🧑🏼‍🐰‍🧑🏻	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fd	🧑🏼‍🐰‍🧑🏽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fe	🧑🏼‍🐰‍🧑🏾	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3fe.svg		
+1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3ff	🧑🏼‍🐰‍🧑🏿	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fc_200d_1f430_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fb	🧑🏽‍🐰‍🧑🏻	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fc	🧑🏽‍🐰‍🧑🏼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fe	🧑🏽‍🐰‍🧑🏾	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3fe.svg		
+1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3ff	🧑🏽‍🐰‍🧑🏿	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fd_200d_1f430_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fb	🧑🏾‍🐰‍🧑🏻	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fc	🧑🏾‍🐰‍🧑🏼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fd	🧑🏾‍🐰‍🧑🏽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3ff	🧑🏾‍🐰‍🧑🏿	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3fe_200d_1f430_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fb	🧑🏿‍🐰‍🧑🏻	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fc	🧑🏿‍🐰‍🧑🏼	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fd	🧑🏿‍🐰‍🧑🏽	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fe	🧑🏿‍🐰‍🧑🏾	android-16	subgroup	android-16:svg/emoji_u1f9d1_1f3ff_200d_1f430_200d_1f9d1_1f3fe.svg		
+1f468_1f3fb_200d_1f430_200d_1f468_1f3fc	👨🏻‍🐰‍👨🏼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3fc.svg		
+1f468_1f3fb_200d_1f430_200d_1f468_1f3fd	👨🏻‍🐰‍👨🏽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3fd.svg		
+1f468_1f3fb_200d_1f430_200d_1f468_1f3fe	👨🏻‍🐰‍👨🏾	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3fe.svg		
+1f468_1f3fb_200d_1f430_200d_1f468_1f3ff	👨🏻‍🐰‍👨🏿	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fb_200d_1f430_200d_1f468_1f3ff.svg		
+1f468_1f3fc_200d_1f430_200d_1f468_1f3fb	👨🏼‍🐰‍👨🏻	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3fb.svg		
+1f468_1f3fc_200d_1f430_200d_1f468_1f3fd	👨🏼‍🐰‍👨🏽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3fd.svg		
+1f468_1f3fc_200d_1f430_200d_1f468_1f3fe	👨🏼‍🐰‍👨🏾	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3fe.svg		
+1f468_1f3fc_200d_1f430_200d_1f468_1f3ff	👨🏼‍🐰‍👨🏿	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fc_200d_1f430_200d_1f468_1f3ff.svg		
+1f468_1f3fd_200d_1f430_200d_1f468_1f3fb	👨🏽‍🐰‍👨🏻	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3fb.svg		
+1f468_1f3fd_200d_1f430_200d_1f468_1f3fc	👨🏽‍🐰‍👨🏼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3fc.svg		
+1f468_1f3fd_200d_1f430_200d_1f468_1f3fe	👨🏽‍🐰‍👨🏾	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3fe.svg		
+1f468_1f3fd_200d_1f430_200d_1f468_1f3ff	👨🏽‍🐰‍👨🏿	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fd_200d_1f430_200d_1f468_1f3ff.svg		
+1f468_1f3fe_200d_1f430_200d_1f468_1f3fb	👨🏾‍🐰‍👨🏻	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3fb.svg		
+1f468_1f3fe_200d_1f430_200d_1f468_1f3fc	👨🏾‍🐰‍👨🏼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3fc.svg		
+1f468_1f3fe_200d_1f430_200d_1f468_1f3fd	👨🏾‍🐰‍👨🏽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3fd.svg		
+1f468_1f3fe_200d_1f430_200d_1f468_1f3ff	👨🏾‍🐰‍👨🏿	android-16	subgroup	android-16:svg/emoji_u1f468_1f3fe_200d_1f430_200d_1f468_1f3ff.svg		
+1f468_1f3ff_200d_1f430_200d_1f468_1f3fb	👨🏿‍🐰‍👨🏻	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fb.svg		
+1f468_1f3ff_200d_1f430_200d_1f468_1f3fc	👨🏿‍🐰‍👨🏼	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fc.svg		
+1f468_1f3ff_200d_1f430_200d_1f468_1f3fd	👨🏿‍🐰‍👨🏽	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fd.svg		
+1f468_1f3ff_200d_1f430_200d_1f468_1f3fe	👨🏿‍🐰‍👨🏾	android-16	subgroup	android-16:svg/emoji_u1f468_1f3ff_200d_1f430_200d_1f468_1f3fe.svg		
+1f469_1f3fb_200d_1f430_200d_1f469_1f3fc	👩🏻‍🐰‍👩🏼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3fc.svg		
+1f469_1f3fb_200d_1f430_200d_1f469_1f3fd	👩🏻‍🐰‍👩🏽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3fd.svg		
+1f469_1f3fb_200d_1f430_200d_1f469_1f3fe	👩🏻‍🐰‍👩🏾	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3fe.svg		
+1f469_1f3fb_200d_1f430_200d_1f469_1f3ff	👩🏻‍🐰‍👩🏿	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fb_200d_1f430_200d_1f469_1f3ff.svg		
+1f469_1f3fc_200d_1f430_200d_1f469_1f3fb	👩🏼‍🐰‍👩🏻	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3fb.svg		
+1f469_1f3fc_200d_1f430_200d_1f469_1f3fd	👩🏼‍🐰‍👩🏽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3fd.svg		
+1f469_1f3fc_200d_1f430_200d_1f469_1f3fe	👩🏼‍🐰‍👩🏾	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3fe.svg		
+1f469_1f3fc_200d_1f430_200d_1f469_1f3ff	👩🏼‍🐰‍👩🏿	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fc_200d_1f430_200d_1f469_1f3ff.svg		
+1f469_1f3fd_200d_1f430_200d_1f469_1f3fb	👩🏽‍🐰‍👩🏻	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3fb.svg		
+1f469_1f3fd_200d_1f430_200d_1f469_1f3fc	👩🏽‍🐰‍👩🏼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3fc.svg		
+1f469_1f3fd_200d_1f430_200d_1f469_1f3fe	👩🏽‍🐰‍👩🏾	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3fe.svg		
+1f469_1f3fd_200d_1f430_200d_1f469_1f3ff	👩🏽‍🐰‍👩🏿	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fd_200d_1f430_200d_1f469_1f3ff.svg		
+1f469_1f3fe_200d_1f430_200d_1f469_1f3fb	👩🏾‍🐰‍👩🏻	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3fb.svg		
+1f469_1f3fe_200d_1f430_200d_1f469_1f3fc	👩🏾‍🐰‍👩🏼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3fc.svg		
+1f469_1f3fe_200d_1f430_200d_1f469_1f3fd	👩🏾‍🐰‍👩🏽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3fd.svg		
+1f469_1f3fe_200d_1f430_200d_1f469_1f3ff	👩🏾‍🐰‍👩🏿	android-16	subgroup	android-16:svg/emoji_u1f469_1f3fe_200d_1f430_200d_1f469_1f3ff.svg		
+1f469_1f3ff_200d_1f430_200d_1f469_1f3fb	👩🏿‍🐰‍👩🏻	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fb.svg		
+1f469_1f3ff_200d_1f430_200d_1f469_1f3fc	👩🏿‍🐰‍👩🏼	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fc.svg		
+1f469_1f3ff_200d_1f430_200d_1f469_1f3fd	👩🏿‍🐰‍👩🏽	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fd.svg		
+1f469_1f3ff_200d_1f430_200d_1f469_1f3fe	👩🏿‍🐰‍👩🏾	android-16	subgroup	android-16:svg/emoji_u1f469_1f3ff_200d_1f430_200d_1f469_1f3fe.svg		
+1f9d6	🧖	android-16	subgroup	android-16:svg/emoji_u1f9d6.svg		
+1f9d6_1f3fb	🧖🏻	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fb.svg		1f9d6
+1f9d6_1f3fc	🧖🏼	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fc.svg		1f9d6
+1f9d6_1f3fd	🧖🏽	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fd.svg		1f9d6
+1f9d6_1f3fe	🧖🏾	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fe.svg		1f9d6
+1f9d6_1f3ff	🧖🏿	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3ff.svg		1f9d6
+1f9d6_200d_2642	🧖‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d6_200d_2642.svg		1f9d6
+1f9d6_1f3fb_200d_2642	🧖🏻‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fb_200d_2642.svg		1f9d6
+1f9d6_1f3fc_200d_2642	🧖🏼‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fc_200d_2642.svg		1f9d6
+1f9d6_1f3fd_200d_2642	🧖🏽‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fd_200d_2642.svg		1f9d6
+1f9d6_1f3fe_200d_2642	🧖🏾‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fe_200d_2642.svg		1f9d6
+1f9d6_1f3ff_200d_2642	🧖🏿‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3ff_200d_2642.svg		1f9d6
+1f9d6_200d_2640	🧖‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d6_200d_2640.svg		1f9d6
+1f9d6_1f3fb_200d_2640	🧖🏻‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fb_200d_2640.svg		1f9d6
+1f9d6_1f3fc_200d_2640	🧖🏼‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fc_200d_2640.svg		1f9d6
+1f9d6_1f3fd_200d_2640	🧖🏽‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fd_200d_2640.svg		1f9d6
+1f9d6_1f3fe_200d_2640	🧖🏾‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3fe_200d_2640.svg		1f9d6
+1f9d6_1f3ff_200d_2640	🧖🏿‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d6_1f3ff_200d_2640.svg		1f9d6
+1f9d7	🧗	android-16	subgroup	android-16:svg/emoji_u1f9d7.svg		
+1f9d7_1f3fb	🧗🏻	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fb.svg		1f9d7
+1f9d7_1f3fc	🧗🏼	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fc.svg		1f9d7
+1f9d7_1f3fd	🧗🏽	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fd.svg		1f9d7
+1f9d7_1f3fe	🧗🏾	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fe.svg		1f9d7
+1f9d7_1f3ff	🧗🏿	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3ff.svg		1f9d7
+1f9d7_200d_2642	🧗‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d7_200d_2642.svg		1f9d7
+1f9d7_1f3fb_200d_2642	🧗🏻‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fb_200d_2642.svg		1f9d7
+1f9d7_1f3fc_200d_2642	🧗🏼‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fc_200d_2642.svg		1f9d7
+1f9d7_1f3fd_200d_2642	🧗🏽‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fd_200d_2642.svg		1f9d7
+1f9d7_1f3fe_200d_2642	🧗🏾‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fe_200d_2642.svg		1f9d7
+1f9d7_1f3ff_200d_2642	🧗🏿‍♂️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3ff_200d_2642.svg		1f9d7
+1f9d7_200d_2640	🧗‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d7_200d_2640.svg		1f9d7
+1f9d7_1f3fb_200d_2640	🧗🏻‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fb_200d_2640.svg		1f9d7
+1f9d7_1f3fc_200d_2640	🧗🏼‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fc_200d_2640.svg		1f9d7
+1f9d7_1f3fd_200d_2640	🧗🏽‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fd_200d_2640.svg		1f9d7
+1f9d7_1f3fe_200d_2640	🧗🏾‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3fe_200d_2640.svg		1f9d7
+1f9d7_1f3ff_200d_2640	🧗🏿‍♀️	android-16	subgroup	android-16:svg/emoji_u1f9d7_1f3ff_200d_2640.svg		1f9d7
 1f93a	🤺	android-7.1	subgroup	android-7.1:svg/emoji_u1f93a.svg		
 1f3c7	🏇	android-12	subgroup	android-12:svg/emoji_u1f3c7.svg		
 1f3c7_1f3fb	🏇🏻	android-12	subgroup	android-12:svg/emoji_u1f3c7_1f3fb.svg		1f3c7
@@ -2109,66 +2109,66 @@ key	emoji	era	why	source	vector	family
 1f93c_1f3fd_200d_2640	🤼🏽‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f93c_1f3fd_200d_2640.svg		1f93c
 1f93c_1f3fe_200d_2640	🤼🏾‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f93c_1f3fe_200d_2640.svg		1f93c
 1f93c_1f3ff_200d_2640	🤼🏿‍♀️	android-7.1	subgroup	android-7.1:svg/emoji_u1f93c_1f3ff_200d_2640.svg		1f93c
-1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fc	🧑🏻‍🫯‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fd	🧑🏻‍🫯‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fe	🧑🏻‍🫯‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fe.svg		
-1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3ff	🧑🏻‍🫯‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fb	🧑🏼‍🫯‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fd	🧑🏼‍🫯‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fe	🧑🏼‍🫯‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fe.svg		
-1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3ff	🧑🏼‍🫯‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fb	🧑🏽‍🫯‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fc	🧑🏽‍🫯‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fe	🧑🏽‍🫯‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fe.svg		
-1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3ff	🧑🏽‍🫯‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fb	🧑🏾‍🫯‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fc	🧑🏾‍🫯‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fd	🧑🏾‍🫯‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3ff	🧑🏾‍🫯‍🧑🏿	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3ff.svg		
-1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fb	🧑🏿‍🫯‍🧑🏻	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fb.svg		
-1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fc	🧑🏿‍🫯‍🧑🏼	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fc.svg		
-1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fd	🧑🏿‍🫯‍🧑🏽	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fd.svg		
-1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fe	🧑🏿‍🫯‍🧑🏾	latest	fallback	latest:2D/svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fe.svg		
-1f468_1f3fb_200d_1faef_200d_1f468_1f3fc	👨🏻‍🫯‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3fc.svg		
-1f468_1f3fb_200d_1faef_200d_1f468_1f3fd	👨🏻‍🫯‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3fd.svg		
-1f468_1f3fb_200d_1faef_200d_1f468_1f3fe	👨🏻‍🫯‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3fe.svg		
-1f468_1f3fb_200d_1faef_200d_1f468_1f3ff	👨🏻‍🫯‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3ff.svg		
-1f468_1f3fc_200d_1faef_200d_1f468_1f3fb	👨🏼‍🫯‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3fb.svg		
-1f468_1f3fc_200d_1faef_200d_1f468_1f3fd	👨🏼‍🫯‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3fd.svg		
-1f468_1f3fc_200d_1faef_200d_1f468_1f3fe	👨🏼‍🫯‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3fe.svg		
-1f468_1f3fc_200d_1faef_200d_1f468_1f3ff	👨🏼‍🫯‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3ff.svg		
-1f468_1f3fd_200d_1faef_200d_1f468_1f3fb	👨🏽‍🫯‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3fb.svg		
-1f468_1f3fd_200d_1faef_200d_1f468_1f3fc	👨🏽‍🫯‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3fc.svg		
-1f468_1f3fd_200d_1faef_200d_1f468_1f3fe	👨🏽‍🫯‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3fe.svg		
-1f468_1f3fd_200d_1faef_200d_1f468_1f3ff	👨🏽‍🫯‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3ff.svg		
-1f468_1f3fe_200d_1faef_200d_1f468_1f3fb	👨🏾‍🫯‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3fb.svg		
-1f468_1f3fe_200d_1faef_200d_1f468_1f3fc	👨🏾‍🫯‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3fc.svg		
-1f468_1f3fe_200d_1faef_200d_1f468_1f3fd	👨🏾‍🫯‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3fd.svg		
-1f468_1f3fe_200d_1faef_200d_1f468_1f3ff	👨🏾‍🫯‍👨🏿	latest	fallback	latest:2D/svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3ff.svg		
-1f468_1f3ff_200d_1faef_200d_1f468_1f3fb	👨🏿‍🫯‍👨🏻	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fb.svg		
-1f468_1f3ff_200d_1faef_200d_1f468_1f3fc	👨🏿‍🫯‍👨🏼	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fc.svg		
-1f468_1f3ff_200d_1faef_200d_1f468_1f3fd	👨🏿‍🫯‍👨🏽	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fd.svg		
-1f468_1f3ff_200d_1faef_200d_1f468_1f3fe	👨🏿‍🫯‍👨🏾	latest	fallback	latest:2D/svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fe.svg		
-1f469_1f3fb_200d_1faef_200d_1f469_1f3fc	👩🏻‍🫯‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3fc.svg		
-1f469_1f3fb_200d_1faef_200d_1f469_1f3fd	👩🏻‍🫯‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3fd.svg		
-1f469_1f3fb_200d_1faef_200d_1f469_1f3fe	👩🏻‍🫯‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3fe.svg		
-1f469_1f3fb_200d_1faef_200d_1f469_1f3ff	👩🏻‍🫯‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3ff.svg		
-1f469_1f3fc_200d_1faef_200d_1f469_1f3fb	👩🏼‍🫯‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3fb.svg		
-1f469_1f3fc_200d_1faef_200d_1f469_1f3fd	👩🏼‍🫯‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3fd.svg		
-1f469_1f3fc_200d_1faef_200d_1f469_1f3fe	👩🏼‍🫯‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3fe.svg		
-1f469_1f3fc_200d_1faef_200d_1f469_1f3ff	👩🏼‍🫯‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3ff.svg		
-1f469_1f3fd_200d_1faef_200d_1f469_1f3fb	👩🏽‍🫯‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3fb.svg		
-1f469_1f3fd_200d_1faef_200d_1f469_1f3fc	👩🏽‍🫯‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3fc.svg		
-1f469_1f3fd_200d_1faef_200d_1f469_1f3fe	👩🏽‍🫯‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3fe.svg		
-1f469_1f3fd_200d_1faef_200d_1f469_1f3ff	👩🏽‍🫯‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3ff.svg		
-1f469_1f3fe_200d_1faef_200d_1f469_1f3fb	👩🏾‍🫯‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3fb.svg		
-1f469_1f3fe_200d_1faef_200d_1f469_1f3fc	👩🏾‍🫯‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3fc.svg		
-1f469_1f3fe_200d_1faef_200d_1f469_1f3fd	👩🏾‍🫯‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3fd.svg		
-1f469_1f3fe_200d_1faef_200d_1f469_1f3ff	👩🏾‍🫯‍👩🏿	latest	fallback	latest:2D/svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3ff.svg		
-1f469_1f3ff_200d_1faef_200d_1f469_1f3fb	👩🏿‍🫯‍👩🏻	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fb.svg		
-1f469_1f3ff_200d_1faef_200d_1f469_1f3fc	👩🏿‍🫯‍👩🏼	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fc.svg		
-1f469_1f3ff_200d_1faef_200d_1f469_1f3fd	👩🏿‍🫯‍👩🏽	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fd.svg		
-1f469_1f3ff_200d_1faef_200d_1f469_1f3fe	👩🏿‍🫯‍👩🏾	latest	fallback	latest:2D/svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fe.svg		
+1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fc	🧑🏻‍🫯‍🧑🏼	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fd	🧑🏻‍🫯‍🧑🏽	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fe	🧑🏻‍🫯‍🧑🏾	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3fe.svg		
+1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3ff	🧑🏻‍🫯‍🧑🏿	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fb_200d_1faef_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fb	🧑🏼‍🫯‍🧑🏻	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fd	🧑🏼‍🫯‍🧑🏽	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fe	🧑🏼‍🫯‍🧑🏾	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3fe.svg		
+1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3ff	🧑🏼‍🫯‍🧑🏿	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fc_200d_1faef_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fb	🧑🏽‍🫯‍🧑🏻	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fc	🧑🏽‍🫯‍🧑🏼	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fe	🧑🏽‍🫯‍🧑🏾	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3fe.svg		
+1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3ff	🧑🏽‍🫯‍🧑🏿	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fd_200d_1faef_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fb	🧑🏾‍🫯‍🧑🏻	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fc	🧑🏾‍🫯‍🧑🏼	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fd	🧑🏾‍🫯‍🧑🏽	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3ff	🧑🏾‍🫯‍🧑🏿	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3fe_200d_1faef_200d_1f9d1_1f3ff.svg		
+1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fb	🧑🏿‍🫯‍🧑🏻	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fb.svg		
+1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fc	🧑🏿‍🫯‍🧑🏼	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fc.svg		
+1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fd	🧑🏿‍🫯‍🧑🏽	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fd.svg		
+1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fe	🧑🏿‍🫯‍🧑🏾	android-16	fallback	android-16:svg/emoji_u1f9d1_1f3ff_200d_1faef_200d_1f9d1_1f3fe.svg		
+1f468_1f3fb_200d_1faef_200d_1f468_1f3fc	👨🏻‍🫯‍👨🏼	android-16	fallback	android-16:svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3fc.svg		
+1f468_1f3fb_200d_1faef_200d_1f468_1f3fd	👨🏻‍🫯‍👨🏽	android-16	fallback	android-16:svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3fd.svg		
+1f468_1f3fb_200d_1faef_200d_1f468_1f3fe	👨🏻‍🫯‍👨🏾	android-16	fallback	android-16:svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3fe.svg		
+1f468_1f3fb_200d_1faef_200d_1f468_1f3ff	👨🏻‍🫯‍👨🏿	android-16	fallback	android-16:svg/emoji_u1f468_1f3fb_200d_1faef_200d_1f468_1f3ff.svg		
+1f468_1f3fc_200d_1faef_200d_1f468_1f3fb	👨🏼‍🫯‍👨🏻	android-16	fallback	android-16:svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3fb.svg		
+1f468_1f3fc_200d_1faef_200d_1f468_1f3fd	👨🏼‍🫯‍👨🏽	android-16	fallback	android-16:svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3fd.svg		
+1f468_1f3fc_200d_1faef_200d_1f468_1f3fe	👨🏼‍🫯‍👨🏾	android-16	fallback	android-16:svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3fe.svg		
+1f468_1f3fc_200d_1faef_200d_1f468_1f3ff	👨🏼‍🫯‍👨🏿	android-16	fallback	android-16:svg/emoji_u1f468_1f3fc_200d_1faef_200d_1f468_1f3ff.svg		
+1f468_1f3fd_200d_1faef_200d_1f468_1f3fb	👨🏽‍🫯‍👨🏻	android-16	fallback	android-16:svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3fb.svg		
+1f468_1f3fd_200d_1faef_200d_1f468_1f3fc	👨🏽‍🫯‍👨🏼	android-16	fallback	android-16:svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3fc.svg		
+1f468_1f3fd_200d_1faef_200d_1f468_1f3fe	👨🏽‍🫯‍👨🏾	android-16	fallback	android-16:svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3fe.svg		
+1f468_1f3fd_200d_1faef_200d_1f468_1f3ff	👨🏽‍🫯‍👨🏿	android-16	fallback	android-16:svg/emoji_u1f468_1f3fd_200d_1faef_200d_1f468_1f3ff.svg		
+1f468_1f3fe_200d_1faef_200d_1f468_1f3fb	👨🏾‍🫯‍👨🏻	android-16	fallback	android-16:svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3fb.svg		
+1f468_1f3fe_200d_1faef_200d_1f468_1f3fc	👨🏾‍🫯‍👨🏼	android-16	fallback	android-16:svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3fc.svg		
+1f468_1f3fe_200d_1faef_200d_1f468_1f3fd	👨🏾‍🫯‍👨🏽	android-16	fallback	android-16:svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3fd.svg		
+1f468_1f3fe_200d_1faef_200d_1f468_1f3ff	👨🏾‍🫯‍👨🏿	android-16	fallback	android-16:svg/emoji_u1f468_1f3fe_200d_1faef_200d_1f468_1f3ff.svg		
+1f468_1f3ff_200d_1faef_200d_1f468_1f3fb	👨🏿‍🫯‍👨🏻	android-16	fallback	android-16:svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fb.svg		
+1f468_1f3ff_200d_1faef_200d_1f468_1f3fc	👨🏿‍🫯‍👨🏼	android-16	fallback	android-16:svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fc.svg		
+1f468_1f3ff_200d_1faef_200d_1f468_1f3fd	👨🏿‍🫯‍👨🏽	android-16	fallback	android-16:svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fd.svg		
+1f468_1f3ff_200d_1faef_200d_1f468_1f3fe	👨🏿‍🫯‍👨🏾	android-16	fallback	android-16:svg/emoji_u1f468_1f3ff_200d_1faef_200d_1f468_1f3fe.svg		
+1f469_1f3fb_200d_1faef_200d_1f469_1f3fc	👩🏻‍🫯‍👩🏼	android-16	fallback	android-16:svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3fc.svg		
+1f469_1f3fb_200d_1faef_200d_1f469_1f3fd	👩🏻‍🫯‍👩🏽	android-16	fallback	android-16:svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3fd.svg		
+1f469_1f3fb_200d_1faef_200d_1f469_1f3fe	👩🏻‍🫯‍👩🏾	android-16	fallback	android-16:svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3fe.svg		
+1f469_1f3fb_200d_1faef_200d_1f469_1f3ff	👩🏻‍🫯‍👩🏿	android-16	fallback	android-16:svg/emoji_u1f469_1f3fb_200d_1faef_200d_1f469_1f3ff.svg		
+1f469_1f3fc_200d_1faef_200d_1f469_1f3fb	👩🏼‍🫯‍👩🏻	android-16	fallback	android-16:svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3fb.svg		
+1f469_1f3fc_200d_1faef_200d_1f469_1f3fd	👩🏼‍🫯‍👩🏽	android-16	fallback	android-16:svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3fd.svg		
+1f469_1f3fc_200d_1faef_200d_1f469_1f3fe	👩🏼‍🫯‍👩🏾	android-16	fallback	android-16:svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3fe.svg		
+1f469_1f3fc_200d_1faef_200d_1f469_1f3ff	👩🏼‍🫯‍👩🏿	android-16	fallback	android-16:svg/emoji_u1f469_1f3fc_200d_1faef_200d_1f469_1f3ff.svg		
+1f469_1f3fd_200d_1faef_200d_1f469_1f3fb	👩🏽‍🫯‍👩🏻	android-16	fallback	android-16:svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3fb.svg		
+1f469_1f3fd_200d_1faef_200d_1f469_1f3fc	👩🏽‍🫯‍👩🏼	android-16	fallback	android-16:svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3fc.svg		
+1f469_1f3fd_200d_1faef_200d_1f469_1f3fe	👩🏽‍🫯‍👩🏾	android-16	fallback	android-16:svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3fe.svg		
+1f469_1f3fd_200d_1faef_200d_1f469_1f3ff	👩🏽‍🫯‍👩🏿	android-16	fallback	android-16:svg/emoji_u1f469_1f3fd_200d_1faef_200d_1f469_1f3ff.svg		
+1f469_1f3fe_200d_1faef_200d_1f469_1f3fb	👩🏾‍🫯‍👩🏻	android-16	fallback	android-16:svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3fb.svg		
+1f469_1f3fe_200d_1faef_200d_1f469_1f3fc	👩🏾‍🫯‍👩🏼	android-16	fallback	android-16:svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3fc.svg		
+1f469_1f3fe_200d_1faef_200d_1f469_1f3fd	👩🏾‍🫯‍👩🏽	android-16	fallback	android-16:svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3fd.svg		
+1f469_1f3fe_200d_1faef_200d_1f469_1f3ff	👩🏾‍🫯‍👩🏿	android-16	fallback	android-16:svg/emoji_u1f469_1f3fe_200d_1faef_200d_1f469_1f3ff.svg		
+1f469_1f3ff_200d_1faef_200d_1f469_1f3fb	👩🏿‍🫯‍👩🏻	android-16	fallback	android-16:svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fb.svg		
+1f469_1f3ff_200d_1faef_200d_1f469_1f3fc	👩🏿‍🫯‍👩🏼	android-16	fallback	android-16:svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fc.svg		
+1f469_1f3ff_200d_1faef_200d_1f469_1f3fd	👩🏿‍🫯‍👩🏽	android-16	fallback	android-16:svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fd.svg		
+1f469_1f3ff_200d_1faef_200d_1f469_1f3fe	👩🏿‍🫯‍👩🏾	android-16	fallback	android-16:svg/emoji_u1f469_1f3ff_200d_1faef_200d_1f469_1f3fe.svg		
 1f93d	🤽	android-7.1	subgroup	android-7.1:svg/emoji_u1f93d.svg		
 1f93d_1f3fb	🤽🏻	android-7.1	subgroup	android-7.1:svg/emoji_u1f93d_1f3fb.svg		1f93d
 1f93d_1f3fc	🤽🏼	android-7.1	subgroup	android-7.1:svg/emoji_u1f93d_1f3fc.svg		1f93d
@@ -2595,12 +2595,12 @@ key	emoji	era	why	source	vector	family
 1f465	👥	android-12	subgroup	android-12:svg/emoji_u1f465.svg		
 1fac2	🫂	android-12	subgroup	android-12:svg/emoji_u1fac2.svg		
 1f46a	👪	android-12	subgroup	android-12:svg/emoji_u1f46a.svg		
-1f9d1_200d_1f9d1_200d_1f9d2	🧑‍🧑‍🧒	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1f9d1_200d_1f9d2.svg		
-1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2	🧑‍🧑‍🧒‍🧒	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2.svg		
-1f9d1_200d_1f9d2	🧑‍🧒	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1f9d2.svg		
-1f9d1_200d_1f9d2_200d_1f9d2	🧑‍🧒‍🧒	latest	fallback	latest:2D/svg/emoji_u1f9d1_200d_1f9d2_200d_1f9d2.svg		
+1f9d1_200d_1f9d1_200d_1f9d2	🧑‍🧑‍🧒	android-16	fallback	android-16:svg/emoji_u1f9d1_200d_1f9d1_200d_1f9d2.svg		
+1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2	🧑‍🧑‍🧒‍🧒	android-16	fallback	android-16:svg/emoji_u1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2.svg		
+1f9d1_200d_1f9d2	🧑‍🧒	android-16	fallback	android-16:svg/emoji_u1f9d1_200d_1f9d2.svg		
+1f9d1_200d_1f9d2_200d_1f9d2	🧑‍🧒‍🧒	android-16	fallback	android-16:svg/emoji_u1f9d1_200d_1f9d2_200d_1f9d2.svg		
 1f463	👣	android-12	subgroup	android-12:svg/emoji_u1f463.svg		
-1fac6	🫆	latest	fallback	latest:2D/svg/emoji_u1fac6.svg		
+1fac6	🫆	android-16	fallback	android-16:svg/emoji_u1fac6.svg		
 1f435	🐵	android-7.1	subgroup	android-7.1:svg/emoji_u1f435.svg		
 1f412	🐒	android-7.1	subgroup	android-7.1:svg/emoji_u1f412.svg		
 1f98d	🦍	android-7.1	subgroup	android-7.1:svg/emoji_u1f98d.svg		
@@ -2621,8 +2621,8 @@ key	emoji	era	why	source	vector	family
 1f405	🐅	android-7.1	subgroup	android-7.1:svg/emoji_u1f405.svg		
 1f406	🐆	android-7.1	subgroup	android-7.1:svg/emoji_u1f406.svg		
 1f434	🐴	android-7.1	subgroup	android-7.1:svg/emoji_u1f434.svg		
-1face	🫎	latest	fallback	latest:2D/svg/emoji_u1face.svg		
-1facf	🫏	latest	fallback	latest:2D/svg/emoji_u1facf.svg		
+1face	🫎	android-16	fallback	android-16:svg/emoji_u1face.svg		
+1facf	🫏	android-16	fallback	android-16:svg/emoji_u1facf.svg		
 1f40e	🐎	android-7.1	subgroup	android-7.1:svg/emoji_u1f40e.svg		
 1f984	🦄	android-7.1	subgroup	android-7.1:svg/emoji_u1f984.svg		
 1f993	🦓	android-12	subgroup	android-12:svg/emoji_u1f993.svg		
@@ -2685,10 +2685,10 @@ key	emoji	era	why	source	vector	family
 1f9a9	🦩	android-12	subgroup	android-12:svg/emoji_u1f9a9.svg		
 1f99a	🦚	android-12	subgroup	android-12:svg/emoji_u1f99a.svg		
 1f99c	🦜	android-12	subgroup	android-12:svg/emoji_u1f99c.svg		
-1fabd	🪽	latest	fallback	latest:2D/svg/emoji_u1fabd.svg		
-1f426_200d_2b1b	🐦‍⬛	latest	fallback	latest:2D/svg/emoji_u1f426_200d_2b1b.svg		
-1fabf	🪿	latest	fallback	latest:2D/svg/emoji_u1fabf.svg		
-1f426_200d_1f525	🐦‍🔥	latest	fallback	latest:2D/svg/emoji_u1f426_200d_1f525.svg		
+1fabd	🪽	android-16	fallback	android-16:svg/emoji_u1fabd.svg		
+1f426_200d_2b1b	🐦‍⬛	android-16	fallback	android-16:svg/emoji_u1f426_200d_2b1b.svg		
+1fabf	🪿	android-16	fallback	android-16:svg/emoji_u1fabf.svg		
+1f426_200d_1f525	🐦‍🔥	android-16	fallback	android-16:svg/emoji_u1f426_200d_1f525.svg		
 1f438	🐸	android-7.1	subgroup	android-7.1:svg/emoji_u1f438.svg		
 1f40a	🐊	android-7.1	subgroup	android-7.1:svg/emoji_u1f40a.svg		
 1f422	🐢	android-7.1	subgroup	android-7.1:svg/emoji_u1f422.svg		
@@ -2701,7 +2701,7 @@ key	emoji	era	why	source	vector	family
 1f433	🐳	android-7.1	subgroup	android-7.1:svg/emoji_u1f433.svg		
 1f40b	🐋	android-7.1	subgroup	android-7.1:svg/emoji_u1f40b.svg		
 1f42c	🐬	android-7.1	subgroup	android-7.1:svg/emoji_u1f42c.svg		
-1facd	🫍	latest	fallback	latest:2D/svg/emoji_u1facd.svg		
+1facd	🫍	android-16	fallback	android-16:svg/emoji_u1facd.svg		
 1f9ad	🦭	android-12	subgroup	android-12:svg/emoji_u1f9ad.svg		
 1f41f	🐟	android-7.1	subgroup	android-7.1:svg/emoji_u1f41f.svg		
 1f420	🐠	android-7.1	subgroup	android-7.1:svg/emoji_u1f420.svg		
@@ -2709,8 +2709,8 @@ key	emoji	era	why	source	vector	family
 1f988	🦈	android-7.1	subgroup	android-7.1:svg/emoji_u1f988.svg		
 1f419	🐙	android-7.1	subgroup	android-7.1:svg/emoji_u1f419.svg		
 1f41a	🐚	android-7.1	subgroup	android-7.1:svg/emoji_u1f41a.svg		
-1fab8	🪸	latest	fallback	latest:2D/svg/emoji_u1fab8.svg		
-1fabc	🪼	latest	fallback	latest:2D/svg/emoji_u1fabc.svg		
+1fab8	🪸	android-16	override	android-16:svg/emoji_u1fab8.svg		
+1fabc	🪼	android-16	fallback	android-16:svg/emoji_u1fabc.svg		
 1f980	🦀	android-7.1	subgroup	android-7.1:svg/emoji_u1f980.svg		
 1f99e	🦞	android-12	subgroup	android-12:svg/emoji_u1f99e.svg		
 1f990	🦐	android-7.1	subgroup	android-7.1:svg/emoji_u1f990.svg		
@@ -2736,7 +2736,7 @@ key	emoji	era	why	source	vector	family
 1f490	💐	android-12	subgroup	android-12:svg/emoji_u1f490.svg		
 1f338	🌸	android-12	subgroup	android-12:svg/emoji_u1f338.svg		
 1f4ae	💮	android-12	subgroup	android-12:svg/emoji_u1f4ae.svg		
-1fab7	🪷	latest	fallback	latest:2D/svg/emoji_u1fab7.svg		
+1fab7	🪷	android-16	fallback	android-16:svg/emoji_u1fab7.svg		
 1f3f5	🏵️	android-12	subgroup	android-12:svg/emoji_u1f3f5.svg		
 1f339	🌹	android-12	subgroup	android-12:svg/emoji_u1f339.svg		
 1f940	🥀	android-12	subgroup	android-12:svg/emoji_u1f940.svg		
@@ -2744,30 +2744,30 @@ key	emoji	era	why	source	vector	family
 1f33b	🌻	android-12	subgroup	android-12:svg/emoji_u1f33b.svg		
 1f33c	🌼	android-12	subgroup	android-12:svg/emoji_u1f33c.svg		
 1f337	🌷	android-12	subgroup	android-12:svg/emoji_u1f337.svg		
-1fabb	🪻	latest	fallback	latest:2D/svg/emoji_u1fabb.svg		
-1f331	🌱	android-12	subgroup	android-12:svg/emoji_u1f331.svg		
-1fab4	🪴	android-12	subgroup	android-12:svg/emoji_u1fab4.svg		
-1f332	🌲	android-12	subgroup	android-12:svg/emoji_u1f332.svg		
-1f333	🌳	android-12	subgroup	android-12:svg/emoji_u1f333.svg		
-1f334	🌴	android-12	subgroup	android-12:svg/emoji_u1f334.svg		
-1f335	🌵	android-12	subgroup	android-12:svg/emoji_u1f335.svg		
-1f33e	🌾	android-12	subgroup	android-12:svg/emoji_u1f33e.svg		
-1f33f	🌿	android-12	subgroup	android-12:svg/emoji_u1f33f.svg		
-2618	☘️	android-12	subgroup	android-12:svg/emoji_u2618.svg		
-1f340	🍀	android-12	subgroup	android-12:svg/emoji_u1f340.svg		
-1f341	🍁	android-12	subgroup	android-12:svg/emoji_u1f341.svg		
-1f342	🍂	android-12	subgroup	android-12:svg/emoji_u1f342.svg		
-1f343	🍃	android-12	subgroup	android-12:svg/emoji_u1f343.svg		
-1fab9	🪹	latest	fallback	latest:2D/svg/emoji_u1fab9.svg		
-1faba	🪺	latest	fallback	latest:2D/svg/emoji_u1faba.svg		
-1f344	🍄	android-12	subgroup	android-12:svg/emoji_u1f344.svg		
-1fabe	🪾	latest	fallback	latest:2D/svg/emoji_u1fabe.svg		
+1fabb	🪻	android-16	fallback	android-16:svg/emoji_u1fabb.svg		
+1f331	🌱	android-16	subgroup	android-16:svg/emoji_u1f331.svg		
+1fab4	🪴	android-16	subgroup	android-16:svg/emoji_u1fab4.svg		
+1f332	🌲	android-16	subgroup	android-16:svg/emoji_u1f332.svg		
+1f333	🌳	android-16	subgroup	android-16:svg/emoji_u1f333.svg		
+1f334	🌴	android-16	subgroup	android-16:svg/emoji_u1f334.svg		
+1f335	🌵	android-16	subgroup	android-16:svg/emoji_u1f335.svg		
+1f33e	🌾	android-16	subgroup	android-16:svg/emoji_u1f33e.svg		
+1f33f	🌿	android-16	subgroup	android-16:svg/emoji_u1f33f.svg		
+2618	☘️	android-16	subgroup	android-16:svg/emoji_u2618.svg		
+1f340	🍀	android-16	subgroup	android-16:svg/emoji_u1f340.svg		
+1f341	🍁	android-16	subgroup	android-16:svg/emoji_u1f341.svg		
+1f342	🍂	android-16	subgroup	android-16:svg/emoji_u1f342.svg		
+1f343	🍃	android-16	subgroup	android-16:svg/emoji_u1f343.svg		
+1fab9	🪹	android-16	subgroup	android-16:svg/emoji_u1fab9.svg		
+1faba	🪺	android-16	subgroup	android-16:svg/emoji_u1faba.svg		
+1f344	🍄	android-16	subgroup	android-16:svg/emoji_u1f344.svg		
+1fabe	🪾	android-16	subgroup	android-16:svg/emoji_u1fabe.svg		
 1f347	🍇	android-12	subgroup	android-12:svg/emoji_u1f347.svg		
 1f348	🍈	android-12	subgroup	android-12:svg/emoji_u1f348.svg		
 1f349	🍉	android-12	subgroup	android-12:svg/emoji_u1f349.svg		
 1f34a	🍊	android-12	subgroup	android-12:svg/emoji_u1f34a.svg		
 1f34b	🍋	android-12	subgroup	android-12:svg/emoji_u1f34b.svg		
-1f34b_200d_1f7e9	🍋‍🟩	latest	fallback	latest:2D/svg/emoji_u1f34b_200d_1f7e9.svg		
+1f34b_200d_1f7e9	🍋‍🟩	android-16	fallback	android-16:svg/emoji_u1f34b_200d_1f7e9.svg		
 1f34c	🍌	android-12	subgroup	android-12:svg/emoji_u1f34c.svg		
 1f34d	🍍	android-12	subgroup	android-12:svg/emoji_u1f34d.svg		
 1f96d	🥭	android-12	subgroup	android-12:svg/emoji_u1f96d.svg		
@@ -2796,12 +2796,12 @@ key	emoji	era	why	source	vector	family
 1f9c4	🧄	android-12	subgroup	android-12:svg/emoji_u1f9c4.svg		
 1f9c5	🧅	android-12	subgroup	android-12:svg/emoji_u1f9c5.svg		
 1f95c	🥜	android-12	subgroup	android-12:svg/emoji_u1f95c.svg		
-1fad8	🫘	latest	fallback	latest:2D/svg/emoji_u1fad8.svg		
+1fad8	🫘	android-16	fallback	android-16:svg/emoji_u1fad8.svg		
 1f330	🌰	android-12	subgroup	android-12:svg/emoji_u1f330.svg		
-1fada	🫚	latest	fallback	latest:2D/svg/emoji_u1fada.svg		
-1fadb	🫛	latest	fallback	latest:2D/svg/emoji_u1fadb.svg		
-1f344_200d_1f7eb	🍄‍🟫	latest	fallback	latest:2D/svg/emoji_u1f344_200d_1f7eb.svg		
-1fadc	🫜	latest	fallback	latest:2D/svg/emoji_u1fadc.svg		
+1fada	🫚	android-16	fallback	android-16:svg/emoji_u1fada.svg		
+1fadb	🫛	android-16	fallback	android-16:svg/emoji_u1fadb.svg		
+1f344_200d_1f7eb	🍄‍🟫	android-16	fallback	android-16:svg/emoji_u1f344_200d_1f7eb.svg		
+1fadc	🫜	android-16	fallback	android-16:svg/emoji_u1fadc.svg		
 1f35e	🍞	android-12	subgroup	android-12:svg/emoji_u1f35e.svg		
 1f950	🥐	android-12	subgroup	android-12:svg/emoji_u1f950.svg		
 1f956	🥖	android-12	subgroup	android-12:svg/emoji_u1f956.svg		
@@ -2881,7 +2881,7 @@ key	emoji	era	why	source	vector	family
 1f37b	🍻	android-12	subgroup	android-12:svg/emoji_u1f37b.svg		
 1f942	🥂	android-12	subgroup	android-12:svg/emoji_u1f942.svg		
 1f943	🥃	android-12	subgroup	android-12:svg/emoji_u1f943.svg		
-1fad7	🫗	latest	fallback	latest:2D/svg/emoji_u1fad7.svg		
+1fad7	🫗	android-16	fallback	android-16:svg/emoji_u1fad7.svg		
 1f964	🥤	android-12	subgroup	android-12:svg/emoji_u1f964.svg		
 1f9cb	🧋	android-12	subgroup	android-12:svg/emoji_u1f9cb.svg		
 1f9c3	🧃	android-12	subgroup	android-12:svg/emoji_u1f9c3.svg		
@@ -2892,7 +2892,7 @@ key	emoji	era	why	source	vector	family
 1f374	🍴	android-7.1	subgroup	android-7.1:svg/emoji_u1f374.svg		
 1f944	🥄	android-7.1	subgroup	android-7.1:svg/emoji_u1f944.svg		
 1f52a	🔪	android-7.1	subgroup	android-7.1:svg/emoji_u1f52a.svg		
-1fad9	🫙	latest	fallback	latest:2D/svg/emoji_u1fad9.svg		
+1fad9	🫙	android-16	fallback	android-16:svg/emoji_u1fad9.svg		
 1f3fa	🏺	android-7.1	subgroup	android-7.1:svg/emoji_u1f3fa.svg		
 1f30d	🌍	android-7.1	subgroup	android-7.1:svg/emoji_u1f30d.svg		
 1f30e	🌎	android-7.1	subgroup	android-7.1:svg/emoji_u1f30e.svg		
@@ -2903,7 +2903,7 @@ key	emoji	era	why	source	vector	family
 1f9ed	🧭	android-12	fallback	android-12:svg/emoji_u1f9ed.svg		
 1f3d4	🏔️	android-7.1	subgroup	android-7.1:svg/emoji_u1f3d4.svg		
 26f0	⛰️	android-7.1	subgroup	android-7.1:svg/emoji_u26f0.svg		
-1f6d8	🛘	latest	fallback	latest:2D/svg/emoji_u1f6d8.svg		
+1f6d8	🛘	android-16	fallback	android-16:svg/emoji_u1f6d8.svg		
 1f30b	🌋	android-7.1	subgroup	android-7.1:svg/emoji_u1f30b.svg		
 1f5fb	🗻	android-7.1	subgroup	android-7.1:svg/emoji_u1f5fb.svg		
 1f3d5	🏕️	android-7.1	subgroup	android-7.1:svg/emoji_u1f3d5.svg		
@@ -2956,7 +2956,7 @@ key	emoji	era	why	source	vector	family
 1f309	🌉	android-7.1	subgroup	android-7.1:svg/emoji_u1f309.svg		
 2668	♨️	android-7.1	subgroup	android-7.1:svg/emoji_u2668.svg		
 1f3a0	🎠	android-7.1	subgroup	android-7.1:svg/emoji_u1f3a0.svg		
-1f6dd	🛝	latest	fallback	latest:2D/svg/emoji_u1f6dd.svg		
+1f6dd	🛝	android-16	fallback	android-16:svg/emoji_u1f6dd.svg		
 1f3a1	🎡	android-7.1	subgroup	android-7.1:svg/emoji_u1f3a1.svg		
 1f3a2	🎢	android-7.1	subgroup	android-7.1:svg/emoji_u1f3a2.svg		
 1f488	💈	android-7.1	subgroup	android-7.1:svg/emoji_u1f488.svg		
@@ -3005,7 +3005,7 @@ key	emoji	era	why	source	vector	family
 1f6e4	🛤️	android-7.1	subgroup	android-7.1:svg/emoji_u1f6e4.svg		
 1f6e2	🛢️	android-7.1	subgroup	android-7.1:svg/emoji_u1f6e2.svg		
 26fd	⛽	android-7.1	subgroup	android-7.1:svg/emoji_u26fd.svg		
-1f6de	🛞	latest	fallback	latest:2D/svg/emoji_u1f6de.svg		
+1f6de	🛞	android-16	fallback	android-16:svg/emoji_u1f6de.svg		
 1f6a8	🚨	android-7.1	subgroup	android-7.1:svg/emoji_u1f6a8.svg		
 1f6a5	🚥	android-7.1	subgroup	android-7.1:svg/emoji_u1f6a5.svg		
 1f6a6	🚦	android-7.1	subgroup	android-7.1:svg/emoji_u1f6a6.svg		
@@ -3013,7 +3013,7 @@ key	emoji	era	why	source	vector	family
 1f6a7	🚧	android-7.1	subgroup	android-7.1:svg/emoji_u1f6a7.svg		
 1f6d9	🛙	latest	fallback	latest:2D/svg/emoji_u1f6d9.svg		
 2693	⚓	android-7.1	subgroup	android-7.1:svg/emoji_u2693.svg		
-1f6df	🛟	latest	fallback	latest:2D/svg/emoji_u1f6df.svg		
+1f6df	🛟	android-16	fallback	android-16:svg/emoji_u1f6df.svg		
 26f5	⛵	android-7.1	subgroup	android-7.1:svg/emoji_u26f5.svg		
 1f6f6	🛶	android-7.1	subgroup	android-7.1:svg/emoji_u1f6f6.svg		
 1f6a4	🚤	android-7.1	subgroup	android-7.1:svg/emoji_u1f6a4.svg		
@@ -3025,7 +3025,7 @@ key	emoji	era	why	source	vector	family
 1f6e9	🛩️	android-7.1	subgroup	android-7.1:svg/emoji_u1f6e9.svg		
 1f6eb	🛫	android-7.1	subgroup	android-7.1:svg/emoji_u1f6eb.svg		
 1f6ec	🛬	android-7.1	subgroup	android-7.1:svg/emoji_u1f6ec.svg		
-1fa82	🪂	latest	fallback	latest:2D/svg/emoji_u1fa82.svg		
+1fa82	🪂	android-16	fallback	android-16:svg/emoji_u1fa82.svg		
 1f4ba	💺	android-7.1	subgroup	android-7.1:svg/emoji_u1f4ba.svg		
 1f681	🚁	android-7.1	subgroup	android-7.1:svg/emoji_u1f681.svg		
 1f69f	🚟	android-7.1	subgroup	android-7.1:svg/emoji_u1f69f.svg		
@@ -3183,7 +3183,7 @@ key	emoji	era	why	source	vector	family
 1f9e9	🧩	android-12	fallback	android-12:svg/emoji_u1f9e9.svg		
 1f9f8	🧸	android-12	fallback	android-12:svg/emoji_u1f9f8.svg		
 1fa85	🪅	android-12	fallback	android-12:svg/emoji_u1fa85.svg		
-1faa9	🪩	latest	fallback	latest:2D/svg/emoji_u1faa9.svg		
+1faa9	🪩	android-16	fallback	android-16:svg/emoji_u1faa9.svg		
 1fa86	🪆	android-12	fallback	android-12:svg/emoji_u1fa86.svg		
 2660	♠️	android-7.1	subgroup	android-7.1:svg/emoji_u2660.svg		
 2665	♥️	android-7.1	subgroup	android-7.1:svg/emoji_u2665.svg		
@@ -3220,13 +3220,13 @@ key	emoji	era	why	source	vector	family
 1fa73	🩳	android-12	fallback	android-12:svg/emoji_u1fa73.svg		
 1f459	👙	android-7.1	subgroup	android-7.1:svg/emoji_u1f459.svg		
 1f45a	👚	android-7.1	subgroup	android-7.1:svg/emoji_u1f45a.svg		
-1faad	🪭	latest	fallback	latest:2D/svg/emoji_u1faad.svg		
+1faad	🪭	android-16	fallback	android-16:svg/emoji_u1faad.svg		
 1f45b	👛	android-7.1	subgroup	android-7.1:svg/emoji_u1f45b.svg		
 1f45c	👜	android-7.1	subgroup	android-7.1:svg/emoji_u1f45c.svg		
 1f45d	👝	android-7.1	subgroup	android-7.1:svg/emoji_u1f45d.svg		
 1f6cd	🛍️	android-7.1	subgroup	android-7.1:svg/emoji_u1f6cd.svg		
 1f392	🎒	android-7.1	subgroup	android-7.1:svg/emoji_u1f392.svg		
-1fa74	🩴	latest	fallback	latest:2D/svg/emoji_u1fa74.svg		
+1fa74	🩴	android-16	fallback	android-16:svg/emoji_u1fa74.svg		
 1f45e	👞	android-7.1	subgroup	android-7.1:svg/emoji_u1f45e.svg		
 1f45f	👟	android-7.1	subgroup	android-7.1:svg/emoji_u1f45f.svg		
 1f97e	🥾	android-12	fallback	android-12:svg/emoji_u1f97e.svg		
@@ -3235,7 +3235,7 @@ key	emoji	era	why	source	vector	family
 1f461	👡	android-7.1	subgroup	android-7.1:svg/emoji_u1f461.svg		
 1fa70	🩰	android-12	fallback	android-12:svg/emoji_u1fa70.svg		
 1f462	👢	android-7.1	subgroup	android-7.1:svg/emoji_u1f462.svg		
-1faae	🪮	latest	fallback	latest:2D/svg/emoji_u1faae.svg		
+1faae	🪮	android-16	fallback	android-16:svg/emoji_u1faae.svg		
 1f451	👑	android-7.1	subgroup	android-7.1:svg/emoji_u1f451.svg		
 1f452	👒	android-7.1	subgroup	android-7.1:svg/emoji_u1f452.svg		
 1f3a9	🎩	android-7.1	subgroup	android-7.1:svg/emoji_u1f3a9.svg		
@@ -3267,17 +3267,17 @@ key	emoji	era	why	source	vector	family
 1f4fb	📻	android-7.1	subgroup	android-7.1:svg/emoji_u1f4fb.svg		
 1f3b7	🎷	android-7.1	subgroup	android-7.1:svg/emoji_u1f3b7.svg		
 1f3ba	🎺	android-7.1	subgroup	android-7.1:svg/emoji_u1f3ba.svg		
-1fa8a	🪊	latest	fallback	latest:2D/svg/emoji_u1fa8a.svg		
+1fa8a	🪊	android-16	fallback	android-16:svg/emoji_u1fa8a.svg		
 1fa97	🪗	android-12	fallback	android-12:svg/emoji_u1fa97.svg		
 1f3b8	🎸	android-7.1	subgroup	android-7.1:svg/emoji_u1f3b8.svg		
 1f3b9	🎹	android-7.1	subgroup	android-7.1:svg/emoji_u1f3b9.svg		
 1f3bb	🎻	android-7.1	subgroup	android-7.1:svg/emoji_u1f3bb.svg		
 1fa95	🪕	android-12	fallback	android-12:svg/emoji_u1fa95.svg		
 1f941	🥁	android-7.1	subgroup	android-7.1:svg/emoji_u1f941.svg		
-1fa98	🪘	latest	fallback	latest:2D/svg/emoji_u1fa98.svg		
-1fa87	🪇	latest	fallback	latest:2D/svg/emoji_u1fa87.svg		
-1fa88	🪈	latest	fallback	latest:2D/svg/emoji_u1fa88.svg		
-1fa89	🪉	latest	fallback	latest:2D/svg/emoji_u1fa89.svg		
+1fa98	🪘	android-16	fallback	android-16:svg/emoji_u1fa98.svg		
+1fa87	🪇	android-16	fallback	android-16:svg/emoji_u1fa87.svg		
+1fa88	🪈	android-16	fallback	android-16:svg/emoji_u1fa88.svg		
+1fa89	🪉	android-16	fallback	android-16:svg/emoji_u1fa89.svg		
 1f4f1	📱	android-7.1	subgroup	android-7.1:svg/emoji_u1f4f1.svg		
 1f4f2	📲	android-7.1	subgroup	android-7.1:svg/emoji_u1f4f2.svg		
 260e	☎️	android-7.1	subgroup	android-7.1:svg/emoji_u260e.svg		
@@ -3285,7 +3285,7 @@ key	emoji	era	why	source	vector	family
 1f4df	📟	android-7.1	subgroup	android-7.1:svg/emoji_u1f4df.svg		
 1f4e0	📠	android-7.1	subgroup	android-7.1:svg/emoji_u1f4e0.svg		
 1f50b	🔋	android-7.1	subgroup	android-7.1:svg/emoji_u1f50b.svg		
-1faab	🪫	latest	fallback	latest:2D/svg/emoji_u1faab.svg		
+1faab	🪫	android-16	fallback	android-16:svg/emoji_u1faab.svg		
 1f50c	🔌	android-7.1	subgroup	android-7.1:svg/emoji_u1f50c.svg		
 1f4bb	💻	android-7.1	subgroup	android-7.1:svg/emoji_u1f4bb.svg		
 1f5a5	🖥️	android-7.1	subgroup	android-7.1:svg/emoji_u1f5a5.svg		
@@ -3297,7 +3297,7 @@ key	emoji	era	why	source	vector	family
 1f4be	💾	android-7.1	subgroup	android-7.1:svg/emoji_u1f4be.svg		
 1f4bf	💿	android-7.1	subgroup	android-7.1:svg/emoji_u1f4bf.svg		
 1f4c0	📀	android-7.1	subgroup	android-7.1:svg/emoji_u1f4c0.svg		
-1f9ee	🧮	android-12	fallback	android-12:svg/emoji_u1f9ee.svg		
+1f9ee	🧮	android-16	override	android-16:svg/emoji_u1f9ee.svg		
 1f3a5	🎥	android-7.1	subgroup	android-7.1:svg/emoji_u1f3a5.svg		
 1f39e	🎞️	android-7.1	subgroup	android-7.1:svg/emoji_u1f39e.svg		
 1f4fd	📽️	android-7.1	subgroup	android-7.1:svg/emoji_u1f4fd.svg		
@@ -3333,7 +3333,7 @@ key	emoji	era	why	source	vector	family
 1f3f7	🏷️	android-7.1	subgroup	android-7.1:svg/emoji_u1f3f7.svg		
 1fa99	🪙	android-12	fallback	android-12:svg/emoji_u1fa99.svg		
 1f4b0	💰	android-7.1	subgroup	android-7.1:svg/emoji_u1f4b0.svg		
-1fa8e	🪎	latest	fallback	latest:2D/svg/emoji_u1fa8e.svg		
+1fa8e	🪎	android-16	fallback	android-16:svg/emoji_u1fa8e.svg		
 1f4b4	💴	android-7.1	subgroup	android-7.1:svg/emoji_u1f4b4.svg		
 1f4b5	💵	android-7.1	subgroup	android-7.1:svg/emoji_u1f4b5.svg		
 1f4b6	💶	android-7.1	subgroup	android-7.1:svg/emoji_u1f4b6.svg		
@@ -3413,13 +3413,13 @@ key	emoji	era	why	source	vector	family
 2696	⚖️	android-7.1	subgroup	android-7.1:svg/emoji_u2696.svg		
 1f9af	🦯	android-12	fallback	android-12:svg/emoji_u1f9af.svg		
 1f517	🔗	android-7.1	subgroup	android-7.1:svg/emoji_u1f517.svg		
-26d3_200d_1f4a5	⛓️‍💥	latest	fallback	latest:2D/svg/emoji_u26d3_200d_1f4a5.svg		
+26d3_200d_1f4a5	⛓️‍💥	android-16	fallback	android-16:svg/emoji_u26d3_200d_1f4a5.svg		
 26d3	⛓️	android-7.1	subgroup	android-7.1:svg/emoji_u26d3.svg		
 1fa9d	🪝	android-12	fallback	android-12:svg/emoji_u1fa9d.svg		
 1f9f0	🧰	android-12	fallback	android-12:svg/emoji_u1f9f0.svg		
 1f9f2	🧲	android-12	fallback	android-12:svg/emoji_u1f9f2.svg		
 1fa9c	🪜	android-12	fallback	android-12:svg/emoji_u1fa9c.svg		
-1fa8f	🪏	latest	fallback	latest:2D/svg/emoji_u1fa8f.svg		
+1fa8f	🪏	android-16	fallback	android-16:svg/emoji_u1fa8f.svg		
 2697	⚗️	android-7.1	subgroup	android-7.1:svg/emoji_u2697.svg		
 1f9ea	🧪	android-12	fallback	android-12:svg/emoji_u1f9ea.svg		
 1f9eb	🧫	android-12	fallback	android-12:svg/emoji_u1f9eb.svg		
@@ -3431,9 +3431,9 @@ key	emoji	era	why	source	vector	family
 1fa78	🩸	android-12	subgroup	android-12:svg/emoji_u1fa78.svg		
 1f48a	💊	android-12	subgroup	android-12:svg/emoji_u1f48a.svg		
 1fa79	🩹	android-12	subgroup	android-12:svg/emoji_u1fa79.svg		
-1fa7c	🩼	latest	fallback	latest:2D/svg/emoji_u1fa7c.svg		
+1fa7c	🩼	android-16	fallback	android-16:svg/emoji_u1fa7c.svg		
 1fa7a	🩺	android-12	subgroup	android-12:svg/emoji_u1fa7a.svg		
-1fa7b	🩻	latest	fallback	latest:2D/svg/emoji_u1fa7b.svg		
+1fa7b	🩻	android-16	fallback	android-16:svg/emoji_u1fa7b.svg		
 1f6aa	🚪	android-12	subgroup	android-12:svg/emoji_u1f6aa.svg		
 1f6d7	🛗	android-12	subgroup	android-12:svg/emoji_u1f6d7.svg		
 1fa9e	🪞	latest	override	latest:2D/svg/emoji_u1fa9e.svg		
@@ -3454,7 +3454,7 @@ key	emoji	era	why	source	vector	family
 1f9fb	🧻	android-12	subgroup	android-12:svg/emoji_u1f9fb.svg		
 1faa3	🪣	android-12	subgroup	android-12:svg/emoji_u1faa3.svg		
 1f9fc	🧼	android-12	subgroup	android-12:svg/emoji_u1f9fc.svg		
-1fae7	🫧	latest	fallback	latest:2D/svg/emoji_u1fae7.svg		
+1fae7	🫧	android-16	fallback	android-16:svg/emoji_u1fae7.svg		
 1faa5	🪥	android-12	subgroup	android-12:svg/emoji_u1faa5.svg		
 1f9fd	🧽	android-12	subgroup	android-12:svg/emoji_u1f9fd.svg		
 1f9ef	🧯	android-12	subgroup	android-12:svg/emoji_u1f9ef.svg		
@@ -3464,10 +3464,10 @@ key	emoji	era	why	source	vector	family
 1faa6	🪦	android-12	fallback	android-12:svg/emoji_u1faa6.svg		
 26b1	⚱️	android-7.1	subgroup	android-7.1:svg/emoji_u26b1.svg		
 1f9ff	🧿	android-12	fallback	android-12:svg/emoji_u1f9ff.svg		
-1faac	🪬	latest	fallback	latest:2D/svg/emoji_u1faac.svg		
+1faac	🪬	android-16	fallback	android-16:svg/emoji_u1faac.svg		
 1f5ff	🗿	android-7.1	subgroup	android-7.1:svg/emoji_u1f5ff.svg		
 1faa7	🪧	latest	fallback	latest:2D/svg/emoji_u1faa7.svg		
-1faaa	🪪	latest	fallback	latest:2D/svg/emoji_u1faaa.svg		
+1faaa	🪪	android-16	fallback	android-16:svg/emoji_u1faaa.svg		
 1f3e7	🏧	android-7.1	subgroup	android-7.1:svg/emoji_u1f3e7.svg		
 1f6ae	🚮	android-7.1	subgroup	android-7.1:svg/emoji_u1f6ae.svg		
 1f6b0	🚰	android-7.1	subgroup	android-7.1:svg/emoji_u1f6b0.svg		
@@ -3527,7 +3527,7 @@ key	emoji	era	why	source	vector	family
 262e	☮️	android-7.1	subgroup	android-7.1:svg/emoji_u262e.svg		
 1f54e	🕎	android-7.1	subgroup	android-7.1:svg/emoji_u1f54e.svg		
 1f52f	🔯	android-7.1	subgroup	android-7.1:svg/emoji_u1f52f.svg		
-1faaf	🪯	latest	fallback	latest:2D/svg/emoji_u1faaf.svg		
+1faaf	🪯	android-16	fallback	android-16:svg/emoji_u1faaf.svg		
 2648	♈	android-7.1	subgroup	android-7.1:svg/emoji_u2648.svg		
 2649	♉	android-7.1	subgroup	android-7.1:svg/emoji_u2649.svg		
 264a	♊	android-7.1	subgroup	android-7.1:svg/emoji_u264a.svg		
@@ -3563,7 +3563,7 @@ key	emoji	era	why	source	vector	family
 1f505	🔅	android-7.1	subgroup	android-7.1:svg/emoji_u1f505.svg		
 1f506	🔆	android-7.1	subgroup	android-7.1:svg/emoji_u1f506.svg		
 1f4f6	📶	android-7.1	subgroup	android-7.1:svg/emoji_u1f4f6.svg		
-1f6dc	🛜	latest	fallback	latest:2D/svg/emoji_u1f6dc.svg		
+1f6dc	🛜	android-16	fallback	android-16:svg/emoji_u1f6dc.svg		
 1f4f3	📳	android-7.1	subgroup	android-7.1:svg/emoji_u1f4f3.svg		
 1f4f4	📴	android-7.1	subgroup	android-7.1:svg/emoji_u1f4f4.svg		
 2640	♀️	android-7.1	subgroup	android-7.1:svg/emoji_u2640.svg		
@@ -3573,7 +3573,7 @@ key	emoji	era	why	source	vector	family
 2795	➕	android-7.1	subgroup	android-7.1:svg/emoji_u2795.svg		
 2796	➖	android-7.1	subgroup	android-7.1:svg/emoji_u2796.svg		
 2797	➗	android-7.1	subgroup	android-7.1:svg/emoji_u2797.svg		
-1f7f0	🟰	latest	fallback	latest:2D/svg/emoji_u1f7f0.svg		
+1f7f0	🟰	android-16	fallback	android-16:svg/emoji_u1f7f0.svg		
 267e	♾️	android-12	fallback	android-12:svg/emoji_u267e.svg		
 203c	‼️	android-7.1	subgroup	android-7.1:svg/emoji_u203c.svg		
 2049	⁉️	android-7.1	subgroup	android-7.1:svg/emoji_u2049.svg		
@@ -3605,7 +3605,7 @@ key	emoji	era	why	source	vector	family
 00a9	©️	android-7.1	subgroup	android-7.1:svg/emoji_u00a9.svg		
 00ae	®️	android-7.1	subgroup	android-7.1:svg/emoji_u00ae.svg		
 2122	™️	android-7.1	subgroup	android-7.1:svg/emoji_u2122.svg		
-1fadf	🫟	latest	fallback	latest:2D/svg/emoji_u1fadf.svg		
+1fadf	🫟	android-16	fallback	android-16:svg/emoji_u1fadf.svg		
 0023_20e3	#️⃣	android-7.1	subgroup	android-7.1:svg/emoji_u0023_20e3.svg		
 002a_20e3	*️⃣	android-7.1	subgroup	android-7.1:svg/emoji_u002a_20e3.svg		
 0030_20e3	0️⃣	android-7.1	subgroup	android-7.1:svg/emoji_u0030_20e3.svg		
