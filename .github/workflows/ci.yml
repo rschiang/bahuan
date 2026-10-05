@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [develop]
     tags: ["v*"]
   pull_request:
 
@@ -72,7 +72,6 @@ jobs:
           name: fonts
           path: |
             build/out/*.ttf
-            build/out/*.otf
             build/out/*.woff2
             build/out/bahuan.css
             build/out/fontbakery.html

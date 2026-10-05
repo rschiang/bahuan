@@ -6,6 +6,7 @@ flags` has filled it, else waves the flag on the spot.
 """
 
 import io
+import os
 import subprocess
 from pathlib import Path
 
@@ -25,15 +26,24 @@ OUT = ROOT / "flags" / "out"
 FULL_LIMIT = 0.025
 FONT_LIMIT = 0.035
 
+_missing = [str(p.relative_to(ROOT)) for p in (C_BIN, SRC) if not p.exists()]
+if _missing and os.environ.get("CI"):
+    raise RuntimeError(f"golden test needs {', '.join(_missing)}")
+
 pytestmark = pytest.mark.skipif(
-    not (C_BIN.exists() and SRC.exists()), reason="needs flags/waveflag and fetched region-flags"
+    bool(_missing), reason="needs flags/waveflag and fetched region-flags"
 )
 
 
 def emoji_flag_codes() -> list[str]:
+    if _missing:
+        return []
     keys = {e.key for e in entries() if e.subgroup in ("country-flag", "subdivision-flag")}
-    codes = [p.stem for p in sorted((SRC / "svg").glob("*.svg"))] if SRC.exists() else []
-    return [c for c in codes if flag_key(c) in keys]
+    codes = [p.stem for p in sorted((SRC / "svg").glob("*.svg"))]
+    codes = [c for c in codes if flag_key(c) in keys]
+    if not codes:
+        raise RuntimeError(f"no emoji flags found in {SRC / 'svg'}")
+    return codes
 
 
 def diff(a: Image.Image, b: Image.Image) -> float:

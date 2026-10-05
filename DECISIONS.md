@@ -172,6 +172,16 @@ rather than nototools), blank tag glyphs, vhea/vmtx, `fsType = 0` and the
 version on each font directly. The legacy-Android PUA mapping and upstream's
 unknown-flag fallback are left out.
 
+The build needs **GNU make 4.x**: parallel runs set `--output-sync=target`, so
+a failing step's error can't scroll past behind another job's output, which is
+how a broken parallel build went unnoticed once. The Makefile stops with a
+message on anything older. macOS ships 3.81, so there `brew install make` and
+build with `gmake`. CI is Linux only (`ubuntu-24.04`, make 4.3), so the macOS
+path is checked by hand, not by a runner. Steps that write a directory rather
+than one file are keyed on `.stamp` sentinels. `VERSION` (and the release tag)
+is `MAJOR.MINOR`: it becomes the font revision, which is a number, so
+`postproc.py` rejects anything else.
+
 ## QA
 
 CI (`.github/workflows/ci.yml`) runs on every push and pull request: lint
@@ -185,5 +195,9 @@ fonts and deploys the gallery to GitHub Pages.
 First local build (4 cores, ~30 minutes): all four fonts shape 3963/3963
 sequences, fontbakery has no failures, and Chromium renders blob 😀, flat 🍊
 and a waved 🇹🇼 from the COLRv1, CBDT and sbix builds. Chromium has no
-OpenType-SVG support, so the SVG build is only seen in Firefox (CI). The
-sbix build still needs a manual check in TextEdit and Safari on macOS.
+OpenType-SVG support, so the SVG build is only seen in Firefox (CI).
+
+macOS check of the sbix build: registered with `CTFontManagerRegisterFontsForURL`
+and drawn with `CTLineDraw` — the CoreText path TextEdit and Safari use. The
+family resolves to `Bahuan-sbix` with no fallback run, and 😀 🍊 🇹🇼 👍🏽 come
+out blob, flat, waved and skin-toned.

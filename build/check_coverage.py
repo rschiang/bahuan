@@ -29,10 +29,14 @@ def check(path: Path) -> list[str]:
 
 
 def main(paths):
+    total = len(entries())
+    if not total or not paths:
+        print(f"nothing to check: {total} emoji-test entries, {len(paths)} fonts")
+        return 1
     failed = False
     for p in map(Path, paths):
         bad = check(p)
-        print(f"{p.name}: {len(entries()) - len(bad)}/{len(entries())} sequences shape to one glyph")
+        print(f"{p.name}: {total - len(bad)}/{total} sequences shape to one glyph")
         for line in bad[:20]:
             print("  " + line)
         failed |= bool(bad)

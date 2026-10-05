@@ -11,6 +11,7 @@ metrics, no embedding restrictions and a consistent version.
 import argparse
 import datetime
 import functools
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -167,11 +168,19 @@ def process(path: Path, out: Path, version: float, stamp_: str):
     print(f"wrote {out}")
 
 
+def font_version(s: str) -> float:
+    """`v1.2`, `1.2` → 1.2. Tags carry the font revision, so `major.minor` only."""
+    text = s[1:] if s[:1] in "vV" else s
+    if not re.fullmatch(r"\d+\.\d+", text):
+        raise argparse.ArgumentTypeError(f"{s!r}: want a major.minor version, e.g. v1.2")
+    return float(text)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.strip().split("\n")[0])
     ap.add_argument("fonts", nargs="+", type=Path, help="nanoemoji outputs")
     ap.add_argument("-o", "--out-dir", type=Path, default=ROOT / "build" / "out")
-    ap.add_argument("--version", type=float, default=0.1)
+    ap.add_argument("--version", type=font_version, default=0.1)
     a = ap.parse_args(argv)
     s = stamp()
     for f in a.fonts:

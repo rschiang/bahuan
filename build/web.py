@@ -42,8 +42,9 @@ def _subset(src: Path, dst: Path, unicodes) -> None:
 def main(src: Path = OUT / "Bahuan-COLRv1.ttf") -> None:
     cmap = TTFont(src).getBestCmap()
     is_flag = lambda cp: any(a <= cp <= b for a, b in FLAG_RANGES)  # noqa: E731
-    flags = {cp for cp in cmap if is_flag(cp)} | {0x1F3F4}  # black flag starts subdivision flags
-    rest = {cp for cp in cmap if not is_flag(cp)}
+    # 1F3F4 must stay with the tag characters: GSUB can't ligate across files.
+    flags = {cp for cp in cmap if is_flag(cp)} | {0x1F3F4}
+    rest = {cp for cp in cmap if not is_flag(cp)} - {0x1F3F4}
     parts = {"": set(cmap), "-flags": flags, "-noflags": rest}
     for suffix, cps in parts.items():
         _subset(src, OUT / f"Bahuan-COLRv1{suffix}.woff2", cps)

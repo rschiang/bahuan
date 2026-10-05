@@ -53,9 +53,11 @@ every emoji font, it maps digits, `#` and `*` to blank keycap bases.
 
 ## Build
 
+The build needs GNU make 4.x.
+
 ```sh
 uv sync
-make
+make        # macOS: brew install make, then gmake
 ```
 
 The first run fetches upstream art (a blob-less clone of noto-emoji, several

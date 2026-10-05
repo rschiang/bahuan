@@ -1,5 +1,14 @@
 # Bahuan build: resolve → materialize → flags → nanoemoji per format → post-process.
 # Run `uv sync` first; tools are taken from the project venv.
+#
+# Needs GNU make 4.x: parallel runs keep each step's log together with
+# --output-sync, without which a failing job's error scrolls past unseen.
+# macOS ships 3.81, so install Homebrew's make (`brew install make`) and build
+# with `gmake`.
+ifeq ($(filter output-sync,$(.FEATURES)),)
+$(error GNU make 4.0+ required, found $(MAKE_VERSION); on macOS use `brew install make` and gmake)
+endif
+MAKEFLAGS += --output-sync=target
 
 VENV ?= .venv
 BIN := $(abspath $(VENV)/bin)
@@ -32,7 +41,7 @@ fetch: sources/cache/.fetched
 selection/resolved.tsv: selection/selection.toml sources/eras.toml $(STEAMER_SRC)
 	$(STEAMER) resolve
 
-flags/out/.stamp: flags/waveflag.py sources/cache/.fetched
+flags/out/.stamp: flags/waveflag.py sources/emoji-test.txt sources/cache/.fetched
 	$(PYTHON) flags/waveflag.py
 	touch $@
 
@@ -42,7 +51,7 @@ flags: flags/out/.stamp
 flags/waveflag: flags/waveflag.c
 	$(CC) -std=c99 -O2 -Wall $< -o $@ `pkg-config --cflags --libs cairo` -lm
 
-art/.stamp: selection/resolved.tsv flags/out/.stamp
+art/.stamp: selection/resolved.tsv flags/out/.stamp $(STEAMER_SRC)
 	$(STEAMER) materialize
 	touch $@
 
@@ -51,14 +60,13 @@ build/config/.stamp: art/.stamp build/generate_configs.py
 	touch $@
 
 # One nanoemoji run for every format, so the picosvg pass is shared.
-WORK_FONTS := $(foreach c,$(CONFIGS),build/work/$(CONFIG_$(c)))
-
-$(WORK_FONTS) &: build/config/.stamp
+build/work/.stamp: build/config/.stamp
 	mkdir -p build/work
-	cd build/config && nanoemoji --build_dir=../work $(addsuffix .toml,$(CONFIGS))
+	cd build/config && $(BIN)/nanoemoji --build_dir=../work $(addsuffix .toml,$(CONFIGS))
+	touch $@
 
-build/out/%: build/work/% build/postproc.py
-	$(PYTHON) build/postproc.py --version $(VERSION) -o build/out $<
+build/out/%: build/work/.stamp build/postproc.py
+	$(PYTHON) build/postproc.py --version $(VERSION) -o build/out build/work/$*
 
 web: build/out/Bahuan-COLRv1.woff2
 
@@ -75,7 +83,7 @@ QA_CHECKS := cmap/format_12 color_cpal_brightness empty_glyph_on_gid1_for_colrv0
 	os2_metrics_match_hhea unique_glyphnames sfnt_version
 
 qa: $(FONTS)
-	fontbakery check-universal --succinct --error-code-on FAIL \
+	$(BIN)/fontbakery check-universal --succinct --error-code-on FAIL \
 		$(foreach c,$(QA_CHECKS),-c $(c)) --html build/out/fontbakery.html $(FONTS)
 
 check:
