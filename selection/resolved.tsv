@@ -3591,7 +3591,7 @@ key	emoji	era	why	source	vector	family
 1f4db	📛	android-7.1	subgroup	android-7.1:svg/emoji_u1f4db.svg		
 1f530	🔰	android-7.1	subgroup	android-7.1:svg/emoji_u1f530.svg		
 2b55	⭕	android-7.1	subgroup	android-7.1:svg/emoji_u2b55.svg		
-2705	✅	android-12	override	android-12:svg/emoji_u2705.svg		
+2705	✅	android-7.1	subgroup	android-7.1:svg/emoji_u2705.svg		
 2611	☑️	android-7.1	subgroup	android-7.1:svg/emoji_u2611.svg		
 2714	✔️	android-7.1	subgroup	android-7.1:svg/emoji_u2714.svg		
 274c	❌	android-7.1	subgroup	android-7.1:svg/emoji_u274c.svg		
@@ -3698,8 +3698,8 @@ key	emoji	era	why	source	vector	family
 1f3f4	🏴	android-7.1	subgroup	android-7.1:svg/emoji_u1f3f4.svg		
 1f3f3	🏳️	android-7.1	subgroup	android-7.1:svg/emoji_u1f3f3.svg		
 1f3f3_200d_1f308	🏳️‍🌈	android-7.1	subgroup	android-7.1:png/128/emoji_u1f3f3_200d_1f308.png		
-1f3f3_200d_26a7	🏳️‍⚧️	android-12	fallback	android-12:svg/emoji_u1f3f3_200d_26a7.svg		
-1f3f4_200d_2620	🏴‍☠️	android-12	fallback	android-12:svg/emoji_u1f3f4_200d_2620.svg		
+1f3f3_200d_26a7	🏳️‍⚧️	waveflag	override	waveflag:flags/extra/emoji_u1f3f3_200d_26a7.svg		
+1f3f4_200d_2620	🏴‍☠️	waveflag	override	waveflag:flags/extra/emoji_u1f3f4_200d_2620.svg		
 1f1e6_1f1e8	🇦🇨	waveflag	subgroup	waveflag:third_party/region-flags/svg/AC.svg		
 1f1e6_1f1e9	🇦🇩	waveflag	subgroup	waveflag:third_party/region-flags/svg/AD.svg		
 1f1e6_1f1ea	🇦🇪	waveflag	subgroup	waveflag:third_party/region-flags/svg/AE.svg		
@@ -3748,9 +3748,9 @@ key	emoji	era	why	source	vector	family
 1f1e8_1f1f0	🇨🇰	waveflag	subgroup	waveflag:third_party/region-flags/svg/CK.svg		
 1f1e8_1f1f1	🇨🇱	waveflag	subgroup	waveflag:third_party/region-flags/svg/CL.svg		
 1f1e8_1f1f2	🇨🇲	waveflag	subgroup	waveflag:third_party/region-flags/svg/CM.svg		
-1f1e8_1f1f3	🇨🇳	waveflag	subgroup	waveflag:third_party/region-flags/svg/CN.svg		
+1f1e8_1f1f3	🇨🇳	android-7.1	subgroup	android-7.1:svg/emoji_u1f1e8_1f1f3.svg		
 1f1e8_1f1f4	🇨🇴	waveflag	subgroup	waveflag:third_party/region-flags/svg/CO.svg		
-1f1e8_1f1f5	🇨🇵	waveflag	subgroup	waveflag:third_party/region-flags/svg/CP.svg		
+1f1e8_1f1f5	🇨🇵	android-7.1	subgroup	android-7.1:svg/emoji_u1f1eb_1f1f7.svg		
 1f1e8_1f1f6	🇨🇶	waveflag	subgroup	waveflag:third_party/region-flags/svg/CQ.svg		
 1f1e8_1f1f7	🇨🇷	waveflag	subgroup	waveflag:third_party/region-flags/svg/CR.svg		
 1f1e8_1f1fa	🇨🇺	waveflag	subgroup	waveflag:third_party/region-flags/svg/CU.svg		
@@ -3759,7 +3759,7 @@ key	emoji	era	why	source	vector	family
 1f1e8_1f1fd	🇨🇽	waveflag	subgroup	waveflag:third_party/region-flags/svg/CX.svg		
 1f1e8_1f1fe	🇨🇾	waveflag	subgroup	waveflag:third_party/region-flags/svg/CY.svg		
 1f1e8_1f1ff	🇨🇿	waveflag	subgroup	waveflag:third_party/region-flags/svg/CZ.svg		
-1f1e9_1f1ea	🇩🇪	waveflag	subgroup	waveflag:third_party/region-flags/svg/DE.svg		
+1f1e9_1f1ea	🇩🇪	android-7.1	subgroup	android-7.1:svg/emoji_u1f1e9_1f1ea.svg		
 1f1e9_1f1ec	🇩🇬	waveflag	subgroup	waveflag:third_party/region-flags/svg/DG.svg		
 1f1e9_1f1ef	🇩🇯	waveflag	subgroup	waveflag:third_party/region-flags/svg/DJ.svg		
 1f1e9_1f1f0	🇩🇰	waveflag	subgroup	waveflag:third_party/region-flags/svg/DK.svg		
@@ -3772,7 +3772,7 @@ key	emoji	era	why	source	vector	family
 1f1ea_1f1ec	🇪🇬	waveflag	subgroup	waveflag:third_party/region-flags/svg/EG.svg		
 1f1ea_1f1ed	🇪🇭	waveflag	subgroup	waveflag:third_party/region-flags/svg/EH.svg		
 1f1ea_1f1f7	🇪🇷	waveflag	subgroup	waveflag:third_party/region-flags/svg/ER.svg		
-1f1ea_1f1f8	🇪🇸	waveflag	subgroup	waveflag:third_party/region-flags/svg/ES.svg		
+1f1ea_1f1f8	🇪🇸	android-7.1	subgroup	android-7.1:svg/emoji_u1f1ea_1f1f8.svg		
 1f1ea_1f1f9	🇪🇹	waveflag	subgroup	waveflag:third_party/region-flags/svg/ET.svg		
 1f1ea_1f1fa	🇪🇺	waveflag	subgroup	waveflag:third_party/region-flags/svg/EU.svg		
 1f1eb_1f1ee	🇫🇮	waveflag	subgroup	waveflag:third_party/region-flags/svg/FI.svg		
@@ -3780,9 +3780,9 @@ key	emoji	era	why	source	vector	family
 1f1eb_1f1f0	🇫🇰	waveflag	subgroup	waveflag:third_party/region-flags/svg/FK.svg		
 1f1eb_1f1f2	🇫🇲	waveflag	subgroup	waveflag:third_party/region-flags/svg/FM.svg		
 1f1eb_1f1f4	🇫🇴	waveflag	subgroup	waveflag:third_party/region-flags/svg/FO.svg		
-1f1eb_1f1f7	🇫🇷	waveflag	subgroup	waveflag:third_party/region-flags/svg/FR.svg		
+1f1eb_1f1f7	🇫🇷	android-7.1	subgroup	android-7.1:svg/emoji_u1f1eb_1f1f7.svg		
 1f1ec_1f1e6	🇬🇦	waveflag	subgroup	waveflag:third_party/region-flags/svg/GA.svg		
-1f1ec_1f1e7	🇬🇧	waveflag	subgroup	waveflag:third_party/region-flags/svg/GB.svg		
+1f1ec_1f1e7	🇬🇧	android-7.1	subgroup	android-7.1:svg/emoji_u1f1ec_1f1e7.svg		
 1f1ec_1f1e9	🇬🇩	waveflag	subgroup	waveflag:third_party/region-flags/svg/GD.svg		
 1f1ec_1f1ea	🇬🇪	waveflag	subgroup	waveflag:third_party/region-flags/svg/GE.svg		
 1f1ec_1f1eb	🇬🇫	waveflag	subgroup	waveflag:third_party/region-flags/svg/GF.svg		
@@ -3816,11 +3816,11 @@ key	emoji	era	why	source	vector	family
 1f1ee_1f1f6	🇮🇶	waveflag	subgroup	waveflag:third_party/region-flags/svg/IQ.svg		
 1f1ee_1f1f7	🇮🇷	waveflag	subgroup	waveflag:third_party/region-flags/svg/IR.svg		
 1f1ee_1f1f8	🇮🇸	waveflag	subgroup	waveflag:third_party/region-flags/svg/IS.svg		
-1f1ee_1f1f9	🇮🇹	waveflag	subgroup	waveflag:third_party/region-flags/svg/IT.svg		
+1f1ee_1f1f9	🇮🇹	android-7.1	subgroup	android-7.1:svg/emoji_u1f1ee_1f1f9.svg		
 1f1ef_1f1ea	🇯🇪	waveflag	subgroup	waveflag:third_party/region-flags/svg/JE.svg		
 1f1ef_1f1f2	🇯🇲	waveflag	subgroup	waveflag:third_party/region-flags/svg/JM.svg		
 1f1ef_1f1f4	🇯🇴	waveflag	subgroup	waveflag:third_party/region-flags/svg/JO.svg		
-1f1ef_1f1f5	🇯🇵	waveflag	subgroup	waveflag:third_party/region-flags/svg/JP.svg		
+1f1ef_1f1f5	🇯🇵	android-7.1	subgroup	android-7.1:svg/emoji_u1f1ef_1f1f5.svg		
 1f1f0_1f1ea	🇰🇪	waveflag	subgroup	waveflag:third_party/region-flags/svg/KE.svg		
 1f1f0_1f1ec	🇰🇬	waveflag	subgroup	waveflag:third_party/region-flags/svg/KG.svg		
 1f1f0_1f1ed	🇰🇭	waveflag	subgroup	waveflag:third_party/region-flags/svg/KH.svg		
@@ -3828,7 +3828,7 @@ key	emoji	era	why	source	vector	family
 1f1f0_1f1f2	🇰🇲	waveflag	subgroup	waveflag:third_party/region-flags/svg/KM.svg		
 1f1f0_1f1f3	🇰🇳	waveflag	subgroup	waveflag:third_party/region-flags/svg/KN.svg		
 1f1f0_1f1f5	🇰🇵	waveflag	subgroup	waveflag:third_party/region-flags/svg/KP.svg		
-1f1f0_1f1f7	🇰🇷	waveflag	subgroup	waveflag:third_party/region-flags/svg/KR.svg		
+1f1f0_1f1f7	🇰🇷	android-7.1	subgroup	android-7.1:svg/emoji_u1f1f0_1f1f7.svg		
 1f1f0_1f1fc	🇰🇼	waveflag	subgroup	waveflag:third_party/region-flags/svg/KW.svg		
 1f1f0_1f1fe	🇰🇾	waveflag	subgroup	waveflag:third_party/region-flags/svg/KY.svg		
 1f1f0_1f1ff	🇰🇿	waveflag	subgroup	waveflag:third_party/region-flags/svg/KZ.svg		
@@ -3897,7 +3897,7 @@ key	emoji	era	why	source	vector	family
 1f1f7_1f1ea	🇷🇪	waveflag	subgroup	waveflag:third_party/region-flags/svg/RE.svg		
 1f1f7_1f1f4	🇷🇴	waveflag	subgroup	waveflag:third_party/region-flags/svg/RO.svg		
 1f1f7_1f1f8	🇷🇸	waveflag	subgroup	waveflag:third_party/region-flags/svg/RS.svg		
-1f1f7_1f1fa	🇷🇺	waveflag	subgroup	waveflag:third_party/region-flags/svg/RU.svg		
+1f1f7_1f1fa	🇷🇺	android-7.1	subgroup	android-7.1:svg/emoji_u1f1f7_1f1fa.svg		
 1f1f7_1f1fc	🇷🇼	waveflag	subgroup	waveflag:third_party/region-flags/svg/RW.svg		
 1f1f8_1f1e6	🇸🇦	waveflag	subgroup	waveflag:third_party/region-flags/svg/SA.svg		
 1f1f8_1f1e7	🇸🇧	waveflag	subgroup	waveflag:third_party/region-flags/svg/SB.svg		
@@ -3939,9 +3939,9 @@ key	emoji	era	why	source	vector	family
 1f1f9_1f1ff	🇹🇿	waveflag	subgroup	waveflag:third_party/region-flags/svg/TZ.svg		
 1f1fa_1f1e6	🇺🇦	waveflag	subgroup	waveflag:third_party/region-flags/svg/UA.svg		
 1f1fa_1f1ec	🇺🇬	waveflag	subgroup	waveflag:third_party/region-flags/svg/UG.svg		
-1f1fa_1f1f2	🇺🇲	waveflag	subgroup	waveflag:third_party/region-flags/svg/UM.svg		
+1f1fa_1f1f2	🇺🇲	android-7.1	subgroup	android-7.1:svg/emoji_u1f1fa_1f1f8.svg		
 1f1fa_1f1f3	🇺🇳	waveflag	subgroup	waveflag:third_party/region-flags/svg/UN.svg		
-1f1fa_1f1f8	🇺🇸	waveflag	subgroup	waveflag:third_party/region-flags/svg/US.svg		
+1f1fa_1f1f8	🇺🇸	android-7.1	subgroup	android-7.1:svg/emoji_u1f1fa_1f1f8.svg		
 1f1fa_1f1fe	🇺🇾	waveflag	subgroup	waveflag:third_party/region-flags/svg/UY.svg		
 1f1fa_1f1ff	🇺🇿	waveflag	subgroup	waveflag:third_party/region-flags/svg/UZ.svg		
 1f1fb_1f1e6	🇻🇦	waveflag	subgroup	waveflag:third_party/region-flags/svg/VA.svg		

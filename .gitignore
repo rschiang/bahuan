@@ -14,6 +14,8 @@ __pycache__/
 .venv/
 .pytest_cache/
 /build/config/
+/art/derived/
 /art/svg/
 /art/png/
 /art/.stamp
+/history/

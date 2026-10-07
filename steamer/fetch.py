@@ -4,6 +4,7 @@ The upstream repo is several GB, so it is cloned blob-less and each era is a
 sparse worktree holding only its png/, svg/ and flag folders.
 """
 
+import hashlib
 import shutil
 import subprocess
 import sys
@@ -116,6 +117,10 @@ def build_index(era: Era) -> dict[str, dict]:
         stem = lambda n: flag_key(n.rsplit(".", 1)[0])  # noqa: E731
         add(era.svg, "svg", stem)
         add(era.png, "png", stem)
+        for p in sorted((ROOT / era.extra).glob("emoji_u*.svg")) if era.extra else []:
+            data = p.read_bytes()
+            sha = hashlib.sha1(b"blob %d\0" % len(data) + data).hexdigest()  # == git hash-object
+            found.setdefault(p.stem[len("emoji_u"):], {})["svg"] = (f"{era.extra}/{p.name}", sha)
     else:
         if era.png:
             add(era.png, "png")

@@ -123,12 +123,38 @@ redraws.
 
 ### Redraw backlog
 
-`[redraw]` in the manifest lists emoji with no acceptable era (38 now):
-hearts and body parts that exist only as bordered gradient art, 🪄 🪆 🪢 🪗
-🪙 🩸 🩺 🪟 🪦, 🏳️‍⚧️ 🏴‍☠️ (should be waved), the four `latest`-only family
-keycap tiles, and the twelve glossy E12 colored shapes. `steamer report`
-also lists art still unchanged since `android-11`. Hand-fixed SVGs go in
-`art/fixes/emoji_u<key>.svg` and win over upstream.
+`[redraw]` in the manifest is the backlog of emoji with no acceptable era and
+no recipe; it is empty. The former 38 were closed three ways:
+
+- **Derived art** (39 recipes, 19 of them backlog entries): `art/recipes.toml`
+  recolours, strips layers from, re-fills and composes upstream masters;
+  `steamer redraw` writes `art/derived/` (generated, git-ignored). Ops are
+  `drop` (delete elements by fill), `subpath` (keep one subpath of each path,
+  which separates an Illustrator frame from its cut-out), `recolor`, `fill`
+  (paint what would default to black) and `[[<key>.add]]` (draw another master
+  on top, optionally scaled about the canvas centre). Every heart is the 💛
+  `1f49b` silhouette — the standard-size one — in the Android 16 colours;
+  circles and squares share one hue per colour name, and every black shape
+  (⚫ ⬛ ◼️ ◾ ▪️) keeps its design on the Android 16 `#424242`, which holds
+  contrast on dark backgrounds, matching 🔲 in 7.1; ❓❗ ‼️ ⁉️ go from the 7.1
+  blue to red and ❔❕ darken to `#BDBDBD` to read at 20px; ✅ is ❎'s frame in
+  the Android 16 green with the 7.1 tick composed on top, so the pair mirrors;
+  the four family keycap tiles become blue busts. 🟰 and 🫟 are a de-gloss
+  trial: Android 16 art whose only objection was the highlight layer, kept as
+  drawn with the glints (and 🫟's clipped shading) dropped. A recipe changes
+  the art, never the era a key resolves to; PROVENANCE `fixups` names the donor
+  (`derived:<era>:<key>`).
+- **Generated flags**: 🏳️‍⚧️ 🏴‍☠️ come from `flags/extra/` through
+  `waveflag.py`. The twelve hand-drawn 7.1 country flags are preferred over
+  the mesh-warped ones (`country-flag = ["android-7.1", "waveflag"]`); the
+  heavier outline is an accepted seam.
+- **Accepted as-is** (17): ❤️‍🔥 ❤️‍🩹 🦾 🦿 🧠 🫀 🫁 🦷 🪄 🪆 🪢 🪗 🪙 🩸 🩺 🪟 🪦 are
+  2020 flat art with soft gradients that read at 20px; nothing better exists.
+
+`steamer report` also lists art still unchanged since `android-11`. Hand-fixed
+SVGs go in `art/fixes/emoji_u<key>.svg` and win over both upstream and recipes.
+`steamer sheets --group NAME` renders the key groups in `selection/groups.toml`
+for cross-subgroup design questions.
 
 ## Art
 

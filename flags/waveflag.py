@@ -31,6 +31,15 @@ sys.path.insert(0, str(ROOT))
 
 from steamer.fetch import flag_key, tool  # noqa: E402
 
+EXTRA = ROOT / "flags" / "extra"
+
+
+def key_for(src) -> str:
+    """Region-flags `US` → regional indicators; extras are named `emoji_u<key>`."""
+    stem = Path(src).stem
+    return stem[len("emoji_u"):] if stem.startswith("emoji_u") else flag_key(stem)
+
+
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
@@ -522,7 +531,7 @@ def _band(s0: float, s1: float) -> list[tuple[float, float]]:
 def _one(job):
     src, out = job
     code = Path(src).stem
-    key = flag_key(code)
+    key = key_for(code)
     global PRECISION
     text = Path(src).read_text(encoding="utf-8")
     err = None
@@ -554,7 +563,10 @@ def main(argv=None):
     ap.add_argument("-j", "--jobs", type=int, default=4)
     a = ap.parse_args(argv)
     src_dir = ROOT / "sources" / "cache" / "worktrees" / "waveflag" / "third_party" / "region-flags" / "svg"
-    files = a.flags or sorted(str(p) for p in src_dir.glob("*.svg"))
+    files = a.flags or [
+        *sorted(str(p) for p in src_dir.glob("*.svg")),
+        *sorted(str(p) for p in EXTRA.glob("emoji_u*.svg")),
+    ]
     for sub in ("full", "svg"):
         (a.out / sub).mkdir(parents=True, exist_ok=True)
     from steamer.emoji import by_key
@@ -564,7 +576,7 @@ def main(argv=None):
         for code, err in pool.map(_one, [(s, a.out) for s in files]):
             if err:
                 failed.append(code)
-                if flag_key(code) in by_key():
+                if key_for(code) in by_key():
                     needed.append(code)
                 print(f"{code}: {err}", file=sys.stderr)
     print(f"waved {len(files) - len(failed)} flags into {a.out}")

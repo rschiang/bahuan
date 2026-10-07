@@ -1,4 +1,4 @@
-{"commit": "e20cbc2", "count": 359, "era": "waveflag", "vector": true, "emoji": {
+{"commit": "e20cbc2", "count": 361, "era": "waveflag", "vector": true, "emoji": {
   "1f1e6_1f1e8": {"format": "svg", "path": "third_party/region-flags/svg/AC.svg", "png": "third_party/region-flags/png/AC.png", "sha": "2bdc6e33acff971a148b991e85d972020c4492da"},
   "1f1e6_1f1e9": {"format": "svg", "path": "third_party/region-flags/svg/AD.svg", "png": "third_party/region-flags/png/AD.png", "sha": "58b1acd01c5e8be1b60d359ea6cbcaa7da17e369"},
   "1f1e6_1f1ea": {"format": "svg", "path": "third_party/region-flags/svg/AE.svg", "png": "third_party/region-flags/png/AE.png", "sha": "8edc518562d9b93d04e470b4b4b7ae1f3a2cd446"},
@@ -258,6 +258,8 @@
   "1f1ff_1f1e6": {"format": "svg", "path": "third_party/region-flags/svg/ZA.svg", "png": "third_party/region-flags/png/ZA.png", "sha": "9257c358b45eee002ae7e25c1e8fb6be8ebe765e"},
   "1f1ff_1f1f2": {"format": "svg", "path": "third_party/region-flags/svg/ZM.svg", "png": "third_party/region-flags/png/ZM.png", "sha": "97c2ca59ff0dd44a40a1a62fbbcd13b5a776de52"},
   "1f1ff_1f1fc": {"format": "svg", "path": "third_party/region-flags/svg/ZW.svg", "png": "third_party/region-flags/png/ZW.png", "sha": "fbedc592caf3162fe547075f9a91bf32312fa0ce"},
+  "1f3f3_200d_26a7": {"format": "svg", "path": "flags/extra/emoji_u1f3f3_200d_26a7.svg", "sha": "b32eba8a3c39ebbd17d37d87db0bfaf36ce9c0fd"},
+  "1f3f4_200d_2620": {"format": "svg", "path": "flags/extra/emoji_u1f3f4_200d_2620.svg", "sha": "4f30e9cfa04618e7d39ab597a5f3fa1d675ba7be"},
   "1f3f4_e0063_e0061_e0061_e0062_e007f": {"format": "svg", "path": "third_party/region-flags/svg/CA-AB.svg", "png": "third_party/region-flags/png/CA-AB.png", "sha": "2e3e7f94d6403eb4ec933769a594d34f62e264c8"},
   "1f3f4_e0063_e0061_e0062_e0063_e007f": {"format": "svg", "path": "third_party/region-flags/svg/CA-BC.svg", "png": "third_party/region-flags/png/CA-BC.png", "sha": "948f5643934259cc62a691e0e7bd036cfa4e982b"},
   "1f3f4_e0063_e0061_e006d_e0062_e007f": {"format": "svg", "path": "third_party/region-flags/svg/CA-MB.svg", "png": "third_party/region-flags/png/CA-MB.png", "sha": "632a599dc860e14f0f04de9f7823cc96278c3f6f"},

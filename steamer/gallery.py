@@ -15,6 +15,7 @@ from pathlib import Path
 from PIL import Image
 
 from .emoji import ROOT, by_key, subgroups
+from . import redraw
 from .eras import catalog
 from .manifest import MANIFEST, Manifest, set_entry
 from .resolve import Resolver
@@ -37,6 +38,7 @@ def slug(name: str) -> str:
 
 
 def build(out: Path = GALLERY, log=print) -> Path:
+    recipes = redraw.load()
     m = Manifest.load()
     r = Resolver(m)
     picks = r.resolve_all()
@@ -51,9 +53,16 @@ def build(out: Path = GALLERY, log=print) -> Path:
         "fallback": m.fallback,
         "subgroups": [],
     }
+    data["eras"]["derived"] = {
+        "title": "derived from art/recipes.toml",
+        "vector": True, "avoid": False,
+        "note": "recoloured upstream art; not selectable",
+    }
     a11 = cat["android-11"].index()
     for sg, entries in subgroups().items():
         rows, eras = sheet_entries(entries), sheet_eras(sg)
+        if any(e.key in recipes for e in rows):
+            eras = [*eras, "derived"]
         sheets = [
             Image.new("RGBA", (TILE * len(eras), TILE * min(CHUNK, len(rows) - i)))
             for i in range(0, len(rows), CHUNK)
@@ -62,11 +71,16 @@ def build(out: Path = GALLERY, log=print) -> Path:
         for y, e in enumerate(rows):
             have, bordered = [], []
             for x, era in enumerate(eras):
-                idx = cat[era].index()
-                p = cat[era].render_path(e.key, TILE)
-                ok = e.key in idx and p.exists()
+                if era == "derived":
+                    p = redraw.render_path(e.key, TILE)
+                    ok = e.key in recipes and p.exists()
+                    same = False
+                else:
+                    idx = cat[era].index()
+                    p = cat[era].render_path(e.key, TILE)
+                    ok = e.key in idx and p.exists()
+                    same = ok and era not in m.avoid and a11.get(e.key, {}).get("sha") == idx[e.key]["sha"]
                 have.append(1 if ok else 0)
-                same = ok and era not in m.avoid and a11.get(e.key, {}).get("sha") == idx[e.key]["sha"]
                 bordered.append(1 if same else 0)
                 if ok:
                     tile = Image.open(p).convert("RGBA")
@@ -77,6 +91,7 @@ def build(out: Path = GALLERY, log=print) -> Path:
                 "have": have, "b": bordered, "pick": pk.era, "why": pk.why,
                 **({"ov": m.override[e.key]} if e.key in m.override else {}),
                 **({"redraw": m.redraw[e.key]} if e.key in m.redraw else {}),
+                **({"dv": f"{recipes[e.key].era}:{recipes[e.key].src}"} if e.key in recipes else {}),
             })
         sprites = []
         for i, sheet in enumerate(sheets):

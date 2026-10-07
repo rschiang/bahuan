@@ -96,6 +96,7 @@ title = "Android 7.1 waved flags"
 generator = "flags"           # built by flags/waveflag.py, not fetched
 commit = "e20cbc2"            # region-flags source art, as vendored upstream
 svg = "third_party/region-flags/svg"
+extra = "flags/extra"
 png = "third_party/region-flags/png"
 vector = true
 note = "Current region-flags art warped with the waveflag mesh."

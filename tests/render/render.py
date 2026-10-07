@@ -18,6 +18,7 @@ SAMPLES = [
     ("blob", "😀 😂 🥰 🤔 😴"),
     ("flat", "🍊 🍎 🥑 ☕ 🍣"),
     ("waved", "🇹🇼 🇯🇵 🇺🇸 🇳🇵 🏴󠁧󠁢󠁷󠁬󠁳󠁿"),
+    ("redraw", "❤️ 🧡 🩷 🖤 🟠 ⚫ ⬛ ◾ ✅ ❎ ❓ ‼️ ⁉️ 🟰 🫟 🏴‍☠️ 🏳️‍⚧️ 🧑‍🧒"),
     ("people", "👍🏽 🧑🏿‍🚀 👩‍👩‍👧 🙋‍♂️"),
     ("text", "Dinner tonight? 🍜 Sounds good 👌 see you 🚲💨"),
 ]

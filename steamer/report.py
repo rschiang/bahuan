@@ -5,6 +5,7 @@ from collections import Counter, defaultdict
 from .emoji import by_key, cps_of, key_of
 from .eras import catalog
 from .manifest import Manifest
+from .redraw import load as load_recipes
 from .resolve import Pick, Resolver
 
 PEOPLE = {0x1F468, 0x1F469}  # man, woman → person, to group professions
@@ -34,6 +35,8 @@ def explain(key: str, manifest: Manifest | None = None) -> str:
         lines.append(f"  source: {pick.source}")
     if key in m.redraw:
         lines.append(f"  redraw backlog: {m.redraw[key]}")
+    if (rec := load_recipes().get(key)) is not None:
+        lines.append(f"  derived from {rec.era}:{rec.src} — {rec.why}")
     return "\n".join(lines)
 
 
@@ -112,10 +115,14 @@ def report(picks: dict[str, Pick], manifest: Manifest | None = None) -> str:
     if no_vec:
         out.append(f"No vector master at all: {' '.join(p.key for p in no_vec)}")
 
+    section("Derived art")
+    out += [f"{k}  {keys[k].name}  ← {r.era}:{r.src}" for k, r in load_recipes().items()] or ["none"]
+
     section("Redraw backlog")
     out.append("Listed in the manifest:")
     out += [f"- {keys[k].text} {k} {keys[k].name}: {why}" for k, why in m.redraw.items()] or ["  none"]
-    bd = [p for p in picks.values() if bordered(p) and p.key not in m.redraw]
+    recipes = load_recipes()
+    bd = [p for p in picks.values() if bordered(p) and p.key not in m.redraw and p.key not in recipes]
     by_sg = defaultdict(list)
     for p in bd:
         by_sg[keys[p.key].subgroup].append(p.key)

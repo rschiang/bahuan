@@ -26,6 +26,7 @@ class Era:
     aliases: str = ""
     waved_flags: str = ""
     generator: str = ""
+    extra: str = ""
     avoid: bool = False
     note: str = ""
 

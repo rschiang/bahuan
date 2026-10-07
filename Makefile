@@ -41,8 +41,9 @@ fetch: sources/cache/.fetched
 selection/resolved.tsv: selection/selection.toml sources/eras.toml $(STEAMER_SRC)
 	$(STEAMER) resolve
 
-flags/out/.stamp: flags/waveflag.py sources/emoji-test.txt sources/cache/.fetched
+flags/out/.stamp: flags/waveflag.py $(wildcard flags/extra/*.svg) sources/emoji-test.txt sources/cache/.fetched
 	$(PYTHON) flags/waveflag.py
+	$(STEAMER) fetch waveflag
 	touch $@
 
 flags: flags/out/.stamp
@@ -51,7 +52,11 @@ flags: flags/out/.stamp
 flags/waveflag: flags/waveflag.c
 	$(CC) -std=c99 -O2 -Wall $< -o $@ `pkg-config --cflags --libs cairo` -lm
 
-art/.stamp: selection/resolved.tsv flags/out/.stamp $(STEAMER_SRC)
+art/derived/.stamp: art/recipes.toml $(STEAMER_SRC) sources/cache/.fetched
+	$(STEAMER) redraw
+	touch $@
+
+art/.stamp: selection/resolved.tsv flags/out/.stamp art/derived/.stamp $(STEAMER_SRC)
 	$(STEAMER) materialize
 	touch $@
 
@@ -91,10 +96,10 @@ check:
 	$(STEAMER) resolve --check
 	$(PYTHON) -m pytest -q
 
-gallery:
+gallery: art/derived/.stamp
 	$(STEAMER) gallery
 
 clean:
-	rm -rf build/work build/out build/config art/svg art/png art/.stamp flags/out gallery sheets
+	rm -rf build/work build/out build/config art/svg art/png art/derived art/.stamp flags/out gallery sheets
 
 .PHONY: all fonts fetch flags web coverage qa check gallery clean

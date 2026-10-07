@@ -1,0 +1,212 @@
+# Derived art: `steamer redraw` writes art/derived/ from these recipes.
+# from = "era:key" donor master; ops run as drop → recolor → fill.
+# subpath = N keeps only subpath N of each <path> (an Illustrator frame holds its cut-out as one).
+# [[<key>.add]] draws another master on top, with the same ops plus `scale` about the canvas centre.
+# art/fixes/ wins over a recipe.
+
+[2764]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#F44336" }
+why = "the 💛 silhouette in the Android 16 red; the 7.1 ❤️ is a smaller magenta heart"
+
+[1f5a4]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#424242" }
+why = "the 💛 silhouette; the 7.1 🖤 has its own outline and a white glint stroke"
+
+[1f9e1]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#FF9800" }
+why = "the 💛 silhouette in flat orange; the 2021 one is glossy"
+
+[1f90d]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#E0E0E0" }
+why = "the 💛 silhouette in flat white; the 2021 one is glossy"
+
+[1f90e]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#B76D54" }
+why = "the 💛 silhouette in flat brown; the 2021 one is glossy"
+
+[1fa75]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#64D0FF" }
+why = "the 💛 silhouette; the android-16 original is glossy"
+
+[1fa76]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#939393" }
+why = "the 💛 silhouette; the android-16 original is glossy"
+
+[1fa77]
+from = "android-7.1:1f49b"
+recolor = { "#FBB817" = "#FF94BD" }
+why = "the 💛 silhouette; the android-16 original is glossy"
+
+[1f7e0]
+from = "android-7.1:1f534"
+recolor = { "#DB4437" = "#FF9800" }
+why = "flat orange circle in the 7.1 🔴 size; the 2021 one is a three-layer gloss"
+
+[1f7e1]
+from = "android-7.1:1f534"
+recolor = { "#DB4437" = "#FFCC32" }
+why = "flat yellow circle in the 7.1 🔴 size; the 2021 one is a three-layer gloss"
+
+[1f7e2]
+from = "android-7.1:1f534"
+recolor = { "#DB4437" = "#7CB342" }
+why = "flat green circle in the 7.1 🔴 size; the 2021 one is a three-layer gloss"
+
+[1f7e3]
+from = "android-7.1:1f534"
+recolor = { "#DB4437" = "#AB47BC" }
+why = "flat purple circle in the 7.1 🔴 size; the 2021 one is a three-layer gloss"
+
+[1f7e4]
+from = "android-7.1:1f534"
+recolor = { "#DB4437" = "#B76D54" }
+why = "flat brown circle in the 7.1 🔴 size; the 2021 one is a three-layer gloss"
+
+[26ab]
+from = "android-7.1:1f534"
+recolor = { "#DB4437" = "#424242" }
+why = "flat circle in the 7.1 🔴 size, in the android-16 black that holds contrast on dark backgrounds"
+
+[26aa]
+from = "android-7.1:1f534"
+recolor = { "#DB4437" = "#E0E0E0" }
+why = "flat white circle in the 7.1 🔴 size; the 2021 one is a three-layer gloss"
+
+[1f7e5]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#DB4437" }
+why = "flat red square in the 7.1 ⬛ shape; hue shared with the circles"
+
+[1f7e6]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#03A9F4" }
+why = "flat blue square in the 7.1 ⬛ shape; hue shared with the circles"
+
+[1f7e7]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#FF9800" }
+why = "flat orange square in the 7.1 ⬛ shape; hue shared with the circles"
+
+[1f7e8]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#FFCC32" }
+why = "flat yellow square in the 7.1 ⬛ shape; hue shared with the circles"
+
+[1f7e9]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#7CB342" }
+why = "flat green square in the 7.1 ⬛ shape; hue shared with the circles"
+
+[1f7ea]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#AB47BC" }
+why = "flat purple square in the 7.1 ⬛ shape; hue shared with the circles"
+
+[1f7eb]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#B76D54" }
+why = "flat brown square in the 7.1 ⬛ shape; hue shared with the circles"
+
+[2753]
+from = "android-7.1:2753"
+recolor = { "#40C0E7" = "#F44336" }
+why = "7.1 question marks are blue"
+
+[2757]
+from = "android-7.1:2757"
+recolor = { "#40C0E7" = "#F44336" }
+why = "7.1 exclamation marks are blue"
+
+[2754]
+from = "android-7.1:2754"
+recolor = { "#E0E0E0" = "#BDBDBD" }
+why = "7.1 pale grey vanishes at 20px"
+
+[2755]
+from = "android-7.1:2755"
+recolor = { "#E0E0E0" = "#BDBDBD" }
+why = "7.1 pale grey vanishes at 20px"
+
+[203c]
+from = "android-7.1:203c"
+recolor = { "#40C0E7" = "#F44336" }
+why = "7.1 double exclamation is blue, like ❗"
+
+[2049]
+from = "android-7.1:2049"
+recolor = { "#40C0E7" = "#F44336" }
+why = "7.1 exclamation question is blue, like ❗ ❓"
+
+[2705]
+from = "android-7.1:274e"
+drop = ["#FFFFFF"]
+subpath = 0
+recolor = { "#ED6C30" = "#7CB342" }
+why = "the ❎ frame in the Android 16 green, with the 7.1 tick on top"
+[[2705.add]]
+from = "android-7.1:2705"
+drop = ["#757F3F"]
+recolor = { "#E0E0E0" = "#FFFFFF" }
+
+[2b1b]
+from = "android-7.1:2b1b"
+recolor = { "#212121" = "#424242" }
+why = "same square, in the android-16 black that keeps contrast on dark backgrounds"
+
+[25fc]
+from = "android-7.1:25fc"
+recolor = { "#212121" = "#424242" }
+why = "same square, in the android-16 black that keeps contrast on dark backgrounds"
+
+[25fe]
+from = "android-7.1:25fe"
+recolor = { "#212121" = "#424242" }
+why = "same square, in the android-16 black that keeps contrast on dark backgrounds"
+
+[25aa]
+from = "android-7.1:25aa"
+recolor = { "#212121" = "#424242" }
+why = "same square, in the android-16 black that keeps contrast on dark backgrounds"
+
+[1f9d1_200d_1f9d2]
+from = "latest:1f9d1_200d_1f9d2"
+drop = ["#BDBDBD", "#E0E0E0", "#FFFFFF"]
+fill = "#1976D2"
+why = "blue busts in the 👥 style instead of latest's grey keycap tile"
+
+[1f9d1_200d_1f9d1_200d_1f9d2]
+from = "latest:1f9d1_200d_1f9d1_200d_1f9d2"
+drop = ["#BDBDBD", "#E0E0E0", "#FFFFFF"]
+fill = "#1976D2"
+why = "blue busts in the 👥 style instead of latest's grey keycap tile"
+
+[1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2]
+from = "latest:1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2"
+drop = ["#BDBDBD", "#E0E0E0", "#FFFFFF"]
+fill = "#1976D2"
+why = "blue busts in the 👥 style instead of latest's grey keycap tile"
+
+[1f9d1_200d_1f9d2_200d_1f9d2]
+from = "latest:1f9d1_200d_1f9d2_200d_1f9d2"
+drop = ["#BDBDBD", "#E0E0E0", "#FFFFFF"]
+fill = "#1976D2"
+why = "blue busts in the 👥 style instead of latest's grey keycap tile"
+
+# De-gloss trial: android-16 art whose only objection is the highlight layer.
+[1f7f0]
+from = "android-16:1f7f0"
+drop = ["#9A9A9A"]
+recolor = { "#464C4F" = "#616266" }
+why = "de-gloss: drop the glint, flatten the bevel into the face"
+
+[1fadf]
+from = "android-16:1fadf"
+drop = ["#D8BDF4", "#004FAC"]
+why = "de-gloss: drop the glints and the clipped shading, leaving the flat splat"

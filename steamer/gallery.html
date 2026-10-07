@@ -142,6 +142,7 @@ td.cell { text-align: center; }
       <span><i class="sw" style="box-shadow:inset 0 0 0 2px var(--pending)"></i>your choice</span>
       <span><i class="sw" style="background:repeating-linear-gradient(135deg,var(--hatch) 0 3px,transparent 3px 6px);box-shadow:inset 0 0 0 1px var(--line)"></i>no art in that era</span>
       <span><b style="color:var(--warn);font:600 10px var(--mono)">=11</b> unchanged since the bordered android-11 art</span>
+      <span>derived — art/recipes.toml output, shown for comparison only</span>
     </div>
 
     <div class="gridwrap"><table id="grid"></table></div>
@@ -173,6 +174,12 @@ td.cell { text-align: center; }
     return r.pick;
   }
 
+  // What materialize emits: derived art beats every era pick (fixes aside).
+  function shown(sg, r, fallback = preview(sg, r)) {
+    const c = sg.eras.indexOf("derived");
+    return c >= 0 && r.have[c] ? "derived" : fallback;
+  }
+
   function e20(sg, rowIdx, era, cls = "") {
     const c = sg.eras.indexOf(era);
     if (c < 0) return "";
@@ -195,7 +202,7 @@ td.cell { text-align: center; }
   function renderLines() {
     const subs = state.data.subgroups, sg = subs[state.cur];
     const prev = subs[state.cur - 1], next = subs[state.cur + 1];
-    const nb = (s, from, to) => s ? s.rows.slice(from, to).map((r, j) => e20(s, s.rows.indexOf(r), r.pick, "nb")).join("") : "";
+    const nb = (s, from, to) => s ? s.rows.slice(from, to).map((r, j) => e20(s, s.rows.indexOf(r), shown(s, r, r.pick), "nb")).join("") : "";
     const left = prev ? nb(prev, Math.max(0, prev.rows.length - 6)) : "";
     const right = next ? nb(next, 0, 6) : "";
     const cap = 40;
@@ -204,10 +211,10 @@ td.cell { text-align: center; }
       const era = eraFn(r);
       return e20(sg, i, era, fbFn(r, era) ? "fb" : "");
     }).join("");
-    let html = `<div class="line"><span class="who now">resolved</span><p>sounds good ${left} · ${lineFor((r) => preview(sg, r), () => false)} · ${right} see you soon</p></div>`;
+    let html = `<div class="line"><span class="who now">resolved</span><p>sounds good ${left} · ${lineFor((r) => shown(sg, r), () => false)} · ${right} see you soon</p></div>`;
     sg.eras.forEach((era, c) => {
       if (!sg.rows.some((r) => r.have[c])) return;
-      html += `<div class="line"><span class="who">${era}</span><p>sounds good ${left} · ${lineFor((r) => r.have[c] ? era : preview(sg, r), (r) => !r.have[c])} · ${right} see you soon</p></div>`;
+      html += `<div class="line"><span class="who">${era}</span><p>sounds good ${left} · ${lineFor((r) => r.have[c] ? era : shown(sg, r), (r) => !r.have[c])} · ${right} see you soon</p></div>`;
     });
     if (sg.rows.length > cap) html += `<div class="status">Showing the first ${cap} of ${sg.rows.length} emoji. Faded tiles are emoji that era doesn't have; they keep their current pick.</div>`;
     else html += `<div class="status">Faded tiles are emoji that era doesn't have; they keep their current pick.</div>`;
@@ -223,16 +230,19 @@ td.cell { text-align: center; }
       const cls = [e.avoid ? "avoid" : "", era === manifestFirst ? "current" : "", era === chosen ? "chosen" : ""].join(" ");
       const tag = e.avoid ? "avoid" : !e.vector ? "PNG only" : era === "waveflag" ? "generated" : "";
       const label = era === chosen ? "Chosen" : era === manifestFirst ? "Current" : "Use for all";
+      if (era === "derived") return `<th scope=col title="${e.title}">derived<span class="tag">derived</span></th>`;
       return `<th scope=col class="${cls}" title="${e.title}">${era}<span class="tag">${tag || "&nbsp;"}</span><button type="button" data-era="${era}" aria-label="Use ${era} for ${sg.name}">${label}</button></th>`;
     }).join("") + "</tr></thead><tbody>";
     sg.rows.forEach((r, i) => {
       const now = preview(sg, r);
       const pend = state.pending.override[r.k];
-      h += `<tr><td class="lab"><span class="k">${r.k} · E${r.v}</span><span class="n">${r.n}</span><span class="why">${r.pick || "none"} (${r.why})${r.ov ? " · override" : ""}</span>${r.redraw ? `<span class="why redraw"> · redraw</span>` : ""}</td>`;
+      h += `<tr><td class="lab"><span class="k">${r.k} · E${r.v}</span><span class="n">${r.n}</span><span class="why">${r.pick || "none"} (${r.why})${r.ov ? " · override" : ""}</span>${r.redraw ? `<span class="why redraw"> · redraw</span>` : ""}${r.dv ? `<span class="why">· derived from ${r.dv}</span>` : ""}</td>`;
       sg.eras.forEach((era, c) => {
         if (!r.have[c]) { h += `<td class="cell"><span class="tile miss" aria-label="${era}: no art"></span></td>`; return; }
+        const style = tileStyle(sg, i, c, parseInt(getComputedStyle(document.documentElement).getPropertyValue("--tile")));
+        if (era === "derived") { h += `<td class="cell"><span class="tile" style="${style}" aria-label="${r.n}, derived"></span></td>`; return; }
         const cls = ["tile", pend === era ? "pend" : (now === era ? "pick" : "")].join(" ");
-        h += `<td class="cell"><button type="button" class="${cls}" data-k="${r.k}" data-era="${era}" style="${tileStyle(sg, i, c, parseInt(getComputedStyle(document.documentElement).getPropertyValue("--tile")))}" aria-label="${r.n}, ${era}" aria-pressed="${pend === era}">${r.b[c] ? '<span class="b11">=11</span>' : ""}</button></td>`;
+        h += `<td class="cell"><button type="button" class="${cls}" data-k="${r.k}" data-era="${era}" style="${style}" aria-label="${r.n}, ${era}" aria-pressed="${pend === era}">${r.b[c] ? '<span class="b11">=11</span>' : ""}</button></td>`;
       });
       h += "</tr>";
     });

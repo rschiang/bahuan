@@ -13,10 +13,12 @@ from .emoji import ROOT
 from .eras import catalog
 from .fixups import apply, picosvg_ok
 from .manifest import Manifest
+from .redraw import load as load_recipes
 from .resolve import Pick, Resolver
 
 ART = ROOT / "art"
 FIXES = ART / "fixes"
+DERIVED = ART / "derived"
 FLAGS_OUT = ROOT / "flags" / "out" / "svg"
 PROVENANCE = ART / "PROVENANCE.tsv"
 COLUMNS = ["key", "era", "commit", "path", "sha", "fixups"]
@@ -53,6 +55,7 @@ def has_svg(era: str, key: str) -> bool:
 
 
 def materialize(manifest: Manifest | None = None, jobs: int = 4, log=print) -> dict[str, list[str]]:
+    recipes = load_recipes()
     r = Resolver(manifest or Manifest.load())
     picks = r.resolve_all()
     for sub in ("svg", "png"):
@@ -67,6 +70,9 @@ def materialize(manifest: Manifest | None = None, jobs: int = 4, log=print) -> d
         for key, cands in list(todo.items()):
             if (FIXES / f"emoji_u{key}.svg").exists():
                 chosen[key] = ("fixes", ["hand-fixed"])
+                del todo[key]
+            elif (DERIVED / f"emoji_u{key}.svg").exists():
+                chosen[key] = ("derived", ["derived"])
                 del todo[key]
             elif not cands:
                 notes.setdefault("no_vector", []).append(key)
@@ -92,7 +98,11 @@ def materialize(manifest: Manifest | None = None, jobs: int = 4, log=print) -> d
         dst = ART / "svg" / f"emoji_u{key}.svg"
         if key in chosen:
             era, fixes = chosen[key]
-            if era == "fixes":
+            if era == "derived":
+                rec = recipes[key]
+                _write(dst, (DERIVED / dst.name).read_bytes())
+                rows.append([key, pick.era or "", "", f"art/derived/{dst.name}", "", f"derived:{rec.era}:{rec.src}"])
+            elif era == "fixes":
                 _write(dst, (FIXES / dst.name).read_bytes())
                 rows.append([key, pick.era or "", "", f"art/fixes/{dst.name}", "", "hand-fixed"])
             else:

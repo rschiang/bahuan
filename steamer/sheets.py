@@ -1,10 +1,11 @@
 """`steamer sheets`: one PNG contact sheet per subgroup, eras as columns."""
 
+import tomllib
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-from .emoji import ROOT, SKIN_TONES, Entry, subgroups
+from .emoji import ROOT, SKIN_TONES, Entry, by_key, subgroups
 from .eras import catalog
 
 CELL = 72
@@ -70,7 +71,7 @@ def draw_sheet(subgroup: str, rows: list[Entry], eras: list[str], page: str = ""
             if e.key in cat[era].index() and p.exists():
                 tile = Image.open(p).convert("RGBA")
                 im.paste(tile, (x, y), tile)
-                if era in ("android-12", "latest") and same_as_bordered(e.key, era):
+                if not cat[era].avoid and same_as_bordered(e.key, era):
                     d.text((x + CELL - 22, y + CELL - 10), "=11", fill="#a00", font=tiny)
             else:
                 d.rectangle((x, y, x + CELL - 1, y + CELL - 1), outline="#ddd")
@@ -93,4 +94,31 @@ def build(out_dir: Path = ROOT / "sheets", only: list[str] | None = None, log=pr
             draw_sheet(sg, chunk, eras, label).save(path, optimize=True)
             written.append(path)
     log(f"wrote {len(written)} sheets to {out_dir.relative_to(ROOT)}/")
+    return written
+
+
+GROUPS = ROOT / "selection" / "groups.toml"
+
+
+def load_groups(path: Path = GROUPS) -> dict[str, dict]:
+    return tomllib.loads(path.read_text(encoding="utf-8")).get("group", {})
+
+
+def build_group(name: str, keys: list[str], out_dir: Path = ROOT / "sheets", log=print) -> list[Path]:
+    """One sheet for a hand-picked key list (any subgroups), in the given order."""
+    lookup = by_key()
+    rows = [lookup[k] for k in keys]
+    eras = [e.id for e in catalog().values() if not e.generator]
+    if any(e.subgroup in FLAG_SUBGROUPS for e in rows):
+        eras.append("waveflag")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    pages = [rows[i : i + ROWS_PER_PAGE] for i in range(0, len(rows), ROWS_PER_PAGE)]
+    written = []
+    for n, chunk in enumerate(pages, 1):
+        suffix = f"-{n}" if len(pages) > 1 else ""
+        label = f" (page {n}/{len(pages)})" if len(pages) > 1 else ""
+        path = out_dir / f"group-{name}{suffix}.png"
+        draw_sheet(name, chunk, eras, label).save(path, optimize=True)
+        written.append(path)
+    log(f"wrote {len(written)} sheets for group {name} to {out_dir.relative_to(ROOT)}/")
     return written

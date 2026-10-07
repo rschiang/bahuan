@@ -11,9 +11,15 @@ def cmd_fetch(a):
 
 
 def cmd_sheets(a):
-    from .sheets import build
+    from .sheets import build, build_group, load_groups
 
-    build(only=a.subgroups or None)
+    groups = load_groups()
+    if unknown := [g for g in a.group if g not in groups]:
+        sys.exit(f"unknown group {' '.join(unknown)}; known: {' '.join(groups)}")
+    for g in a.group:
+        build_group(g, groups[g]["keys"])
+    if a.subgroups or not a.group:
+        build(only=a.subgroups or None)
 
 
 def _manifest():
@@ -26,8 +32,18 @@ def _manifest():
 
 
 def cmd_lint(a):
+    from .redraw import lint
+
     _manifest()
-    print("selection.toml: ok")
+    if errs := lint():
+        sys.exit("recipes.toml:\n  " + "\n  ".join(errs))
+    print("selection.toml, recipes.toml: ok")
+
+
+def cmd_redraw(a):
+    from .redraw import build
+
+    build()
 
 
 def cmd_resolve(a):
@@ -101,6 +117,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     s = sub.add_parser("sheets", help="contact sheets per subgroup, eras as columns")
     s.add_argument("subgroups", nargs="*")
+    s.add_argument("--group", action="append", default=[], metavar="NAME", help="named key group from selection/groups.toml (repeatable)")
     s.set_defaults(func=cmd_sheets)
 
     s = sub.add_parser("lint", help="check selection.toml")
@@ -129,6 +146,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     s = sub.add_parser("gallery", help="build the static comparison gallery")
     s.set_defaults(func=cmd_gallery)
+
+    s = sub.add_parser("redraw", help="derive art/derived/ from art/recipes.toml")
+    s.set_defaults(func=cmd_redraw)
 
     s = sub.add_parser("import-gallery", help="apply choices exported from the gallery")
     s.add_argument("choices", help="choices JSON file")
